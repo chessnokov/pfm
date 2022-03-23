@@ -16,6 +16,7 @@ stm32f7 = { version = "0.14", features = ["rt", "stm32f7x7"] }
 # this lets you use `cargo fix`!
 [[bin]]
 name = "pfm"
+path = "bin/pfm.rs"
 test = false
 bench = false
 
