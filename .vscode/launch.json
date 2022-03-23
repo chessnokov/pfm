@@ -34,17 +34,21 @@
             // "executable": "./target/thumbv7em-none-eabihf/debug/examples/itm",
             "device": "STM32F303VCT6",
             "configFiles": [
-                "interface/stlink-v2-1.cfg",
-                "target/stm32f3x.cfg"
+                "interface/stlink.cfg",
+                "target/stm32f7x.cfg"
             ],
-            "svdFile": "${workspaceRoot}/.vscode/STM32F303.svd",
+            "svdFile": "${workspaceRoot}/stm32f767/STM32F767.svd",
             "swoConfig": {
                 "enabled": true,
                 "cpuFrequency": 8000000,
                 "swoFrequency": 2000000,
                 "source": "probe",
                 "decoders": [
-                    { "type": "console", "label": "ITM", "port": 0 }
+                    {
+                        "type": "console",
+                        "label": "ITM",
+                        "port": 0
+                    }
                 ]
             }
         }
