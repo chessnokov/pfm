@@ -37,6 +37,7 @@ impl From<crate::W<PTPTSLUR_SPEC>> for W {
 #[doc = "Field `TSUSS` reader - TSUSS"]
 pub struct TSUSS_R(crate::FieldReader<u32, u32>);
 impl TSUSS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         TSUSS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TSUSS_W<'a> {
 #[doc = "Field `TSUPNS` reader - TSUPNS"]
 pub struct TSUPNS_R(crate::FieldReader<bool, bool>);
 impl TSUPNS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSUPNS_R(crate::FieldReader::new(bits))
     }

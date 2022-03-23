@@ -37,6 +37,7 @@ impl From<crate::W<ACR_SPEC>> for W {
 #[doc = "Field `LATENCY` reader - Latency"]
 pub struct LATENCY_R(crate::FieldReader<u8, u8>);
 impl LATENCY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LATENCY_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> LATENCY_W<'a> {
 #[doc = "Field `PRFTEN` reader - Prefetch enable"]
 pub struct PRFTEN_R(crate::FieldReader<bool, bool>);
 impl PRFTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRFTEN_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> PRFTEN_W<'a> {
 #[doc = "Field `ARTEN` reader - ART Accelerator Enable"]
 pub struct ARTEN_R(crate::FieldReader<bool, bool>);
 impl ARTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARTEN_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> ARTEN_W<'a> {
 #[doc = "Field `ARTRST` reader - ART Accelerator reset"]
 pub struct ARTRST_R(crate::FieldReader<bool, bool>);
 impl ARTRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARTRST_R(crate::FieldReader::new(bits))
     }

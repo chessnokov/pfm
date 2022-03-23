@@ -37,6 +37,7 @@ impl From<crate::W<EXTICR1_SPEC>> for W {
 #[doc = "Field `EXTI3` reader - EXTI x configuration (x = 0 to 3)"]
 pub struct EXTI3_R(crate::FieldReader<u8, u8>);
 impl EXTI3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXTI3_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> EXTI3_W<'a> {
 #[doc = "Field `EXTI2` reader - EXTI x configuration (x = 0 to 3)"]
 pub struct EXTI2_R(crate::FieldReader<u8, u8>);
 impl EXTI2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXTI2_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> EXTI2_W<'a> {
 #[doc = "Field `EXTI1` reader - EXTI x configuration (x = 0 to 3)"]
 pub struct EXTI1_R(crate::FieldReader<u8, u8>);
 impl EXTI1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXTI1_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> EXTI1_W<'a> {
 #[doc = "Field `EXTI0` reader - EXTI x configuration (x = 0 to 3)"]
 pub struct EXTI0_R(crate::FieldReader<u8, u8>);
 impl EXTI0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXTI0_R(crate::FieldReader::new(bits))
     }

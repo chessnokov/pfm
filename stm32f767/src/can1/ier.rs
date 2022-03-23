@@ -37,6 +37,7 @@ impl From<crate::W<IER_SPEC>> for W {
 #[doc = "Field `SLKIE` reader - SLKIE"]
 pub struct SLKIE_R(crate::FieldReader<bool, bool>);
 impl SLKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SLKIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SLKIE_W<'a> {
 #[doc = "Field `WKUIE` reader - WKUIE"]
 pub struct WKUIE_R(crate::FieldReader<bool, bool>);
 impl WKUIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WKUIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> WKUIE_W<'a> {
 #[doc = "Field `ERRIE` reader - ERRIE"]
 pub struct ERRIE_R(crate::FieldReader<bool, bool>);
 impl ERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERRIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> ERRIE_W<'a> {
 #[doc = "Field `LECIE` reader - LECIE"]
 pub struct LECIE_R(crate::FieldReader<bool, bool>);
 impl LECIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LECIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> LECIE_W<'a> {
 #[doc = "Field `BOFIE` reader - BOFIE"]
 pub struct BOFIE_R(crate::FieldReader<bool, bool>);
 impl BOFIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BOFIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> BOFIE_W<'a> {
 #[doc = "Field `EPVIE` reader - EPVIE"]
 pub struct EPVIE_R(crate::FieldReader<bool, bool>);
 impl EPVIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPVIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> EPVIE_W<'a> {
 #[doc = "Field `EWGIE` reader - EWGIE"]
 pub struct EWGIE_R(crate::FieldReader<bool, bool>);
 impl EWGIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWGIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> EWGIE_W<'a> {
 #[doc = "Field `FOVIE1` reader - FOVIE1"]
 pub struct FOVIE1_R(crate::FieldReader<bool, bool>);
 impl FOVIE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FOVIE1_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> FOVIE1_W<'a> {
 #[doc = "Field `FFIE1` reader - FFIE1"]
 pub struct FFIE1_R(crate::FieldReader<bool, bool>);
 impl FFIE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFIE1_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> FFIE1_W<'a> {
 #[doc = "Field `FMPIE1` reader - FMPIE1"]
 pub struct FMPIE1_R(crate::FieldReader<bool, bool>);
 impl FMPIE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FMPIE1_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FMPIE1_W<'a> {
 #[doc = "Field `FOVIE0` reader - FOVIE0"]
 pub struct FOVIE0_R(crate::FieldReader<bool, bool>);
 impl FOVIE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FOVIE0_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> FOVIE0_W<'a> {
 #[doc = "Field `FFIE0` reader - FFIE0"]
 pub struct FFIE0_R(crate::FieldReader<bool, bool>);
 impl FFIE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFIE0_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> FFIE0_W<'a> {
 #[doc = "Field `FMPIE0` reader - FMPIE0"]
 pub struct FMPIE0_R(crate::FieldReader<bool, bool>);
 impl FMPIE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FMPIE0_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> FMPIE0_W<'a> {
 #[doc = "Field `TMEIE` reader - TMEIE"]
 pub struct TMEIE_R(crate::FieldReader<bool, bool>);
 impl TMEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TMEIE_R(crate::FieldReader::new(bits))
     }

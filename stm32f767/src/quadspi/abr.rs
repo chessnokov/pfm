@@ -37,6 +37,7 @@ impl From<crate::W<ABR_SPEC>> for W {
 #[doc = "Field `ALTERNATE` reader - ALTERNATE"]
 pub struct ALTERNATE_R(crate::FieldReader<u32, u32>);
 impl ALTERNATE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         ALTERNATE_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> ALTERNATE_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - ALTERNATE"]
     #[inline(always)]
     pub fn alternate(&self) -> ALTERNATE_R {
-        ALTERNATE_R::new((self.bits & 0xffff_ffff) as u32)
+        ALTERNATE_R::new(self.bits)
     }
 }
 impl W {

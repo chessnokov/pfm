@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HCCHAR9_SPEC>> for W {
 #[doc = "Field `MPSIZ` reader - Maximum packet size"]
 pub struct MPSIZ_R(crate::FieldReader<u16, u16>);
 impl MPSIZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MPSIZ_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MPSIZ_W<'a> {
 #[doc = "Field `EPNUM` reader - Endpoint number"]
 pub struct EPNUM_R(crate::FieldReader<u8, u8>);
 impl EPNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EPNUM_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> EPNUM_W<'a> {
 #[doc = "Field `EPDIR` reader - Endpoint direction"]
 pub struct EPDIR_R(crate::FieldReader<bool, bool>);
 impl EPDIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDIR_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> EPDIR_W<'a> {
 #[doc = "Field `LSDEV` reader - Low-speed device"]
 pub struct LSDEV_R(crate::FieldReader<bool, bool>);
 impl LSDEV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSDEV_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> LSDEV_W<'a> {
 #[doc = "Field `EPTYP` reader - Endpoint type"]
 pub struct EPTYP_R(crate::FieldReader<u8, u8>);
 impl EPTYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EPTYP_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> EPTYP_W<'a> {
 #[doc = "Field `MC` reader - Multi Count (MC) / Error Count (EC)"]
 pub struct MC_R(crate::FieldReader<u8, u8>);
 impl MC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MC_R(crate::FieldReader::new(bits))
     }
@@ -213,6 +219,7 @@ impl<'a> MC_W<'a> {
 #[doc = "Field `DAD` reader - Device address"]
 pub struct DAD_R(crate::FieldReader<u8, u8>);
 impl DAD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DAD_R(crate::FieldReader::new(bits))
     }
@@ -239,6 +246,7 @@ impl<'a> DAD_W<'a> {
 #[doc = "Field `ODDFRM` reader - Odd frame"]
 pub struct ODDFRM_R(crate::FieldReader<bool, bool>);
 impl ODDFRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODDFRM_R(crate::FieldReader::new(bits))
     }
@@ -275,6 +283,7 @@ impl<'a> ODDFRM_W<'a> {
 #[doc = "Field `CHDIS` reader - Channel disable"]
 pub struct CHDIS_R(crate::FieldReader<bool, bool>);
 impl CHDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHDIS_R(crate::FieldReader::new(bits))
     }
@@ -311,6 +320,7 @@ impl<'a> CHDIS_W<'a> {
 #[doc = "Field `CHENA` reader - Channel enable"]
 pub struct CHENA_R(crate::FieldReader<bool, bool>);
 impl CHENA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHENA_R(crate::FieldReader::new(bits))
     }

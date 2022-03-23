@@ -37,6 +37,7 @@ impl From<crate::W<TDT2R_SPEC>> for W {
 #[doc = "Field `TIME` reader - TIME"]
 pub struct TIME_R(crate::FieldReader<u16, u16>);
 impl TIME_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TIME_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TIME_W<'a> {
 #[doc = "Field `TGT` reader - TGT"]
 pub struct TGT_R(crate::FieldReader<bool, bool>);
 impl TGT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGT_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> TGT_W<'a> {
 #[doc = "Field `DLC` reader - DLC"]
 pub struct DLC_R(crate::FieldReader<u8, u8>);
 impl DLC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DLC_R(crate::FieldReader::new(bits))
     }

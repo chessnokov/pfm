@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WIFCR_SPEC>> for W {
 #[doc = "Field `CRRIF` reader - Clear Regulator Ready Interrupt Flag"]
 pub struct CRRIF_R(crate::FieldReader<bool, bool>);
 impl CRRIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRRIF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CRRIF_W<'a> {
 #[doc = "Field `CPLLUIF` reader - Clear PLL Unlock Interrupt Flag"]
 pub struct CPLLUIF_R(crate::FieldReader<bool, bool>);
 impl CPLLUIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPLLUIF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CPLLUIF_W<'a> {
 #[doc = "Field `CPLLLIF` reader - Clear PLL Lock Interrupt Flag"]
 pub struct CPLLLIF_R(crate::FieldReader<bool, bool>);
 impl CPLLLIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPLLLIF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CPLLLIF_W<'a> {
 #[doc = "Field `CERIF` reader - Clear End of Refresh Interrupt Flag"]
 pub struct CERIF_R(crate::FieldReader<bool, bool>);
 impl CERIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CERIF_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CERIF_W<'a> {
 #[doc = "Field `CTEIF` reader - Clear Tearing Effect Interrupt Flag"]
 pub struct CTEIF_R(crate::FieldReader<bool, bool>);
 impl CTEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEIF_R(crate::FieldReader::new(bits))
     }

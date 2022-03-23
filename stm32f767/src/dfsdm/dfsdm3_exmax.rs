@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM3_EXMAX_SPEC>> for R {
 #[doc = "Field `EXMAXCH` reader - Extremes detector maximum data channel"]
 pub struct EXMAXCH_R(crate::FieldReader<u8, u8>);
 impl EXMAXCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXMAXCH_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for EXMAXCH_R {
 #[doc = "Field `EXMAX` reader - Extremes detector maximum value"]
 pub struct EXMAX_R(crate::FieldReader<u32, u32>);
 impl EXMAX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         EXMAX_R(crate::FieldReader::new(bits))
     }

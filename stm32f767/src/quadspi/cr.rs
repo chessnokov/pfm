@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `PRESCALER` reader - Clock prescaler"]
 pub struct PRESCALER_R(crate::FieldReader<u8, u8>);
 impl PRESCALER_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRESCALER_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PRESCALER_W<'a> {
 #[doc = "Field `PMM` reader - Polling match mode"]
 pub struct PMM_R(crate::FieldReader<bool, bool>);
 impl PMM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PMM_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> PMM_W<'a> {
 #[doc = "Field `APMS` reader - Automatic poll mode stop"]
 pub struct APMS_R(crate::FieldReader<bool, bool>);
 impl APMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         APMS_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> APMS_W<'a> {
 #[doc = "Field `TOIE` reader - TimeOut interrupt enable"]
 pub struct TOIE_R(crate::FieldReader<bool, bool>);
 impl TOIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOIE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> TOIE_W<'a> {
 #[doc = "Field `SMIE` reader - Status match interrupt enable"]
 pub struct SMIE_R(crate::FieldReader<bool, bool>);
 impl SMIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SMIE_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> SMIE_W<'a> {
 #[doc = "Field `FTIE` reader - FIFO threshold interrupt enable"]
 pub struct FTIE_R(crate::FieldReader<bool, bool>);
 impl FTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FTIE_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> FTIE_W<'a> {
 #[doc = "Field `TCIE` reader - Transfer complete interrupt enable"]
 pub struct TCIE_R(crate::FieldReader<bool, bool>);
 impl TCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCIE_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> TCIE_W<'a> {
 #[doc = "Field `TEIE` reader - Transfer error interrupt enable"]
 pub struct TEIE_R(crate::FieldReader<bool, bool>);
 impl TEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEIE_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> TEIE_W<'a> {
 #[doc = "Field `FTHRES` reader - IFO threshold level"]
 pub struct FTHRES_R(crate::FieldReader<u8, u8>);
 impl FTHRES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FTHRES_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> FTHRES_W<'a> {
 #[doc = "Field `FSEL` reader - FLASH memory selection"]
 pub struct FSEL_R(crate::FieldReader<bool, bool>);
 impl FSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSEL_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> FSEL_W<'a> {
 #[doc = "Field `DFM` reader - Dual-flash mode"]
 pub struct DFM_R(crate::FieldReader<bool, bool>);
 impl DFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DFM_R(crate::FieldReader::new(bits))
     }
@@ -413,6 +424,7 @@ impl<'a> DFM_W<'a> {
 #[doc = "Field `SSHIFT` reader - Sample shift"]
 pub struct SSHIFT_R(crate::FieldReader<bool, bool>);
 impl SSHIFT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SSHIFT_R(crate::FieldReader::new(bits))
     }
@@ -449,6 +461,7 @@ impl<'a> SSHIFT_W<'a> {
 #[doc = "Field `TCEN` reader - Timeout counter enable"]
 pub struct TCEN_R(crate::FieldReader<bool, bool>);
 impl TCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCEN_R(crate::FieldReader::new(bits))
     }
@@ -485,6 +498,7 @@ impl<'a> TCEN_W<'a> {
 #[doc = "Field `DMAEN` reader - DMA enable"]
 pub struct DMAEN_R(crate::FieldReader<bool, bool>);
 impl DMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAEN_R(crate::FieldReader::new(bits))
     }
@@ -521,6 +535,7 @@ impl<'a> DMAEN_W<'a> {
 #[doc = "Field `ABORT` reader - Abort request"]
 pub struct ABORT_R(crate::FieldReader<bool, bool>);
 impl ABORT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABORT_R(crate::FieldReader::new(bits))
     }
@@ -557,6 +572,7 @@ impl<'a> ABORT_W<'a> {
 #[doc = "Field `EN` reader - Enable"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<BDTR_SPEC>> for W {
 #[doc = "Field `DTG` reader - Dead-time generator setup"]
 pub struct DTG_R(crate::FieldReader<u8, u8>);
 impl DTG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DTG_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DTG_W<'a> {
 #[doc = "Field `LOCK` reader - Lock configuration"]
 pub struct LOCK_R(crate::FieldReader<u8, u8>);
 impl LOCK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LOCK_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> LOCK_W<'a> {
 #[doc = "Field `OSSI` reader - Off-state selection for Idle mode"]
 pub struct OSSI_R(crate::FieldReader<bool, bool>);
 impl OSSI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OSSI_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> OSSI_W<'a> {
 #[doc = "Field `OSSR` reader - Off-state selection for Run mode"]
 pub struct OSSR_R(crate::FieldReader<bool, bool>);
 impl OSSR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OSSR_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> OSSR_W<'a> {
 #[doc = "Field `BKE` reader - Break enable"]
 pub struct BKE_R(crate::FieldReader<bool, bool>);
 impl BKE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BKE_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> BKE_W<'a> {
 #[doc = "Field `BKP` reader - Break polarity"]
 pub struct BKP_R(crate::FieldReader<bool, bool>);
 impl BKP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BKP_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> BKP_W<'a> {
 #[doc = "Field `AOE` reader - Automatic output enable"]
 pub struct AOE_R(crate::FieldReader<bool, bool>);
 impl AOE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AOE_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> AOE_W<'a> {
 #[doc = "Field `MOE` reader - Main output enable"]
 pub struct MOE_R(crate::FieldReader<bool, bool>);
 impl MOE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MOE_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> MOE_W<'a> {
 #[doc = "Field `BKF` reader - Break filter"]
 pub struct BKF_R(crate::FieldReader<u8, u8>);
 impl BKF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BKF_R(crate::FieldReader::new(bits))
     }
@@ -331,6 +340,7 @@ impl<'a> BKF_W<'a> {
 #[doc = "Field `BK2F` reader - Break 2 filter"]
 pub struct BK2F_R(crate::FieldReader<u8, u8>);
 impl BK2F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BK2F_R(crate::FieldReader::new(bits))
     }
@@ -357,6 +367,7 @@ impl<'a> BK2F_W<'a> {
 #[doc = "Field `BK2E` reader - Break 2 enable"]
 pub struct BK2E_R(crate::FieldReader<bool, bool>);
 impl BK2E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BK2E_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +404,7 @@ impl<'a> BK2E_W<'a> {
 #[doc = "Field `BK2P` reader - Break 2 polarity"]
 pub struct BK2P_R(crate::FieldReader<bool, bool>);
 impl BK2P_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BK2P_R(crate::FieldReader::new(bits))
     }

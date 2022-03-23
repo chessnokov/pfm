@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HCSPLT7_SPEC>> for W {
 #[doc = "Field `PRTADDR` reader - Port address"]
 pub struct PRTADDR_R(crate::FieldReader<u8, u8>);
 impl PRTADDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRTADDR_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PRTADDR_W<'a> {
 #[doc = "Field `HUBADDR` reader - Hub address"]
 pub struct HUBADDR_R(crate::FieldReader<u8, u8>);
 impl HUBADDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HUBADDR_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> HUBADDR_W<'a> {
 #[doc = "Field `XACTPOS` reader - XACTPOS"]
 pub struct XACTPOS_R(crate::FieldReader<u8, u8>);
 impl XACTPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         XACTPOS_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> XACTPOS_W<'a> {
 #[doc = "Field `COMPLSPLT` reader - Do complete split"]
 pub struct COMPLSPLT_R(crate::FieldReader<bool, bool>);
 impl COMPLSPLT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COMPLSPLT_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> COMPLSPLT_W<'a> {
 #[doc = "Field `SPLITEN` reader - Split enable"]
 pub struct SPLITEN_R(crate::FieldReader<bool, bool>);
 impl SPLITEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPLITEN_R(crate::FieldReader::new(bits))
     }

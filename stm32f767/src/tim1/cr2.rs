@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `OIS4` reader - Output Idle state 4"]
 pub struct OIS4_R(crate::FieldReader<bool, bool>);
 impl OIS4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS4_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OIS4_W<'a> {
 #[doc = "Field `OIS3N` reader - Output Idle state 3"]
 pub struct OIS3N_R(crate::FieldReader<bool, bool>);
 impl OIS3N_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS3N_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OIS3N_W<'a> {
 #[doc = "Field `OIS3` reader - Output Idle state 3"]
 pub struct OIS3_R(crate::FieldReader<bool, bool>);
 impl OIS3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS3_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> OIS3_W<'a> {
 #[doc = "Field `OIS2N` reader - Output Idle state 2"]
 pub struct OIS2N_R(crate::FieldReader<bool, bool>);
 impl OIS2N_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS2N_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OIS2N_W<'a> {
 #[doc = "Field `OIS2` reader - Output Idle state 2"]
 pub struct OIS2_R(crate::FieldReader<bool, bool>);
 impl OIS2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS2_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> OIS2_W<'a> {
 #[doc = "Field `OIS1N` reader - Output Idle state 1"]
 pub struct OIS1N_R(crate::FieldReader<bool, bool>);
 impl OIS1N_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS1N_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> OIS1N_W<'a> {
 #[doc = "Field `OIS1` reader - Output Idle state 1"]
 pub struct OIS1_R(crate::FieldReader<bool, bool>);
 impl OIS1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OIS1_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> OIS1_W<'a> {
 #[doc = "Field `TI1S` reader - TI1 selection"]
 pub struct TI1S_R(crate::FieldReader<bool, bool>);
 impl TI1S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TI1S_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TI1S_W<'a> {
 #[doc = "Field `MMS` reader - Master mode selection"]
 pub struct MMS_R(crate::FieldReader<u8, u8>);
 impl MMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MMS_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> MMS_W<'a> {
 #[doc = "Field `CCDS` reader - Capture/compare DMA selection"]
 pub struct CCDS_R(crate::FieldReader<bool, bool>);
 impl CCDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCDS_R(crate::FieldReader::new(bits))
     }
@@ -387,6 +397,7 @@ impl<'a> CCDS_W<'a> {
 #[doc = "Field `CCUS` reader - Capture/compare control update selection"]
 pub struct CCUS_R(crate::FieldReader<bool, bool>);
 impl CCUS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCUS_R(crate::FieldReader::new(bits))
     }
@@ -423,6 +434,7 @@ impl<'a> CCUS_W<'a> {
 #[doc = "Field `CCPC` reader - Capture/compare preloaded control"]
 pub struct CCPC_R(crate::FieldReader<bool, bool>);
 impl CCPC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCPC_R(crate::FieldReader::new(bits))
     }

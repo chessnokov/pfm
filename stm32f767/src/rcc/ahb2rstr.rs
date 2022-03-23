@@ -37,6 +37,7 @@ impl From<crate::W<AHB2RSTR_SPEC>> for W {
 #[doc = "Field `OTGFSRST` reader - USB OTG FS module reset"]
 pub struct OTGFSRST_R(crate::FieldReader<bool, bool>);
 impl OTGFSRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGFSRST_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OTGFSRST_W<'a> {
 #[doc = "Field `RNGRST` reader - Random number generator module reset"]
 pub struct RNGRST_R(crate::FieldReader<bool, bool>);
 impl RNGRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RNGRST_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RNGRST_W<'a> {
 #[doc = "Field `HSAHRST` reader - Hash module reset"]
 pub struct HSAHRST_R(crate::FieldReader<bool, bool>);
 impl HSAHRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSAHRST_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> HSAHRST_W<'a> {
 #[doc = "Field `CRYPRST` reader - Cryptographic module reset"]
 pub struct CRYPRST_R(crate::FieldReader<bool, bool>);
 impl CRYPRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRYPRST_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CRYPRST_W<'a> {
 #[doc = "Field `DCMIRST` reader - Camera interface reset"]
 pub struct DCMIRST_R(crate::FieldReader<bool, bool>);
 impl DCMIRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCMIRST_R(crate::FieldReader::new(bits))
     }

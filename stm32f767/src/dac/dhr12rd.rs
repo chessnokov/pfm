@@ -37,6 +37,7 @@ impl From<crate::W<DHR12RD_SPEC>> for W {
 #[doc = "Field `DACC2DHR` reader - DAC channel2 12-bit right-aligned data"]
 pub struct DACC2DHR_R(crate::FieldReader<u16, u16>);
 impl DACC2DHR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DACC2DHR_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DACC2DHR_W<'a> {
 #[doc = "Field `DACC1DHR` reader - DAC channel1 12-bit right-aligned data"]
 pub struct DACC1DHR_R(crate::FieldReader<u16, u16>);
 impl DACC1DHR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DACC1DHR_R(crate::FieldReader::new(bits))
     }

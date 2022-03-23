@@ -16,6 +16,7 @@ impl From<crate::R<JPEG_SR_SPEC>> for R {
 #[doc = "Field `IFTF` reader - Input FIFO Threshold Flag"]
 pub struct IFTF_R(crate::FieldReader<bool, bool>);
 impl IFTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFTF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for IFTF_R {
 #[doc = "Field `IFNFF` reader - Input FIFO Not Full Flag"]
 pub struct IFNFF_R(crate::FieldReader<bool, bool>);
 impl IFNFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFNFF_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for IFNFF_R {
 #[doc = "Field `OFTF` reader - Output FIFO Threshold Flag"]
 pub struct OFTF_R(crate::FieldReader<bool, bool>);
 impl OFTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFTF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for OFTF_R {
 #[doc = "Field `OFNEF` reader - Output FIFO Not Empty Flag"]
 pub struct OFNEF_R(crate::FieldReader<bool, bool>);
 impl OFNEF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFNEF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for OFNEF_R {
 #[doc = "Field `EOCF` reader - End of Conversion Flag"]
 pub struct EOCF_R(crate::FieldReader<bool, bool>);
 impl EOCF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOCF_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for EOCF_R {
 #[doc = "Field `HPDF` reader - Header Parsing Done Flag"]
 pub struct HPDF_R(crate::FieldReader<bool, bool>);
 impl HPDF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HPDF_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for HPDF_R {
 #[doc = "Field `COF` reader - Codec Operation Flag"]
 pub struct COF_R(crate::FieldReader<bool, bool>);
 impl COF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COF_R(crate::FieldReader::new(bits))
     }

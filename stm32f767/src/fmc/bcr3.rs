@@ -37,6 +37,7 @@ impl From<crate::W<BCR3_SPEC>> for W {
 #[doc = "Field `CBURSTRW` reader - CBURSTRW"]
 pub struct CBURSTRW_R(crate::FieldReader<bool, bool>);
 impl CBURSTRW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CBURSTRW_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CBURSTRW_W<'a> {
 #[doc = "Field `ASYNCWAIT` reader - ASYNCWAIT"]
 pub struct ASYNCWAIT_R(crate::FieldReader<bool, bool>);
 impl ASYNCWAIT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ASYNCWAIT_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ASYNCWAIT_W<'a> {
 #[doc = "Field `EXTMOD` reader - EXTMOD"]
 pub struct EXTMOD_R(crate::FieldReader<bool, bool>);
 impl EXTMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EXTMOD_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> EXTMOD_W<'a> {
 #[doc = "Field `WAITEN` reader - WAITEN"]
 pub struct WAITEN_R(crate::FieldReader<bool, bool>);
 impl WAITEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAITEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> WAITEN_W<'a> {
 #[doc = "Field `WREN` reader - WREN"]
 pub struct WREN_R(crate::FieldReader<bool, bool>);
 impl WREN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WREN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> WREN_W<'a> {
 #[doc = "Field `WAITCFG` reader - WAITCFG"]
 pub struct WAITCFG_R(crate::FieldReader<bool, bool>);
 impl WAITCFG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAITCFG_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> WAITCFG_W<'a> {
 #[doc = "Field `WRAPMOD` reader - WRAPMOD"]
 pub struct WRAPMOD_R(crate::FieldReader<bool, bool>);
 impl WRAPMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WRAPMOD_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> WRAPMOD_W<'a> {
 #[doc = "Field `WAITPOL` reader - WAITPOL"]
 pub struct WAITPOL_R(crate::FieldReader<bool, bool>);
 impl WAITPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAITPOL_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> WAITPOL_W<'a> {
 #[doc = "Field `BURSTEN` reader - BURSTEN"]
 pub struct BURSTEN_R(crate::FieldReader<bool, bool>);
 impl BURSTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BURSTEN_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> BURSTEN_W<'a> {
 #[doc = "Field `FACCEN` reader - FACCEN"]
 pub struct FACCEN_R(crate::FieldReader<bool, bool>);
 impl FACCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FACCEN_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FACCEN_W<'a> {
 #[doc = "Field `MWID` reader - MWID"]
 pub struct MWID_R(crate::FieldReader<u8, u8>);
 impl MWID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MWID_R(crate::FieldReader::new(bits))
     }
@@ -423,6 +434,7 @@ impl<'a> MWID_W<'a> {
 #[doc = "Field `MTYP` reader - MTYP"]
 pub struct MTYP_R(crate::FieldReader<u8, u8>);
 impl MTYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MTYP_R(crate::FieldReader::new(bits))
     }
@@ -449,6 +461,7 @@ impl<'a> MTYP_W<'a> {
 #[doc = "Field `MUXEN` reader - MUXEN"]
 pub struct MUXEN_R(crate::FieldReader<bool, bool>);
 impl MUXEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MUXEN_R(crate::FieldReader::new(bits))
     }
@@ -485,6 +498,7 @@ impl<'a> MUXEN_W<'a> {
 #[doc = "Field `MBKEN` reader - MBKEN"]
 pub struct MBKEN_R(crate::FieldReader<bool, bool>);
 impl MBKEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MBKEN_R(crate::FieldReader::new(bits))
     }

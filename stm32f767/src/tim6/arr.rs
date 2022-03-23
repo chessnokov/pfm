@@ -37,6 +37,7 @@ impl From<crate::W<ARR_SPEC>> for W {
 #[doc = "Field `ARR` reader - Low Auto-reload value"]
 pub struct ARR_R(crate::FieldReader<u16, u16>);
 impl ARR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         ARR_R(crate::FieldReader::new(bits))
     }

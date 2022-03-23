@@ -16,6 +16,7 @@ impl From<crate::R<TSDR_SPEC>> for R {
 #[doc = "Field `WDU` reader - Week day units"]
 pub struct WDU_R(crate::FieldReader<u8, u8>);
 impl WDU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WDU_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for WDU_R {
 #[doc = "Field `MT` reader - Month tens in BCD format"]
 pub struct MT_R(crate::FieldReader<bool, bool>);
 impl MT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MT_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for MT_R {
 #[doc = "Field `MU` reader - Month units in BCD format"]
 pub struct MU_R(crate::FieldReader<u8, u8>);
 impl MU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MU_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for MU_R {
 #[doc = "Field `DT` reader - Date tens in BCD format"]
 pub struct DT_R(crate::FieldReader<u8, u8>);
 impl DT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DT_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for DT_R {
 #[doc = "Field `DU` reader - Date units in BCD format"]
 pub struct DU_R(crate::FieldReader<u8, u8>);
 impl DU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DU_R(crate::FieldReader::new(bits))
     }

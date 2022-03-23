@@ -37,6 +37,7 @@ impl From<crate::W<ISR_SPEC>> for W {
 #[doc = "Field `TXACKE` reader - Tx-Missing acknowledge error"]
 pub struct TXACKE_R(crate::FieldReader<bool, bool>);
 impl TXACKE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXACKE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TXACKE_W<'a> {
 #[doc = "Field `TXERR` reader - Tx-Error"]
 pub struct TXERR_R(crate::FieldReader<bool, bool>);
 impl TXERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXERR_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TXERR_W<'a> {
 #[doc = "Field `TXUDR` reader - Tx-Buffer Underrun"]
 pub struct TXUDR_R(crate::FieldReader<bool, bool>);
 impl TXUDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXUDR_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TXUDR_W<'a> {
 #[doc = "Field `TXEND` reader - End of Transmission"]
 pub struct TXEND_R(crate::FieldReader<bool, bool>);
 impl TXEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXEND_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TXEND_W<'a> {
 #[doc = "Field `TXBR` reader - Tx-Byte Request"]
 pub struct TXBR_R(crate::FieldReader<bool, bool>);
 impl TXBR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXBR_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TXBR_W<'a> {
 #[doc = "Field `ARBLST` reader - Arbitration Lost"]
 pub struct ARBLST_R(crate::FieldReader<bool, bool>);
 impl ARBLST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARBLST_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ARBLST_W<'a> {
 #[doc = "Field `RXACKE` reader - Rx-Missing Acknowledge"]
 pub struct RXACKE_R(crate::FieldReader<bool, bool>);
 impl RXACKE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXACKE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> RXACKE_W<'a> {
 #[doc = "Field `LBPE` reader - Rx-Long Bit Period Error"]
 pub struct LBPE_R(crate::FieldReader<bool, bool>);
 impl LBPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBPE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> LBPE_W<'a> {
 #[doc = "Field `SBPE` reader - Rx-Short Bit period error"]
 pub struct SBPE_R(crate::FieldReader<bool, bool>);
 impl SBPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBPE_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SBPE_W<'a> {
 #[doc = "Field `BRE` reader - Rx-Bit rising error"]
 pub struct BRE_R(crate::FieldReader<bool, bool>);
 impl BRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BRE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> BRE_W<'a> {
 #[doc = "Field `RXOVR` reader - Rx-Overrun"]
 pub struct RXOVR_R(crate::FieldReader<bool, bool>);
 impl RXOVR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXOVR_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> RXOVR_W<'a> {
 #[doc = "Field `RXEND` reader - End Of Reception"]
 pub struct RXEND_R(crate::FieldReader<bool, bool>);
 impl RXEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXEND_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> RXEND_W<'a> {
 #[doc = "Field `RXBR` reader - Rx-Byte Received"]
 pub struct RXBR_R(crate::FieldReader<bool, bool>);
 impl RXBR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXBR_R(crate::FieldReader::new(bits))
     }

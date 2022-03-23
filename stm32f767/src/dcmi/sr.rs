@@ -16,6 +16,7 @@ impl From<crate::R<SR_SPEC>> for R {
 #[doc = "Field `FNE` reader - FIFO not empty"]
 pub struct FNE_R(crate::FieldReader<bool, bool>);
 impl FNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FNE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for FNE_R {
 #[doc = "Field `VSYNC` reader - VSYNC"]
 pub struct VSYNC_R(crate::FieldReader<bool, bool>);
 impl VSYNC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSYNC_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for VSYNC_R {
 #[doc = "Field `HSYNC` reader - HSYNC"]
 pub struct HSYNC_R(crate::FieldReader<bool, bool>);
 impl HSYNC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSYNC_R(crate::FieldReader::new(bits))
     }

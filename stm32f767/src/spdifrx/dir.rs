@@ -16,6 +16,7 @@ impl From<crate::R<DIR_SPEC>> for R {
 #[doc = "Field `THI` reader - Threshold HIGH"]
 pub struct THI_R(crate::FieldReader<u16, u16>);
 impl THI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         THI_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for THI_R {
 #[doc = "Field `TLO` reader - Threshold LOW"]
 pub struct TLO_R(crate::FieldReader<u16, u16>);
 impl TLO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TLO_R(crate::FieldReader::new(bits))
     }

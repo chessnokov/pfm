@@ -16,6 +16,7 @@ impl From<crate::R<CDSR_SPEC>> for R {
 #[doc = "Field `HSYNCS` reader - Horizontal Synchronization display Status"]
 pub struct HSYNCS_R(crate::FieldReader<bool, bool>);
 impl HSYNCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSYNCS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for HSYNCS_R {
 #[doc = "Field `VSYNCS` reader - Vertical Synchronization display Status"]
 pub struct VSYNCS_R(crate::FieldReader<bool, bool>);
 impl VSYNCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSYNCS_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for VSYNCS_R {
 #[doc = "Field `HDES` reader - Horizontal Data Enable display Status"]
 pub struct HDES_R(crate::FieldReader<bool, bool>);
 impl HDES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HDES_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for HDES_R {
 #[doc = "Field `VDES` reader - Vertical Data Enable display Status"]
 pub struct VDES_R(crate::FieldReader<bool, bool>);
 impl VDES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VDES_R(crate::FieldReader::new(bits))
     }

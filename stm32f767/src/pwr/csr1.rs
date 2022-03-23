@@ -37,6 +37,7 @@ impl From<crate::W<CSR1_SPEC>> for W {
 #[doc = "Field `WUIF` reader - Wakeup internal flag"]
 pub struct WUIF_R(crate::FieldReader<bool, bool>);
 impl WUIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUIF_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for WUIF_R {
 #[doc = "Field `SBF` reader - Standby flag"]
 pub struct SBF_R(crate::FieldReader<bool, bool>);
 impl SBF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBF_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for SBF_R {
 #[doc = "Field `PVDO` reader - PVD output"]
 pub struct PVDO_R(crate::FieldReader<bool, bool>);
 impl PVDO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PVDO_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for PVDO_R {
 #[doc = "Field `BRR` reader - Backup regulator ready"]
 pub struct BRR_R(crate::FieldReader<bool, bool>);
 impl BRR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BRR_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for BRR_R {
 #[doc = "Field `BRE` reader - Backup regulator enable"]
 pub struct BRE_R(crate::FieldReader<bool, bool>);
 impl BRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BRE_R(crate::FieldReader::new(bits))
     }
@@ -129,6 +134,7 @@ impl<'a> BRE_W<'a> {
 #[doc = "Field `VOSRDY` reader - Regulator voltage scaling output selection ready bit"]
 pub struct VOSRDY_R(crate::FieldReader<bool, bool>);
 impl VOSRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VOSRDY_R(crate::FieldReader::new(bits))
     }
@@ -143,6 +149,7 @@ impl core::ops::Deref for VOSRDY_R {
 #[doc = "Field `ODRDY` reader - Over-drive mode ready"]
 pub struct ODRDY_R(crate::FieldReader<bool, bool>);
 impl ODRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODRDY_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +164,7 @@ impl core::ops::Deref for ODRDY_R {
 #[doc = "Field `ODSWRDY` reader - Over-drive mode switching ready"]
 pub struct ODSWRDY_R(crate::FieldReader<bool, bool>);
 impl ODSWRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODSWRDY_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +179,7 @@ impl core::ops::Deref for ODSWRDY_R {
 #[doc = "Field `UDRDY` reader - Under-drive ready flag"]
 pub struct UDRDY_R(crate::FieldReader<u8, u8>);
 impl UDRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UDRDY_R(crate::FieldReader::new(bits))
     }

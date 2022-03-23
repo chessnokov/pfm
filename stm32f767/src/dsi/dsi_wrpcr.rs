@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WRPCR_SPEC>> for W {
 #[doc = "Field `REGEN` reader - Regulator Enable"]
 pub struct REGEN_R(crate::FieldReader<bool, bool>);
 impl REGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REGEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> REGEN_W<'a> {
 #[doc = "Field `ODF` reader - PLL Output Division Factor"]
 pub struct ODF_R(crate::FieldReader<u8, u8>);
 impl ODF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ODF_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> ODF_W<'a> {
 #[doc = "Field `IDF` reader - PLL Input Division Factor"]
 pub struct IDF_R(crate::FieldReader<u8, u8>);
 impl IDF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IDF_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> IDF_W<'a> {
 #[doc = "Field `NDIV` reader - PLL Loop Division Factor"]
 pub struct NDIV_R(crate::FieldReader<u8, u8>);
 impl NDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NDIV_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> NDIV_W<'a> {
 #[doc = "Field `PLLEN` reader - PLL Enable"]
 pub struct PLLEN_R(crate::FieldReader<bool, bool>);
 impl PLLEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLEN_R(crate::FieldReader::new(bits))
     }

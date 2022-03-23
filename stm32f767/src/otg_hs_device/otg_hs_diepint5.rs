@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DIEPINT5_SPEC>> for W {
 #[doc = "Field `XFRC` reader - Transfer completed interrupt"]
 pub struct XFRC_R(crate::FieldReader<bool, bool>);
 impl XFRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRC_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRC_W<'a> {
 #[doc = "Field `EPDISD` reader - Endpoint disabled interrupt"]
 pub struct EPDISD_R(crate::FieldReader<bool, bool>);
 impl EPDISD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDISD_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> EPDISD_W<'a> {
 #[doc = "Field `TOC` reader - Timeout condition"]
 pub struct TOC_R(crate::FieldReader<bool, bool>);
 impl TOC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOC_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TOC_W<'a> {
 #[doc = "Field `ITTXFE` reader - IN token received when TxFIFO is empty"]
 pub struct ITTXFE_R(crate::FieldReader<bool, bool>);
 impl ITTXFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ITTXFE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ITTXFE_W<'a> {
 #[doc = "Field `INEPNE` reader - IN endpoint NAK effective"]
 pub struct INEPNE_R(crate::FieldReader<bool, bool>);
 impl INEPNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INEPNE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> INEPNE_W<'a> {
 #[doc = "Field `TXFE` reader - Transmit FIFO empty"]
 pub struct TXFE_R(crate::FieldReader<bool, bool>);
 impl TXFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFE_R(crate::FieldReader::new(bits))
     }
@@ -231,6 +237,7 @@ impl core::ops::Deref for TXFE_R {
 #[doc = "Field `TXFIFOUDRN` reader - Transmit Fifo Underrun"]
 pub struct TXFIFOUDRN_R(crate::FieldReader<bool, bool>);
 impl TXFIFOUDRN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOUDRN_R(crate::FieldReader::new(bits))
     }
@@ -267,6 +274,7 @@ impl<'a> TXFIFOUDRN_W<'a> {
 #[doc = "Field `BNA` reader - Buffer not available interrupt"]
 pub struct BNA_R(crate::FieldReader<bool, bool>);
 impl BNA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BNA_R(crate::FieldReader::new(bits))
     }
@@ -303,6 +311,7 @@ impl<'a> BNA_W<'a> {
 #[doc = "Field `PKTDRPSTS` reader - Packet dropped status"]
 pub struct PKTDRPSTS_R(crate::FieldReader<bool, bool>);
 impl PKTDRPSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PKTDRPSTS_R(crate::FieldReader::new(bits))
     }
@@ -339,6 +348,7 @@ impl<'a> PKTDRPSTS_W<'a> {
 #[doc = "Field `BERR` reader - Babble error interrupt"]
 pub struct BERR_R(crate::FieldReader<bool, bool>);
 impl BERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BERR_R(crate::FieldReader::new(bits))
     }
@@ -375,6 +385,7 @@ impl<'a> BERR_W<'a> {
 #[doc = "Field `NAK` reader - NAK interrupt"]
 pub struct NAK_R(crate::FieldReader<bool, bool>);
 impl NAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NAK_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_DOEPINT3_SPEC>> for W {
 #[doc = "Field `B2BSTUP` reader - B2BSTUP"]
 pub struct B2BSTUP_R(crate::FieldReader<bool, bool>);
 impl B2BSTUP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         B2BSTUP_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> B2BSTUP_W<'a> {
 #[doc = "Field `OTEPDIS` reader - OTEPDIS"]
 pub struct OTEPDIS_R(crate::FieldReader<bool, bool>);
 impl OTEPDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTEPDIS_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OTEPDIS_W<'a> {
 #[doc = "Field `STUP` reader - STUP"]
 pub struct STUP_R(crate::FieldReader<bool, bool>);
 impl STUP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STUP_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> STUP_W<'a> {
 #[doc = "Field `EPDISD` reader - EPDISD"]
 pub struct EPDISD_R(crate::FieldReader<bool, bool>);
 impl EPDISD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDISD_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> EPDISD_W<'a> {
 #[doc = "Field `XFRC` reader - XFRC"]
 pub struct XFRC_R(crate::FieldReader<bool, bool>);
 impl XFRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRC_R(crate::FieldReader::new(bits))
     }

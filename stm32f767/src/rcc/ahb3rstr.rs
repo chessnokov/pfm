@@ -37,6 +37,7 @@ impl From<crate::W<AHB3RSTR_SPEC>> for W {
 #[doc = "Field `FMCRST` reader - Flexible memory controller module reset"]
 pub struct FMCRST_R(crate::FieldReader<bool, bool>);
 impl FMCRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FMCRST_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FMCRST_W<'a> {
 #[doc = "Field `QSPIRST` reader - Quad SPI memory controller reset"]
 pub struct QSPIRST_R(crate::FieldReader<bool, bool>);
 impl QSPIRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         QSPIRST_R(crate::FieldReader::new(bits))
     }

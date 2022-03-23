@@ -37,6 +37,7 @@ impl From<crate::W<FGPFCCR_SPEC>> for W {
 #[doc = "Field `ALPHA` reader - Alpha value"]
 pub struct ALPHA_R(crate::FieldReader<u8, u8>);
 impl ALPHA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ALPHA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> ALPHA_W<'a> {
 #[doc = "Field `AM` reader - Alpha mode"]
 pub struct AM_R(crate::FieldReader<u8, u8>);
 impl AM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AM_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> AM_W<'a> {
 #[doc = "Field `CS` reader - CLUT size"]
 pub struct CS_R(crate::FieldReader<u8, u8>);
 impl CS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CS_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> CS_W<'a> {
 #[doc = "Field `START` reader - Start"]
 pub struct START_R(crate::FieldReader<bool, bool>);
 impl START_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         START_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> START_W<'a> {
 #[doc = "Field `CCM` reader - CLUT color mode"]
 pub struct CCM_R(crate::FieldReader<bool, bool>);
 impl CCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCM_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> CCM_W<'a> {
 #[doc = "Field `CM` reader - Color mode"]
 pub struct CM_R(crate::FieldReader<u8, u8>);
 impl CM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CM_R(crate::FieldReader::new(bits))
     }

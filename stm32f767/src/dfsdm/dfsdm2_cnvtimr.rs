@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM2_CNVTIMR_SPEC>> for R {
 #[doc = "Field `CNVCNT` reader - 28-bit timer counting conversion time"]
 pub struct CNVCNT_R(crate::FieldReader<u32, u32>);
 impl CNVCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         CNVCNT_R(crate::FieldReader::new(bits))
     }

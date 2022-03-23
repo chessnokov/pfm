@@ -37,6 +37,7 @@ impl From<crate::W<CSR_SPEC>> for W {
 #[doc = "Field `ENABLE` reader - Counter enable"]
 pub struct ENABLE_R(crate::FieldReader<bool, bool>);
 impl ENABLE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENABLE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ENABLE_W<'a> {
 #[doc = "Field `TICKINT` reader - SysTick exception request enable"]
 pub struct TICKINT_R(crate::FieldReader<bool, bool>);
 impl TICKINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TICKINT_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TICKINT_W<'a> {
 #[doc = "Field `CLKSOURCE` reader - Clock source selection"]
 pub struct CLKSOURCE_R(crate::FieldReader<bool, bool>);
 impl CLKSOURCE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CLKSOURCE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CLKSOURCE_W<'a> {
 #[doc = "Field `COUNTFLAG` reader - COUNTFLAG"]
 pub struct COUNTFLAG_R(crate::FieldReader<bool, bool>);
 impl COUNTFLAG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COUNTFLAG_R(crate::FieldReader::new(bits))
     }

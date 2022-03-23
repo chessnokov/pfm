@@ -37,6 +37,7 @@ impl From<crate::W<ISR_SPEC>> for W {
 #[doc = "Field `ALRAWF` reader - Alarm A write flag"]
 pub struct ALRAWF_R(crate::FieldReader<bool, bool>);
 impl ALRAWF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRAWF_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for ALRAWF_R {
 #[doc = "Field `ALRBWF` reader - Alarm B write flag"]
 pub struct ALRBWF_R(crate::FieldReader<bool, bool>);
 impl ALRBWF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRBWF_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for ALRBWF_R {
 #[doc = "Field `WUTWF` reader - Wakeup timer write flag"]
 pub struct WUTWF_R(crate::FieldReader<bool, bool>);
 impl WUTWF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUTWF_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for WUTWF_R {
 #[doc = "Field `SHPF` reader - Shift operation pending"]
 pub struct SHPF_R(crate::FieldReader<bool, bool>);
 impl SHPF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SHPF_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +119,7 @@ impl<'a> SHPF_W<'a> {
 #[doc = "Field `INITS` reader - Initialization status flag"]
 pub struct INITS_R(crate::FieldReader<bool, bool>);
 impl INITS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INITS_R(crate::FieldReader::new(bits))
     }
@@ -129,6 +134,7 @@ impl core::ops::Deref for INITS_R {
 #[doc = "Field `RSF` reader - Registers synchronization flag"]
 pub struct RSF_R(crate::FieldReader<bool, bool>);
 impl RSF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RSF_R(crate::FieldReader::new(bits))
     }
@@ -165,6 +171,7 @@ impl<'a> RSF_W<'a> {
 #[doc = "Field `INITF` reader - Initialization flag"]
 pub struct INITF_R(crate::FieldReader<bool, bool>);
 impl INITF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INITF_R(crate::FieldReader::new(bits))
     }
@@ -179,6 +186,7 @@ impl core::ops::Deref for INITF_R {
 #[doc = "Field `INIT` reader - Initialization mode"]
 pub struct INIT_R(crate::FieldReader<bool, bool>);
 impl INIT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INIT_R(crate::FieldReader::new(bits))
     }
@@ -215,6 +223,7 @@ impl<'a> INIT_W<'a> {
 #[doc = "Field `ALRAF` reader - Alarm A flag"]
 pub struct ALRAF_R(crate::FieldReader<bool, bool>);
 impl ALRAF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRAF_R(crate::FieldReader::new(bits))
     }
@@ -251,6 +260,7 @@ impl<'a> ALRAF_W<'a> {
 #[doc = "Field `ALRBF` reader - Alarm B flag"]
 pub struct ALRBF_R(crate::FieldReader<bool, bool>);
 impl ALRBF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRBF_R(crate::FieldReader::new(bits))
     }
@@ -287,6 +297,7 @@ impl<'a> ALRBF_W<'a> {
 #[doc = "Field `WUTF` reader - Wakeup timer flag"]
 pub struct WUTF_R(crate::FieldReader<bool, bool>);
 impl WUTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUTF_R(crate::FieldReader::new(bits))
     }
@@ -323,6 +334,7 @@ impl<'a> WUTF_W<'a> {
 #[doc = "Field `TSF` reader - Time-stamp flag"]
 pub struct TSF_R(crate::FieldReader<bool, bool>);
 impl TSF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSF_R(crate::FieldReader::new(bits))
     }
@@ -359,6 +371,7 @@ impl<'a> TSF_W<'a> {
 #[doc = "Field `TSOVF` reader - Time-stamp overflow flag"]
 pub struct TSOVF_R(crate::FieldReader<bool, bool>);
 impl TSOVF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSOVF_R(crate::FieldReader::new(bits))
     }
@@ -395,6 +408,7 @@ impl<'a> TSOVF_W<'a> {
 #[doc = "Field `TAMP1F` reader - Tamper detection flag"]
 pub struct TAMP1F_R(crate::FieldReader<bool, bool>);
 impl TAMP1F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP1F_R(crate::FieldReader::new(bits))
     }
@@ -431,6 +445,7 @@ impl<'a> TAMP1F_W<'a> {
 #[doc = "Field `TAMP2F` reader - RTC_TAMP2 detection flag"]
 pub struct TAMP2F_R(crate::FieldReader<bool, bool>);
 impl TAMP2F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP2F_R(crate::FieldReader::new(bits))
     }
@@ -467,6 +482,7 @@ impl<'a> TAMP2F_W<'a> {
 #[doc = "Field `TAMP3F` reader - RTC_TAMP3 detection flag"]
 pub struct TAMP3F_R(crate::FieldReader<bool, bool>);
 impl TAMP3F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP3F_R(crate::FieldReader::new(bits))
     }
@@ -503,6 +519,7 @@ impl<'a> TAMP3F_W<'a> {
 #[doc = "Field `RECALPF` reader - Recalibration pending Flag"]
 pub struct RECALPF_R(crate::FieldReader<bool, bool>);
 impl RECALPF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RECALPF_R(crate::FieldReader::new(bits))
     }

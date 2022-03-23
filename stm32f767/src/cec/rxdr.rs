@@ -16,6 +16,7 @@ impl From<crate::R<RXDR_SPEC>> for R {
 #[doc = "Field `RXDR` reader - CEC Rx Data Register"]
 pub struct RXDR_R(crate::FieldReader<u8, u8>);
 impl RXDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RXDR_R(crate::FieldReader::new(bits))
     }

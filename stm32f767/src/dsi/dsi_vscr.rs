@@ -37,6 +37,7 @@ impl From<crate::W<DSI_VSCR_SPEC>> for W {
 #[doc = "Field `EN` reader - Enable"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EN_W<'a> {
 #[doc = "Field `UR` reader - Update Register"]
 pub struct UR_R(crate::FieldReader<bool, bool>);
 impl UR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UR_R(crate::FieldReader::new(bits))
     }

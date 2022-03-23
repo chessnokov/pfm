@@ -37,6 +37,7 @@ impl From<crate::W<APB2LPENR_SPEC>> for W {
 #[doc = "Field `TIM1LPEN` reader - TIM1 clock enable during Sleep mode"]
 pub struct TIM1LPEN_R(crate::FieldReader<bool, bool>);
 impl TIM1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TIM1LPEN_W<'a> {
 #[doc = "Field `TIM8LPEN` reader - TIM8 clock enable during Sleep mode"]
 pub struct TIM8LPEN_R(crate::FieldReader<bool, bool>);
 impl TIM8LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM8LPEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TIM8LPEN_W<'a> {
 #[doc = "Field `USART1LPEN` reader - USART1 clock enable during Sleep mode"]
 pub struct USART1LPEN_R(crate::FieldReader<bool, bool>);
 impl USART1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USART1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> USART1LPEN_W<'a> {
 #[doc = "Field `USART6LPEN` reader - USART6 clock enable during Sleep mode"]
 pub struct USART6LPEN_R(crate::FieldReader<bool, bool>);
 impl USART6LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USART6LPEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> USART6LPEN_W<'a> {
 #[doc = "Field `ADC1LPEN` reader - ADC1 clock enable during Sleep mode"]
 pub struct ADC1LPEN_R(crate::FieldReader<bool, bool>);
 impl ADC1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> ADC1LPEN_W<'a> {
 #[doc = "Field `ADC2LPEN` reader - ADC2 clock enable during Sleep mode"]
 pub struct ADC2LPEN_R(crate::FieldReader<bool, bool>);
 impl ADC2LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC2LPEN_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ADC2LPEN_W<'a> {
 #[doc = "Field `ADC3LPEN` reader - ADC 3 clock enable during Sleep mode"]
 pub struct ADC3LPEN_R(crate::FieldReader<bool, bool>);
 impl ADC3LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC3LPEN_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> ADC3LPEN_W<'a> {
 #[doc = "Field `SPI1LPEN` reader - SPI 1 clock enable during Sleep mode"]
 pub struct SPI1LPEN_R(crate::FieldReader<bool, bool>);
 impl SPI1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> SPI1LPEN_W<'a> {
 #[doc = "Field `SPI4LPEN` reader - SPI 4 clock enable during Sleep mode"]
 pub struct SPI4LPEN_R(crate::FieldReader<bool, bool>);
 impl SPI4LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI4LPEN_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SPI4LPEN_W<'a> {
 #[doc = "Field `SYSCFGLPEN` reader - System configuration controller clock enable during Sleep mode"]
 pub struct SYSCFGLPEN_R(crate::FieldReader<bool, bool>);
 impl SYSCFGLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SYSCFGLPEN_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> SYSCFGLPEN_W<'a> {
 #[doc = "Field `TIM9LPEN` reader - TIM9 clock enable during sleep mode"]
 pub struct TIM9LPEN_R(crate::FieldReader<bool, bool>);
 impl TIM9LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM9LPEN_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> TIM9LPEN_W<'a> {
 #[doc = "Field `TIM10LPEN` reader - TIM10 clock enable during Sleep mode"]
 pub struct TIM10LPEN_R(crate::FieldReader<bool, bool>);
 impl TIM10LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM10LPEN_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> TIM10LPEN_W<'a> {
 #[doc = "Field `TIM11LPEN` reader - TIM11 clock enable during Sleep mode"]
 pub struct TIM11LPEN_R(crate::FieldReader<bool, bool>);
 impl TIM11LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM11LPEN_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> TIM11LPEN_W<'a> {
 #[doc = "Field `SPI5LPEN` reader - SPI 5 clock enable during Sleep mode"]
 pub struct SPI5LPEN_R(crate::FieldReader<bool, bool>);
 impl SPI5LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI5LPEN_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> SPI5LPEN_W<'a> {
 #[doc = "Field `SPI6LPEN` reader - SPI 6 clock enable during Sleep mode"]
 pub struct SPI6LPEN_R(crate::FieldReader<bool, bool>);
 impl SPI6LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI6LPEN_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> SPI6LPEN_W<'a> {
 #[doc = "Field `SAI1LPEN` reader - SAI1 clock enable during sleep mode"]
 pub struct SAI1LPEN_R(crate::FieldReader<bool, bool>);
 impl SAI1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAI1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> SAI1LPEN_W<'a> {
 #[doc = "Field `LTDCLPEN` reader - LTDC clock enable during sleep mode"]
 pub struct LTDCLPEN_R(crate::FieldReader<bool, bool>);
 impl LTDCLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LTDCLPEN_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> LTDCLPEN_W<'a> {
 #[doc = "Field `SAI2LPEN` reader - SAI2 clock enable during sleep mode"]
 pub struct SAI2LPEN_R(crate::FieldReader<bool, bool>);
 impl SAI2LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAI2LPEN_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> SAI2LPEN_W<'a> {
 #[doc = "Field `SDMMC1LPEN` reader - SDMMC1 clock enable during Sleep mode"]
 pub struct SDMMC1LPEN_R(crate::FieldReader<bool, bool>);
 impl SDMMC1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDMMC1LPEN_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<PIR_SPEC>> for W {
 #[doc = "Field `INTERVAL` reader - Polling interval"]
 pub struct INTERVAL_R(crate::FieldReader<u16, u16>);
 impl INTERVAL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INTERVAL_R(crate::FieldReader::new(bits))
     }

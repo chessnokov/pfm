@@ -37,6 +37,7 @@ impl From<crate::W<L2CFBAR_SPEC>> for W {
 #[doc = "Field `CFBADD` reader - Color Frame Buffer Start Address"]
 pub struct CFBADD_R(crate::FieldReader<u32, u32>);
 impl CFBADD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         CFBADD_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> CFBADD_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - Color Frame Buffer Start Address"]
     #[inline(always)]
     pub fn cfbadd(&self) -> CFBADD_R {
-        CFBADD_R::new((self.bits & 0xffff_ffff) as u32)
+        CFBADD_R::new(self.bits)
     }
 }
 impl W {

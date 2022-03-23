@@ -37,6 +37,7 @@ impl From<crate::W<OAR2_SPEC>> for W {
 #[doc = "Field `OA2` reader - Interface address"]
 pub struct OA2_R(crate::FieldReader<u8, u8>);
 impl OA2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OA2_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> OA2_W<'a> {
 #[doc = "Field `OA2MSK` reader - Own Address 2 masks"]
 pub struct OA2MSK_R(crate::FieldReader<u8, u8>);
 impl OA2MSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OA2MSK_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> OA2MSK_W<'a> {
 #[doc = "Field `OA2EN` reader - Own Address 2 enable"]
 pub struct OA2EN_R(crate::FieldReader<bool, bool>);
 impl OA2EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OA2EN_R(crate::FieldReader::new(bits))
     }

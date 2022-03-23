@@ -37,6 +37,7 @@ impl From<crate::W<L1CKCR_SPEC>> for W {
 #[doc = "Field `CKRED` reader - Color Key Red value"]
 pub struct CKRED_R(crate::FieldReader<u8, u8>);
 impl CKRED_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKRED_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CKRED_W<'a> {
 #[doc = "Field `CKGREEN` reader - Color Key Green value"]
 pub struct CKGREEN_R(crate::FieldReader<u8, u8>);
 impl CKGREEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKGREEN_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> CKGREEN_W<'a> {
 #[doc = "Field `CKBLUE` reader - Color Key Blue value"]
 pub struct CKBLUE_R(crate::FieldReader<u8, u8>);
 impl CKBLUE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKBLUE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_LCOLCR_SPEC>> for W {
 #[doc = "Field `COLC` reader - Color Coding"]
 pub struct COLC_R(crate::FieldReader<u8, u8>);
 impl COLC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         COLC_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> COLC_W<'a> {
 #[doc = "Field `LPE` reader - Loosely Packet Enable"]
 pub struct LPE_R(crate::FieldReader<bool, bool>);
 impl LPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPE_R(crate::FieldReader::new(bits))
     }

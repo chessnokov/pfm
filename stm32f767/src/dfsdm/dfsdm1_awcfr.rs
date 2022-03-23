@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM1_AWCFR_SPEC>> for W {
 #[doc = "Field `CLRAWLTF` reader - Clear the analog watchdog low threshold flag"]
 pub struct CLRAWLTF_R(crate::FieldReader<u8, u8>);
 impl CLRAWLTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CLRAWLTF_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CLRAWLTF_W<'a> {
 #[doc = "Field `CLRAWHTF` reader - Clear the analog watchdog high threshold flag"]
 pub struct CLRAWHTF_R(crate::FieldReader<u8, u8>);
 impl CLRAWHTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CLRAWHTF_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WPCR1_SPEC>> for W {
 #[doc = "Field `TCLKPOSTEN` reader - custom time for tCLK-POST Enable"]
 pub struct TCLKPOSTEN_R(crate::FieldReader<bool, bool>);
 impl TCLKPOSTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCLKPOSTEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TCLKPOSTEN_W<'a> {
 #[doc = "Field `TLPXCEN` reader - custom time for tLPX for Clock lane Enable"]
 pub struct TLPXCEN_R(crate::FieldReader<bool, bool>);
 impl TLPXCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TLPXCEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TLPXCEN_W<'a> {
 #[doc = "Field `THSEXITEN` reader - custom time for tHS-EXIT Enable"]
 pub struct THSEXITEN_R(crate::FieldReader<bool, bool>);
 impl THSEXITEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         THSEXITEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> THSEXITEN_W<'a> {
 #[doc = "Field `TLPXDEN` reader - custom time for tLPX for Data lanes Enable"]
 pub struct TLPXDEN_R(crate::FieldReader<bool, bool>);
 impl TLPXDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TLPXDEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TLPXDEN_W<'a> {
 #[doc = "Field `THSZEROEN` reader - custom time for tHS-ZERO Enable"]
 pub struct THSZEROEN_R(crate::FieldReader<bool, bool>);
 impl THSZEROEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         THSZEROEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> THSZEROEN_W<'a> {
 #[doc = "Field `THSTRAILEN` reader - custom time for tHS-TRAIL Enable"]
 pub struct THSTRAILEN_R(crate::FieldReader<bool, bool>);
 impl THSTRAILEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         THSTRAILEN_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> THSTRAILEN_W<'a> {
 #[doc = "Field `THSPREPEN` reader - custom time for tHS-PREPARE Enable"]
 pub struct THSPREPEN_R(crate::FieldReader<bool, bool>);
 impl THSPREPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         THSPREPEN_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> THSPREPEN_W<'a> {
 #[doc = "Field `TCLKZEROEN` reader - custom time for tCLK-ZERO Enable"]
 pub struct TCLKZEROEN_R(crate::FieldReader<bool, bool>);
 impl TCLKZEROEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCLKZEROEN_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TCLKZEROEN_W<'a> {
 #[doc = "Field `TCLKPREPEN` reader - custom time for tCLK-PREPARE Enable"]
 pub struct TCLKPREPEN_R(crate::FieldReader<bool, bool>);
 impl TCLKPREPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCLKPREPEN_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> TCLKPREPEN_W<'a> {
 #[doc = "Field `PDEN` reader - Pull-Down Enable"]
 pub struct PDEN_R(crate::FieldReader<bool, bool>);
 impl PDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PDEN_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> PDEN_W<'a> {
 #[doc = "Field `TDDL` reader - Turn Disable Data Lanes"]
 pub struct TDDL_R(crate::FieldReader<bool, bool>);
 impl TDDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TDDL_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> TDDL_W<'a> {
 #[doc = "Field `CDOFFDL` reader - Contention Detection OFF on Data Lanes"]
 pub struct CDOFFDL_R(crate::FieldReader<bool, bool>);
 impl CDOFFDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CDOFFDL_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> CDOFFDL_W<'a> {
 #[doc = "Field `FTXSMDL` reader - Force in TX Stop Mode the Data Lanes"]
 pub struct FTXSMDL_R(crate::FieldReader<bool, bool>);
 impl FTXSMDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FTXSMDL_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> FTXSMDL_W<'a> {
 #[doc = "Field `FTXSMCL` reader - Force in TX Stop Mode the Clock Lane"]
 pub struct FTXSMCL_R(crate::FieldReader<bool, bool>);
 impl FTXSMCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FTXSMCL_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> FTXSMCL_W<'a> {
 #[doc = "Field `HSIDL1` reader - Invert the High-Speed data signal on Data Lane 1"]
 pub struct HSIDL1_R(crate::FieldReader<bool, bool>);
 impl HSIDL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSIDL1_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> HSIDL1_W<'a> {
 #[doc = "Field `HSIDL0` reader - Invert the Hight-Speed data signal on Data Lane 0"]
 pub struct HSIDL0_R(crate::FieldReader<bool, bool>);
 impl HSIDL0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSIDL0_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> HSIDL0_W<'a> {
 #[doc = "Field `HSICL` reader - Invert Hight-Speed data signal on Clock Lane"]
 pub struct HSICL_R(crate::FieldReader<bool, bool>);
 impl HSICL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSICL_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> HSICL_W<'a> {
 #[doc = "Field `SWDL1` reader - Swap Data Lane 1 pins"]
 pub struct SWDL1_R(crate::FieldReader<bool, bool>);
 impl SWDL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWDL1_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> SWDL1_W<'a> {
 #[doc = "Field `SWDL0` reader - Swap Data Lane 0 pins"]
 pub struct SWDL0_R(crate::FieldReader<bool, bool>);
 impl SWDL0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWDL0_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> SWDL0_W<'a> {
 #[doc = "Field `SWCL` reader - Swap Clock Lane pins"]
 pub struct SWCL_R(crate::FieldReader<bool, bool>);
 impl SWCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWCL_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> SWCL_W<'a> {
 #[doc = "Field `UIX4` reader - Unit Interval multiplied by 4"]
 pub struct UIX4_R(crate::FieldReader<u8, u8>);
 impl UIX4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UIX4_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_VHSACR_SPEC>> for W {
 #[doc = "Field `HSA` reader - Horizontal Synchronism Active duration"]
 pub struct HSA_R(crate::FieldReader<u16, u16>);
 impl HSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HSA_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OR2_SPEC>> for W {
 #[doc = "Field `ETRSEL` reader - ETR source selection"]
 pub struct ETRSEL_R(crate::FieldReader<u8, u8>);
 impl ETRSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ETRSEL_R(crate::FieldReader::new(bits))
     }

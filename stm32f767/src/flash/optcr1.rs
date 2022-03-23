@@ -37,6 +37,7 @@ impl From<crate::W<OPTCR1_SPEC>> for W {
 #[doc = "Field `BOOT_ADD0` reader - Boot base address when Boot pin =0"]
 pub struct BOOT_ADD0_R(crate::FieldReader<u16, u16>);
 impl BOOT_ADD0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         BOOT_ADD0_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> BOOT_ADD0_W<'a> {
 #[doc = "Field `BOOT_ADD1` reader - Boot base address when Boot pin =1"]
 pub struct BOOT_ADD1_R(crate::FieldReader<u16, u16>);
 impl BOOT_ADD1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         BOOT_ADD1_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<I2SPR_SPEC>> for W {
 #[doc = "Field `MCKOE` reader - Master clock output enable"]
 pub struct MCKOE_R(crate::FieldReader<bool, bool>);
 impl MCKOE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MCKOE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> MCKOE_W<'a> {
 #[doc = "Field `ODD` reader - Odd factor for the prescaler"]
 pub struct ODD_R(crate::FieldReader<bool, bool>);
 impl ODD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODD_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ODD_W<'a> {
 #[doc = "Field `I2SDIV` reader - I2S Linear prescaler"]
 pub struct I2SDIV_R(crate::FieldReader<u8, u8>);
 impl I2SDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2SDIV_R(crate::FieldReader::new(bits))
     }

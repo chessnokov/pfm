@@ -37,6 +37,7 @@ impl From<crate::W<CR1_SPEC>> for W {
 #[doc = "Field `PE` reader - Peripheral enable"]
 pub struct PE_R(crate::FieldReader<bool, bool>);
 impl PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PE_W<'a> {
 #[doc = "Field `TXIE` reader - TX Interrupt enable"]
 pub struct TXIE_R(crate::FieldReader<bool, bool>);
 impl TXIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TXIE_W<'a> {
 #[doc = "Field `RXIE` reader - RX Interrupt enable"]
 pub struct RXIE_R(crate::FieldReader<bool, bool>);
 impl RXIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RXIE_W<'a> {
 #[doc = "Field `ADDRIE` reader - Address match interrupt enable (slave only)"]
 pub struct ADDRIE_R(crate::FieldReader<bool, bool>);
 impl ADDRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADDRIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ADDRIE_W<'a> {
 #[doc = "Field `NACKIE` reader - Not acknowledge received interrupt enable"]
 pub struct NACKIE_R(crate::FieldReader<bool, bool>);
 impl NACKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NACKIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> NACKIE_W<'a> {
 #[doc = "Field `STOPIE` reader - STOP detection Interrupt enable"]
 pub struct STOPIE_R(crate::FieldReader<bool, bool>);
 impl STOPIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STOPIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> STOPIE_W<'a> {
 #[doc = "Field `TCIE` reader - Transfer Complete interrupt enable"]
 pub struct TCIE_R(crate::FieldReader<bool, bool>);
 impl TCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> TCIE_W<'a> {
 #[doc = "Field `ERRIE` reader - Error interrupts enable"]
 pub struct ERRIE_R(crate::FieldReader<bool, bool>);
 impl ERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERRIE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> ERRIE_W<'a> {
 #[doc = "Field `DNF` reader - Digital noise filter"]
 pub struct DNF_R(crate::FieldReader<u8, u8>);
 impl DNF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DNF_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> DNF_W<'a> {
 #[doc = "Field `ANFOFF` reader - Analog noise filter OFF"]
 pub struct ANFOFF_R(crate::FieldReader<bool, bool>);
 impl ANFOFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ANFOFF_R(crate::FieldReader::new(bits))
     }
@@ -387,6 +397,7 @@ impl<'a> ANFOFF_W<'a> {
 #[doc = "Field `TXDMAEN` reader - DMA transmission requests enable"]
 pub struct TXDMAEN_R(crate::FieldReader<bool, bool>);
 impl TXDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -423,6 +434,7 @@ impl<'a> TXDMAEN_W<'a> {
 #[doc = "Field `RXDMAEN` reader - DMA reception requests enable"]
 pub struct RXDMAEN_R(crate::FieldReader<bool, bool>);
 impl RXDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -459,6 +471,7 @@ impl<'a> RXDMAEN_W<'a> {
 #[doc = "Field `SBC` reader - Slave byte control"]
 pub struct SBC_R(crate::FieldReader<bool, bool>);
 impl SBC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBC_R(crate::FieldReader::new(bits))
     }
@@ -495,6 +508,7 @@ impl<'a> SBC_W<'a> {
 #[doc = "Field `NOSTRETCH` reader - Clock stretching disable"]
 pub struct NOSTRETCH_R(crate::FieldReader<bool, bool>);
 impl NOSTRETCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NOSTRETCH_R(crate::FieldReader::new(bits))
     }
@@ -531,6 +545,7 @@ impl<'a> NOSTRETCH_W<'a> {
 #[doc = "Field `WUPEN` reader - Wakeup from STOP enable"]
 pub struct WUPEN_R(crate::FieldReader<bool, bool>);
 impl WUPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPEN_R(crate::FieldReader::new(bits))
     }
@@ -567,6 +582,7 @@ impl<'a> WUPEN_W<'a> {
 #[doc = "Field `GCEN` reader - General call enable"]
 pub struct GCEN_R(crate::FieldReader<bool, bool>);
 impl GCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GCEN_R(crate::FieldReader::new(bits))
     }
@@ -603,6 +619,7 @@ impl<'a> GCEN_W<'a> {
 #[doc = "Field `SMBHEN` reader - SMBus Host address enable"]
 pub struct SMBHEN_R(crate::FieldReader<bool, bool>);
 impl SMBHEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SMBHEN_R(crate::FieldReader::new(bits))
     }
@@ -639,6 +656,7 @@ impl<'a> SMBHEN_W<'a> {
 #[doc = "Field `SMBDEN` reader - SMBus Device Default address enable"]
 pub struct SMBDEN_R(crate::FieldReader<bool, bool>);
 impl SMBDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SMBDEN_R(crate::FieldReader::new(bits))
     }
@@ -675,6 +693,7 @@ impl<'a> SMBDEN_W<'a> {
 #[doc = "Field `ALERTEN` reader - SMBUS alert enable"]
 pub struct ALERTEN_R(crate::FieldReader<bool, bool>);
 impl ALERTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALERTEN_R(crate::FieldReader::new(bits))
     }
@@ -711,6 +730,7 @@ impl<'a> ALERTEN_W<'a> {
 #[doc = "Field `PECEN` reader - PEC enable"]
 pub struct PECEN_R(crate::FieldReader<bool, bool>);
 impl PECEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PECEN_R(crate::FieldReader::new(bits))
     }

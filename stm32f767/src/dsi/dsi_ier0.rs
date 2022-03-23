@@ -37,6 +37,7 @@ impl From<crate::W<DSI_IER0_SPEC>> for W {
 #[doc = "Field `AE0IE` reader - Acknowledge Error 0 Interrupt Enable"]
 pub struct AE0IE_R(crate::FieldReader<bool, bool>);
 impl AE0IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE0IE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> AE0IE_W<'a> {
 #[doc = "Field `AE1IE` reader - Acknowledge Error 1 Interrupt Enable"]
 pub struct AE1IE_R(crate::FieldReader<bool, bool>);
 impl AE1IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE1IE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> AE1IE_W<'a> {
 #[doc = "Field `AE2IE` reader - Acknowledge Error 2 Interrupt Enable"]
 pub struct AE2IE_R(crate::FieldReader<bool, bool>);
 impl AE2IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE2IE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> AE2IE_W<'a> {
 #[doc = "Field `AE3IE` reader - Acknowledge Error 3 Interrupt Enable"]
 pub struct AE3IE_R(crate::FieldReader<bool, bool>);
 impl AE3IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE3IE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> AE3IE_W<'a> {
 #[doc = "Field `AE4IE` reader - Acknowledge Error 4 Interrupt Enable"]
 pub struct AE4IE_R(crate::FieldReader<bool, bool>);
 impl AE4IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE4IE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> AE4IE_W<'a> {
 #[doc = "Field `AE5IE` reader - Acknowledge Error 5 Interrupt Enable"]
 pub struct AE5IE_R(crate::FieldReader<bool, bool>);
 impl AE5IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE5IE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> AE5IE_W<'a> {
 #[doc = "Field `AE6IE` reader - Acknowledge Error 6 Interrupt Enable"]
 pub struct AE6IE_R(crate::FieldReader<bool, bool>);
 impl AE6IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE6IE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> AE6IE_W<'a> {
 #[doc = "Field `AE7IE` reader - Acknowledge Error 7 Interrupt Enable"]
 pub struct AE7IE_R(crate::FieldReader<bool, bool>);
 impl AE7IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE7IE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> AE7IE_W<'a> {
 #[doc = "Field `AE8IE` reader - Acknowledge Error 8 Interrupt Enable"]
 pub struct AE8IE_R(crate::FieldReader<bool, bool>);
 impl AE8IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE8IE_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> AE8IE_W<'a> {
 #[doc = "Field `AE9IE` reader - Acknowledge Error 9 Interrupt Enable"]
 pub struct AE9IE_R(crate::FieldReader<bool, bool>);
 impl AE9IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE9IE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> AE9IE_W<'a> {
 #[doc = "Field `AE10IE` reader - Acknowledge Error 10 Interrupt Enable"]
 pub struct AE10IE_R(crate::FieldReader<bool, bool>);
 impl AE10IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE10IE_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> AE10IE_W<'a> {
 #[doc = "Field `AE11IE` reader - Acknowledge Error 11 Interrupt Enable"]
 pub struct AE11IE_R(crate::FieldReader<bool, bool>);
 impl AE11IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE11IE_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> AE11IE_W<'a> {
 #[doc = "Field `AE12IE` reader - Acknowledge Error 12 Interrupt Enable"]
 pub struct AE12IE_R(crate::FieldReader<bool, bool>);
 impl AE12IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE12IE_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> AE12IE_W<'a> {
 #[doc = "Field `AE13IE` reader - Acknowledge Error 13 Interrupt Enable"]
 pub struct AE13IE_R(crate::FieldReader<bool, bool>);
 impl AE13IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE13IE_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> AE13IE_W<'a> {
 #[doc = "Field `AE14IE` reader - Acknowledge Error 14 Interrupt Enable"]
 pub struct AE14IE_R(crate::FieldReader<bool, bool>);
 impl AE14IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE14IE_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> AE14IE_W<'a> {
 #[doc = "Field `AE15IE` reader - Acknowledge Error 15 Interrupt Enable"]
 pub struct AE15IE_R(crate::FieldReader<bool, bool>);
 impl AE15IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE15IE_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> AE15IE_W<'a> {
 #[doc = "Field `PE0IE` reader - PHY Error 0 Interrupt Enable"]
 pub struct PE0IE_R(crate::FieldReader<bool, bool>);
 impl PE0IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE0IE_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> PE0IE_W<'a> {
 #[doc = "Field `PE1IE` reader - PHY Error 1 Interrupt Enable"]
 pub struct PE1IE_R(crate::FieldReader<bool, bool>);
 impl PE1IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE1IE_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> PE1IE_W<'a> {
 #[doc = "Field `PE2IE` reader - PHY Error 2 Interrupt Enable"]
 pub struct PE2IE_R(crate::FieldReader<bool, bool>);
 impl PE2IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE2IE_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> PE2IE_W<'a> {
 #[doc = "Field `PE3IE` reader - PHY Error 3 Interrupt Enable"]
 pub struct PE3IE_R(crate::FieldReader<bool, bool>);
 impl PE3IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE3IE_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> PE3IE_W<'a> {
 #[doc = "Field `PE4IE` reader - PHY Error 4 Interrupt Enable"]
 pub struct PE4IE_R(crate::FieldReader<bool, bool>);
 impl PE4IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE4IE_R(crate::FieldReader::new(bits))
     }

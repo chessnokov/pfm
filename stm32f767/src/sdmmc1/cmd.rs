@@ -37,6 +37,7 @@ impl From<crate::W<CMD_SPEC>> for W {
 #[doc = "Field `CE_ATACMD` reader - CE-ATA command"]
 pub struct CE_ATACMD_R(crate::FieldReader<bool, bool>);
 impl CE_ATACMD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CE_ATACMD_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CE_ATACMD_W<'a> {
 #[doc = "Field `nIEN` reader - not Interrupt Enable"]
 pub struct NIEN_R(crate::FieldReader<bool, bool>);
 impl NIEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NIEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> NIEN_W<'a> {
 #[doc = "Field `ENCMDcompl` reader - Enable CMD completion"]
 pub struct ENCMDCOMPL_R(crate::FieldReader<bool, bool>);
 impl ENCMDCOMPL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENCMDCOMPL_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> ENCMDCOMPL_W<'a> {
 #[doc = "Field `SDIOSuspend` reader - SD I/O suspend command"]
 pub struct SDIOSUSPEND_R(crate::FieldReader<bool, bool>);
 impl SDIOSUSPEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDIOSUSPEND_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> SDIOSUSPEND_W<'a> {
 #[doc = "Field `CPSMEN` reader - Command path state machine (CPSM) Enable bit"]
 pub struct CPSMEN_R(crate::FieldReader<bool, bool>);
 impl CPSMEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPSMEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CPSMEN_W<'a> {
 #[doc = "Field `WAITPEND` reader - CPSM Waits for ends of data transfer (CmdPend internal signal)"]
 pub struct WAITPEND_R(crate::FieldReader<bool, bool>);
 impl WAITPEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAITPEND_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> WAITPEND_W<'a> {
 #[doc = "Field `WAITINT` reader - CPSM waits for interrupt request"]
 pub struct WAITINT_R(crate::FieldReader<bool, bool>);
 impl WAITINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAITINT_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> WAITINT_W<'a> {
 #[doc = "Field `WAITRESP` reader - Wait for response bits"]
 pub struct WAITRESP_R(crate::FieldReader<u8, u8>);
 impl WAITRESP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WAITRESP_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> WAITRESP_W<'a> {
 #[doc = "Field `CMDINDEX` reader - Command index"]
 pub struct CMDINDEX_R(crate::FieldReader<u8, u8>);
 impl CMDINDEX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CMDINDEX_R(crate::FieldReader::new(bits))
     }

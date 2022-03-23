@@ -93,6 +93,7 @@ impl<'a> CTB1_W<'a> {
 #[doc = "Field `NRFS` reader - Number of Auto-refresh"]
 pub struct NRFS_R(crate::FieldReader<u8, u8>);
 impl NRFS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NRFS_R(crate::FieldReader::new(bits))
     }
@@ -119,6 +120,7 @@ impl<'a> NRFS_W<'a> {
 #[doc = "Field `MRD` reader - Mode Register definition"]
 pub struct MRD_R(crate::FieldReader<u16, u16>);
 impl MRD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MRD_R(crate::FieldReader::new(bits))
     }

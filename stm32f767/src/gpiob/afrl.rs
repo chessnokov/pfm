@@ -37,6 +37,7 @@ impl From<crate::W<AFRL_SPEC>> for W {
 #[doc = "Field `AFRL7` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL7_R(crate::FieldReader<u8, u8>);
 impl AFRL7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL7_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> AFRL7_W<'a> {
 #[doc = "Field `AFRL6` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL6_R(crate::FieldReader<u8, u8>);
 impl AFRL6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL6_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> AFRL6_W<'a> {
 #[doc = "Field `AFRL5` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL5_R(crate::FieldReader<u8, u8>);
 impl AFRL5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL5_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> AFRL5_W<'a> {
 #[doc = "Field `AFRL4` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL4_R(crate::FieldReader<u8, u8>);
 impl AFRL4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL4_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> AFRL4_W<'a> {
 #[doc = "Field `AFRL3` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL3_R(crate::FieldReader<u8, u8>);
 impl AFRL3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL3_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> AFRL3_W<'a> {
 #[doc = "Field `AFRL2` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL2_R(crate::FieldReader<u8, u8>);
 impl AFRL2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL2_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +199,7 @@ impl<'a> AFRL2_W<'a> {
 #[doc = "Field `AFRL1` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL1_R(crate::FieldReader<u8, u8>);
 impl AFRL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL1_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +226,7 @@ impl<'a> AFRL1_W<'a> {
 #[doc = "Field `AFRL0` reader - Alternate function selection for port x bit y (y = 0..7)"]
 pub struct AFRL0_R(crate::FieldReader<u8, u8>);
 impl AFRL0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AFRL0_R(crate::FieldReader::new(bits))
     }

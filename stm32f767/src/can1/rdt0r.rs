@@ -16,6 +16,7 @@ impl From<crate::R<RDT0R_SPEC>> for R {
 #[doc = "Field `TIME` reader - TIME"]
 pub struct TIME_R(crate::FieldReader<u16, u16>);
 impl TIME_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TIME_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for TIME_R {
 #[doc = "Field `FMI` reader - FMI"]
 pub struct FMI_R(crate::FieldReader<u8, u8>);
 impl FMI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FMI_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for FMI_R {
 #[doc = "Field `DLC` reader - DLC"]
 pub struct DLC_R(crate::FieldReader<u8, u8>);
 impl DLC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DLC_R(crate::FieldReader::new(bits))
     }

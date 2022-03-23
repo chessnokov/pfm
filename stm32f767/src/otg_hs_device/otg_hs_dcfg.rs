@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DCFG_SPEC>> for W {
 #[doc = "Field `DSPD` reader - Device speed"]
 pub struct DSPD_R(crate::FieldReader<u8, u8>);
 impl DSPD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DSPD_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DSPD_W<'a> {
 #[doc = "Field `NZLSOHSK` reader - Nonzero-length status OUT handshake"]
 pub struct NZLSOHSK_R(crate::FieldReader<bool, bool>);
 impl NZLSOHSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NZLSOHSK_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> NZLSOHSK_W<'a> {
 #[doc = "Field `DAD` reader - Device address"]
 pub struct DAD_R(crate::FieldReader<u8, u8>);
 impl DAD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DAD_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> DAD_W<'a> {
 #[doc = "Field `PFIVL` reader - Periodic (micro)frame interval"]
 pub struct PFIVL_R(crate::FieldReader<u8, u8>);
 impl PFIVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PFIVL_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> PFIVL_W<'a> {
 #[doc = "Field `PERSCHIVL` reader - Periodic scheduling interval"]
 pub struct PERSCHIVL_R(crate::FieldReader<u8, u8>);
 impl PERSCHIVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PERSCHIVL_R(crate::FieldReader::new(bits))
     }

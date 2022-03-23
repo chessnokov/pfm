@@ -37,6 +37,7 @@ impl From<crate::W<OAR1_SPEC>> for W {
 #[doc = "Field `OA1` reader - Interface address"]
 pub struct OA1_R(crate::FieldReader<u16, u16>);
 impl OA1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         OA1_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> OA1_W<'a> {
 #[doc = "Field `OA1MODE` reader - Own Address 1 10-bit mode"]
 pub struct OA1MODE_R(crate::FieldReader<bool, bool>);
 impl OA1MODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OA1MODE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> OA1MODE_W<'a> {
 #[doc = "Field `OA1EN` reader - Own Address 1 enable"]
 pub struct OA1EN_R(crate::FieldReader<bool, bool>);
 impl OA1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OA1EN_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_PCR_SPEC>> for W {
 #[doc = "Field `ETTXE` reader - EoTp Transmission Enable"]
 pub struct ETTXE_R(crate::FieldReader<bool, bool>);
 impl ETTXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETTXE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ETTXE_W<'a> {
 #[doc = "Field `ETRXE` reader - EoTp Reception Enable"]
 pub struct ETRXE_R(crate::FieldReader<bool, bool>);
 impl ETRXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETRXE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ETRXE_W<'a> {
 #[doc = "Field `BTAE` reader - Bus Turn Around Enable"]
 pub struct BTAE_R(crate::FieldReader<bool, bool>);
 impl BTAE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BTAE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> BTAE_W<'a> {
 #[doc = "Field `ECCRXE` reader - ECC Reception Enable"]
 pub struct ECCRXE_R(crate::FieldReader<bool, bool>);
 impl ECCRXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCRXE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ECCRXE_W<'a> {
 #[doc = "Field `CRCRXE` reader - CRC Reception Enable"]
 pub struct CRCRXE_R(crate::FieldReader<bool, bool>);
 impl CRCRXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCRXE_R(crate::FieldReader::new(bits))
     }

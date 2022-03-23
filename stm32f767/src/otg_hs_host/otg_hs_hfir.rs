@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HFIR_SPEC>> for W {
 #[doc = "Field `FRIVL` reader - Frame interval"]
 pub struct FRIVL_R(crate::FieldReader<u16, u16>);
 impl FRIVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         FRIVL_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<FMR_SPEC>> for W {
 #[doc = "Field `CAN2SB` reader - CAN2SB"]
 pub struct CAN2SB_R(crate::FieldReader<u8, u8>);
 impl CAN2SB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CAN2SB_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CAN2SB_W<'a> {
 #[doc = "Field `FINIT` reader - FINIT"]
 pub struct FINIT_R(crate::FieldReader<bool, bool>);
 impl FINIT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FINIT_R(crate::FieldReader::new(bits))
     }

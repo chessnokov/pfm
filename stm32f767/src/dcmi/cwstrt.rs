@@ -37,6 +37,7 @@ impl From<crate::W<CWSTRT_SPEC>> for W {
 #[doc = "Field `VST` reader - Vertical start line count"]
 pub struct VST_R(crate::FieldReader<u16, u16>);
 impl VST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VST_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> VST_W<'a> {
 #[doc = "Field `HOFFCNT` reader - Horizontal offset count"]
 pub struct HOFFCNT_R(crate::FieldReader<u16, u16>);
 impl HOFFCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HOFFCNT_R(crate::FieldReader::new(bits))
     }

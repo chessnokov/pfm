@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_HPTXSTS_SPEC>> for W {
 #[doc = "Field `PTXFSAVL` reader - Periodic transmit data FIFO space available"]
 pub struct PTXFSAVL_R(crate::FieldReader<u16, u16>);
 impl PTXFSAVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PTXFSAVL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PTXFSAVL_W<'a> {
 #[doc = "Field `PTXQSAV` reader - Periodic transmit request queue space available"]
 pub struct PTXQSAV_R(crate::FieldReader<u8, u8>);
 impl PTXQSAV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PTXQSAV_R(crate::FieldReader::new(bits))
     }
@@ -77,6 +79,7 @@ impl core::ops::Deref for PTXQSAV_R {
 #[doc = "Field `PTXQTOP` reader - Top of the periodic transmit request queue"]
 pub struct PTXQTOP_R(crate::FieldReader<u8, u8>);
 impl PTXQTOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PTXQTOP_R(crate::FieldReader::new(bits))
     }

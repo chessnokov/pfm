@@ -59,6 +59,7 @@ impl<'a> INIT_W<'a> {
 #[doc = "Field `DMAE` reader - DMA enable"]
 pub struct DMAE_R(crate::FieldReader<bool, bool>);
 impl DMAE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAE_R(crate::FieldReader::new(bits))
     }
@@ -95,6 +96,7 @@ impl<'a> DMAE_W<'a> {
 #[doc = "Field `DATATYPE` reader - Data type selection"]
 pub struct DATATYPE_R(crate::FieldReader<u8, u8>);
 impl DATATYPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATATYPE_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +123,7 @@ impl<'a> DATATYPE_W<'a> {
 #[doc = "Field `MODE` reader - Mode selection"]
 pub struct MODE_R(crate::FieldReader<bool, bool>);
 impl MODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MODE_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +160,7 @@ impl<'a> MODE_W<'a> {
 #[doc = "Field `ALGO0` reader - Algorithm selection"]
 pub struct ALGO0_R(crate::FieldReader<bool, bool>);
 impl ALGO0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALGO0_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +197,7 @@ impl<'a> ALGO0_W<'a> {
 #[doc = "Field `NBW` reader - Number of words already pushed"]
 pub struct NBW_R(crate::FieldReader<u8, u8>);
 impl NBW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NBW_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl core::ops::Deref for NBW_R {
 #[doc = "Field `DINNE` reader - DIN not empty"]
 pub struct DINNE_R(crate::FieldReader<bool, bool>);
 impl DINNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DINNE_R(crate::FieldReader::new(bits))
     }
@@ -221,6 +227,7 @@ impl core::ops::Deref for DINNE_R {
 #[doc = "Field `MDMAT` reader - Multiple DMA Transfers"]
 pub struct MDMAT_R(crate::FieldReader<bool, bool>);
 impl MDMAT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MDMAT_R(crate::FieldReader::new(bits))
     }
@@ -257,6 +264,7 @@ impl<'a> MDMAT_W<'a> {
 #[doc = "Field `LKEY` reader - Long key selection"]
 pub struct LKEY_R(crate::FieldReader<bool, bool>);
 impl LKEY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LKEY_R(crate::FieldReader::new(bits))
     }
@@ -293,6 +301,7 @@ impl<'a> LKEY_W<'a> {
 #[doc = "Field `ALGO1` reader - ALGO"]
 pub struct ALGO1_R(crate::FieldReader<bool, bool>);
 impl ALGO1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALGO1_R(crate::FieldReader::new(bits))
     }

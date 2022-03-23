@@ -37,6 +37,7 @@ impl From<crate::W<FGCLUT_SPEC>> for W {
 #[doc = "Field `APLHA` reader - APLHA"]
 pub struct APLHA_R(crate::FieldReader<u8, u8>);
 impl APLHA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         APLHA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> APLHA_W<'a> {
 #[doc = "Field `RED` reader - RED"]
 pub struct RED_R(crate::FieldReader<u8, u8>);
 impl RED_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RED_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> RED_W<'a> {
 #[doc = "Field `GREEN` reader - GREEN"]
 pub struct GREEN_R(crate::FieldReader<u8, u8>);
 impl GREEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         GREEN_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> GREEN_W<'a> {
 #[doc = "Field `BLUE` reader - BLUE"]
 pub struct BLUE_R(crate::FieldReader<u8, u8>);
 impl BLUE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BLUE_R(crate::FieldReader::new(bits))
     }

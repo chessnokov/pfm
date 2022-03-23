@@ -37,6 +37,7 @@ impl From<crate::W<NLR_SPEC>> for W {
 #[doc = "Field `PL` reader - Pixel per lines"]
 pub struct PL_R(crate::FieldReader<u16, u16>);
 impl PL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PL_W<'a> {
 #[doc = "Field `NL` reader - Number of lines"]
 pub struct NL_R(crate::FieldReader<u16, u16>);
 impl NL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NL_R(crate::FieldReader::new(bits))
     }

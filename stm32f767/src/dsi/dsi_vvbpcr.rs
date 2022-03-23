@@ -37,6 +37,7 @@ impl From<crate::W<DSI_VVBPCR_SPEC>> for W {
 #[doc = "Field `VBP` reader - Vertical Back-Porch duration"]
 pub struct VBP_R(crate::FieldReader<u16, u16>);
 impl VBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VBP_R(crate::FieldReader::new(bits))
     }

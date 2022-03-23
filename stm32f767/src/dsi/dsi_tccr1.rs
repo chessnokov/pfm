@@ -37,6 +37,7 @@ impl From<crate::W<DSI_TCCR1_SPEC>> for W {
 #[doc = "Field `HSRD_TOCNT` reader - High-Speed Read Timeout Counter"]
 pub struct HSRD_TOCNT_R(crate::FieldReader<u16, u16>);
 impl HSRD_TOCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HSRD_TOCNT_R(crate::FieldReader::new(bits))
     }

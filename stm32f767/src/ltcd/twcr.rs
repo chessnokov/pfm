@@ -37,6 +37,7 @@ impl From<crate::W<TWCR_SPEC>> for W {
 #[doc = "Field `TOTALW` reader - Total Width (in units of pixel clock period)"]
 pub struct TOTALW_R(crate::FieldReader<u16, u16>);
 impl TOTALW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TOTALW_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TOTALW_W<'a> {
 #[doc = "Field `TOTALH` reader - Total Height (in units of horizontal scan line)"]
 pub struct TOTALH_R(crate::FieldReader<u16, u16>);
 impl TOTALH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TOTALH_R(crate::FieldReader::new(bits))
     }

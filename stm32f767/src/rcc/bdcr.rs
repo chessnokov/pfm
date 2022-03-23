@@ -37,6 +37,7 @@ impl From<crate::W<BDCR_SPEC>> for W {
 #[doc = "Field `BDRST` reader - Backup domain software reset"]
 pub struct BDRST_R(crate::FieldReader<bool, bool>);
 impl BDRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BDRST_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> BDRST_W<'a> {
 #[doc = "Field `RTCEN` reader - RTC clock enable"]
 pub struct RTCEN_R(crate::FieldReader<bool, bool>);
 impl RTCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTCEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RTCEN_W<'a> {
 #[doc = "Field `RTCSEL1` reader - RTC clock source selection"]
 pub struct RTCSEL1_R(crate::FieldReader<bool, bool>);
 impl RTCSEL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTCSEL1_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RTCSEL1_W<'a> {
 #[doc = "Field `RTCSEL0` reader - RTC clock source selection"]
 pub struct RTCSEL0_R(crate::FieldReader<bool, bool>);
 impl RTCSEL0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTCSEL0_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> RTCSEL0_W<'a> {
 #[doc = "Field `LSEBYP` reader - External low-speed oscillator bypass"]
 pub struct LSEBYP_R(crate::FieldReader<bool, bool>);
 impl LSEBYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSEBYP_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> LSEBYP_W<'a> {
 #[doc = "Field `LSERDY` reader - External low-speed oscillator ready"]
 pub struct LSERDY_R(crate::FieldReader<bool, bool>);
 impl LSERDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSERDY_R(crate::FieldReader::new(bits))
     }
@@ -231,6 +237,7 @@ impl core::ops::Deref for LSERDY_R {
 #[doc = "Field `LSEON` reader - External low-speed oscillator enable"]
 pub struct LSEON_R(crate::FieldReader<bool, bool>);
 impl LSEON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSEON_R(crate::FieldReader::new(bits))
     }

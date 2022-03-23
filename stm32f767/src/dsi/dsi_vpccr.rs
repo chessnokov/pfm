@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VPCCR_SPEC>> for R {
 #[doc = "Field `VPSIZE` reader - Video Packet Size"]
 pub struct VPSIZE_R(crate::FieldReader<u16, u16>);
 impl VPSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VPSIZE_R(crate::FieldReader::new(bits))
     }

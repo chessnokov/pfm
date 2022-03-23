@@ -16,6 +16,7 @@ impl From<crate::R<MISR_SPEC>> for R {
 #[doc = "Field `OUTMIS` reader - Output FIFO service masked interrupt status"]
 pub struct OUTMIS_R(crate::FieldReader<bool, bool>);
 impl OUTMIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OUTMIS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for OUTMIS_R {
 #[doc = "Field `INMIS` reader - Input FIFO service masked interrupt status"]
 pub struct INMIS_R(crate::FieldReader<bool, bool>);
 impl INMIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INMIS_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<I2SCFGR_SPEC>> for W {
 #[doc = "Field `I2SMOD` reader - I2S mode selection"]
 pub struct I2SMOD_R(crate::FieldReader<bool, bool>);
 impl I2SMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2SMOD_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> I2SMOD_W<'a> {
 #[doc = "Field `I2SE` reader - I2S Enable"]
 pub struct I2SE_R(crate::FieldReader<bool, bool>);
 impl I2SE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2SE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> I2SE_W<'a> {
 #[doc = "Field `I2SCFG` reader - I2S configuration mode"]
 pub struct I2SCFG_R(crate::FieldReader<u8, u8>);
 impl I2SCFG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2SCFG_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> I2SCFG_W<'a> {
 #[doc = "Field `PCMSYNC` reader - PCM frame synchronization"]
 pub struct PCMSYNC_R(crate::FieldReader<bool, bool>);
 impl PCMSYNC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCMSYNC_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> PCMSYNC_W<'a> {
 #[doc = "Field `I2SSTD` reader - I2S standard selection"]
 pub struct I2SSTD_R(crate::FieldReader<u8, u8>);
 impl I2SSTD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2SSTD_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> I2SSTD_W<'a> {
 #[doc = "Field `CKPOL` reader - Steady state clock polarity"]
 pub struct CKPOL_R(crate::FieldReader<bool, bool>);
 impl CKPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKPOL_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> CKPOL_W<'a> {
 #[doc = "Field `DATLEN` reader - Data length to be transferred"]
 pub struct DATLEN_R(crate::FieldReader<u8, u8>);
 impl DATLEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATLEN_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> DATLEN_W<'a> {
 #[doc = "Field `CHLEN` reader - Channel length (number of bits per audio channel)"]
 pub struct CHLEN_R(crate::FieldReader<bool, bool>);
 impl CHLEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHLEN_R(crate::FieldReader::new(bits))
     }
@@ -295,6 +303,7 @@ impl<'a> CHLEN_W<'a> {
 #[doc = "Field `ASTRTEN` reader - Asynchronous start enable"]
 pub struct ASTRTEN_R(crate::FieldReader<bool, bool>);
 impl ASTRTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ASTRTEN_R(crate::FieldReader::new(bits))
     }

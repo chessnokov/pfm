@@ -37,6 +37,7 @@ impl From<crate::W<POWER_SPEC>> for W {
 #[doc = "Field `PWRCTRL` reader - PWRCTRL"]
 pub struct PWRCTRL_R(crate::FieldReader<u8, u8>);
 impl PWRCTRL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PWRCTRL_R(crate::FieldReader::new(bits))
     }

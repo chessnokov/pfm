@@ -37,6 +37,7 @@ impl From<crate::W<WUTR_SPEC>> for W {
 #[doc = "Field `WUT` reader - Wakeup auto-reload value bits"]
 pub struct WUT_R(crate::FieldReader<u16, u16>);
 impl WUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WUT_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM0_AWSR_SPEC>> for R {
 #[doc = "Field `AWLTF` reader - Analog watchdog low threshold flag"]
 pub struct AWLTF_R(crate::FieldReader<u8, u8>);
 impl AWLTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AWLTF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for AWLTF_R {
 #[doc = "Field `AWHTF` reader - Analog watchdog high threshold flag"]
 pub struct AWHTF_R(crate::FieldReader<u8, u8>);
 impl AWHTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AWHTF_R(crate::FieldReader::new(bits))
     }

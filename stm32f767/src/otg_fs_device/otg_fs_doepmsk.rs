@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_DOEPMSK_SPEC>> for W {
 #[doc = "Field `XFRCM` reader - Transfer completed interrupt mask"]
 pub struct XFRCM_R(crate::FieldReader<bool, bool>);
 impl XFRCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRCM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRCM_W<'a> {
 #[doc = "Field `EPDM` reader - Endpoint disabled interrupt mask"]
 pub struct EPDM_R(crate::FieldReader<bool, bool>);
 impl EPDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> EPDM_W<'a> {
 #[doc = "Field `STUPM` reader - SETUP phase done mask"]
 pub struct STUPM_R(crate::FieldReader<bool, bool>);
 impl STUPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STUPM_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> STUPM_W<'a> {
 #[doc = "Field `OTEPDM` reader - OUT token received when endpoint disabled mask"]
 pub struct OTEPDM_R(crate::FieldReader<bool, bool>);
 impl OTEPDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTEPDM_R(crate::FieldReader::new(bits))
     }

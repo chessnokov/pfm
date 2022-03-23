@@ -37,6 +37,7 @@ impl From<crate::W<L1CFBLR_SPEC>> for W {
 #[doc = "Field `CFBP` reader - Color Frame Buffer Pitch in bytes"]
 pub struct CFBP_R(crate::FieldReader<u16, u16>);
 impl CFBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CFBP_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CFBP_W<'a> {
 #[doc = "Field `CFBLL` reader - Color Frame Buffer Line Length"]
 pub struct CFBLL_R(crate::FieldReader<u16, u16>);
 impl CFBLL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CFBLL_R(crate::FieldReader::new(bits))
     }

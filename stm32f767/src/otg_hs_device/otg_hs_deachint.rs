@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DEACHINT_SPEC>> for W {
 #[doc = "Field `IEP1INT` reader - IN endpoint 1interrupt bit"]
 pub struct IEP1INT_R(crate::FieldReader<bool, bool>);
 impl IEP1INT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IEP1INT_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> IEP1INT_W<'a> {
 #[doc = "Field `OEP1INT` reader - OUT endpoint 1 interrupt bit"]
 pub struct OEP1INT_R(crate::FieldReader<bool, bool>);
 impl OEP1INT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OEP1INT_R(crate::FieldReader::new(bits))
     }

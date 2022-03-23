@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HPTXFSIZ_SPEC>> for W {
 #[doc = "Field `PTXSA` reader - Host periodic TxFIFO start address"]
 pub struct PTXSA_R(crate::FieldReader<u16, u16>);
 impl PTXSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PTXSA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PTXSA_W<'a> {
 #[doc = "Field `PTXFD` reader - Host periodic TxFIFO depth"]
 pub struct PTXFD_R(crate::FieldReader<u16, u16>);
 impl PTXFD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PTXFD_R(crate::FieldReader::new(bits))
     }

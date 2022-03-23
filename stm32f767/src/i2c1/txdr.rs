@@ -37,6 +37,7 @@ impl From<crate::W<TXDR_SPEC>> for W {
 #[doc = "Field `TXDATA` reader - 8-bit transmit data"]
 pub struct TXDATA_R(crate::FieldReader<u8, u8>);
 impl TXDATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TXDATA_R(crate::FieldReader::new(bits))
     }

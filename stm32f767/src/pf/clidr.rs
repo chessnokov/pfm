@@ -16,6 +16,7 @@ impl From<crate::R<CLIDR_SPEC>> for R {
 #[doc = "Field `CL1` reader - CL1"]
 pub struct CL1_R(crate::FieldReader<u8, u8>);
 impl CL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL1_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for CL1_R {
 #[doc = "Field `CL2` reader - CL2"]
 pub struct CL2_R(crate::FieldReader<u8, u8>);
 impl CL2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL2_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for CL2_R {
 #[doc = "Field `CL3` reader - CL3"]
 pub struct CL3_R(crate::FieldReader<u8, u8>);
 impl CL3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL3_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for CL3_R {
 #[doc = "Field `CL4` reader - CL4"]
 pub struct CL4_R(crate::FieldReader<u8, u8>);
 impl CL4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL4_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for CL4_R {
 #[doc = "Field `CL5` reader - CL5"]
 pub struct CL5_R(crate::FieldReader<u8, u8>);
 impl CL5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL5_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for CL5_R {
 #[doc = "Field `CL6` reader - CL6"]
 pub struct CL6_R(crate::FieldReader<u8, u8>);
 impl CL6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL6_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for CL6_R {
 #[doc = "Field `CL7` reader - CL7"]
 pub struct CL7_R(crate::FieldReader<u8, u8>);
 impl CL7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CL7_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for CL7_R {
 #[doc = "Field `LoUIS` reader - LoUIS"]
 pub struct LOUIS_R(crate::FieldReader<u8, u8>);
 impl LOUIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LOUIS_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for LOUIS_R {
 #[doc = "Field `LoC` reader - LoC"]
 pub struct LOC_R(crate::FieldReader<u8, u8>);
 impl LOC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LOC_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for LOC_R {
 #[doc = "Field `LoU` reader - LoU"]
 pub struct LOU_R(crate::FieldReader<u8, u8>);
 impl LOU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LOU_R(crate::FieldReader::new(bits))
     }

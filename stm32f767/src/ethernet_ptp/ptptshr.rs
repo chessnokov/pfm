@@ -16,6 +16,7 @@ impl From<crate::R<PTPTSHR_SPEC>> for R {
 #[doc = "Field `STS` reader - STS"]
 pub struct STS_R(crate::FieldReader<u32, u32>);
 impl STS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         STS_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - STS"]
     #[inline(always)]
     pub fn sts(&self) -> STS_R {
-        STS_R::new((self.bits & 0xffff_ffff) as u32)
+        STS_R::new(self.bits)
     }
 }
 #[doc = "Ethernet PTP time stamp high register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [ptptshr](index.html) module"]

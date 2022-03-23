@@ -16,6 +16,7 @@ impl From<crate::R<OTG_FS_HFNUM_SPEC>> for R {
 #[doc = "Field `FRNUM` reader - Frame number"]
 pub struct FRNUM_R(crate::FieldReader<u16, u16>);
 impl FRNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         FRNUM_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for FRNUM_R {
 #[doc = "Field `FTREM` reader - Frame time remaining"]
 pub struct FTREM_R(crate::FieldReader<u16, u16>);
 impl FTREM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         FTREM_R(crate::FieldReader::new(bits))
     }

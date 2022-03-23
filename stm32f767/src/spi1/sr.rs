@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `FRE` reader - Frame format error"]
 pub struct FRE_R(crate::FieldReader<bool, bool>);
 impl FRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FRE_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for FRE_R {
 #[doc = "Field `BSY` reader - Busy flag"]
 pub struct BSY_R(crate::FieldReader<bool, bool>);
 impl BSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BSY_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for BSY_R {
 #[doc = "Field `OVR` reader - Overrun flag"]
 pub struct OVR_R(crate::FieldReader<bool, bool>);
 impl OVR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for OVR_R {
 #[doc = "Field `MODF` reader - Mode fault"]
 pub struct MODF_R(crate::FieldReader<bool, bool>);
 impl MODF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MODF_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for MODF_R {
 #[doc = "Field `CRCERR` reader - CRC error flag"]
 pub struct CRCERR_R(crate::FieldReader<bool, bool>);
 impl CRCERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCERR_R(crate::FieldReader::new(bits))
     }
@@ -129,6 +134,7 @@ impl<'a> CRCERR_W<'a> {
 #[doc = "Field `UDR` reader - Underrun flag"]
 pub struct UDR_R(crate::FieldReader<bool, bool>);
 impl UDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UDR_R(crate::FieldReader::new(bits))
     }
@@ -143,6 +149,7 @@ impl core::ops::Deref for UDR_R {
 #[doc = "Field `CHSIDE` reader - Channel side"]
 pub struct CHSIDE_R(crate::FieldReader<bool, bool>);
 impl CHSIDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHSIDE_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +164,7 @@ impl core::ops::Deref for CHSIDE_R {
 #[doc = "Field `TXE` reader - Transmit buffer empty"]
 pub struct TXE_R(crate::FieldReader<bool, bool>);
 impl TXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +179,7 @@ impl core::ops::Deref for TXE_R {
 #[doc = "Field `RXNE` reader - Receive buffer not empty"]
 pub struct RXNE_R(crate::FieldReader<bool, bool>);
 impl RXNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXNE_R(crate::FieldReader::new(bits))
     }
@@ -185,6 +194,7 @@ impl core::ops::Deref for RXNE_R {
 #[doc = "Field `FRLVL` reader - FIFO reception level"]
 pub struct FRLVL_R(crate::FieldReader<u8, u8>);
 impl FRLVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FRLVL_R(crate::FieldReader::new(bits))
     }
@@ -199,6 +209,7 @@ impl core::ops::Deref for FRLVL_R {
 #[doc = "Field `FTLVL` reader - FIFO Transmission Level"]
 pub struct FTLVL_R(crate::FieldReader<u8, u8>);
 impl FTLVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FTLVL_R(crate::FieldReader::new(bits))
     }

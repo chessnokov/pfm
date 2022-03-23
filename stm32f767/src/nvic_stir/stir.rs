@@ -37,6 +37,7 @@ impl From<crate::W<STIR_SPEC>> for W {
 #[doc = "Field `INTID` reader - Software generated interrupt ID"]
 pub struct INTID_R(crate::FieldReader<u16, u16>);
 impl INTID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INTID_R(crate::FieldReader::new(bits))
     }

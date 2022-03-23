@@ -37,6 +37,7 @@ impl From<crate::W<GCR_SPEC>> for W {
 #[doc = "Field `SYNCIN` reader - Synchronization inputs"]
 pub struct SYNCIN_R(crate::FieldReader<u8, u8>);
 impl SYNCIN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SYNCIN_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SYNCIN_W<'a> {
 #[doc = "Field `SYNCOUT` reader - Synchronization outputs"]
 pub struct SYNCOUT_R(crate::FieldReader<u8, u8>);
 impl SYNCOUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SYNCOUT_R(crate::FieldReader::new(bits))
     }

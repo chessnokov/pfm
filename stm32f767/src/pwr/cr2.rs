@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `CWUPF1` reader - Clear Wakeup Pin flag for PA0"]
 pub struct CWUPF1_R(crate::FieldReader<bool, bool>);
 impl CWUPF1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CWUPF1_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for CWUPF1_R {
 #[doc = "Field `CWUPF2` reader - Clear Wakeup Pin flag for PA2"]
 pub struct CWUPF2_R(crate::FieldReader<bool, bool>);
 impl CWUPF2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CWUPF2_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for CWUPF2_R {
 #[doc = "Field `CWUPF3` reader - Clear Wakeup Pin flag for PC1"]
 pub struct CWUPF3_R(crate::FieldReader<bool, bool>);
 impl CWUPF3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CWUPF3_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for CWUPF3_R {
 #[doc = "Field `CWUPF4` reader - Clear Wakeup Pin flag for PC13"]
 pub struct CWUPF4_R(crate::FieldReader<bool, bool>);
 impl CWUPF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CWUPF4_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for CWUPF4_R {
 #[doc = "Field `CWUPF5` reader - Clear Wakeup Pin flag for PI8"]
 pub struct CWUPF5_R(crate::FieldReader<bool, bool>);
 impl CWUPF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CWUPF5_R(crate::FieldReader::new(bits))
     }
@@ -107,6 +112,7 @@ impl core::ops::Deref for CWUPF5_R {
 #[doc = "Field `CWUPF6` reader - Clear Wakeup Pin flag for PI11"]
 pub struct CWUPF6_R(crate::FieldReader<bool, bool>);
 impl CWUPF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CWUPF6_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +127,7 @@ impl core::ops::Deref for CWUPF6_R {
 #[doc = "Field `WUPP1` reader - Wakeup pin polarity bit for PA0"]
 pub struct WUPP1_R(crate::FieldReader<bool, bool>);
 impl WUPP1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPP1_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +164,7 @@ impl<'a> WUPP1_W<'a> {
 #[doc = "Field `WUPP2` reader - Wakeup pin polarity bit for PA2"]
 pub struct WUPP2_R(crate::FieldReader<bool, bool>);
 impl WUPP2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPP2_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +201,7 @@ impl<'a> WUPP2_W<'a> {
 #[doc = "Field `WUPP3` reader - Wakeup pin polarity bit for PC1"]
 pub struct WUPP3_R(crate::FieldReader<bool, bool>);
 impl WUPP3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPP3_R(crate::FieldReader::new(bits))
     }
@@ -229,6 +238,7 @@ impl<'a> WUPP3_W<'a> {
 #[doc = "Field `WUPP4` reader - Wakeup pin polarity bit for PC13"]
 pub struct WUPP4_R(crate::FieldReader<bool, bool>);
 impl WUPP4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPP4_R(crate::FieldReader::new(bits))
     }
@@ -265,6 +275,7 @@ impl<'a> WUPP4_W<'a> {
 #[doc = "Field `WUPP5` reader - Wakeup pin polarity bit for PI8"]
 pub struct WUPP5_R(crate::FieldReader<bool, bool>);
 impl WUPP5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPP5_R(crate::FieldReader::new(bits))
     }
@@ -301,6 +312,7 @@ impl<'a> WUPP5_W<'a> {
 #[doc = "Field `WUPP6` reader - Wakeup pin polarity bit for PI11"]
 pub struct WUPP6_R(crate::FieldReader<bool, bool>);
 impl WUPP6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPP6_R(crate::FieldReader::new(bits))
     }

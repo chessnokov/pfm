@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `ENABLE` reader - DCMI enable"]
 pub struct ENABLE_R(crate::FieldReader<bool, bool>);
 impl ENABLE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENABLE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ENABLE_W<'a> {
 #[doc = "Field `EDM` reader - Extended data mode"]
 pub struct EDM_R(crate::FieldReader<u8, u8>);
 impl EDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EDM_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> EDM_W<'a> {
 #[doc = "Field `FCRC` reader - Frame capture rate control"]
 pub struct FCRC_R(crate::FieldReader<u8, u8>);
 impl FCRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FCRC_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> FCRC_W<'a> {
 #[doc = "Field `VSPOL` reader - Vertical synchronization polarity"]
 pub struct VSPOL_R(crate::FieldReader<bool, bool>);
 impl VSPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSPOL_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> VSPOL_W<'a> {
 #[doc = "Field `HSPOL` reader - Horizontal synchronization polarity"]
 pub struct HSPOL_R(crate::FieldReader<bool, bool>);
 impl HSPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSPOL_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> HSPOL_W<'a> {
 #[doc = "Field `PCKPOL` reader - Pixel clock polarity"]
 pub struct PCKPOL_R(crate::FieldReader<bool, bool>);
 impl PCKPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCKPOL_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> PCKPOL_W<'a> {
 #[doc = "Field `ESS` reader - Embedded synchronization select"]
 pub struct ESS_R(crate::FieldReader<bool, bool>);
 impl ESS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ESS_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> ESS_W<'a> {
 #[doc = "Field `JPEG` reader - JPEG format"]
 pub struct JPEG_R(crate::FieldReader<bool, bool>);
 impl JPEG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JPEG_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> JPEG_W<'a> {
 #[doc = "Field `CROP` reader - Crop feature"]
 pub struct CROP_R(crate::FieldReader<bool, bool>);
 impl CROP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CROP_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> CROP_W<'a> {
 #[doc = "Field `CM` reader - Capture mode"]
 pub struct CM_R(crate::FieldReader<bool, bool>);
 impl CM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CM_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> CM_W<'a> {
 #[doc = "Field `CAPTURE` reader - Capture enable"]
 pub struct CAPTURE_R(crate::FieldReader<bool, bool>);
 impl CAPTURE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAPTURE_R(crate::FieldReader::new(bits))
     }

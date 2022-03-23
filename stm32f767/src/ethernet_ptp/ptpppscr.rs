@@ -16,6 +16,7 @@ impl From<crate::R<PTPPPSCR_SPEC>> for R {
 #[doc = "Field `TSSO` reader - TSSO"]
 pub struct TSSO_R(crate::FieldReader<bool, bool>);
 impl TSSO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSSO_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for TSSO_R {
 #[doc = "Field `TSTTR` reader - TSTTR"]
 pub struct TSTTR_R(crate::FieldReader<bool, bool>);
 impl TSTTR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSTTR_R(crate::FieldReader::new(bits))
     }

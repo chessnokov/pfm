@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `FEMPT` reader - FEMPT"]
 pub struct FEMPT_R(crate::FieldReader<bool, bool>);
 impl FEMPT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FEMPT_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for FEMPT_R {
 #[doc = "Field `IFEN` reader - IFEN"]
 pub struct IFEN_R(crate::FieldReader<bool, bool>);
 impl IFEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFEN_R(crate::FieldReader::new(bits))
     }
@@ -87,6 +89,7 @@ impl<'a> IFEN_W<'a> {
 #[doc = "Field `ILEN` reader - ILEN"]
 pub struct ILEN_R(crate::FieldReader<bool, bool>);
 impl ILEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ILEN_R(crate::FieldReader::new(bits))
     }
@@ -123,6 +126,7 @@ impl<'a> ILEN_W<'a> {
 #[doc = "Field `IREN` reader - IREN"]
 pub struct IREN_R(crate::FieldReader<bool, bool>);
 impl IREN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IREN_R(crate::FieldReader::new(bits))
     }
@@ -159,6 +163,7 @@ impl<'a> IREN_W<'a> {
 #[doc = "Field `IFS` reader - IFS"]
 pub struct IFS_R(crate::FieldReader<bool, bool>);
 impl IFS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFS_R(crate::FieldReader::new(bits))
     }
@@ -195,6 +200,7 @@ impl<'a> IFS_W<'a> {
 #[doc = "Field `ILS` reader - ILS"]
 pub struct ILS_R(crate::FieldReader<bool, bool>);
 impl ILS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ILS_R(crate::FieldReader::new(bits))
     }
@@ -231,6 +237,7 @@ impl<'a> ILS_W<'a> {
 #[doc = "Field `IRS` reader - IRS"]
 pub struct IRS_R(crate::FieldReader<bool, bool>);
 impl IRS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IRS_R(crate::FieldReader::new(bits))
     }

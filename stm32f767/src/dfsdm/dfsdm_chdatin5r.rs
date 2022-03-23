@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM_CHDATIN5R_SPEC>> for W {
 #[doc = "Field `INDAT0` reader - Input data for channel 5"]
 pub struct INDAT0_R(crate::FieldReader<u16, u16>);
 impl INDAT0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INDAT0_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> INDAT0_W<'a> {
 #[doc = "Field `INDAT1` reader - Input data for channel 6"]
 pub struct INDAT1_R(crate::FieldReader<u16, u16>);
 impl INDAT1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INDAT1_R(crate::FieldReader::new(bits))
     }

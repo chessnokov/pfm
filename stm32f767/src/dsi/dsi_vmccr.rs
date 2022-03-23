@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VMCCR_SPEC>> for R {
 #[doc = "Field `VMT` reader - Video mode Type"]
 pub struct VMT_R(crate::FieldReader<u8, u8>);
 impl VMT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         VMT_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for VMT_R {
 #[doc = "Field `LPVSAE` reader - Low-Power Vertical Sync time Enable"]
 pub struct LPVSAE_R(crate::FieldReader<bool, bool>);
 impl LPVSAE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPVSAE_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for LPVSAE_R {
 #[doc = "Field `LPVBPE` reader - Low-power Vertical Back-Porch Enable"]
 pub struct LPVBPE_R(crate::FieldReader<bool, bool>);
 impl LPVBPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPVBPE_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for LPVBPE_R {
 #[doc = "Field `LPVFPE` reader - Low-power Vertical Front-Porch Enable"]
 pub struct LPVFPE_R(crate::FieldReader<bool, bool>);
 impl LPVFPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPVFPE_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for LPVFPE_R {
 #[doc = "Field `LPVAE` reader - Low-Power Vertical Active Enable"]
 pub struct LPVAE_R(crate::FieldReader<bool, bool>);
 impl LPVAE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPVAE_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for LPVAE_R {
 #[doc = "Field `LPHBPE` reader - Low-power Horizontal Back-Porch Enable"]
 pub struct LPHBPE_R(crate::FieldReader<bool, bool>);
 impl LPHBPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPHBPE_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for LPHBPE_R {
 #[doc = "Field `LPHFE` reader - Low-Power Horizontal Front-Porch Enable"]
 pub struct LPHFE_R(crate::FieldReader<bool, bool>);
 impl LPHFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPHFE_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for LPHFE_R {
 #[doc = "Field `FBTAAE` reader - Frame BTA Acknowledge Enable"]
 pub struct FBTAAE_R(crate::FieldReader<bool, bool>);
 impl FBTAAE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FBTAAE_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for FBTAAE_R {
 #[doc = "Field `LPCE` reader - Low-Power Command Enable"]
 pub struct LPCE_R(crate::FieldReader<bool, bool>);
 impl LPCE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPCE_R(crate::FieldReader::new(bits))
     }

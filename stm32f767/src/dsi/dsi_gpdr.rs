@@ -37,6 +37,7 @@ impl From<crate::W<DSI_GPDR_SPEC>> for W {
 #[doc = "Field `DATA1` reader - Payload Byte 1"]
 pub struct DATA1_R(crate::FieldReader<u8, u8>);
 impl DATA1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA1_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DATA1_W<'a> {
 #[doc = "Field `DATA2` reader - Payload Byte 2"]
 pub struct DATA2_R(crate::FieldReader<u8, u8>);
 impl DATA2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA2_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> DATA2_W<'a> {
 #[doc = "Field `DATA3` reader - Payload Byte 3"]
 pub struct DATA3_R(crate::FieldReader<u8, u8>);
 impl DATA3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA3_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> DATA3_W<'a> {
 #[doc = "Field `DATA4` reader - Payload Byte 4"]
 pub struct DATA4_R(crate::FieldReader<u8, u8>);
 impl DATA4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA4_R(crate::FieldReader::new(bits))
     }

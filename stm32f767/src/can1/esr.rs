@@ -37,6 +37,7 @@ impl From<crate::W<ESR_SPEC>> for W {
 #[doc = "Field `REC` reader - REC"]
 pub struct REC_R(crate::FieldReader<u8, u8>);
 impl REC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         REC_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for REC_R {
 #[doc = "Field `TEC` reader - TEC"]
 pub struct TEC_R(crate::FieldReader<u8, u8>);
 impl TEC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TEC_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for TEC_R {
 #[doc = "Field `LEC` reader - LEC"]
 pub struct LEC_R(crate::FieldReader<u8, u8>);
 impl LEC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LEC_R(crate::FieldReader::new(bits))
     }
@@ -91,6 +94,7 @@ impl<'a> LEC_W<'a> {
 #[doc = "Field `BOFF` reader - BOFF"]
 pub struct BOFF_R(crate::FieldReader<bool, bool>);
 impl BOFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BOFF_R(crate::FieldReader::new(bits))
     }
@@ -105,6 +109,7 @@ impl core::ops::Deref for BOFF_R {
 #[doc = "Field `EPVF` reader - EPVF"]
 pub struct EPVF_R(crate::FieldReader<bool, bool>);
 impl EPVF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPVF_R(crate::FieldReader::new(bits))
     }
@@ -119,6 +124,7 @@ impl core::ops::Deref for EPVF_R {
 #[doc = "Field `EWGF` reader - EWGF"]
 pub struct EWGF_R(crate::FieldReader<bool, bool>);
 impl EWGF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWGF_R(crate::FieldReader::new(bits))
     }

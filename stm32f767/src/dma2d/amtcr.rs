@@ -37,6 +37,7 @@ impl From<crate::W<AMTCR_SPEC>> for W {
 #[doc = "Field `DT` reader - Dead Time"]
 pub struct DT_R(crate::FieldReader<u8, u8>);
 impl DT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DT_W<'a> {
 #[doc = "Field `EN` reader - Enable"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }

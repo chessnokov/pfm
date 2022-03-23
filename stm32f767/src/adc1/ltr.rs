@@ -37,6 +37,7 @@ impl From<crate::W<LTR_SPEC>> for W {
 #[doc = "Field `LT` reader - Analog watchdog lower threshold"]
 pub struct LT_R(crate::FieldReader<u16, u16>);
 impl LT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LT_R(crate::FieldReader::new(bits))
     }

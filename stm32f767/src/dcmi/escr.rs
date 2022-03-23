@@ -37,6 +37,7 @@ impl From<crate::W<ESCR_SPEC>> for W {
 #[doc = "Field `FEC` reader - Frame end delimiter code"]
 pub struct FEC_R(crate::FieldReader<u8, u8>);
 impl FEC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FEC_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> FEC_W<'a> {
 #[doc = "Field `LEC` reader - Line end delimiter code"]
 pub struct LEC_R(crate::FieldReader<u8, u8>);
 impl LEC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LEC_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> LEC_W<'a> {
 #[doc = "Field `LSC` reader - Line start delimiter code"]
 pub struct LSC_R(crate::FieldReader<u8, u8>);
 impl LSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LSC_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> LSC_W<'a> {
 #[doc = "Field `FSC` reader - Frame start delimiter code"]
 pub struct FSC_R(crate::FieldReader<u8, u8>);
 impl FSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FSC_R(crate::FieldReader::new(bits))
     }

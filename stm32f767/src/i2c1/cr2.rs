@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `PECBYTE` reader - Packet error checking byte"]
 pub struct PECBYTE_R(crate::FieldReader<bool, bool>);
 impl PECBYTE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PECBYTE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PECBYTE_W<'a> {
 #[doc = "Field `AUTOEND` reader - Automatic end mode (master mode)"]
 pub struct AUTOEND_R(crate::FieldReader<bool, bool>);
 impl AUTOEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AUTOEND_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> AUTOEND_W<'a> {
 #[doc = "Field `RELOAD` reader - NBYTES reload mode"]
 pub struct RELOAD_R(crate::FieldReader<bool, bool>);
 impl RELOAD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RELOAD_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RELOAD_W<'a> {
 #[doc = "Field `NBYTES` reader - Number of bytes"]
 pub struct NBYTES_R(crate::FieldReader<u8, u8>);
 impl NBYTES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NBYTES_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> NBYTES_W<'a> {
 #[doc = "Field `NACK` reader - NACK generation (slave mode)"]
 pub struct NACK_R(crate::FieldReader<bool, bool>);
 impl NACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NACK_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> NACK_W<'a> {
 #[doc = "Field `STOP` reader - Stop generation (master mode)"]
 pub struct STOP_R(crate::FieldReader<bool, bool>);
 impl STOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STOP_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> STOP_W<'a> {
 #[doc = "Field `START` reader - Start generation"]
 pub struct START_R(crate::FieldReader<bool, bool>);
 impl START_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         START_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> START_W<'a> {
 #[doc = "Field `HEAD10R` reader - 10-bit address header only read direction (master receiver mode)"]
 pub struct HEAD10R_R(crate::FieldReader<bool, bool>);
 impl HEAD10R_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HEAD10R_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> HEAD10R_W<'a> {
 #[doc = "Field `ADD10` reader - 10-bit addressing mode (master mode)"]
 pub struct ADD10_R(crate::FieldReader<bool, bool>);
 impl ADD10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADD10_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> ADD10_W<'a> {
 #[doc = "Field `RD_WRN` reader - Transfer direction (master mode)"]
 pub struct RD_WRN_R(crate::FieldReader<bool, bool>);
 impl RD_WRN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RD_WRN_R(crate::FieldReader::new(bits))
     }
@@ -387,6 +397,7 @@ impl<'a> RD_WRN_W<'a> {
 #[doc = "Field `SADD` reader - Slave address bit (master mode)"]
 pub struct SADD_R(crate::FieldReader<u16, u16>);
 impl SADD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         SADD_R(crate::FieldReader::new(bits))
     }

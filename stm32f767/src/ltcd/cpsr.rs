@@ -16,6 +16,7 @@ impl From<crate::R<CPSR_SPEC>> for R {
 #[doc = "Field `CXPOS` reader - Current X Position"]
 pub struct CXPOS_R(crate::FieldReader<u16, u16>);
 impl CXPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CXPOS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for CXPOS_R {
 #[doc = "Field `CYPOS` reader - Current Y Position"]
 pub struct CYPOS_R(crate::FieldReader<u16, u16>);
 impl CYPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CYPOS_R(crate::FieldReader::new(bits))
     }

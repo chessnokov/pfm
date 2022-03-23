@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_GOTGINT_SPEC>> for W {
 #[doc = "Field `SEDET` reader - Session end detected"]
 pub struct SEDET_R(crate::FieldReader<bool, bool>);
 impl SEDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SEDET_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SEDET_W<'a> {
 #[doc = "Field `SRSSCHG` reader - Session request success status change"]
 pub struct SRSSCHG_R(crate::FieldReader<bool, bool>);
 impl SRSSCHG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRSSCHG_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SRSSCHG_W<'a> {
 #[doc = "Field `HNSSCHG` reader - Host negotiation success status change"]
 pub struct HNSSCHG_R(crate::FieldReader<bool, bool>);
 impl HNSSCHG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HNSSCHG_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> HNSSCHG_W<'a> {
 #[doc = "Field `HNGDET` reader - Host negotiation detected"]
 pub struct HNGDET_R(crate::FieldReader<bool, bool>);
 impl HNGDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HNGDET_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> HNGDET_W<'a> {
 #[doc = "Field `ADTOCHG` reader - A-device timeout change"]
 pub struct ADTOCHG_R(crate::FieldReader<bool, bool>);
 impl ADTOCHG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADTOCHG_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> ADTOCHG_W<'a> {
 #[doc = "Field `DBCDNE` reader - Debounce done"]
 pub struct DBCDNE_R(crate::FieldReader<bool, bool>);
 impl DBCDNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBCDNE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> DBCDNE_W<'a> {
 #[doc = "Field `IDCHNG` reader - ID input pin changed"]
 pub struct IDCHNG_R(crate::FieldReader<bool, bool>);
 impl IDCHNG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDCHNG_R(crate::FieldReader::new(bits))
     }

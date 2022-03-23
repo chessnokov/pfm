@@ -37,6 +37,7 @@ impl From<crate::W<FS1R_SPEC>> for W {
 #[doc = "Field `FSC0` reader - Filter scale configuration"]
 pub struct FSC0_R(crate::FieldReader<bool, bool>);
 impl FSC0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FSC0_W<'a> {
 #[doc = "Field `FSC1` reader - Filter scale configuration"]
 pub struct FSC1_R(crate::FieldReader<bool, bool>);
 impl FSC1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> FSC1_W<'a> {
 #[doc = "Field `FSC2` reader - Filter scale configuration"]
 pub struct FSC2_R(crate::FieldReader<bool, bool>);
 impl FSC2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FSC2_W<'a> {
 #[doc = "Field `FSC3` reader - Filter scale configuration"]
 pub struct FSC3_R(crate::FieldReader<bool, bool>);
 impl FSC3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> FSC3_W<'a> {
 #[doc = "Field `FSC4` reader - Filter scale configuration"]
 pub struct FSC4_R(crate::FieldReader<bool, bool>);
 impl FSC4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> FSC4_W<'a> {
 #[doc = "Field `FSC5` reader - Filter scale configuration"]
 pub struct FSC5_R(crate::FieldReader<bool, bool>);
 impl FSC5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> FSC5_W<'a> {
 #[doc = "Field `FSC6` reader - Filter scale configuration"]
 pub struct FSC6_R(crate::FieldReader<bool, bool>);
 impl FSC6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> FSC6_W<'a> {
 #[doc = "Field `FSC7` reader - Filter scale configuration"]
 pub struct FSC7_R(crate::FieldReader<bool, bool>);
 impl FSC7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> FSC7_W<'a> {
 #[doc = "Field `FSC8` reader - Filter scale configuration"]
 pub struct FSC8_R(crate::FieldReader<bool, bool>);
 impl FSC8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> FSC8_W<'a> {
 #[doc = "Field `FSC9` reader - Filter scale configuration"]
 pub struct FSC9_R(crate::FieldReader<bool, bool>);
 impl FSC9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FSC9_W<'a> {
 #[doc = "Field `FSC10` reader - Filter scale configuration"]
 pub struct FSC10_R(crate::FieldReader<bool, bool>);
 impl FSC10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> FSC10_W<'a> {
 #[doc = "Field `FSC11` reader - Filter scale configuration"]
 pub struct FSC11_R(crate::FieldReader<bool, bool>);
 impl FSC11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> FSC11_W<'a> {
 #[doc = "Field `FSC12` reader - Filter scale configuration"]
 pub struct FSC12_R(crate::FieldReader<bool, bool>);
 impl FSC12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> FSC12_W<'a> {
 #[doc = "Field `FSC13` reader - Filter scale configuration"]
 pub struct FSC13_R(crate::FieldReader<bool, bool>);
 impl FSC13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> FSC13_W<'a> {
 #[doc = "Field `FSC14` reader - Filter scale configuration"]
 pub struct FSC14_R(crate::FieldReader<bool, bool>);
 impl FSC14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> FSC14_W<'a> {
 #[doc = "Field `FSC15` reader - Filter scale configuration"]
 pub struct FSC15_R(crate::FieldReader<bool, bool>);
 impl FSC15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> FSC15_W<'a> {
 #[doc = "Field `FSC16` reader - Filter scale configuration"]
 pub struct FSC16_R(crate::FieldReader<bool, bool>);
 impl FSC16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> FSC16_W<'a> {
 #[doc = "Field `FSC17` reader - Filter scale configuration"]
 pub struct FSC17_R(crate::FieldReader<bool, bool>);
 impl FSC17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> FSC17_W<'a> {
 #[doc = "Field `FSC18` reader - Filter scale configuration"]
 pub struct FSC18_R(crate::FieldReader<bool, bool>);
 impl FSC18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> FSC18_W<'a> {
 #[doc = "Field `FSC19` reader - Filter scale configuration"]
 pub struct FSC19_R(crate::FieldReader<bool, bool>);
 impl FSC19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> FSC19_W<'a> {
 #[doc = "Field `FSC20` reader - Filter scale configuration"]
 pub struct FSC20_R(crate::FieldReader<bool, bool>);
 impl FSC20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> FSC20_W<'a> {
 #[doc = "Field `FSC21` reader - Filter scale configuration"]
 pub struct FSC21_R(crate::FieldReader<bool, bool>);
 impl FSC21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> FSC21_W<'a> {
 #[doc = "Field `FSC22` reader - Filter scale configuration"]
 pub struct FSC22_R(crate::FieldReader<bool, bool>);
 impl FSC22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC22_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> FSC22_W<'a> {
 #[doc = "Field `FSC23` reader - Filter scale configuration"]
 pub struct FSC23_R(crate::FieldReader<bool, bool>);
 impl FSC23_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC23_R(crate::FieldReader::new(bits))
     }
@@ -901,6 +925,7 @@ impl<'a> FSC23_W<'a> {
 #[doc = "Field `FSC24` reader - Filter scale configuration"]
 pub struct FSC24_R(crate::FieldReader<bool, bool>);
 impl FSC24_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC24_R(crate::FieldReader::new(bits))
     }
@@ -937,6 +962,7 @@ impl<'a> FSC24_W<'a> {
 #[doc = "Field `FSC25` reader - Filter scale configuration"]
 pub struct FSC25_R(crate::FieldReader<bool, bool>);
 impl FSC25_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC25_R(crate::FieldReader::new(bits))
     }
@@ -973,6 +999,7 @@ impl<'a> FSC25_W<'a> {
 #[doc = "Field `FSC26` reader - Filter scale configuration"]
 pub struct FSC26_R(crate::FieldReader<bool, bool>);
 impl FSC26_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC26_R(crate::FieldReader::new(bits))
     }
@@ -1009,6 +1036,7 @@ impl<'a> FSC26_W<'a> {
 #[doc = "Field `FSC27` reader - Filter scale configuration"]
 pub struct FSC27_R(crate::FieldReader<bool, bool>);
 impl FSC27_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSC27_R(crate::FieldReader::new(bits))
     }

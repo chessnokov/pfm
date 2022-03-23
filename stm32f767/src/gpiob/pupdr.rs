@@ -37,6 +37,7 @@ impl From<crate::W<PUPDR_SPEC>> for W {
 #[doc = "Field `PUPDR15` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR15_R(crate::FieldReader<u8, u8>);
 impl PUPDR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR15_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PUPDR15_W<'a> {
 #[doc = "Field `PUPDR14` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR14_R(crate::FieldReader<u8, u8>);
 impl PUPDR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR14_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> PUPDR14_W<'a> {
 #[doc = "Field `PUPDR13` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR13_R(crate::FieldReader<u8, u8>);
 impl PUPDR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR13_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> PUPDR13_W<'a> {
 #[doc = "Field `PUPDR12` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR12_R(crate::FieldReader<u8, u8>);
 impl PUPDR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR12_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> PUPDR12_W<'a> {
 #[doc = "Field `PUPDR11` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR11_R(crate::FieldReader<u8, u8>);
 impl PUPDR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR11_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> PUPDR11_W<'a> {
 #[doc = "Field `PUPDR10` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR10_R(crate::FieldReader<u8, u8>);
 impl PUPDR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR10_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +199,7 @@ impl<'a> PUPDR10_W<'a> {
 #[doc = "Field `PUPDR9` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR9_R(crate::FieldReader<u8, u8>);
 impl PUPDR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR9_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +226,7 @@ impl<'a> PUPDR9_W<'a> {
 #[doc = "Field `PUPDR8` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR8_R(crate::FieldReader<u8, u8>);
 impl PUPDR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR8_R(crate::FieldReader::new(bits))
     }
@@ -245,6 +253,7 @@ impl<'a> PUPDR8_W<'a> {
 #[doc = "Field `PUPDR7` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR7_R(crate::FieldReader<u8, u8>);
 impl PUPDR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR7_R(crate::FieldReader::new(bits))
     }
@@ -271,6 +280,7 @@ impl<'a> PUPDR7_W<'a> {
 #[doc = "Field `PUPDR6` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR6_R(crate::FieldReader<u8, u8>);
 impl PUPDR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR6_R(crate::FieldReader::new(bits))
     }
@@ -297,6 +307,7 @@ impl<'a> PUPDR6_W<'a> {
 #[doc = "Field `PUPDR5` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR5_R(crate::FieldReader<u8, u8>);
 impl PUPDR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR5_R(crate::FieldReader::new(bits))
     }
@@ -323,6 +334,7 @@ impl<'a> PUPDR5_W<'a> {
 #[doc = "Field `PUPDR4` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR4_R(crate::FieldReader<u8, u8>);
 impl PUPDR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR4_R(crate::FieldReader::new(bits))
     }
@@ -349,6 +361,7 @@ impl<'a> PUPDR4_W<'a> {
 #[doc = "Field `PUPDR3` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR3_R(crate::FieldReader<u8, u8>);
 impl PUPDR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR3_R(crate::FieldReader::new(bits))
     }
@@ -375,6 +388,7 @@ impl<'a> PUPDR3_W<'a> {
 #[doc = "Field `PUPDR2` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR2_R(crate::FieldReader<u8, u8>);
 impl PUPDR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR2_R(crate::FieldReader::new(bits))
     }
@@ -401,6 +415,7 @@ impl<'a> PUPDR2_W<'a> {
 #[doc = "Field `PUPDR1` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR1_R(crate::FieldReader<u8, u8>);
 impl PUPDR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR1_R(crate::FieldReader::new(bits))
     }
@@ -427,6 +442,7 @@ impl<'a> PUPDR1_W<'a> {
 #[doc = "Field `PUPDR0` reader - Port x configuration bits (y = 0..15)"]
 pub struct PUPDR0_R(crate::FieldReader<u8, u8>);
 impl PUPDR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PUPDR0_R(crate::FieldReader::new(bits))
     }

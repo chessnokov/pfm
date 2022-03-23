@@ -37,6 +37,7 @@ impl From<crate::W<DSI_PCONFR_SPEC>> for W {
 #[doc = "Field `NL` reader - Number of Lanes"]
 pub struct NL_R(crate::FieldReader<u8, u8>);
 impl NL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> NL_W<'a> {
 #[doc = "Field `SW_TIME` reader - Stop Wait Time"]
 pub struct SW_TIME_R(crate::FieldReader<u8, u8>);
 impl SW_TIME_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SW_TIME_R(crate::FieldReader::new(bits))
     }

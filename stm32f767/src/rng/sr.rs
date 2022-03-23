@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `SEIS` reader - Seed error interrupt status"]
 pub struct SEIS_R(crate::FieldReader<bool, bool>);
 impl SEIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SEIS_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SEIS_W<'a> {
 #[doc = "Field `CEIS` reader - Clock error interrupt status"]
 pub struct CEIS_R(crate::FieldReader<bool, bool>);
 impl CEIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEIS_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CEIS_W<'a> {
 #[doc = "Field `SECS` reader - Seed error current status"]
 pub struct SECS_R(crate::FieldReader<bool, bool>);
 impl SECS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SECS_R(crate::FieldReader::new(bits))
     }
@@ -123,6 +126,7 @@ impl core::ops::Deref for SECS_R {
 #[doc = "Field `CECS` reader - Clock error current status"]
 pub struct CECS_R(crate::FieldReader<bool, bool>);
 impl CECS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CECS_R(crate::FieldReader::new(bits))
     }
@@ -137,6 +141,7 @@ impl core::ops::Deref for CECS_R {
 #[doc = "Field `DRDY` reader - Data ready"]
 pub struct DRDY_R(crate::FieldReader<bool, bool>);
 impl DRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DRDY_R(crate::FieldReader::new(bits))
     }

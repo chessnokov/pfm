@@ -37,6 +37,7 @@ impl From<crate::W<JOFR4_SPEC>> for W {
 #[doc = "Field `JOFFSET4` reader - Data offset for injected channel x"]
 pub struct JOFFSET4_R(crate::FieldReader<u16, u16>);
 impl JOFFSET4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         JOFFSET4_R(crate::FieldReader::new(bits))
     }

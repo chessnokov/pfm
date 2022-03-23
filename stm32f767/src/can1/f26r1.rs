@@ -37,6 +37,7 @@ impl From<crate::W<F26R1_SPEC>> for W {
 #[doc = "Field `FB0` reader - Filter bits"]
 pub struct FB0_R(crate::FieldReader<bool, bool>);
 impl FB0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FB0_W<'a> {
 #[doc = "Field `FB1` reader - Filter bits"]
 pub struct FB1_R(crate::FieldReader<bool, bool>);
 impl FB1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> FB1_W<'a> {
 #[doc = "Field `FB2` reader - Filter bits"]
 pub struct FB2_R(crate::FieldReader<bool, bool>);
 impl FB2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FB2_W<'a> {
 #[doc = "Field `FB3` reader - Filter bits"]
 pub struct FB3_R(crate::FieldReader<bool, bool>);
 impl FB3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> FB3_W<'a> {
 #[doc = "Field `FB4` reader - Filter bits"]
 pub struct FB4_R(crate::FieldReader<bool, bool>);
 impl FB4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> FB4_W<'a> {
 #[doc = "Field `FB5` reader - Filter bits"]
 pub struct FB5_R(crate::FieldReader<bool, bool>);
 impl FB5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> FB5_W<'a> {
 #[doc = "Field `FB6` reader - Filter bits"]
 pub struct FB6_R(crate::FieldReader<bool, bool>);
 impl FB6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> FB6_W<'a> {
 #[doc = "Field `FB7` reader - Filter bits"]
 pub struct FB7_R(crate::FieldReader<bool, bool>);
 impl FB7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> FB7_W<'a> {
 #[doc = "Field `FB8` reader - Filter bits"]
 pub struct FB8_R(crate::FieldReader<bool, bool>);
 impl FB8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> FB8_W<'a> {
 #[doc = "Field `FB9` reader - Filter bits"]
 pub struct FB9_R(crate::FieldReader<bool, bool>);
 impl FB9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FB9_W<'a> {
 #[doc = "Field `FB10` reader - Filter bits"]
 pub struct FB10_R(crate::FieldReader<bool, bool>);
 impl FB10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> FB10_W<'a> {
 #[doc = "Field `FB11` reader - Filter bits"]
 pub struct FB11_R(crate::FieldReader<bool, bool>);
 impl FB11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> FB11_W<'a> {
 #[doc = "Field `FB12` reader - Filter bits"]
 pub struct FB12_R(crate::FieldReader<bool, bool>);
 impl FB12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> FB12_W<'a> {
 #[doc = "Field `FB13` reader - Filter bits"]
 pub struct FB13_R(crate::FieldReader<bool, bool>);
 impl FB13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> FB13_W<'a> {
 #[doc = "Field `FB14` reader - Filter bits"]
 pub struct FB14_R(crate::FieldReader<bool, bool>);
 impl FB14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> FB14_W<'a> {
 #[doc = "Field `FB15` reader - Filter bits"]
 pub struct FB15_R(crate::FieldReader<bool, bool>);
 impl FB15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> FB15_W<'a> {
 #[doc = "Field `FB16` reader - Filter bits"]
 pub struct FB16_R(crate::FieldReader<bool, bool>);
 impl FB16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> FB16_W<'a> {
 #[doc = "Field `FB17` reader - Filter bits"]
 pub struct FB17_R(crate::FieldReader<bool, bool>);
 impl FB17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> FB17_W<'a> {
 #[doc = "Field `FB18` reader - Filter bits"]
 pub struct FB18_R(crate::FieldReader<bool, bool>);
 impl FB18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> FB18_W<'a> {
 #[doc = "Field `FB19` reader - Filter bits"]
 pub struct FB19_R(crate::FieldReader<bool, bool>);
 impl FB19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> FB19_W<'a> {
 #[doc = "Field `FB20` reader - Filter bits"]
 pub struct FB20_R(crate::FieldReader<bool, bool>);
 impl FB20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> FB20_W<'a> {
 #[doc = "Field `FB21` reader - Filter bits"]
 pub struct FB21_R(crate::FieldReader<bool, bool>);
 impl FB21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> FB21_W<'a> {
 #[doc = "Field `FB22` reader - Filter bits"]
 pub struct FB22_R(crate::FieldReader<bool, bool>);
 impl FB22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB22_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> FB22_W<'a> {
 #[doc = "Field `FB23` reader - Filter bits"]
 pub struct FB23_R(crate::FieldReader<bool, bool>);
 impl FB23_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB23_R(crate::FieldReader::new(bits))
     }
@@ -901,6 +925,7 @@ impl<'a> FB23_W<'a> {
 #[doc = "Field `FB24` reader - Filter bits"]
 pub struct FB24_R(crate::FieldReader<bool, bool>);
 impl FB24_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB24_R(crate::FieldReader::new(bits))
     }
@@ -937,6 +962,7 @@ impl<'a> FB24_W<'a> {
 #[doc = "Field `FB25` reader - Filter bits"]
 pub struct FB25_R(crate::FieldReader<bool, bool>);
 impl FB25_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB25_R(crate::FieldReader::new(bits))
     }
@@ -973,6 +999,7 @@ impl<'a> FB25_W<'a> {
 #[doc = "Field `FB26` reader - Filter bits"]
 pub struct FB26_R(crate::FieldReader<bool, bool>);
 impl FB26_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB26_R(crate::FieldReader::new(bits))
     }
@@ -1009,6 +1036,7 @@ impl<'a> FB26_W<'a> {
 #[doc = "Field `FB27` reader - Filter bits"]
 pub struct FB27_R(crate::FieldReader<bool, bool>);
 impl FB27_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB27_R(crate::FieldReader::new(bits))
     }
@@ -1045,6 +1073,7 @@ impl<'a> FB27_W<'a> {
 #[doc = "Field `FB28` reader - Filter bits"]
 pub struct FB28_R(crate::FieldReader<bool, bool>);
 impl FB28_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB28_R(crate::FieldReader::new(bits))
     }
@@ -1081,6 +1110,7 @@ impl<'a> FB28_W<'a> {
 #[doc = "Field `FB29` reader - Filter bits"]
 pub struct FB29_R(crate::FieldReader<bool, bool>);
 impl FB29_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB29_R(crate::FieldReader::new(bits))
     }
@@ -1117,6 +1147,7 @@ impl<'a> FB29_W<'a> {
 #[doc = "Field `FB30` reader - Filter bits"]
 pub struct FB30_R(crate::FieldReader<bool, bool>);
 impl FB30_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB30_R(crate::FieldReader::new(bits))
     }
@@ -1153,6 +1184,7 @@ impl<'a> FB30_W<'a> {
 #[doc = "Field `FB31` reader - Filter bits"]
 pub struct FB31_R(crate::FieldReader<bool, bool>);
 impl FB31_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB31_R(crate::FieldReader::new(bits))
     }

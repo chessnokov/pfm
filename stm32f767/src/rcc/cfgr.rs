@@ -37,6 +37,7 @@ impl From<crate::W<CFGR_SPEC>> for W {
 #[doc = "Field `MCO2` reader - Microcontroller clock output 2"]
 pub struct MCO2_R(crate::FieldReader<u8, u8>);
 impl MCO2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MCO2_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MCO2_W<'a> {
 #[doc = "Field `MCO2PRE` reader - MCO2 prescaler"]
 pub struct MCO2PRE_R(crate::FieldReader<u8, u8>);
 impl MCO2PRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MCO2PRE_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> MCO2PRE_W<'a> {
 #[doc = "Field `MCO1PRE` reader - MCO1 prescaler"]
 pub struct MCO1PRE_R(crate::FieldReader<u8, u8>);
 impl MCO1PRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MCO1PRE_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> MCO1PRE_W<'a> {
 #[doc = "Field `I2SSRC` reader - I2S clock selection"]
 pub struct I2SSRC_R(crate::FieldReader<bool, bool>);
 impl I2SSRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2SSRC_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> I2SSRC_W<'a> {
 #[doc = "Field `MCO1` reader - Microcontroller clock output 1"]
 pub struct MCO1_R(crate::FieldReader<u8, u8>);
 impl MCO1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MCO1_R(crate::FieldReader::new(bits))
     }
@@ -177,6 +182,7 @@ impl<'a> MCO1_W<'a> {
 #[doc = "Field `RTCPRE` reader - HSE division factor for RTC clock"]
 pub struct RTCPRE_R(crate::FieldReader<u8, u8>);
 impl RTCPRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RTCPRE_R(crate::FieldReader::new(bits))
     }
@@ -203,6 +209,7 @@ impl<'a> RTCPRE_W<'a> {
 #[doc = "Field `PPRE2` reader - APB high-speed prescaler (APB2)"]
 pub struct PPRE2_R(crate::FieldReader<u8, u8>);
 impl PPRE2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PPRE2_R(crate::FieldReader::new(bits))
     }
@@ -229,6 +236,7 @@ impl<'a> PPRE2_W<'a> {
 #[doc = "Field `PPRE1` reader - APB Low speed prescaler (APB1)"]
 pub struct PPRE1_R(crate::FieldReader<u8, u8>);
 impl PPRE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PPRE1_R(crate::FieldReader::new(bits))
     }
@@ -255,6 +263,7 @@ impl<'a> PPRE1_W<'a> {
 #[doc = "Field `HPRE` reader - AHB prescaler"]
 pub struct HPRE_R(crate::FieldReader<u8, u8>);
 impl HPRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HPRE_R(crate::FieldReader::new(bits))
     }
@@ -281,6 +290,7 @@ impl<'a> HPRE_W<'a> {
 #[doc = "Field `SWS1` reader - System clock switch status"]
 pub struct SWS1_R(crate::FieldReader<bool, bool>);
 impl SWS1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWS1_R(crate::FieldReader::new(bits))
     }
@@ -295,6 +305,7 @@ impl core::ops::Deref for SWS1_R {
 #[doc = "Field `SWS0` reader - System clock switch status"]
 pub struct SWS0_R(crate::FieldReader<bool, bool>);
 impl SWS0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWS0_R(crate::FieldReader::new(bits))
     }
@@ -309,6 +320,7 @@ impl core::ops::Deref for SWS0_R {
 #[doc = "Field `SW1` reader - System clock switch"]
 pub struct SW1_R(crate::FieldReader<bool, bool>);
 impl SW1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SW1_R(crate::FieldReader::new(bits))
     }
@@ -345,6 +357,7 @@ impl<'a> SW1_W<'a> {
 #[doc = "Field `SW0` reader - System clock switch"]
 pub struct SW0_R(crate::FieldReader<bool, bool>);
 impl SW0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SW0_R(crate::FieldReader::new(bits))
     }

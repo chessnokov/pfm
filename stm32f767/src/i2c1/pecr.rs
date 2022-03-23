@@ -16,6 +16,7 @@ impl From<crate::R<PECR_SPEC>> for R {
 #[doc = "Field `PEC` reader - Packet error checking register"]
 pub struct PEC_R(crate::FieldReader<u8, u8>);
 impl PEC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PEC_R(crate::FieldReader::new(bits))
     }

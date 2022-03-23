@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_DCTL_SPEC>> for W {
 #[doc = "Field `RWUSIG` reader - Remote wakeup signaling"]
 pub struct RWUSIG_R(crate::FieldReader<bool, bool>);
 impl RWUSIG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RWUSIG_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RWUSIG_W<'a> {
 #[doc = "Field `SDIS` reader - Soft disconnect"]
 pub struct SDIS_R(crate::FieldReader<bool, bool>);
 impl SDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDIS_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SDIS_W<'a> {
 #[doc = "Field `GINSTS` reader - Global IN NAK status"]
 pub struct GINSTS_R(crate::FieldReader<bool, bool>);
 impl GINSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GINSTS_R(crate::FieldReader::new(bits))
     }
@@ -123,6 +126,7 @@ impl core::ops::Deref for GINSTS_R {
 #[doc = "Field `GONSTS` reader - Global OUT NAK status"]
 pub struct GONSTS_R(crate::FieldReader<bool, bool>);
 impl GONSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GONSTS_R(crate::FieldReader::new(bits))
     }
@@ -137,6 +141,7 @@ impl core::ops::Deref for GONSTS_R {
 #[doc = "Field `TCTL` reader - Test control"]
 pub struct TCTL_R(crate::FieldReader<u8, u8>);
 impl TCTL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TCTL_R(crate::FieldReader::new(bits))
     }
@@ -163,6 +168,7 @@ impl<'a> TCTL_W<'a> {
 #[doc = "Field `SGINAK` reader - Set global IN NAK"]
 pub struct SGINAK_R(crate::FieldReader<bool, bool>);
 impl SGINAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SGINAK_R(crate::FieldReader::new(bits))
     }
@@ -199,6 +205,7 @@ impl<'a> SGINAK_W<'a> {
 #[doc = "Field `CGINAK` reader - Clear global IN NAK"]
 pub struct CGINAK_R(crate::FieldReader<bool, bool>);
 impl CGINAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CGINAK_R(crate::FieldReader::new(bits))
     }
@@ -235,6 +242,7 @@ impl<'a> CGINAK_W<'a> {
 #[doc = "Field `SGONAK` reader - Set global OUT NAK"]
 pub struct SGONAK_R(crate::FieldReader<bool, bool>);
 impl SGONAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SGONAK_R(crate::FieldReader::new(bits))
     }
@@ -271,6 +279,7 @@ impl<'a> SGONAK_W<'a> {
 #[doc = "Field `CGONAK` reader - Clear global OUT NAK"]
 pub struct CGONAK_R(crate::FieldReader<bool, bool>);
 impl CGONAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CGONAK_R(crate::FieldReader::new(bits))
     }
@@ -307,6 +316,7 @@ impl<'a> CGONAK_W<'a> {
 #[doc = "Field `POPRGDNE` reader - Power-on programming done"]
 pub struct POPRGDNE_R(crate::FieldReader<bool, bool>);
 impl POPRGDNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         POPRGDNE_R(crate::FieldReader::new(bits))
     }

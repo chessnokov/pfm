@@ -37,6 +37,7 @@ impl From<crate::W<AHBPCR_SPEC>> for W {
 #[doc = "Field `EN` reader - EN"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EN_W<'a> {
 #[doc = "Field `SZ` reader - SZ"]
 pub struct SZ_R(crate::FieldReader<u8, u8>);
 impl SZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SZ_R(crate::FieldReader::new(bits))
     }

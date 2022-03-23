@@ -37,6 +37,7 @@ impl From<crate::W<PLLI2SCFGR_SPEC>> for W {
 #[doc = "Field `PLLI2SR` reader - PLLI2S division factor for I2S clocks"]
 pub struct PLLI2SR_R(crate::FieldReader<u8, u8>);
 impl PLLI2SR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLI2SR_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PLLI2SR_W<'a> {
 #[doc = "Field `PLLI2SQ` reader - PLLI2S division factor for SAI1 clock"]
 pub struct PLLI2SQ_R(crate::FieldReader<u8, u8>);
 impl PLLI2SQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLI2SQ_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> PLLI2SQ_W<'a> {
 #[doc = "Field `PLLI2SN` reader - PLLI2S multiplication factor for VCO"]
 pub struct PLLI2SN_R(crate::FieldReader<u16, u16>);
 impl PLLI2SN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PLLI2SN_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `DMAUDR2` reader - DAC channel2 DMA underrun flag"]
 pub struct DMAUDR2_R(crate::FieldReader<bool, bool>);
 impl DMAUDR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAUDR2_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DMAUDR2_W<'a> {
 #[doc = "Field `DMAUDR1` reader - DAC channel1 DMA underrun flag"]
 pub struct DMAUDR1_R(crate::FieldReader<bool, bool>);
 impl DMAUDR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAUDR1_R(crate::FieldReader::new(bits))
     }

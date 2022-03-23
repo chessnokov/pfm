@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM_CHCFG2R2_SPEC>> for W {
 #[doc = "Field `DTRBS` reader - Data right bit-shift for channel 2"]
 pub struct DTRBS_R(crate::FieldReader<u8, u8>);
 impl DTRBS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DTRBS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DTRBS_W<'a> {
 #[doc = "Field `OFFSET` reader - 24-bit calibration offset for channel 2"]
 pub struct OFFSET_R(crate::FieldReader<u32, u32>);
 impl OFFSET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         OFFSET_R(crate::FieldReader::new(bits))
     }

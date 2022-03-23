@@ -16,6 +16,7 @@ impl From<crate::R<TXCRCR_SPEC>> for R {
 #[doc = "Field `TxCRC` reader - Tx CRC register"]
 pub struct TXCRC_R(crate::FieldReader<u16, u16>);
 impl TXCRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TXCRC_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_PCTLR_SPEC>> for W {
 #[doc = "Field `DEN` reader - Digital Enable"]
 pub struct DEN_R(crate::FieldReader<bool, bool>);
 impl DEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DEN_W<'a> {
 #[doc = "Field `CKE` reader - Clock Enable"]
 pub struct CKE_R(crate::FieldReader<bool, bool>);
 impl CKE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKE_R(crate::FieldReader::new(bits))
     }

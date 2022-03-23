@@ -16,6 +16,7 @@ impl From<crate::R<MDIOS_WRFR_SPEC>> for R {
 #[doc = "Field `WRF` reader - Write flags for MDIO registers 0 to 31"]
 pub struct WRF_R(crate::FieldReader<u32, u32>);
 impl WRF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         WRF_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - Write flags for MDIO registers 0 to 31"]
     #[inline(always)]
     pub fn wrf(&self) -> WRF_R {
-        WRF_R::new((self.bits & 0xffff_ffff) as u32)
+        WRF_R::new(self.bits)
     }
 }
 #[doc = "MDIOS write flag register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mdios_wrfr](index.html) module"]

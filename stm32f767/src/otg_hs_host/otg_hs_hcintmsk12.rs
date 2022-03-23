@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HCINTMSK12_SPEC>> for W {
 #[doc = "Field `XFRCM` reader - Transfer completed mask"]
 pub struct XFRCM_R(crate::FieldReader<bool, bool>);
 impl XFRCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRCM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRCM_W<'a> {
 #[doc = "Field `CHHM` reader - Channel halted mask"]
 pub struct CHHM_R(crate::FieldReader<bool, bool>);
 impl CHHM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHHM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CHHM_W<'a> {
 #[doc = "Field `AHBERR` reader - AHB error"]
 pub struct AHBERR_R(crate::FieldReader<bool, bool>);
 impl AHBERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AHBERR_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> AHBERR_W<'a> {
 #[doc = "Field `STALLM` reader - STALL response received interrupt mask"]
 pub struct STALLM_R(crate::FieldReader<bool, bool>);
 impl STALLM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STALLM_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> STALLM_W<'a> {
 #[doc = "Field `NAKM` reader - NAK response received interrupt mask"]
 pub struct NAKM_R(crate::FieldReader<bool, bool>);
 impl NAKM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NAKM_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> NAKM_W<'a> {
 #[doc = "Field `ACKM` reader - ACK response received/transmitted interrupt mask"]
 pub struct ACKM_R(crate::FieldReader<bool, bool>);
 impl ACKM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ACKM_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ACKM_W<'a> {
 #[doc = "Field `NYET` reader - Response received interrupt"]
 pub struct NYET_R(crate::FieldReader<bool, bool>);
 impl NYET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NYET_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> NYET_W<'a> {
 #[doc = "Field `TXERRM` reader - Transaction error"]
 pub struct TXERRM_R(crate::FieldReader<bool, bool>);
 impl TXERRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXERRM_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TXERRM_W<'a> {
 #[doc = "Field `BBERRM` reader - Babble error"]
 pub struct BBERRM_R(crate::FieldReader<bool, bool>);
 impl BBERRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BBERRM_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> BBERRM_W<'a> {
 #[doc = "Field `FRMORM` reader - Frame overrun mask"]
 pub struct FRMORM_R(crate::FieldReader<bool, bool>);
 impl FRMORM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FRMORM_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FRMORM_W<'a> {
 #[doc = "Field `DTERRM` reader - Data toggle error mask"]
 pub struct DTERRM_R(crate::FieldReader<bool, bool>);
 impl DTERRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTERRM_R(crate::FieldReader::new(bits))
     }

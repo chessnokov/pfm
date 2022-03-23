@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `UIF` reader - Update interrupt flag"]
 pub struct UIF_R(crate::FieldReader<bool, bool>);
 impl UIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UIF_R(crate::FieldReader::new(bits))
     }

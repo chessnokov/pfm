@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `PLLI2SRDY` reader - PLLI2S clock ready flag"]
 pub struct PLLI2SRDY_R(crate::FieldReader<bool, bool>);
 impl PLLI2SRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLI2SRDY_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for PLLI2SRDY_R {
 #[doc = "Field `PLLI2SON` reader - PLLI2S enable"]
 pub struct PLLI2SON_R(crate::FieldReader<bool, bool>);
 impl PLLI2SON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLI2SON_R(crate::FieldReader::new(bits))
     }
@@ -87,6 +89,7 @@ impl<'a> PLLI2SON_W<'a> {
 #[doc = "Field `PLLRDY` reader - Main PLL (PLL) clock ready flag"]
 pub struct PLLRDY_R(crate::FieldReader<bool, bool>);
 impl PLLRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLRDY_R(crate::FieldReader::new(bits))
     }
@@ -101,6 +104,7 @@ impl core::ops::Deref for PLLRDY_R {
 #[doc = "Field `PLLON` reader - Main PLL (PLL) enable"]
 pub struct PLLON_R(crate::FieldReader<bool, bool>);
 impl PLLON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLON_R(crate::FieldReader::new(bits))
     }
@@ -137,6 +141,7 @@ impl<'a> PLLON_W<'a> {
 #[doc = "Field `CSSON` reader - Clock security system enable"]
 pub struct CSSON_R(crate::FieldReader<bool, bool>);
 impl CSSON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSSON_R(crate::FieldReader::new(bits))
     }
@@ -173,6 +178,7 @@ impl<'a> CSSON_W<'a> {
 #[doc = "Field `HSEBYP` reader - HSE clock bypass"]
 pub struct HSEBYP_R(crate::FieldReader<bool, bool>);
 impl HSEBYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSEBYP_R(crate::FieldReader::new(bits))
     }
@@ -209,6 +215,7 @@ impl<'a> HSEBYP_W<'a> {
 #[doc = "Field `HSERDY` reader - HSE clock ready flag"]
 pub struct HSERDY_R(crate::FieldReader<bool, bool>);
 impl HSERDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSERDY_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +230,7 @@ impl core::ops::Deref for HSERDY_R {
 #[doc = "Field `HSEON` reader - HSE clock enable"]
 pub struct HSEON_R(crate::FieldReader<bool, bool>);
 impl HSEON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSEON_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +267,7 @@ impl<'a> HSEON_W<'a> {
 #[doc = "Field `HSICAL` reader - Internal high-speed clock calibration"]
 pub struct HSICAL_R(crate::FieldReader<u8, u8>);
 impl HSICAL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSICAL_R(crate::FieldReader::new(bits))
     }
@@ -273,6 +282,7 @@ impl core::ops::Deref for HSICAL_R {
 #[doc = "Field `HSITRIM` reader - Internal high-speed clock trimming"]
 pub struct HSITRIM_R(crate::FieldReader<u8, u8>);
 impl HSITRIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSITRIM_R(crate::FieldReader::new(bits))
     }
@@ -299,6 +309,7 @@ impl<'a> HSITRIM_W<'a> {
 #[doc = "Field `HSIRDY` reader - Internal high-speed clock ready flag"]
 pub struct HSIRDY_R(crate::FieldReader<bool, bool>);
 impl HSIRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSIRDY_R(crate::FieldReader::new(bits))
     }
@@ -313,6 +324,7 @@ impl core::ops::Deref for HSIRDY_R {
 #[doc = "Field `HSION` reader - Internal high-speed clock enable"]
 pub struct HSION_R(crate::FieldReader<bool, bool>);
 impl HSION_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSION_R(crate::FieldReader::new(bits))
     }

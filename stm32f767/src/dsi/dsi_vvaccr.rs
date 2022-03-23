@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VVACCR_SPEC>> for R {
 #[doc = "Field `VA` reader - Vertical Active duration"]
 pub struct VA_R(crate::FieldReader<u16, u16>);
 impl VA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VA_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CLKCR_SPEC>> for W {
 #[doc = "Field `HWFC_EN` reader - HW Flow Control enable"]
 pub struct HWFC_EN_R(crate::FieldReader<bool, bool>);
 impl HWFC_EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HWFC_EN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> HWFC_EN_W<'a> {
 #[doc = "Field `NEGEDGE` reader - SDIO_CK dephasing selection bit"]
 pub struct NEGEDGE_R(crate::FieldReader<bool, bool>);
 impl NEGEDGE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NEGEDGE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> NEGEDGE_W<'a> {
 #[doc = "Field `WIDBUS` reader - Wide bus mode enable bit"]
 pub struct WIDBUS_R(crate::FieldReader<u8, u8>);
 impl WIDBUS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WIDBUS_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> WIDBUS_W<'a> {
 #[doc = "Field `BYPASS` reader - Clock divider bypass enable bit"]
 pub struct BYPASS_R(crate::FieldReader<bool, bool>);
 impl BYPASS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BYPASS_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> BYPASS_W<'a> {
 #[doc = "Field `PWRSAV` reader - Power saving configuration bit"]
 pub struct PWRSAV_R(crate::FieldReader<bool, bool>);
 impl PWRSAV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PWRSAV_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> PWRSAV_W<'a> {
 #[doc = "Field `CLKEN` reader - Clock enable bit"]
 pub struct CLKEN_R(crate::FieldReader<bool, bool>);
 impl CLKEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CLKEN_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> CLKEN_W<'a> {
 #[doc = "Field `CLKDIV` reader - Clock divide factor"]
 pub struct CLKDIV_R(crate::FieldReader<u8, u8>);
 impl CLKDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CLKDIV_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_TCCR0_SPEC>> for W {
 #[doc = "Field `LPRX_TOCNT` reader - Low-power Reception Timeout Counter"]
 pub struct LPRX_TOCNT_R(crate::FieldReader<u16, u16>);
 impl LPRX_TOCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LPRX_TOCNT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> LPRX_TOCNT_W<'a> {
 #[doc = "Field `HSTX_TOCNT` reader - High-Speed Transmission Timeout Counter"]
 pub struct HSTX_TOCNT_R(crate::FieldReader<u16, u16>);
 impl HSTX_TOCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HSTX_TOCNT_R(crate::FieldReader::new(bits))
     }

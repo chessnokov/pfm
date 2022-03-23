@@ -37,6 +37,7 @@ impl From<crate::W<SQR2_SPEC>> for W {
 #[doc = "Field `SQ12` reader - 12th conversion in regular sequence"]
 pub struct SQ12_R(crate::FieldReader<u8, u8>);
 impl SQ12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ12_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SQ12_W<'a> {
 #[doc = "Field `SQ11` reader - 11th conversion in regular sequence"]
 pub struct SQ11_R(crate::FieldReader<u8, u8>);
 impl SQ11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ11_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> SQ11_W<'a> {
 #[doc = "Field `SQ10` reader - 10th conversion in regular sequence"]
 pub struct SQ10_R(crate::FieldReader<u8, u8>);
 impl SQ10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ10_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> SQ10_W<'a> {
 #[doc = "Field `SQ9` reader - 9th conversion in regular sequence"]
 pub struct SQ9_R(crate::FieldReader<u8, u8>);
 impl SQ9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ9_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> SQ9_W<'a> {
 #[doc = "Field `SQ8` reader - 8th conversion in regular sequence"]
 pub struct SQ8_R(crate::FieldReader<u8, u8>);
 impl SQ8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ8_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> SQ8_W<'a> {
 #[doc = "Field `SQ7` reader - 7th conversion in regular sequence"]
 pub struct SQ7_R(crate::FieldReader<u8, u8>);
 impl SQ7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ7_R(crate::FieldReader::new(bits))
     }

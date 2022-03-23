@@ -16,6 +16,7 @@ impl From<crate::R<IDR_SPEC>> for R {
 #[doc = "Field `IDR15` reader - Port input data (y = 0..15)"]
 pub struct IDR15_R(crate::FieldReader<bool, bool>);
 impl IDR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR15_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for IDR15_R {
 #[doc = "Field `IDR14` reader - Port input data (y = 0..15)"]
 pub struct IDR14_R(crate::FieldReader<bool, bool>);
 impl IDR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR14_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for IDR14_R {
 #[doc = "Field `IDR13` reader - Port input data (y = 0..15)"]
 pub struct IDR13_R(crate::FieldReader<bool, bool>);
 impl IDR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR13_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for IDR13_R {
 #[doc = "Field `IDR12` reader - Port input data (y = 0..15)"]
 pub struct IDR12_R(crate::FieldReader<bool, bool>);
 impl IDR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR12_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for IDR12_R {
 #[doc = "Field `IDR11` reader - Port input data (y = 0..15)"]
 pub struct IDR11_R(crate::FieldReader<bool, bool>);
 impl IDR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR11_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for IDR11_R {
 #[doc = "Field `IDR10` reader - Port input data (y = 0..15)"]
 pub struct IDR10_R(crate::FieldReader<bool, bool>);
 impl IDR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR10_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for IDR10_R {
 #[doc = "Field `IDR9` reader - Port input data (y = 0..15)"]
 pub struct IDR9_R(crate::FieldReader<bool, bool>);
 impl IDR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR9_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for IDR9_R {
 #[doc = "Field `IDR8` reader - Port input data (y = 0..15)"]
 pub struct IDR8_R(crate::FieldReader<bool, bool>);
 impl IDR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR8_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for IDR8_R {
 #[doc = "Field `IDR7` reader - Port input data (y = 0..15)"]
 pub struct IDR7_R(crate::FieldReader<bool, bool>);
 impl IDR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR7_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for IDR7_R {
 #[doc = "Field `IDR6` reader - Port input data (y = 0..15)"]
 pub struct IDR6_R(crate::FieldReader<bool, bool>);
 impl IDR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR6_R(crate::FieldReader::new(bits))
     }
@@ -156,6 +166,7 @@ impl core::ops::Deref for IDR6_R {
 #[doc = "Field `IDR5` reader - Port input data (y = 0..15)"]
 pub struct IDR5_R(crate::FieldReader<bool, bool>);
 impl IDR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR5_R(crate::FieldReader::new(bits))
     }
@@ -170,6 +181,7 @@ impl core::ops::Deref for IDR5_R {
 #[doc = "Field `IDR4` reader - Port input data (y = 0..15)"]
 pub struct IDR4_R(crate::FieldReader<bool, bool>);
 impl IDR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR4_R(crate::FieldReader::new(bits))
     }
@@ -184,6 +196,7 @@ impl core::ops::Deref for IDR4_R {
 #[doc = "Field `IDR3` reader - Port input data (y = 0..15)"]
 pub struct IDR3_R(crate::FieldReader<bool, bool>);
 impl IDR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR3_R(crate::FieldReader::new(bits))
     }
@@ -198,6 +211,7 @@ impl core::ops::Deref for IDR3_R {
 #[doc = "Field `IDR2` reader - Port input data (y = 0..15)"]
 pub struct IDR2_R(crate::FieldReader<bool, bool>);
 impl IDR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR2_R(crate::FieldReader::new(bits))
     }
@@ -212,6 +226,7 @@ impl core::ops::Deref for IDR2_R {
 #[doc = "Field `IDR1` reader - Port input data (y = 0..15)"]
 pub struct IDR1_R(crate::FieldReader<bool, bool>);
 impl IDR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR1_R(crate::FieldReader::new(bits))
     }
@@ -226,6 +241,7 @@ impl core::ops::Deref for IDR1_R {
 #[doc = "Field `IDR0` reader - Port input data (y = 0..15)"]
 pub struct IDR0_R(crate::FieldReader<bool, bool>);
 impl IDR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDR0_R(crate::FieldReader::new(bits))
     }

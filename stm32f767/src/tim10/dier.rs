@@ -37,6 +37,7 @@ impl From<crate::W<DIER_SPEC>> for W {
 #[doc = "Field `CC1IE` reader - Capture/Compare 1 interrupt enable"]
 pub struct CC1IE_R(crate::FieldReader<bool, bool>);
 impl CC1IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1IE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CC1IE_W<'a> {
 #[doc = "Field `UIE` reader - Update interrupt enable"]
 pub struct UIE_R(crate::FieldReader<bool, bool>);
 impl UIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UIE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<EMR_SPEC>> for W {
 #[doc = "Field `MR0` reader - Event Mask on line 0"]
 pub struct MR0_R(crate::FieldReader<bool, bool>);
 impl MR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> MR0_W<'a> {
 #[doc = "Field `MR1` reader - Event Mask on line 1"]
 pub struct MR1_R(crate::FieldReader<bool, bool>);
 impl MR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> MR1_W<'a> {
 #[doc = "Field `MR2` reader - Event Mask on line 2"]
 pub struct MR2_R(crate::FieldReader<bool, bool>);
 impl MR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> MR2_W<'a> {
 #[doc = "Field `MR3` reader - Event Mask on line 3"]
 pub struct MR3_R(crate::FieldReader<bool, bool>);
 impl MR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> MR3_W<'a> {
 #[doc = "Field `MR4` reader - Event Mask on line 4"]
 pub struct MR4_R(crate::FieldReader<bool, bool>);
 impl MR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> MR4_W<'a> {
 #[doc = "Field `MR5` reader - Event Mask on line 5"]
 pub struct MR5_R(crate::FieldReader<bool, bool>);
 impl MR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> MR5_W<'a> {
 #[doc = "Field `MR6` reader - Event Mask on line 6"]
 pub struct MR6_R(crate::FieldReader<bool, bool>);
 impl MR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> MR6_W<'a> {
 #[doc = "Field `MR7` reader - Event Mask on line 7"]
 pub struct MR7_R(crate::FieldReader<bool, bool>);
 impl MR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> MR7_W<'a> {
 #[doc = "Field `MR8` reader - Event Mask on line 8"]
 pub struct MR8_R(crate::FieldReader<bool, bool>);
 impl MR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> MR8_W<'a> {
 #[doc = "Field `MR9` reader - Event Mask on line 9"]
 pub struct MR9_R(crate::FieldReader<bool, bool>);
 impl MR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> MR9_W<'a> {
 #[doc = "Field `MR10` reader - Event Mask on line 10"]
 pub struct MR10_R(crate::FieldReader<bool, bool>);
 impl MR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> MR10_W<'a> {
 #[doc = "Field `MR11` reader - Event Mask on line 11"]
 pub struct MR11_R(crate::FieldReader<bool, bool>);
 impl MR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> MR11_W<'a> {
 #[doc = "Field `MR12` reader - Event Mask on line 12"]
 pub struct MR12_R(crate::FieldReader<bool, bool>);
 impl MR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> MR12_W<'a> {
 #[doc = "Field `MR13` reader - Event Mask on line 13"]
 pub struct MR13_R(crate::FieldReader<bool, bool>);
 impl MR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> MR13_W<'a> {
 #[doc = "Field `MR14` reader - Event Mask on line 14"]
 pub struct MR14_R(crate::FieldReader<bool, bool>);
 impl MR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> MR14_W<'a> {
 #[doc = "Field `MR15` reader - Event Mask on line 15"]
 pub struct MR15_R(crate::FieldReader<bool, bool>);
 impl MR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> MR15_W<'a> {
 #[doc = "Field `MR16` reader - Event Mask on line 16"]
 pub struct MR16_R(crate::FieldReader<bool, bool>);
 impl MR16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> MR16_W<'a> {
 #[doc = "Field `MR17` reader - Event Mask on line 17"]
 pub struct MR17_R(crate::FieldReader<bool, bool>);
 impl MR17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> MR17_W<'a> {
 #[doc = "Field `MR18` reader - Event Mask on line 18"]
 pub struct MR18_R(crate::FieldReader<bool, bool>);
 impl MR18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> MR18_W<'a> {
 #[doc = "Field `MR19` reader - Event Mask on line 19"]
 pub struct MR19_R(crate::FieldReader<bool, bool>);
 impl MR19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> MR19_W<'a> {
 #[doc = "Field `MR20` reader - Event Mask on line 20"]
 pub struct MR20_R(crate::FieldReader<bool, bool>);
 impl MR20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> MR20_W<'a> {
 #[doc = "Field `MR21` reader - Event Mask on line 21"]
 pub struct MR21_R(crate::FieldReader<bool, bool>);
 impl MR21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> MR21_W<'a> {
 #[doc = "Field `MR22` reader - Event Mask on line 22"]
 pub struct MR22_R(crate::FieldReader<bool, bool>);
 impl MR22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MR22_R(crate::FieldReader::new(bits))
     }

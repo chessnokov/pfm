@@ -37,6 +37,7 @@ impl From<crate::W<CCR3_SPEC>> for W {
 #[doc = "Field `CCR3` reader - Capture/Compare value"]
 pub struct CCR3_R(crate::FieldReader<u16, u16>);
 impl CCR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CCR3_R(crate::FieldReader::new(bits))
     }

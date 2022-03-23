@@ -37,6 +37,7 @@ impl From<crate::W<CSR2_SPEC>> for W {
 #[doc = "Field `WUPF1` reader - Wakeup Pin flag for PA0"]
 pub struct WUPF1_R(crate::FieldReader<bool, bool>);
 impl WUPF1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPF1_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for WUPF1_R {
 #[doc = "Field `WUPF2` reader - Wakeup Pin flag for PA2"]
 pub struct WUPF2_R(crate::FieldReader<bool, bool>);
 impl WUPF2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPF2_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for WUPF2_R {
 #[doc = "Field `WUPF3` reader - Wakeup Pin flag for PC1"]
 pub struct WUPF3_R(crate::FieldReader<bool, bool>);
 impl WUPF3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPF3_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for WUPF3_R {
 #[doc = "Field `WUPF4` reader - Wakeup Pin flag for PC13"]
 pub struct WUPF4_R(crate::FieldReader<bool, bool>);
 impl WUPF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPF4_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for WUPF4_R {
 #[doc = "Field `WUPF5` reader - Wakeup Pin flag for PI8"]
 pub struct WUPF5_R(crate::FieldReader<bool, bool>);
 impl WUPF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPF5_R(crate::FieldReader::new(bits))
     }
@@ -107,6 +112,7 @@ impl core::ops::Deref for WUPF5_R {
 #[doc = "Field `WUPF6` reader - Wakeup Pin flag for PI11"]
 pub struct WUPF6_R(crate::FieldReader<bool, bool>);
 impl WUPF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUPF6_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +127,7 @@ impl core::ops::Deref for WUPF6_R {
 #[doc = "Field `EWUP1` reader - Enable Wakeup pin for PA0"]
 pub struct EWUP1_R(crate::FieldReader<bool, bool>);
 impl EWUP1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWUP1_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +164,7 @@ impl<'a> EWUP1_W<'a> {
 #[doc = "Field `EWUP2` reader - Enable Wakeup pin for PA2"]
 pub struct EWUP2_R(crate::FieldReader<bool, bool>);
 impl EWUP2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWUP2_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +201,7 @@ impl<'a> EWUP2_W<'a> {
 #[doc = "Field `EWUP3` reader - Enable Wakeup pin for PC1"]
 pub struct EWUP3_R(crate::FieldReader<bool, bool>);
 impl EWUP3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWUP3_R(crate::FieldReader::new(bits))
     }
@@ -229,6 +238,7 @@ impl<'a> EWUP3_W<'a> {
 #[doc = "Field `EWUP4` reader - Enable Wakeup pin for PC13"]
 pub struct EWUP4_R(crate::FieldReader<bool, bool>);
 impl EWUP4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWUP4_R(crate::FieldReader::new(bits))
     }
@@ -265,6 +275,7 @@ impl<'a> EWUP4_W<'a> {
 #[doc = "Field `EWUP5` reader - Enable Wakeup pin for PI8"]
 pub struct EWUP5_R(crate::FieldReader<bool, bool>);
 impl EWUP5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWUP5_R(crate::FieldReader::new(bits))
     }
@@ -301,6 +312,7 @@ impl<'a> EWUP5_W<'a> {
 #[doc = "Field `EWUP6` reader - Enable Wakeup pin for PI11"]
 pub struct EWUP6_R(crate::FieldReader<bool, bool>);
 impl EWUP6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWUP6_R(crate::FieldReader::new(bits))
     }

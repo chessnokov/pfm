@@ -16,6 +16,7 @@ impl From<crate::R<BSR_SPEC>> for R {
 #[doc = "Field `FLVL` reader - FIFO level threshold"]
 pub struct FLVL_R(crate::FieldReader<u8, u8>);
 impl FLVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FLVL_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for FLVL_R {
 #[doc = "Field `LFSDET` reader - Late frame synchronization detection"]
 pub struct LFSDET_R(crate::FieldReader<bool, bool>);
 impl LFSDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LFSDET_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for LFSDET_R {
 #[doc = "Field `AFSDET` reader - Anticipated frame synchronization detection"]
 pub struct AFSDET_R(crate::FieldReader<bool, bool>);
 impl AFSDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AFSDET_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for AFSDET_R {
 #[doc = "Field `CNRDY` reader - Codec not ready"]
 pub struct CNRDY_R(crate::FieldReader<bool, bool>);
 impl CNRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CNRDY_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for CNRDY_R {
 #[doc = "Field `FREQ` reader - FIFO request"]
 pub struct FREQ_R(crate::FieldReader<bool, bool>);
 impl FREQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FREQ_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for FREQ_R {
 #[doc = "Field `WCKCFG` reader - Wrong clock configuration flag"]
 pub struct WCKCFG_R(crate::FieldReader<bool, bool>);
 impl WCKCFG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WCKCFG_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for WCKCFG_R {
 #[doc = "Field `MUTEDET` reader - Mute detection"]
 pub struct MUTEDET_R(crate::FieldReader<bool, bool>);
 impl MUTEDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MUTEDET_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for MUTEDET_R {
 #[doc = "Field `OVRUDR` reader - Overrun / underrun"]
 pub struct OVRUDR_R(crate::FieldReader<bool, bool>);
 impl OVRUDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVRUDR_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<DR_SPEC>> for R {
 #[doc = "Field `DR` reader - Parity Error bit"]
 pub struct DR_R(crate::FieldReader<u32, u32>);
 impl DR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         DR_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for DR_R {
 #[doc = "Field `PE` reader - Parity Error bit"]
 pub struct PE_R(crate::FieldReader<bool, bool>);
 impl PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for PE_R {
 #[doc = "Field `V` reader - Validity bit"]
 pub struct V_R(crate::FieldReader<bool, bool>);
 impl V_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         V_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for V_R {
 #[doc = "Field `U` reader - User bit"]
 pub struct U_R(crate::FieldReader<bool, bool>);
 impl U_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         U_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for U_R {
 #[doc = "Field `C` reader - Channel Status bit"]
 pub struct C_R(crate::FieldReader<bool, bool>);
 impl C_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         C_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for C_R {
 #[doc = "Field `PT` reader - Preamble Type"]
 pub struct PT_R(crate::FieldReader<u8, u8>);
 impl PT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PT_R(crate::FieldReader::new(bits))
     }

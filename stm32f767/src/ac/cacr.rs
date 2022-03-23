@@ -37,6 +37,7 @@ impl From<crate::W<CACR_SPEC>> for W {
 #[doc = "Field `SIWT` reader - SIWT"]
 pub struct SIWT_R(crate::FieldReader<bool, bool>);
 impl SIWT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SIWT_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SIWT_W<'a> {
 #[doc = "Field `ECCEN` reader - ECCEN"]
 pub struct ECCEN_R(crate::FieldReader<bool, bool>);
 impl ECCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ECCEN_W<'a> {
 #[doc = "Field `FORCEWT` reader - FORCEWT"]
 pub struct FORCEWT_R(crate::FieldReader<bool, bool>);
 impl FORCEWT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FORCEWT_R(crate::FieldReader::new(bits))
     }

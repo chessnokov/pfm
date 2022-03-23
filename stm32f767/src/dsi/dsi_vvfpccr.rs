@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VVFPCCR_SPEC>> for R {
 #[doc = "Field `VFP` reader - Vertical Front-Porch duration"]
 pub struct VFP_R(crate::FieldReader<u16, u16>);
 impl VFP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VFP_R(crate::FieldReader::new(bits))
     }

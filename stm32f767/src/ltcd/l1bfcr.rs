@@ -37,6 +37,7 @@ impl From<crate::W<L1BFCR_SPEC>> for W {
 #[doc = "Field `BF1` reader - Blending Factor 1"]
 pub struct BF1_R(crate::FieldReader<u8, u8>);
 impl BF1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BF1_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> BF1_W<'a> {
 #[doc = "Field `BF2` reader - Blending Factor 2"]
 pub struct BF2_R(crate::FieldReader<u8, u8>);
 impl BF2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BF2_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<MEMRM_SPEC>> for W {
 #[doc = "Field `MEM_MODE` reader - Memory mapping selection"]
 pub struct MEM_MODE_R(crate::FieldReader<u8, u8>);
 impl MEM_MODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MEM_MODE_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MEM_MODE_W<'a> {
 #[doc = "Field `FB_MODE` reader - Flash bank mode selection"]
 pub struct FB_MODE_R(crate::FieldReader<bool, bool>);
 impl FB_MODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB_MODE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> FB_MODE_W<'a> {
 #[doc = "Field `SWP_FMC` reader - FMC memory mapping swap"]
 pub struct SWP_FMC_R(crate::FieldReader<u8, u8>);
 impl SWP_FMC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SWP_FMC_R(crate::FieldReader::new(bits))
     }

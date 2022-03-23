@@ -37,6 +37,7 @@ impl From<crate::W<DKCFGR1_SPEC>> for W {
 #[doc = "Field `PLLI2SDIV` reader - PLLI2S division factor for SAI1 clock"]
 pub struct PLLI2SDIV_R(crate::FieldReader<u8, u8>);
 impl PLLI2SDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLI2SDIV_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PLLI2SDIV_W<'a> {
 #[doc = "Field `PLLSAIDIVQ` reader - PLLSAI division factor for SAI1 clock"]
 pub struct PLLSAIDIVQ_R(crate::FieldReader<u8, u8>);
 impl PLLSAIDIVQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLSAIDIVQ_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> PLLSAIDIVQ_W<'a> {
 #[doc = "Field `PLLSAIDIVR` reader - division factor for LCD_CLK"]
 pub struct PLLSAIDIVR_R(crate::FieldReader<u8, u8>);
 impl PLLSAIDIVR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLSAIDIVR_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> PLLSAIDIVR_W<'a> {
 #[doc = "Field `SAI1SEL` reader - SAI1 clock source selection"]
 pub struct SAI1SEL_R(crate::FieldReader<u8, u8>);
 impl SAI1SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SAI1SEL_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> SAI1SEL_W<'a> {
 #[doc = "Field `SAI2SEL` reader - SAI2 clock source selection"]
 pub struct SAI2SEL_R(crate::FieldReader<u8, u8>);
 impl SAI2SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SAI2SEL_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> SAI2SEL_W<'a> {
 #[doc = "Field `TIMPRE` reader - Timers clocks prescalers selection"]
 pub struct TIMPRE_R(crate::FieldReader<bool, bool>);
 impl TIMPRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIMPRE_R(crate::FieldReader::new(bits))
     }

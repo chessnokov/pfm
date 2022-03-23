@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `CNTSTRT` reader - Timer start in continuous mode"]
 pub struct CNTSTRT_R(crate::FieldReader<bool, bool>);
 impl CNTSTRT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CNTSTRT_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CNTSTRT_W<'a> {
 #[doc = "Field `SNGSTRT` reader - LPTIM start in single mode"]
 pub struct SNGSTRT_R(crate::FieldReader<bool, bool>);
 impl SNGSTRT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SNGSTRT_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SNGSTRT_W<'a> {
 #[doc = "Field `ENABLE` reader - LPTIM Enable"]
 pub struct ENABLE_R(crate::FieldReader<bool, bool>);
 impl ENABLE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENABLE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_VCCR_SPEC>> for W {
 #[doc = "Field `NUMC` reader - Number of Chunks"]
 pub struct NUMC_R(crate::FieldReader<u16, u16>);
 impl NUMC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NUMC_R(crate::FieldReader::new(bits))
     }

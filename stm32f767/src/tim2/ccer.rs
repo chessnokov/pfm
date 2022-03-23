@@ -37,6 +37,7 @@ impl From<crate::W<CCER_SPEC>> for W {
 #[doc = "Field `CC4NP` reader - Capture/Compare 4 output Polarity"]
 pub struct CC4NP_R(crate::FieldReader<bool, bool>);
 impl CC4NP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4NP_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CC4NP_W<'a> {
 #[doc = "Field `CC4P` reader - Capture/Compare 3 output Polarity"]
 pub struct CC4P_R(crate::FieldReader<bool, bool>);
 impl CC4P_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4P_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CC4P_W<'a> {
 #[doc = "Field `CC4E` reader - Capture/Compare 4 output enable"]
 pub struct CC4E_R(crate::FieldReader<bool, bool>);
 impl CC4E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4E_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CC4E_W<'a> {
 #[doc = "Field `CC3NP` reader - Capture/Compare 3 output Polarity"]
 pub struct CC3NP_R(crate::FieldReader<bool, bool>);
 impl CC3NP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3NP_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CC3NP_W<'a> {
 #[doc = "Field `CC3P` reader - Capture/Compare 3 output Polarity"]
 pub struct CC3P_R(crate::FieldReader<bool, bool>);
 impl CC3P_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3P_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CC3P_W<'a> {
 #[doc = "Field `CC3E` reader - Capture/Compare 3 output enable"]
 pub struct CC3E_R(crate::FieldReader<bool, bool>);
 impl CC3E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3E_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> CC3E_W<'a> {
 #[doc = "Field `CC2NP` reader - Capture/Compare 2 output Polarity"]
 pub struct CC2NP_R(crate::FieldReader<bool, bool>);
 impl CC2NP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2NP_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> CC2NP_W<'a> {
 #[doc = "Field `CC2P` reader - Capture/Compare 2 output Polarity"]
 pub struct CC2P_R(crate::FieldReader<bool, bool>);
 impl CC2P_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2P_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> CC2P_W<'a> {
 #[doc = "Field `CC2E` reader - Capture/Compare 2 output enable"]
 pub struct CC2E_R(crate::FieldReader<bool, bool>);
 impl CC2E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2E_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> CC2E_W<'a> {
 #[doc = "Field `CC1NP` reader - Capture/Compare 1 output Polarity"]
 pub struct CC1NP_R(crate::FieldReader<bool, bool>);
 impl CC1NP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1NP_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> CC1NP_W<'a> {
 #[doc = "Field `CC1P` reader - Capture/Compare 1 output Polarity"]
 pub struct CC1P_R(crate::FieldReader<bool, bool>);
 impl CC1P_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1P_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> CC1P_W<'a> {
 #[doc = "Field `CC1E` reader - Capture/Compare 1 output enable"]
 pub struct CC1E_R(crate::FieldReader<bool, bool>);
 impl CC1E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1E_R(crate::FieldReader::new(bits))
     }

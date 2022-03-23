@@ -37,6 +37,7 @@ impl From<crate::W<OR_SPEC>> for W {
 #[doc = "Field `TI1_RMP` reader - TIM11 Input 1 remapping capability"]
 pub struct TI1_RMP_R(crate::FieldReader<u8, u8>);
 impl TI1_RMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TI1_RMP_R(crate::FieldReader::new(bits))
     }

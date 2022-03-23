@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GINTMSK_SPEC>> for W {
 #[doc = "Field `MMISM` reader - Mode mismatch interrupt mask"]
 pub struct MMISM_R(crate::FieldReader<bool, bool>);
 impl MMISM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MMISM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> MMISM_W<'a> {
 #[doc = "Field `OTGINT` reader - OTG interrupt mask"]
 pub struct OTGINT_R(crate::FieldReader<bool, bool>);
 impl OTGINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGINT_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OTGINT_W<'a> {
 #[doc = "Field `SOFM` reader - Start of frame mask"]
 pub struct SOFM_R(crate::FieldReader<bool, bool>);
 impl SOFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SOFM_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> SOFM_W<'a> {
 #[doc = "Field `RXFLVLM` reader - Receive FIFO non-empty mask"]
 pub struct RXFLVLM_R(crate::FieldReader<bool, bool>);
 impl RXFLVLM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFLVLM_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> RXFLVLM_W<'a> {
 #[doc = "Field `NPTXFEM` reader - Non-periodic TxFIFO empty mask"]
 pub struct NPTXFEM_R(crate::FieldReader<bool, bool>);
 impl NPTXFEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NPTXFEM_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> NPTXFEM_W<'a> {
 #[doc = "Field `GINAKEFFM` reader - Global non-periodic IN NAK effective mask"]
 pub struct GINAKEFFM_R(crate::FieldReader<bool, bool>);
 impl GINAKEFFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GINAKEFFM_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> GINAKEFFM_W<'a> {
 #[doc = "Field `GONAKEFFM` reader - Global OUT NAK effective mask"]
 pub struct GONAKEFFM_R(crate::FieldReader<bool, bool>);
 impl GONAKEFFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GONAKEFFM_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> GONAKEFFM_W<'a> {
 #[doc = "Field `ESUSPM` reader - Early suspend mask"]
 pub struct ESUSPM_R(crate::FieldReader<bool, bool>);
 impl ESUSPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ESUSPM_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> ESUSPM_W<'a> {
 #[doc = "Field `USBSUSPM` reader - USB suspend mask"]
 pub struct USBSUSPM_R(crate::FieldReader<bool, bool>);
 impl USBSUSPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USBSUSPM_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> USBSUSPM_W<'a> {
 #[doc = "Field `USBRST` reader - USB reset mask"]
 pub struct USBRST_R(crate::FieldReader<bool, bool>);
 impl USBRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USBRST_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> USBRST_W<'a> {
 #[doc = "Field `ENUMDNEM` reader - Enumeration done mask"]
 pub struct ENUMDNEM_R(crate::FieldReader<bool, bool>);
 impl ENUMDNEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENUMDNEM_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> ENUMDNEM_W<'a> {
 #[doc = "Field `ISOODRPM` reader - Isochronous OUT packet dropped interrupt mask"]
 pub struct ISOODRPM_R(crate::FieldReader<bool, bool>);
 impl ISOODRPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ISOODRPM_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> ISOODRPM_W<'a> {
 #[doc = "Field `EOPFM` reader - End of periodic frame interrupt mask"]
 pub struct EOPFM_R(crate::FieldReader<bool, bool>);
 impl EOPFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOPFM_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> EOPFM_W<'a> {
 #[doc = "Field `IEPINT` reader - IN endpoints interrupt mask"]
 pub struct IEPINT_R(crate::FieldReader<bool, bool>);
 impl IEPINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IEPINT_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> IEPINT_W<'a> {
 #[doc = "Field `OEPINT` reader - OUT endpoints interrupt mask"]
 pub struct OEPINT_R(crate::FieldReader<bool, bool>);
 impl OEPINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OEPINT_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> OEPINT_W<'a> {
 #[doc = "Field `IISOIXFRM` reader - Incomplete isochronous IN transfer mask"]
 pub struct IISOIXFRM_R(crate::FieldReader<bool, bool>);
 impl IISOIXFRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IISOIXFRM_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> IISOIXFRM_W<'a> {
 #[doc = "Field `IPXFRM_IISOOXFRM` reader - Incomplete periodic transfer mask(Host mode)/Incomplete isochronous OUT transfer mask(Device mode)"]
 pub struct IPXFRM_IISOOXFRM_R(crate::FieldReader<bool, bool>);
 impl IPXFRM_IISOOXFRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IPXFRM_IISOOXFRM_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> IPXFRM_IISOOXFRM_W<'a> {
 #[doc = "Field `PRTIM` reader - Host port interrupt mask"]
 pub struct PRTIM_R(crate::FieldReader<bool, bool>);
 impl PRTIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRTIM_R(crate::FieldReader::new(bits))
     }
@@ -663,6 +681,7 @@ impl core::ops::Deref for PRTIM_R {
 #[doc = "Field `HCIM` reader - Host channels interrupt mask"]
 pub struct HCIM_R(crate::FieldReader<bool, bool>);
 impl HCIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HCIM_R(crate::FieldReader::new(bits))
     }
@@ -699,6 +718,7 @@ impl<'a> HCIM_W<'a> {
 #[doc = "Field `PTXFEM` reader - Periodic TxFIFO empty mask"]
 pub struct PTXFEM_R(crate::FieldReader<bool, bool>);
 impl PTXFEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PTXFEM_R(crate::FieldReader::new(bits))
     }
@@ -735,6 +755,7 @@ impl<'a> PTXFEM_W<'a> {
 #[doc = "Field `CIDSCHGM` reader - Connector ID status change mask"]
 pub struct CIDSCHGM_R(crate::FieldReader<bool, bool>);
 impl CIDSCHGM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CIDSCHGM_R(crate::FieldReader::new(bits))
     }
@@ -771,6 +792,7 @@ impl<'a> CIDSCHGM_W<'a> {
 #[doc = "Field `DISCINT` reader - Disconnect detected interrupt mask"]
 pub struct DISCINT_R(crate::FieldReader<bool, bool>);
 impl DISCINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DISCINT_R(crate::FieldReader::new(bits))
     }
@@ -807,6 +829,7 @@ impl<'a> DISCINT_W<'a> {
 #[doc = "Field `SRQIM` reader - Session request/new session detected interrupt mask"]
 pub struct SRQIM_R(crate::FieldReader<bool, bool>);
 impl SRQIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRQIM_R(crate::FieldReader::new(bits))
     }
@@ -843,6 +866,7 @@ impl<'a> SRQIM_W<'a> {
 #[doc = "Field `WUIM` reader - Resume/remote wakeup detected interrupt mask"]
 pub struct WUIM_R(crate::FieldReader<bool, bool>);
 impl WUIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUIM_R(crate::FieldReader::new(bits))
     }
@@ -879,6 +903,7 @@ impl<'a> WUIM_W<'a> {
 #[doc = "Field `RSTDETM` reader - Reset detected interrupt mask"]
 pub struct RSTDETM_R(crate::FieldReader<bool, bool>);
 impl RSTDETM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RSTDETM_R(crate::FieldReader::new(bits))
     }
@@ -915,6 +940,7 @@ impl<'a> RSTDETM_W<'a> {
 #[doc = "Field `LPMIN` reader - LPM interrupt mask"]
 pub struct LPMIN_R(crate::FieldReader<bool, bool>);
 impl LPMIN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPMIN_R(crate::FieldReader::new(bits))
     }

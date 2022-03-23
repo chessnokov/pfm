@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WPCR4_SPEC>> for W {
 #[doc = "Field `TLPXC` reader - tLPXC for Clock lane"]
 pub struct TLPXC_R(crate::FieldReader<u8, u8>);
 impl TLPXC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TLPXC_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TLPXC_W<'a> {
 #[doc = "Field `THSEXIT` reader - tHSEXIT"]
 pub struct THSEXIT_R(crate::FieldReader<u8, u8>);
 impl THSEXIT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         THSEXIT_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> THSEXIT_W<'a> {
 #[doc = "Field `TLPXD` reader - tLPX for Data lanes"]
 pub struct TLPXD_R(crate::FieldReader<u8, u8>);
 impl TLPXD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TLPXD_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> TLPXD_W<'a> {
 #[doc = "Field `THSZERO` reader - tHS-ZERO"]
 pub struct THSZERO_R(crate::FieldReader<u8, u8>);
 impl THSZERO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         THSZERO_R(crate::FieldReader::new(bits))
     }

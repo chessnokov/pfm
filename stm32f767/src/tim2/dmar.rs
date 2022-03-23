@@ -37,6 +37,7 @@ impl From<crate::W<DMAR_SPEC>> for W {
 #[doc = "Field `DMAB` reader - DMA register for burst accesses"]
 pub struct DMAB_R(crate::FieldReader<u16, u16>);
 impl DMAB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DMAB_R(crate::FieldReader::new(bits))
     }

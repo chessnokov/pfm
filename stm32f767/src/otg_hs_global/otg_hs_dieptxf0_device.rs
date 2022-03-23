@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DIEPTXF0_DEVICE_SPEC>> for W {
 #[doc = "Field `TX0FSA` reader - Endpoint 0 transmit RAM start address"]
 pub struct TX0FSA_R(crate::FieldReader<u16, u16>);
 impl TX0FSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TX0FSA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TX0FSA_W<'a> {
 #[doc = "Field `TX0FD` reader - Endpoint 0 TxFIFO depth"]
 pub struct TX0FD_R(crate::FieldReader<u16, u16>);
 impl TX0FD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TX0FD_R(crate::FieldReader::new(bits))
     }

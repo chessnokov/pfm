@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM0_FCR_SPEC>> for W {
 #[doc = "Field `IOSR` reader - Integrator oversampling ratio (averaging length)"]
 pub struct IOSR_R(crate::FieldReader<u8, u8>);
 impl IOSR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IOSR_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> IOSR_W<'a> {
 #[doc = "Field `FOSR` reader - Sinc filter oversampling ratio (decimation rate)"]
 pub struct FOSR_R(crate::FieldReader<u16, u16>);
 impl FOSR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         FOSR_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> FOSR_W<'a> {
 #[doc = "Field `FORD` reader - Sinc filter order"]
 pub struct FORD_R(crate::FieldReader<u8, u8>);
 impl FORD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FORD_R(crate::FieldReader::new(bits))
     }

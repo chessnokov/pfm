@@ -37,6 +37,7 @@ impl From<crate::W<JPEG_CR_SPEC>> for W {
 #[doc = "Field `JCEN` reader - JPEG Core Enable"]
 pub struct JCEN_R(crate::FieldReader<bool, bool>);
 impl JCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JCEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> JCEN_W<'a> {
 #[doc = "Field `IFTIE` reader - Input FIFO Threshold Interrupt Enable"]
 pub struct IFTIE_R(crate::FieldReader<bool, bool>);
 impl IFTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFTIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> IFTIE_W<'a> {
 #[doc = "Field `IFNFIE` reader - Input FIFO Not Full Interrupt Enable"]
 pub struct IFNFIE_R(crate::FieldReader<bool, bool>);
 impl IFNFIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFNFIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> IFNFIE_W<'a> {
 #[doc = "Field `OFTIE` reader - Output FIFO Threshold Interrupt Enable"]
 pub struct OFTIE_R(crate::FieldReader<bool, bool>);
 impl OFTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFTIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OFTIE_W<'a> {
 #[doc = "Field `OFNEIE` reader - Output FIFO Not Empty Interrupt Enable"]
 pub struct OFNEIE_R(crate::FieldReader<bool, bool>);
 impl OFNEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFNEIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> OFNEIE_W<'a> {
 #[doc = "Field `EOCIE` reader - End of Conversion Interrupt Enable"]
 pub struct EOCIE_R(crate::FieldReader<bool, bool>);
 impl EOCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOCIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> EOCIE_W<'a> {
 #[doc = "Field `HPDIE` reader - Header Parsing Done Interrupt Enable"]
 pub struct HPDIE_R(crate::FieldReader<bool, bool>);
 impl HPDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HPDIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> HPDIE_W<'a> {
 #[doc = "Field `IDMAEN` reader - Input DMA Enable"]
 pub struct IDMAEN_R(crate::FieldReader<bool, bool>);
 impl IDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> IDMAEN_W<'a> {
 #[doc = "Field `ODMAEN` reader - Output DMA Enable"]
 pub struct ODMAEN_R(crate::FieldReader<bool, bool>);
 impl ODMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODMAEN_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> ODMAEN_W<'a> {
 #[doc = "Field `IFF` reader - Input FIFO Flush"]
 pub struct IFF_R(crate::FieldReader<bool, bool>);
 impl IFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFF_R(crate::FieldReader::new(bits))
     }
@@ -375,6 +385,7 @@ impl core::ops::Deref for IFF_R {
 #[doc = "Field `OFF` reader - Output FIFO Flush"]
 pub struct OFF_R(crate::FieldReader<bool, bool>);
 impl OFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFF_R(crate::FieldReader::new(bits))
     }

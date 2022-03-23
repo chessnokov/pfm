@@ -37,6 +37,7 @@ impl From<crate::W<BGCOLR_SPEC>> for W {
 #[doc = "Field `RED` reader - Red Value"]
 pub struct RED_R(crate::FieldReader<u8, u8>);
 impl RED_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RED_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> RED_W<'a> {
 #[doc = "Field `GREEN` reader - Green Value"]
 pub struct GREEN_R(crate::FieldReader<u8, u8>);
 impl GREEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         GREEN_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> GREEN_W<'a> {
 #[doc = "Field `BLUE` reader - Blue Value"]
 pub struct BLUE_R(crate::FieldReader<u8, u8>);
 impl BLUE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BLUE_R(crate::FieldReader::new(bits))
     }

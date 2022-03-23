@@ -16,6 +16,7 @@ impl From<crate::R<MDIOS_SR_SPEC>> for R {
 #[doc = "Field `PERF` reader - Preamble error flag"]
 pub struct PERF_R(crate::FieldReader<bool, bool>);
 impl PERF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PERF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for PERF_R {
 #[doc = "Field `SERF` reader - Start error flag"]
 pub struct SERF_R(crate::FieldReader<bool, bool>);
 impl SERF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SERF_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for SERF_R {
 #[doc = "Field `TERF` reader - Turnaround error flag"]
 pub struct TERF_R(crate::FieldReader<bool, bool>);
 impl TERF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERF_R(crate::FieldReader::new(bits))
     }

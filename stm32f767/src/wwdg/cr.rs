@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `WDGA` reader - Activation bit"]
 pub struct WDGA_R(crate::FieldReader<bool, bool>);
 impl WDGA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WDGA_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> WDGA_W<'a> {
 #[doc = "Field `T` reader - 7-bit counter (MSB to LSB)"]
 pub struct T_R(crate::FieldReader<u8, u8>);
 impl T_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         T_R(crate::FieldReader::new(bits))
     }

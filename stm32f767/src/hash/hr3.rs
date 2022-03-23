@@ -16,6 +16,7 @@ impl From<crate::R<HR3_SPEC>> for R {
 #[doc = "Field `H3` reader - H3"]
 pub struct H3_R(crate::FieldReader<u32, u32>);
 impl H3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         H3_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - H3"]
     #[inline(always)]
     pub fn h3(&self) -> H3_R {
-        H3_R::new((self.bits & 0xffff_ffff) as u32)
+        H3_R::new(self.bits)
     }
 }
 #[doc = "digest registers\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [hr3](index.html) module"]

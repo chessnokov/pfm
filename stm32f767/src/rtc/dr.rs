@@ -37,6 +37,7 @@ impl From<crate::W<DR_SPEC>> for W {
 #[doc = "Field `YT` reader - Year tens in BCD format"]
 pub struct YT_R(crate::FieldReader<u8, u8>);
 impl YT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         YT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> YT_W<'a> {
 #[doc = "Field `YU` reader - Year units in BCD format"]
 pub struct YU_R(crate::FieldReader<u8, u8>);
 impl YU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         YU_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> YU_W<'a> {
 #[doc = "Field `WDU` reader - Week day units"]
 pub struct WDU_R(crate::FieldReader<u8, u8>);
 impl WDU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WDU_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> WDU_W<'a> {
 #[doc = "Field `MT` reader - Month tens in BCD format"]
 pub struct MT_R(crate::FieldReader<bool, bool>);
 impl MT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MT_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> MT_W<'a> {
 #[doc = "Field `MU` reader - Month units in BCD format"]
 pub struct MU_R(crate::FieldReader<u8, u8>);
 impl MU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MU_R(crate::FieldReader::new(bits))
     }
@@ -177,6 +182,7 @@ impl<'a> MU_W<'a> {
 #[doc = "Field `DT` reader - Date tens in BCD format"]
 pub struct DT_R(crate::FieldReader<u8, u8>);
 impl DT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DT_R(crate::FieldReader::new(bits))
     }
@@ -203,6 +209,7 @@ impl<'a> DT_W<'a> {
 #[doc = "Field `DU` reader - Date units in BCD format"]
 pub struct DU_R(crate::FieldReader<u8, u8>);
 impl DU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DU_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<LIPCR_SPEC>> for W {
 #[doc = "Field `LIPOS` reader - Line Interrupt Position"]
 pub struct LIPOS_R(crate::FieldReader<u16, u16>);
 impl LIPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LIPOS_R(crate::FieldReader::new(bits))
     }

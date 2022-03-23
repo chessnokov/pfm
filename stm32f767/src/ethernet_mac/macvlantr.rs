@@ -37,6 +37,7 @@ impl From<crate::W<MACVLANTR_SPEC>> for W {
 #[doc = "Field `VLANTI` reader - VLANTI"]
 pub struct VLANTI_R(crate::FieldReader<u16, u16>);
 impl VLANTI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VLANTI_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> VLANTI_W<'a> {
 #[doc = "Field `VLANTC` reader - VLANTC"]
 pub struct VLANTC_R(crate::FieldReader<bool, bool>);
 impl VLANTC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VLANTC_R(crate::FieldReader::new(bits))
     }

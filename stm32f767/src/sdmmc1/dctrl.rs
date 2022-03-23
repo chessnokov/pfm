@@ -37,6 +37,7 @@ impl From<crate::W<DCTRL_SPEC>> for W {
 #[doc = "Field `SDIOEN` reader - SD I/O enable functions"]
 pub struct SDIOEN_R(crate::FieldReader<bool, bool>);
 impl SDIOEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDIOEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SDIOEN_W<'a> {
 #[doc = "Field `RWMOD` reader - Read wait mode"]
 pub struct RWMOD_R(crate::FieldReader<bool, bool>);
 impl RWMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RWMOD_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RWMOD_W<'a> {
 #[doc = "Field `RWSTOP` reader - Read wait stop"]
 pub struct RWSTOP_R(crate::FieldReader<bool, bool>);
 impl RWSTOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RWSTOP_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RWSTOP_W<'a> {
 #[doc = "Field `RWSTART` reader - Read wait start"]
 pub struct RWSTART_R(crate::FieldReader<bool, bool>);
 impl RWSTART_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RWSTART_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> RWSTART_W<'a> {
 #[doc = "Field `DBLOCKSIZE` reader - Data block size"]
 pub struct DBLOCKSIZE_R(crate::FieldReader<u8, u8>);
 impl DBLOCKSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DBLOCKSIZE_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> DBLOCKSIZE_W<'a> {
 #[doc = "Field `DMAEN` reader - DMA enable bit"]
 pub struct DMAEN_R(crate::FieldReader<bool, bool>);
 impl DMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAEN_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> DMAEN_W<'a> {
 #[doc = "Field `DTMODE` reader - Data transfer mode selection 1: Stream or SDIO multibyte data transfer"]
 pub struct DTMODE_R(crate::FieldReader<bool, bool>);
 impl DTMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTMODE_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> DTMODE_W<'a> {
 #[doc = "Field `DTDIR` reader - Data transfer direction selection"]
 pub struct DTDIR_R(crate::FieldReader<bool, bool>);
 impl DTDIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTDIR_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> DTDIR_W<'a> {
 #[doc = "Field `DTEN` reader - DTEN"]
 pub struct DTEN_R(crate::FieldReader<bool, bool>);
 impl DTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTEN_R(crate::FieldReader::new(bits))
     }

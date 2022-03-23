@@ -37,6 +37,7 @@ impl From<crate::W<ACLRFR_SPEC>> for W {
 #[doc = "Field `LFSDET` reader - Clear late frame synchronization detection flag"]
 pub struct LFSDET_R(crate::FieldReader<bool, bool>);
 impl LFSDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LFSDET_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LFSDET_W<'a> {
 #[doc = "Field `CAFSDET` reader - Clear anticipated frame synchronization detection flag."]
 pub struct CAFSDET_R(crate::FieldReader<bool, bool>);
 impl CAFSDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAFSDET_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CAFSDET_W<'a> {
 #[doc = "Field `CNRDY` reader - Clear codec not ready flag"]
 pub struct CNRDY_R(crate::FieldReader<bool, bool>);
 impl CNRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CNRDY_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CNRDY_W<'a> {
 #[doc = "Field `WCKCFG` reader - Clear wrong clock configuration flag"]
 pub struct WCKCFG_R(crate::FieldReader<bool, bool>);
 impl WCKCFG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WCKCFG_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> WCKCFG_W<'a> {
 #[doc = "Field `MUTEDET` reader - Mute detection flag"]
 pub struct MUTEDET_R(crate::FieldReader<bool, bool>);
 impl MUTEDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MUTEDET_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> MUTEDET_W<'a> {
 #[doc = "Field `OVRUDR` reader - Clear overrun / underrun"]
 pub struct OVRUDR_R(crate::FieldReader<bool, bool>);
 impl OVRUDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVRUDR_R(crate::FieldReader::new(bits))
     }

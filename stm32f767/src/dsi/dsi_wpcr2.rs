@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WPCR2_SPEC>> for W {
 #[doc = "Field `LPRXFT` reader - Low-Power RX low-pass Filtering Tuning"]
 pub struct LPRXFT_R(crate::FieldReader<u8, u8>);
 impl LPRXFT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPRXFT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> LPRXFT_W<'a> {
 #[doc = "Field `FLPRXLPM` reader - Forces LP Receiver in Low-Power Mode"]
 pub struct FLPRXLPM_R(crate::FieldReader<bool, bool>);
 impl FLPRXLPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FLPRXLPM_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> FLPRXLPM_W<'a> {
 #[doc = "Field `HSTXSRCDL` reader - High-Speed Transmission Slew Rate Control on Data Lanes"]
 pub struct HSTXSRCDL_R(crate::FieldReader<u8, u8>);
 impl HSTXSRCDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSTXSRCDL_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> HSTXSRCDL_W<'a> {
 #[doc = "Field `HSTXSRCCL` reader - High-Speed Transmission Slew Rate Control on Clock Lane"]
 pub struct HSTXSRCCL_R(crate::FieldReader<u8, u8>);
 impl HSTXSRCCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSTXSRCCL_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> HSTXSRCCL_W<'a> {
 #[doc = "Field `SDCC` reader - SDD Control"]
 pub struct SDCC_R(crate::FieldReader<bool, bool>);
 impl SDCC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDCC_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> SDCC_W<'a> {
 #[doc = "Field `LPSRDL` reader - Low-Power transmission Slew Rate Compensation on Data Lanes"]
 pub struct LPSRDL_R(crate::FieldReader<u8, u8>);
 impl LPSRDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPSRDL_R(crate::FieldReader::new(bits))
     }
@@ -213,6 +219,7 @@ impl<'a> LPSRDL_W<'a> {
 #[doc = "Field `LPSRCL` reader - Low-Power transmission Slew Rate Compensation on Clock Lane"]
 pub struct LPSRCL_R(crate::FieldReader<u8, u8>);
 impl LPSRCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPSRCL_R(crate::FieldReader::new(bits))
     }
@@ -239,6 +246,7 @@ impl<'a> LPSRCL_W<'a> {
 #[doc = "Field `HSTXDLL` reader - High-Speed Transmission Delay on Data Lanes"]
 pub struct HSTXDLL_R(crate::FieldReader<u8, u8>);
 impl HSTXDLL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSTXDLL_R(crate::FieldReader::new(bits))
     }
@@ -265,6 +273,7 @@ impl<'a> HSTXDLL_W<'a> {
 #[doc = "Field `HSTXDCL` reader - High-Speed Transmission Delay on Clock Lane"]
 pub struct HSTXDCL_R(crate::FieldReader<u8, u8>);
 impl HSTXDCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSTXDCL_R(crate::FieldReader::new(bits))
     }

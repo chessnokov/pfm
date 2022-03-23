@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM0_ISR_SPEC>> for R {
 #[doc = "Field `JEOCF` reader - End of injected conversion flag"]
 pub struct JEOCF_R(crate::FieldReader<bool, bool>);
 impl JEOCF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JEOCF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for JEOCF_R {
 #[doc = "Field `REOCF` reader - End of regular conversion flag"]
 pub struct REOCF_R(crate::FieldReader<bool, bool>);
 impl REOCF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REOCF_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for REOCF_R {
 #[doc = "Field `JOVRF` reader - Injected conversion overrun flag"]
 pub struct JOVRF_R(crate::FieldReader<bool, bool>);
 impl JOVRF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JOVRF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for JOVRF_R {
 #[doc = "Field `ROVRF` reader - Regular conversion overrun flag"]
 pub struct ROVRF_R(crate::FieldReader<bool, bool>);
 impl ROVRF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ROVRF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for ROVRF_R {
 #[doc = "Field `AWDF` reader - Analog watchdog"]
 pub struct AWDF_R(crate::FieldReader<bool, bool>);
 impl AWDF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWDF_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for AWDF_R {
 #[doc = "Field `JCIP` reader - Injected conversion in progress status"]
 pub struct JCIP_R(crate::FieldReader<bool, bool>);
 impl JCIP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JCIP_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for JCIP_R {
 #[doc = "Field `RCIP` reader - Regular conversion in progress status"]
 pub struct RCIP_R(crate::FieldReader<bool, bool>);
 impl RCIP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RCIP_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for RCIP_R {
 #[doc = "Field `CKABF` reader - Clock absence flag"]
 pub struct CKABF_R(crate::FieldReader<u8, u8>);
 impl CKABF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKABF_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for CKABF_R {
 #[doc = "Field `SCDF` reader - short-circuit detector flag"]
 pub struct SCDF_R(crate::FieldReader<u8, u8>);
 impl SCDF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SCDF_R(crate::FieldReader::new(bits))
     }

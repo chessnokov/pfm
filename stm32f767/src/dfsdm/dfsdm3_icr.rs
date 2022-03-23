@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM3_ICR_SPEC>> for W {
 #[doc = "Field `CLRJOVRF` reader - Clear the injected conversion overrun flag"]
 pub struct CLRJOVRF_R(crate::FieldReader<bool, bool>);
 impl CLRJOVRF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CLRJOVRF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CLRJOVRF_W<'a> {
 #[doc = "Field `CLRROVRF` reader - Clear the regular conversion overrun flag"]
 pub struct CLRROVRF_R(crate::FieldReader<bool, bool>);
 impl CLRROVRF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CLRROVRF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CLRROVRF_W<'a> {
 #[doc = "Field `CLRCKABF` reader - Clear the clock absence flag"]
 pub struct CLRCKABF_R(crate::FieldReader<u8, u8>);
 impl CLRCKABF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CLRCKABF_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> CLRCKABF_W<'a> {
 #[doc = "Field `CLRSCDF` reader - Clear the short-circuit detector flag"]
 pub struct CLRSCDF_R(crate::FieldReader<u8, u8>);
 impl CLRSCDF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CLRSCDF_R(crate::FieldReader::new(bits))
     }

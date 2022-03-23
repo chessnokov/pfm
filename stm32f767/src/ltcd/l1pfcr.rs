@@ -37,6 +37,7 @@ impl From<crate::W<L1PFCR_SPEC>> for W {
 #[doc = "Field `PF` reader - Pixel Format"]
 pub struct PF_R(crate::FieldReader<u8, u8>);
 impl PF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PF_R(crate::FieldReader::new(bits))
     }

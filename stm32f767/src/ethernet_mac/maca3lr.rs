@@ -37,6 +37,7 @@ impl From<crate::W<MACA3LR_SPEC>> for W {
 #[doc = "Field `MBCA3L` reader - MBCA3L"]
 pub struct MBCA3L_R(crate::FieldReader<u32, u32>);
 impl MBCA3L_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         MBCA3L_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> MBCA3L_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - MBCA3L"]
     #[inline(always)]
     pub fn mbca3l(&self) -> MBCA3L_R {
-        MBCA3L_R::new((self.bits & 0xffff_ffff) as u32)
+        MBCA3L_R::new(self.bits)
     }
 }
 impl W {

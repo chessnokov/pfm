@@ -37,6 +37,7 @@ impl From<crate::W<RTSR_SPEC>> for W {
 #[doc = "Field `TR0` reader - Rising trigger event configuration of line 0"]
 pub struct TR0_R(crate::FieldReader<bool, bool>);
 impl TR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TR0_W<'a> {
 #[doc = "Field `TR1` reader - Rising trigger event configuration of line 1"]
 pub struct TR1_R(crate::FieldReader<bool, bool>);
 impl TR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TR1_W<'a> {
 #[doc = "Field `TR2` reader - Rising trigger event configuration of line 2"]
 pub struct TR2_R(crate::FieldReader<bool, bool>);
 impl TR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TR2_W<'a> {
 #[doc = "Field `TR3` reader - Rising trigger event configuration of line 3"]
 pub struct TR3_R(crate::FieldReader<bool, bool>);
 impl TR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TR3_W<'a> {
 #[doc = "Field `TR4` reader - Rising trigger event configuration of line 4"]
 pub struct TR4_R(crate::FieldReader<bool, bool>);
 impl TR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TR4_W<'a> {
 #[doc = "Field `TR5` reader - Rising trigger event configuration of line 5"]
 pub struct TR5_R(crate::FieldReader<bool, bool>);
 impl TR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> TR5_W<'a> {
 #[doc = "Field `TR6` reader - Rising trigger event configuration of line 6"]
 pub struct TR6_R(crate::FieldReader<bool, bool>);
 impl TR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> TR6_W<'a> {
 #[doc = "Field `TR7` reader - Rising trigger event configuration of line 7"]
 pub struct TR7_R(crate::FieldReader<bool, bool>);
 impl TR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TR7_W<'a> {
 #[doc = "Field `TR8` reader - Rising trigger event configuration of line 8"]
 pub struct TR8_R(crate::FieldReader<bool, bool>);
 impl TR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> TR8_W<'a> {
 #[doc = "Field `TR9` reader - Rising trigger event configuration of line 9"]
 pub struct TR9_R(crate::FieldReader<bool, bool>);
 impl TR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> TR9_W<'a> {
 #[doc = "Field `TR10` reader - Rising trigger event configuration of line 10"]
 pub struct TR10_R(crate::FieldReader<bool, bool>);
 impl TR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> TR10_W<'a> {
 #[doc = "Field `TR11` reader - Rising trigger event configuration of line 11"]
 pub struct TR11_R(crate::FieldReader<bool, bool>);
 impl TR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> TR11_W<'a> {
 #[doc = "Field `TR12` reader - Rising trigger event configuration of line 12"]
 pub struct TR12_R(crate::FieldReader<bool, bool>);
 impl TR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> TR12_W<'a> {
 #[doc = "Field `TR13` reader - Rising trigger event configuration of line 13"]
 pub struct TR13_R(crate::FieldReader<bool, bool>);
 impl TR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> TR13_W<'a> {
 #[doc = "Field `TR14` reader - Rising trigger event configuration of line 14"]
 pub struct TR14_R(crate::FieldReader<bool, bool>);
 impl TR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> TR14_W<'a> {
 #[doc = "Field `TR15` reader - Rising trigger event configuration of line 15"]
 pub struct TR15_R(crate::FieldReader<bool, bool>);
 impl TR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> TR15_W<'a> {
 #[doc = "Field `TR16` reader - Rising trigger event configuration of line 16"]
 pub struct TR16_R(crate::FieldReader<bool, bool>);
 impl TR16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> TR16_W<'a> {
 #[doc = "Field `TR17` reader - Rising trigger event configuration of line 17"]
 pub struct TR17_R(crate::FieldReader<bool, bool>);
 impl TR17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> TR17_W<'a> {
 #[doc = "Field `TR18` reader - Rising trigger event configuration of line 18"]
 pub struct TR18_R(crate::FieldReader<bool, bool>);
 impl TR18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> TR18_W<'a> {
 #[doc = "Field `TR19` reader - Rising trigger event configuration of line 19"]
 pub struct TR19_R(crate::FieldReader<bool, bool>);
 impl TR19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> TR19_W<'a> {
 #[doc = "Field `TR20` reader - Rising trigger event configuration of line 20"]
 pub struct TR20_R(crate::FieldReader<bool, bool>);
 impl TR20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> TR20_W<'a> {
 #[doc = "Field `TR21` reader - Rising trigger event configuration of line 21"]
 pub struct TR21_R(crate::FieldReader<bool, bool>);
 impl TR21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> TR21_W<'a> {
 #[doc = "Field `TR22` reader - Rising trigger event configuration of line 22"]
 pub struct TR22_R(crate::FieldReader<bool, bool>);
 impl TR22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TR22_R(crate::FieldReader::new(bits))
     }

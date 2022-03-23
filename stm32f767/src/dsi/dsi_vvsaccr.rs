@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VVSACCR_SPEC>> for R {
 #[doc = "Field `VSA` reader - Vertical Synchronism Active duration"]
 pub struct VSA_R(crate::FieldReader<u16, u16>);
 impl VSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VSA_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HNPTXFSIZ_HOST_SPEC>> for W {
 #[doc = "Field `NPTXFSA` reader - Nonperiodic transmit RAM start address"]
 pub struct NPTXFSA_R(crate::FieldReader<u16, u16>);
 impl NPTXFSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NPTXFSA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> NPTXFSA_W<'a> {
 #[doc = "Field `NPTXFD` reader - Nonperiodic TxFIFO depth"]
 pub struct NPTXFD_R(crate::FieldReader<u16, u16>);
 impl NPTXFD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NPTXFD_R(crate::FieldReader::new(bits))
     }

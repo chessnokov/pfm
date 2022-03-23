@@ -37,6 +37,7 @@ impl From<crate::W<CCMR1_INPUT_SPEC>> for W {
 #[doc = "Field `IC1F` reader - Input capture 1 filter"]
 pub struct IC1F_R(crate::FieldReader<u8, u8>);
 impl IC1F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IC1F_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> IC1F_W<'a> {
 #[doc = "Field `ICPCS` reader - Input capture 1 prescaler"]
 pub struct ICPCS_R(crate::FieldReader<u8, u8>);
 impl ICPCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ICPCS_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> ICPCS_W<'a> {
 #[doc = "Field `CC1S` reader - Capture/Compare 1 selection"]
 pub struct CC1S_R(crate::FieldReader<u8, u8>);
 impl CC1S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC1S_R(crate::FieldReader::new(bits))
     }

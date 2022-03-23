@@ -37,6 +37,7 @@ impl From<crate::W<PR_SPEC>> for W {
 #[doc = "Field `PR0` reader - Pending bit 0"]
 pub struct PR0_R(crate::FieldReader<bool, bool>);
 impl PR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PR0_W<'a> {
 #[doc = "Field `PR1` reader - Pending bit 1"]
 pub struct PR1_R(crate::FieldReader<bool, bool>);
 impl PR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> PR1_W<'a> {
 #[doc = "Field `PR2` reader - Pending bit 2"]
 pub struct PR2_R(crate::FieldReader<bool, bool>);
 impl PR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> PR2_W<'a> {
 #[doc = "Field `PR3` reader - Pending bit 3"]
 pub struct PR3_R(crate::FieldReader<bool, bool>);
 impl PR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> PR3_W<'a> {
 #[doc = "Field `PR4` reader - Pending bit 4"]
 pub struct PR4_R(crate::FieldReader<bool, bool>);
 impl PR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> PR4_W<'a> {
 #[doc = "Field `PR5` reader - Pending bit 5"]
 pub struct PR5_R(crate::FieldReader<bool, bool>);
 impl PR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> PR5_W<'a> {
 #[doc = "Field `PR6` reader - Pending bit 6"]
 pub struct PR6_R(crate::FieldReader<bool, bool>);
 impl PR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> PR6_W<'a> {
 #[doc = "Field `PR7` reader - Pending bit 7"]
 pub struct PR7_R(crate::FieldReader<bool, bool>);
 impl PR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> PR7_W<'a> {
 #[doc = "Field `PR8` reader - Pending bit 8"]
 pub struct PR8_R(crate::FieldReader<bool, bool>);
 impl PR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> PR8_W<'a> {
 #[doc = "Field `PR9` reader - Pending bit 9"]
 pub struct PR9_R(crate::FieldReader<bool, bool>);
 impl PR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> PR9_W<'a> {
 #[doc = "Field `PR10` reader - Pending bit 10"]
 pub struct PR10_R(crate::FieldReader<bool, bool>);
 impl PR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> PR10_W<'a> {
 #[doc = "Field `PR11` reader - Pending bit 11"]
 pub struct PR11_R(crate::FieldReader<bool, bool>);
 impl PR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> PR11_W<'a> {
 #[doc = "Field `PR12` reader - Pending bit 12"]
 pub struct PR12_R(crate::FieldReader<bool, bool>);
 impl PR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> PR12_W<'a> {
 #[doc = "Field `PR13` reader - Pending bit 13"]
 pub struct PR13_R(crate::FieldReader<bool, bool>);
 impl PR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> PR13_W<'a> {
 #[doc = "Field `PR14` reader - Pending bit 14"]
 pub struct PR14_R(crate::FieldReader<bool, bool>);
 impl PR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> PR14_W<'a> {
 #[doc = "Field `PR15` reader - Pending bit 15"]
 pub struct PR15_R(crate::FieldReader<bool, bool>);
 impl PR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> PR15_W<'a> {
 #[doc = "Field `PR16` reader - Pending bit 16"]
 pub struct PR16_R(crate::FieldReader<bool, bool>);
 impl PR16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> PR16_W<'a> {
 #[doc = "Field `PR17` reader - Pending bit 17"]
 pub struct PR17_R(crate::FieldReader<bool, bool>);
 impl PR17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> PR17_W<'a> {
 #[doc = "Field `PR18` reader - Pending bit 18"]
 pub struct PR18_R(crate::FieldReader<bool, bool>);
 impl PR18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> PR18_W<'a> {
 #[doc = "Field `PR19` reader - Pending bit 19"]
 pub struct PR19_R(crate::FieldReader<bool, bool>);
 impl PR19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> PR19_W<'a> {
 #[doc = "Field `PR20` reader - Pending bit 20"]
 pub struct PR20_R(crate::FieldReader<bool, bool>);
 impl PR20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> PR20_W<'a> {
 #[doc = "Field `PR21` reader - Pending bit 21"]
 pub struct PR21_R(crate::FieldReader<bool, bool>);
 impl PR21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> PR21_W<'a> {
 #[doc = "Field `PR22` reader - Pending bit 22"]
 pub struct PR22_R(crate::FieldReader<bool, bool>);
 impl PR22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PR22_R(crate::FieldReader::new(bits))
     }

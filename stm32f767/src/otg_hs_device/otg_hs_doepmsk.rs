@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DOEPMSK_SPEC>> for W {
 #[doc = "Field `XFRCM` reader - Transfer completed interrupt mask"]
 pub struct XFRCM_R(crate::FieldReader<bool, bool>);
 impl XFRCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRCM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRCM_W<'a> {
 #[doc = "Field `EPDM` reader - Endpoint disabled interrupt mask"]
 pub struct EPDM_R(crate::FieldReader<bool, bool>);
 impl EPDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> EPDM_W<'a> {
 #[doc = "Field `STUPM` reader - SETUP phase done mask"]
 pub struct STUPM_R(crate::FieldReader<bool, bool>);
 impl STUPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STUPM_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> STUPM_W<'a> {
 #[doc = "Field `OTEPDM` reader - OUT token received when endpoint disabled mask"]
 pub struct OTEPDM_R(crate::FieldReader<bool, bool>);
 impl OTEPDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTEPDM_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OTEPDM_W<'a> {
 #[doc = "Field `B2BSTUP` reader - Back-to-back SETUP packets received mask"]
 pub struct B2BSTUP_R(crate::FieldReader<bool, bool>);
 impl B2BSTUP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         B2BSTUP_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> B2BSTUP_W<'a> {
 #[doc = "Field `OPEM` reader - OUT packet error mask"]
 pub struct OPEM_R(crate::FieldReader<bool, bool>);
 impl OPEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OPEM_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> OPEM_W<'a> {
 #[doc = "Field `BOIM` reader - BNA interrupt mask"]
 pub struct BOIM_R(crate::FieldReader<bool, bool>);
 impl BOIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BOIM_R(crate::FieldReader::new(bits))
     }

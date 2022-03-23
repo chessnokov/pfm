@@ -37,6 +37,7 @@ impl From<crate::W<BRR_SPEC>> for W {
 #[doc = "Field `DIV_Mantissa` reader - DIV_Mantissa"]
 pub struct DIV_MANTISSA_R(crate::FieldReader<u16, u16>);
 impl DIV_MANTISSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DIV_MANTISSA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DIV_MANTISSA_W<'a> {
 #[doc = "Field `DIV_Fraction` reader - DIV_Fraction"]
 pub struct DIV_FRACTION_R(crate::FieldReader<u8, u8>);
 impl DIV_FRACTION_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DIV_FRACTION_R(crate::FieldReader::new(bits))
     }

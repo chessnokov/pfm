@@ -37,6 +37,7 @@ impl From<crate::W<TDL2R_SPEC>> for W {
 #[doc = "Field `DATA3` reader - DATA3"]
 pub struct DATA3_R(crate::FieldReader<u8, u8>);
 impl DATA3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA3_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DATA3_W<'a> {
 #[doc = "Field `DATA2` reader - DATA2"]
 pub struct DATA2_R(crate::FieldReader<u8, u8>);
 impl DATA2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA2_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> DATA2_W<'a> {
 #[doc = "Field `DATA1` reader - DATA1"]
 pub struct DATA1_R(crate::FieldReader<u8, u8>);
 impl DATA1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA1_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> DATA1_W<'a> {
 #[doc = "Field `DATA0` reader - DATA0"]
 pub struct DATA0_R(crate::FieldReader<u8, u8>);
 impl DATA0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATA0_R(crate::FieldReader::new(bits))
     }

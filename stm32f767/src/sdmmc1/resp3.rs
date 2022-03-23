@@ -16,6 +16,7 @@ impl From<crate::R<RESP3_SPEC>> for R {
 #[doc = "Field `CARDSTATUS3` reader - see Table 132"]
 pub struct CARDSTATUS3_R(crate::FieldReader<u32, u32>);
 impl CARDSTATUS3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         CARDSTATUS3_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - see Table 132"]
     #[inline(always)]
     pub fn cardstatus3(&self) -> CARDSTATUS3_R {
-        CARDSTATUS3_R::new((self.bits & 0xffff_ffff) as u32)
+        CARDSTATUS3_R::new(self.bits)
     }
 }
 #[doc = "response 1..4 register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [resp3](index.html) module"]

@@ -37,6 +37,7 @@ impl From<crate::W<SRCR_SPEC>> for W {
 #[doc = "Field `VBR` reader - Vertical Blanking Reload"]
 pub struct VBR_R(crate::FieldReader<bool, bool>);
 impl VBR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VBR_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> VBR_W<'a> {
 #[doc = "Field `IMR` reader - Immediate Reload"]
 pub struct IMR_R(crate::FieldReader<bool, bool>);
 impl IMR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IMR_R(crate::FieldReader::new(bits))
     }

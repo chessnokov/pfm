@@ -37,6 +37,7 @@ impl From<crate::W<MASK_SPEC>> for W {
 #[doc = "Field `CEATAENDIE` reader - CE-ATA command completion signal received interrupt enable"]
 pub struct CEATAENDIE_R(crate::FieldReader<bool, bool>);
 impl CEATAENDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEATAENDIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CEATAENDIE_W<'a> {
 #[doc = "Field `SDIOITIE` reader - SDIO mode interrupt received interrupt enable"]
 pub struct SDIOITIE_R(crate::FieldReader<bool, bool>);
 impl SDIOITIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDIOITIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SDIOITIE_W<'a> {
 #[doc = "Field `RXDAVLIE` reader - Data available in Rx FIFO interrupt enable"]
 pub struct RXDAVLIE_R(crate::FieldReader<bool, bool>);
 impl RXDAVLIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXDAVLIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RXDAVLIE_W<'a> {
 #[doc = "Field `TXDAVLIE` reader - Data available in Tx FIFO interrupt enable"]
 pub struct TXDAVLIE_R(crate::FieldReader<bool, bool>);
 impl TXDAVLIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXDAVLIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TXDAVLIE_W<'a> {
 #[doc = "Field `RXFIFOEIE` reader - Rx FIFO empty interrupt enable"]
 pub struct RXFIFOEIE_R(crate::FieldReader<bool, bool>);
 impl RXFIFOEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFIFOEIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> RXFIFOEIE_W<'a> {
 #[doc = "Field `TXFIFOEIE` reader - Tx FIFO empty interrupt enable"]
 pub struct TXFIFOEIE_R(crate::FieldReader<bool, bool>);
 impl TXFIFOEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOEIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> TXFIFOEIE_W<'a> {
 #[doc = "Field `RXFIFOFIE` reader - Rx FIFO full interrupt enable"]
 pub struct RXFIFOFIE_R(crate::FieldReader<bool, bool>);
 impl RXFIFOFIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFIFOFIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> RXFIFOFIE_W<'a> {
 #[doc = "Field `TXFIFOFIE` reader - Tx FIFO full interrupt enable"]
 pub struct TXFIFOFIE_R(crate::FieldReader<bool, bool>);
 impl TXFIFOFIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOFIE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TXFIFOFIE_W<'a> {
 #[doc = "Field `RXFIFOHFIE` reader - Rx FIFO half full interrupt enable"]
 pub struct RXFIFOHFIE_R(crate::FieldReader<bool, bool>);
 impl RXFIFOHFIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFIFOHFIE_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> RXFIFOHFIE_W<'a> {
 #[doc = "Field `TXFIFOHEIE` reader - Tx FIFO half empty interrupt enable"]
 pub struct TXFIFOHEIE_R(crate::FieldReader<bool, bool>);
 impl TXFIFOHEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOHEIE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> TXFIFOHEIE_W<'a> {
 #[doc = "Field `RXACTIE` reader - Data receive acting interrupt enable"]
 pub struct RXACTIE_R(crate::FieldReader<bool, bool>);
 impl RXACTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXACTIE_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> RXACTIE_W<'a> {
 #[doc = "Field `TXACTIE` reader - Data transmit acting interrupt enable"]
 pub struct TXACTIE_R(crate::FieldReader<bool, bool>);
 impl TXACTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXACTIE_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> TXACTIE_W<'a> {
 #[doc = "Field `CMDACTIE` reader - Command acting interrupt enable"]
 pub struct CMDACTIE_R(crate::FieldReader<bool, bool>);
 impl CMDACTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDACTIE_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> CMDACTIE_W<'a> {
 #[doc = "Field `DBCKENDIE` reader - Data block end interrupt enable"]
 pub struct DBCKENDIE_R(crate::FieldReader<bool, bool>);
 impl DBCKENDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBCKENDIE_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> DBCKENDIE_W<'a> {
 #[doc = "Field `STBITERRIE` reader - Start bit error interrupt enable"]
 pub struct STBITERRIE_R(crate::FieldReader<bool, bool>);
 impl STBITERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STBITERRIE_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> STBITERRIE_W<'a> {
 #[doc = "Field `DATAENDIE` reader - Data end interrupt enable"]
 pub struct DATAENDIE_R(crate::FieldReader<bool, bool>);
 impl DATAENDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DATAENDIE_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> DATAENDIE_W<'a> {
 #[doc = "Field `CMDSENTIE` reader - Command sent interrupt enable"]
 pub struct CMDSENTIE_R(crate::FieldReader<bool, bool>);
 impl CMDSENTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDSENTIE_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> CMDSENTIE_W<'a> {
 #[doc = "Field `CMDRENDIE` reader - Command response received interrupt enable"]
 pub struct CMDRENDIE_R(crate::FieldReader<bool, bool>);
 impl CMDRENDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDRENDIE_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> CMDRENDIE_W<'a> {
 #[doc = "Field `RXOVERRIE` reader - Rx FIFO overrun error interrupt enable"]
 pub struct RXOVERRIE_R(crate::FieldReader<bool, bool>);
 impl RXOVERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXOVERRIE_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> RXOVERRIE_W<'a> {
 #[doc = "Field `TXUNDERRIE` reader - Tx FIFO underrun error interrupt enable"]
 pub struct TXUNDERRIE_R(crate::FieldReader<bool, bool>);
 impl TXUNDERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXUNDERRIE_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> TXUNDERRIE_W<'a> {
 #[doc = "Field `DTIMEOUTIE` reader - Data timeout interrupt enable"]
 pub struct DTIMEOUTIE_R(crate::FieldReader<bool, bool>);
 impl DTIMEOUTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTIMEOUTIE_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> DTIMEOUTIE_W<'a> {
 #[doc = "Field `CTIMEOUTIE` reader - Command timeout interrupt enable"]
 pub struct CTIMEOUTIE_R(crate::FieldReader<bool, bool>);
 impl CTIMEOUTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTIMEOUTIE_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> CTIMEOUTIE_W<'a> {
 #[doc = "Field `DCRCFAILIE` reader - Data CRC fail interrupt enable"]
 pub struct DCRCFAILIE_R(crate::FieldReader<bool, bool>);
 impl DCRCFAILIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCRCFAILIE_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> DCRCFAILIE_W<'a> {
 #[doc = "Field `CCRCFAILIE` reader - Command CRC fail interrupt enable"]
 pub struct CCRCFAILIE_R(crate::FieldReader<bool, bool>);
 impl CCRCFAILIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCRCFAILIE_R(crate::FieldReader::new(bits))
     }

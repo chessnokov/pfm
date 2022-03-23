@@ -37,6 +37,7 @@ impl From<crate::W<CSR39_SPEC>> for W {
 #[doc = "Field `CSR39` reader - CSR39"]
 pub struct CSR39_R(crate::FieldReader<u32, u32>);
 impl CSR39_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         CSR39_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> CSR39_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - CSR39"]
     #[inline(always)]
     pub fn csr39(&self) -> CSR39_R {
-        CSR39_R::new((self.bits & 0xffff_ffff) as u32)
+        CSR39_R::new(self.bits)
     }
 }
 impl W {

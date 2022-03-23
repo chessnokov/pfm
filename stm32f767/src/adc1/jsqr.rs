@@ -37,6 +37,7 @@ impl From<crate::W<JSQR_SPEC>> for W {
 #[doc = "Field `JL` reader - Injected sequence length"]
 pub struct JL_R(crate::FieldReader<u8, u8>);
 impl JL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> JL_W<'a> {
 #[doc = "Field `JSQ4` reader - 4th conversion in injected sequence"]
 pub struct JSQ4_R(crate::FieldReader<u8, u8>);
 impl JSQ4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JSQ4_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> JSQ4_W<'a> {
 #[doc = "Field `JSQ3` reader - 3rd conversion in injected sequence"]
 pub struct JSQ3_R(crate::FieldReader<u8, u8>);
 impl JSQ3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JSQ3_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> JSQ3_W<'a> {
 #[doc = "Field `JSQ2` reader - 2nd conversion in injected sequence"]
 pub struct JSQ2_R(crate::FieldReader<u8, u8>);
 impl JSQ2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JSQ2_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> JSQ2_W<'a> {
 #[doc = "Field `JSQ1` reader - 1st conversion in injected sequence"]
 pub struct JSQ1_R(crate::FieldReader<u8, u8>);
 impl JSQ1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JSQ1_R(crate::FieldReader::new(bits))
     }

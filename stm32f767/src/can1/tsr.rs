@@ -37,6 +37,7 @@ impl From<crate::W<TSR_SPEC>> for W {
 #[doc = "Field `LOW2` reader - Lowest priority flag for mailbox 2"]
 pub struct LOW2_R(crate::FieldReader<bool, bool>);
 impl LOW2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LOW2_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for LOW2_R {
 #[doc = "Field `LOW1` reader - Lowest priority flag for mailbox 1"]
 pub struct LOW1_R(crate::FieldReader<bool, bool>);
 impl LOW1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LOW1_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for LOW1_R {
 #[doc = "Field `LOW0` reader - Lowest priority flag for mailbox 0"]
 pub struct LOW0_R(crate::FieldReader<bool, bool>);
 impl LOW0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LOW0_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for LOW0_R {
 #[doc = "Field `TME2` reader - Lowest priority flag for mailbox 2"]
 pub struct TME2_R(crate::FieldReader<bool, bool>);
 impl TME2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TME2_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for TME2_R {
 #[doc = "Field `TME1` reader - Lowest priority flag for mailbox 1"]
 pub struct TME1_R(crate::FieldReader<bool, bool>);
 impl TME1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TME1_R(crate::FieldReader::new(bits))
     }
@@ -107,6 +112,7 @@ impl core::ops::Deref for TME1_R {
 #[doc = "Field `TME0` reader - Lowest priority flag for mailbox 0"]
 pub struct TME0_R(crate::FieldReader<bool, bool>);
 impl TME0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TME0_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +127,7 @@ impl core::ops::Deref for TME0_R {
 #[doc = "Field `CODE` reader - CODE"]
 pub struct CODE_R(crate::FieldReader<u8, u8>);
 impl CODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CODE_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +142,7 @@ impl core::ops::Deref for CODE_R {
 #[doc = "Field `ABRQ2` reader - ABRQ2"]
 pub struct ABRQ2_R(crate::FieldReader<bool, bool>);
 impl ABRQ2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRQ2_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +179,7 @@ impl<'a> ABRQ2_W<'a> {
 #[doc = "Field `TERR2` reader - TERR2"]
 pub struct TERR2_R(crate::FieldReader<bool, bool>);
 impl TERR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERR2_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +216,7 @@ impl<'a> TERR2_W<'a> {
 #[doc = "Field `ALST2` reader - ALST2"]
 pub struct ALST2_R(crate::FieldReader<bool, bool>);
 impl ALST2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALST2_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +253,7 @@ impl<'a> ALST2_W<'a> {
 #[doc = "Field `TXOK2` reader - TXOK2"]
 pub struct TXOK2_R(crate::FieldReader<bool, bool>);
 impl TXOK2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXOK2_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +290,7 @@ impl<'a> TXOK2_W<'a> {
 #[doc = "Field `RQCP2` reader - RQCP2"]
 pub struct RQCP2_R(crate::FieldReader<bool, bool>);
 impl RQCP2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RQCP2_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +327,7 @@ impl<'a> RQCP2_W<'a> {
 #[doc = "Field `ABRQ1` reader - ABRQ1"]
 pub struct ABRQ1_R(crate::FieldReader<bool, bool>);
 impl ABRQ1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRQ1_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +364,7 @@ impl<'a> ABRQ1_W<'a> {
 #[doc = "Field `TERR1` reader - TERR1"]
 pub struct TERR1_R(crate::FieldReader<bool, bool>);
 impl TERR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERR1_R(crate::FieldReader::new(bits))
     }
@@ -387,6 +401,7 @@ impl<'a> TERR1_W<'a> {
 #[doc = "Field `ALST1` reader - ALST1"]
 pub struct ALST1_R(crate::FieldReader<bool, bool>);
 impl ALST1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALST1_R(crate::FieldReader::new(bits))
     }
@@ -423,6 +438,7 @@ impl<'a> ALST1_W<'a> {
 #[doc = "Field `TXOK1` reader - TXOK1"]
 pub struct TXOK1_R(crate::FieldReader<bool, bool>);
 impl TXOK1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXOK1_R(crate::FieldReader::new(bits))
     }
@@ -459,6 +475,7 @@ impl<'a> TXOK1_W<'a> {
 #[doc = "Field `RQCP1` reader - RQCP1"]
 pub struct RQCP1_R(crate::FieldReader<bool, bool>);
 impl RQCP1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RQCP1_R(crate::FieldReader::new(bits))
     }
@@ -495,6 +512,7 @@ impl<'a> RQCP1_W<'a> {
 #[doc = "Field `ABRQ0` reader - ABRQ0"]
 pub struct ABRQ0_R(crate::FieldReader<bool, bool>);
 impl ABRQ0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRQ0_R(crate::FieldReader::new(bits))
     }
@@ -531,6 +549,7 @@ impl<'a> ABRQ0_W<'a> {
 #[doc = "Field `TERR0` reader - TERR0"]
 pub struct TERR0_R(crate::FieldReader<bool, bool>);
 impl TERR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERR0_R(crate::FieldReader::new(bits))
     }
@@ -567,6 +586,7 @@ impl<'a> TERR0_W<'a> {
 #[doc = "Field `ALST0` reader - ALST0"]
 pub struct ALST0_R(crate::FieldReader<bool, bool>);
 impl ALST0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALST0_R(crate::FieldReader::new(bits))
     }
@@ -603,6 +623,7 @@ impl<'a> ALST0_W<'a> {
 #[doc = "Field `TXOK0` reader - TXOK0"]
 pub struct TXOK0_R(crate::FieldReader<bool, bool>);
 impl TXOK0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXOK0_R(crate::FieldReader::new(bits))
     }
@@ -639,6 +660,7 @@ impl<'a> TXOK0_W<'a> {
 #[doc = "Field `RQCP0` reader - RQCP0"]
 pub struct RQCP0_R(crate::FieldReader<bool, bool>);
 impl RQCP0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RQCP0_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<ALRMASSR_SPEC>> for W {
 #[doc = "Field `MASKSS` reader - Mask the most-significant bits starting at this bit"]
 pub struct MASKSS_R(crate::FieldReader<u8, u8>);
 impl MASKSS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MASKSS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MASKSS_W<'a> {
 #[doc = "Field `SS` reader - Sub seconds value"]
 pub struct SS_R(crate::FieldReader<u16, u16>);
 impl SS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         SS_R(crate::FieldReader::new(bits))
     }

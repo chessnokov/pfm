@@ -16,6 +16,7 @@ impl From<crate::R<DSI_LCVCIDR_SPEC>> for R {
 #[doc = "Field `VCID` reader - Virtual Channel ID"]
 pub struct VCID_R(crate::FieldReader<u8, u8>);
 impl VCID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         VCID_R(crate::FieldReader::new(bits))
     }

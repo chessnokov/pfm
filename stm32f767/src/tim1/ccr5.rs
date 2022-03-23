@@ -37,6 +37,7 @@ impl From<crate::W<CCR5_SPEC>> for W {
 #[doc = "Field `CCR5` reader - Capture/Compare 5 value"]
 pub struct CCR5_R(crate::FieldReader<u16, u16>);
 impl CCR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CCR5_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CCR5_W<'a> {
 #[doc = "Field `GC5C1` reader - Group Channel 5 and Channel 1"]
 pub struct GC5C1_R(crate::FieldReader<bool, bool>);
 impl GC5C1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GC5C1_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> GC5C1_W<'a> {
 #[doc = "Field `GC5C2` reader - Group Channel 5 and Channel 2"]
 pub struct GC5C2_R(crate::FieldReader<bool, bool>);
 impl GC5C2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GC5C2_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> GC5C2_W<'a> {
 #[doc = "Field `GC5C3` reader - Group Channel 5 and Channel 3"]
 pub struct GC5C3_R(crate::FieldReader<bool, bool>);
 impl GC5C3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GC5C3_R(crate::FieldReader::new(bits))
     }

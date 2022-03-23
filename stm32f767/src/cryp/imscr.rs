@@ -37,6 +37,7 @@ impl From<crate::W<IMSCR_SPEC>> for W {
 #[doc = "Field `OUTIM` reader - Output FIFO service interrupt mask"]
 pub struct OUTIM_R(crate::FieldReader<bool, bool>);
 impl OUTIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OUTIM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OUTIM_W<'a> {
 #[doc = "Field `INIM` reader - Input FIFO service interrupt mask"]
 pub struct INIM_R(crate::FieldReader<bool, bool>);
 impl INIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INIM_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `ADD4_7` reader - Address of the USART node"]
 pub struct ADD4_7_R(crate::FieldReader<u8, u8>);
 impl ADD4_7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADD4_7_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> ADD4_7_W<'a> {
 #[doc = "Field `ADD0_3` reader - Address of the USART node"]
 pub struct ADD0_3_R(crate::FieldReader<u8, u8>);
 impl ADD0_3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADD0_3_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> ADD0_3_W<'a> {
 #[doc = "Field `RTOEN` reader - Receiver timeout enable"]
 pub struct RTOEN_R(crate::FieldReader<bool, bool>);
 impl RTOEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTOEN_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> RTOEN_W<'a> {
 #[doc = "Field `ABRMOD1` reader - Auto baud rate mode"]
 pub struct ABRMOD1_R(crate::FieldReader<bool, bool>);
 impl ABRMOD1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRMOD1_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> ABRMOD1_W<'a> {
 #[doc = "Field `ABRMOD0` reader - ABRMOD0"]
 pub struct ABRMOD0_R(crate::FieldReader<bool, bool>);
 impl ABRMOD0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRMOD0_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> ABRMOD0_W<'a> {
 #[doc = "Field `ABREN` reader - Auto baud rate enable"]
 pub struct ABREN_R(crate::FieldReader<bool, bool>);
 impl ABREN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABREN_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> ABREN_W<'a> {
 #[doc = "Field `MSBFIRST` reader - Most significant bit first"]
 pub struct MSBFIRST_R(crate::FieldReader<bool, bool>);
 impl MSBFIRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSBFIRST_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> MSBFIRST_W<'a> {
 #[doc = "Field `TAINV` reader - Binary data inversion"]
 pub struct TAINV_R(crate::FieldReader<bool, bool>);
 impl TAINV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAINV_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> TAINV_W<'a> {
 #[doc = "Field `TXINV` reader - TX pin active level inversion"]
 pub struct TXINV_R(crate::FieldReader<bool, bool>);
 impl TXINV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXINV_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> TXINV_W<'a> {
 #[doc = "Field `RXINV` reader - RX pin active level inversion"]
 pub struct RXINV_R(crate::FieldReader<bool, bool>);
 impl RXINV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXINV_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> RXINV_W<'a> {
 #[doc = "Field `SWAP` reader - Swap TX/RX pins"]
 pub struct SWAP_R(crate::FieldReader<bool, bool>);
 impl SWAP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWAP_R(crate::FieldReader::new(bits))
     }
@@ -413,6 +424,7 @@ impl<'a> SWAP_W<'a> {
 #[doc = "Field `LINEN` reader - LIN mode enable"]
 pub struct LINEN_R(crate::FieldReader<bool, bool>);
 impl LINEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LINEN_R(crate::FieldReader::new(bits))
     }
@@ -449,6 +461,7 @@ impl<'a> LINEN_W<'a> {
 #[doc = "Field `STOP` reader - STOP bits"]
 pub struct STOP_R(crate::FieldReader<u8, u8>);
 impl STOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         STOP_R(crate::FieldReader::new(bits))
     }
@@ -475,6 +488,7 @@ impl<'a> STOP_W<'a> {
 #[doc = "Field `CLKEN` reader - Clock enable"]
 pub struct CLKEN_R(crate::FieldReader<bool, bool>);
 impl CLKEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CLKEN_R(crate::FieldReader::new(bits))
     }
@@ -511,6 +525,7 @@ impl<'a> CLKEN_W<'a> {
 #[doc = "Field `CPOL` reader - Clock polarity"]
 pub struct CPOL_R(crate::FieldReader<bool, bool>);
 impl CPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPOL_R(crate::FieldReader::new(bits))
     }
@@ -547,6 +562,7 @@ impl<'a> CPOL_W<'a> {
 #[doc = "Field `CPHA` reader - Clock phase"]
 pub struct CPHA_R(crate::FieldReader<bool, bool>);
 impl CPHA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPHA_R(crate::FieldReader::new(bits))
     }
@@ -583,6 +599,7 @@ impl<'a> CPHA_W<'a> {
 #[doc = "Field `LBCL` reader - Last bit clock pulse"]
 pub struct LBCL_R(crate::FieldReader<bool, bool>);
 impl LBCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBCL_R(crate::FieldReader::new(bits))
     }
@@ -619,6 +636,7 @@ impl<'a> LBCL_W<'a> {
 #[doc = "Field `LBDIE` reader - LIN break detection interrupt enable"]
 pub struct LBDIE_R(crate::FieldReader<bool, bool>);
 impl LBDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBDIE_R(crate::FieldReader::new(bits))
     }
@@ -655,6 +673,7 @@ impl<'a> LBDIE_W<'a> {
 #[doc = "Field `LBDL` reader - LIN break detection length"]
 pub struct LBDL_R(crate::FieldReader<bool, bool>);
 impl LBDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBDL_R(crate::FieldReader::new(bits))
     }
@@ -691,6 +710,7 @@ impl<'a> LBDL_W<'a> {
 #[doc = "Field `ADDM7` reader - 7-bit Address Detection/4-bit Address Detection"]
 pub struct ADDM7_R(crate::FieldReader<bool, bool>);
 impl ADDM7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADDM7_R(crate::FieldReader::new(bits))
     }

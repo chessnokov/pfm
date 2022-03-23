@@ -16,6 +16,7 @@ impl From<crate::R<STA_SPEC>> for R {
 #[doc = "Field `CEATAEND` reader - CE-ATA command completion signal received for CMD61"]
 pub struct CEATAEND_R(crate::FieldReader<bool, bool>);
 impl CEATAEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEATAEND_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for CEATAEND_R {
 #[doc = "Field `SDIOIT` reader - SDIO interrupt received"]
 pub struct SDIOIT_R(crate::FieldReader<bool, bool>);
 impl SDIOIT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDIOIT_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for SDIOIT_R {
 #[doc = "Field `RXDAVL` reader - Data available in receive FIFO"]
 pub struct RXDAVL_R(crate::FieldReader<bool, bool>);
 impl RXDAVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXDAVL_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for RXDAVL_R {
 #[doc = "Field `TXDAVL` reader - Data available in transmit FIFO"]
 pub struct TXDAVL_R(crate::FieldReader<bool, bool>);
 impl TXDAVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXDAVL_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for TXDAVL_R {
 #[doc = "Field `RXFIFOE` reader - Receive FIFO empty"]
 pub struct RXFIFOE_R(crate::FieldReader<bool, bool>);
 impl RXFIFOE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFIFOE_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for RXFIFOE_R {
 #[doc = "Field `TXFIFOE` reader - Transmit FIFO empty"]
 pub struct TXFIFOE_R(crate::FieldReader<bool, bool>);
 impl TXFIFOE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOE_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for TXFIFOE_R {
 #[doc = "Field `RXFIFOF` reader - Receive FIFO full"]
 pub struct RXFIFOF_R(crate::FieldReader<bool, bool>);
 impl RXFIFOF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFIFOF_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for RXFIFOF_R {
 #[doc = "Field `TXFIFOF` reader - Transmit FIFO full"]
 pub struct TXFIFOF_R(crate::FieldReader<bool, bool>);
 impl TXFIFOF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOF_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for TXFIFOF_R {
 #[doc = "Field `RXFIFOHF` reader - Receive FIFO half full: there are at least 8 words in the FIFO"]
 pub struct RXFIFOHF_R(crate::FieldReader<bool, bool>);
 impl RXFIFOHF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFIFOHF_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for RXFIFOHF_R {
 #[doc = "Field `TXFIFOHE` reader - Transmit FIFO half empty: at least 8 words can be written into the FIFO"]
 pub struct TXFIFOHE_R(crate::FieldReader<bool, bool>);
 impl TXFIFOHE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFIFOHE_R(crate::FieldReader::new(bits))
     }
@@ -156,6 +166,7 @@ impl core::ops::Deref for TXFIFOHE_R {
 #[doc = "Field `RXACT` reader - Data receive in progress"]
 pub struct RXACT_R(crate::FieldReader<bool, bool>);
 impl RXACT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXACT_R(crate::FieldReader::new(bits))
     }
@@ -170,6 +181,7 @@ impl core::ops::Deref for RXACT_R {
 #[doc = "Field `TXACT` reader - Data transmit in progress"]
 pub struct TXACT_R(crate::FieldReader<bool, bool>);
 impl TXACT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXACT_R(crate::FieldReader::new(bits))
     }
@@ -184,6 +196,7 @@ impl core::ops::Deref for TXACT_R {
 #[doc = "Field `CMDACT` reader - Command transfer in progress"]
 pub struct CMDACT_R(crate::FieldReader<bool, bool>);
 impl CMDACT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDACT_R(crate::FieldReader::new(bits))
     }
@@ -198,6 +211,7 @@ impl core::ops::Deref for CMDACT_R {
 #[doc = "Field `DBCKEND` reader - Data block sent/received (CRC check passed)"]
 pub struct DBCKEND_R(crate::FieldReader<bool, bool>);
 impl DBCKEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBCKEND_R(crate::FieldReader::new(bits))
     }
@@ -212,6 +226,7 @@ impl core::ops::Deref for DBCKEND_R {
 #[doc = "Field `STBITERR` reader - Start bit not detected on all data signals in wide bus mode"]
 pub struct STBITERR_R(crate::FieldReader<bool, bool>);
 impl STBITERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STBITERR_R(crate::FieldReader::new(bits))
     }
@@ -226,6 +241,7 @@ impl core::ops::Deref for STBITERR_R {
 #[doc = "Field `DATAEND` reader - Data end (data counter, SDIDCOUNT, is zero)"]
 pub struct DATAEND_R(crate::FieldReader<bool, bool>);
 impl DATAEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DATAEND_R(crate::FieldReader::new(bits))
     }
@@ -240,6 +256,7 @@ impl core::ops::Deref for DATAEND_R {
 #[doc = "Field `CMDSENT` reader - Command sent (no response required)"]
 pub struct CMDSENT_R(crate::FieldReader<bool, bool>);
 impl CMDSENT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDSENT_R(crate::FieldReader::new(bits))
     }
@@ -254,6 +271,7 @@ impl core::ops::Deref for CMDSENT_R {
 #[doc = "Field `CMDREND` reader - Command response received (CRC check passed)"]
 pub struct CMDREND_R(crate::FieldReader<bool, bool>);
 impl CMDREND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDREND_R(crate::FieldReader::new(bits))
     }
@@ -268,6 +286,7 @@ impl core::ops::Deref for CMDREND_R {
 #[doc = "Field `RXOVERR` reader - Received FIFO overrun error"]
 pub struct RXOVERR_R(crate::FieldReader<bool, bool>);
 impl RXOVERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXOVERR_R(crate::FieldReader::new(bits))
     }
@@ -282,6 +301,7 @@ impl core::ops::Deref for RXOVERR_R {
 #[doc = "Field `TXUNDERR` reader - Transmit FIFO underrun error"]
 pub struct TXUNDERR_R(crate::FieldReader<bool, bool>);
 impl TXUNDERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXUNDERR_R(crate::FieldReader::new(bits))
     }
@@ -296,6 +316,7 @@ impl core::ops::Deref for TXUNDERR_R {
 #[doc = "Field `DTIMEOUT` reader - Data timeout"]
 pub struct DTIMEOUT_R(crate::FieldReader<bool, bool>);
 impl DTIMEOUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTIMEOUT_R(crate::FieldReader::new(bits))
     }
@@ -310,6 +331,7 @@ impl core::ops::Deref for DTIMEOUT_R {
 #[doc = "Field `CTIMEOUT` reader - Command response timeout"]
 pub struct CTIMEOUT_R(crate::FieldReader<bool, bool>);
 impl CTIMEOUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTIMEOUT_R(crate::FieldReader::new(bits))
     }
@@ -324,6 +346,7 @@ impl core::ops::Deref for CTIMEOUT_R {
 #[doc = "Field `DCRCFAIL` reader - Data block sent/received (CRC check failed)"]
 pub struct DCRCFAIL_R(crate::FieldReader<bool, bool>);
 impl DCRCFAIL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCRCFAIL_R(crate::FieldReader::new(bits))
     }
@@ -338,6 +361,7 @@ impl core::ops::Deref for DCRCFAIL_R {
 #[doc = "Field `CCRCFAIL` reader - Command response received (CRC check failed)"]
 pub struct CCRCFAIL_R(crate::FieldReader<bool, bool>);
 impl CCRCFAIL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCRCFAIL_R(crate::FieldReader::new(bits))
     }

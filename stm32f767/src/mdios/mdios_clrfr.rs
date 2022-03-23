@@ -37,6 +37,7 @@ impl From<crate::W<MDIOS_CLRFR_SPEC>> for W {
 #[doc = "Field `CPERF` reader - Clear the preamble error flag"]
 pub struct CPERF_R(crate::FieldReader<bool, bool>);
 impl CPERF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPERF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CPERF_W<'a> {
 #[doc = "Field `CSERF` reader - Clear the start error flag"]
 pub struct CSERF_R(crate::FieldReader<bool, bool>);
 impl CSERF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSERF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CSERF_W<'a> {
 #[doc = "Field `CTERF` reader - Clear the turnaround error flag"]
 pub struct CTERF_R(crate::FieldReader<bool, bool>);
 impl CTERF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTERF_R(crate::FieldReader::new(bits))
     }

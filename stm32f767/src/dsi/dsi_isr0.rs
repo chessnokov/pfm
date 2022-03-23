@@ -16,6 +16,7 @@ impl From<crate::R<DSI_ISR0_SPEC>> for R {
 #[doc = "Field `AE0` reader - Acknowledge Error 0"]
 pub struct AE0_R(crate::FieldReader<bool, bool>);
 impl AE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE0_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for AE0_R {
 #[doc = "Field `AE1` reader - Acknowledge Error 1"]
 pub struct AE1_R(crate::FieldReader<bool, bool>);
 impl AE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE1_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for AE1_R {
 #[doc = "Field `AE2` reader - Acknowledge Error 2"]
 pub struct AE2_R(crate::FieldReader<bool, bool>);
 impl AE2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE2_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for AE2_R {
 #[doc = "Field `AE3` reader - Acknowledge Error 3"]
 pub struct AE3_R(crate::FieldReader<bool, bool>);
 impl AE3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE3_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for AE3_R {
 #[doc = "Field `AE4` reader - Acknowledge Error 4"]
 pub struct AE4_R(crate::FieldReader<bool, bool>);
 impl AE4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE4_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for AE4_R {
 #[doc = "Field `AE5` reader - Acknowledge Error 5"]
 pub struct AE5_R(crate::FieldReader<bool, bool>);
 impl AE5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE5_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for AE5_R {
 #[doc = "Field `AE6` reader - Acknowledge Error 6"]
 pub struct AE6_R(crate::FieldReader<bool, bool>);
 impl AE6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE6_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for AE6_R {
 #[doc = "Field `AE7` reader - Acknowledge Error 7"]
 pub struct AE7_R(crate::FieldReader<bool, bool>);
 impl AE7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE7_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for AE7_R {
 #[doc = "Field `AE8` reader - Acknowledge Error 8"]
 pub struct AE8_R(crate::FieldReader<bool, bool>);
 impl AE8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE8_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for AE8_R {
 #[doc = "Field `AE9` reader - Acknowledge Error 9"]
 pub struct AE9_R(crate::FieldReader<bool, bool>);
 impl AE9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE9_R(crate::FieldReader::new(bits))
     }
@@ -156,6 +166,7 @@ impl core::ops::Deref for AE9_R {
 #[doc = "Field `AE10` reader - Acknowledge Error 10"]
 pub struct AE10_R(crate::FieldReader<bool, bool>);
 impl AE10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE10_R(crate::FieldReader::new(bits))
     }
@@ -170,6 +181,7 @@ impl core::ops::Deref for AE10_R {
 #[doc = "Field `AE11` reader - Acknowledge Error 11"]
 pub struct AE11_R(crate::FieldReader<bool, bool>);
 impl AE11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE11_R(crate::FieldReader::new(bits))
     }
@@ -184,6 +196,7 @@ impl core::ops::Deref for AE11_R {
 #[doc = "Field `AE12` reader - Acknowledge Error 12"]
 pub struct AE12_R(crate::FieldReader<bool, bool>);
 impl AE12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE12_R(crate::FieldReader::new(bits))
     }
@@ -198,6 +211,7 @@ impl core::ops::Deref for AE12_R {
 #[doc = "Field `AE13` reader - Acknowledge Error 13"]
 pub struct AE13_R(crate::FieldReader<bool, bool>);
 impl AE13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE13_R(crate::FieldReader::new(bits))
     }
@@ -212,6 +226,7 @@ impl core::ops::Deref for AE13_R {
 #[doc = "Field `AE14` reader - Acknowledge Error 14"]
 pub struct AE14_R(crate::FieldReader<bool, bool>);
 impl AE14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE14_R(crate::FieldReader::new(bits))
     }
@@ -226,6 +241,7 @@ impl core::ops::Deref for AE14_R {
 #[doc = "Field `AE15` reader - Acknowledge Error 15"]
 pub struct AE15_R(crate::FieldReader<bool, bool>);
 impl AE15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE15_R(crate::FieldReader::new(bits))
     }
@@ -240,6 +256,7 @@ impl core::ops::Deref for AE15_R {
 #[doc = "Field `PE0` reader - PHY Error 0"]
 pub struct PE0_R(crate::FieldReader<bool, bool>);
 impl PE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE0_R(crate::FieldReader::new(bits))
     }
@@ -254,6 +271,7 @@ impl core::ops::Deref for PE0_R {
 #[doc = "Field `PE1` reader - PHY Error 1"]
 pub struct PE1_R(crate::FieldReader<bool, bool>);
 impl PE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE1_R(crate::FieldReader::new(bits))
     }
@@ -268,6 +286,7 @@ impl core::ops::Deref for PE1_R {
 #[doc = "Field `PE2` reader - PHY Error 2"]
 pub struct PE2_R(crate::FieldReader<bool, bool>);
 impl PE2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE2_R(crate::FieldReader::new(bits))
     }
@@ -282,6 +301,7 @@ impl core::ops::Deref for PE2_R {
 #[doc = "Field `PE3` reader - PHY Error 3"]
 pub struct PE3_R(crate::FieldReader<bool, bool>);
 impl PE3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE3_R(crate::FieldReader::new(bits))
     }
@@ -296,6 +316,7 @@ impl core::ops::Deref for PE3_R {
 #[doc = "Field `PE4` reader - PHY Error 4"]
 pub struct PE4_R(crate::FieldReader<bool, bool>);
 impl PE4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE4_R(crate::FieldReader::new(bits))
     }

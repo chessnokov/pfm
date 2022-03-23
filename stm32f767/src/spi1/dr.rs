@@ -37,6 +37,7 @@ impl From<crate::W<DR_SPEC>> for W {
 #[doc = "Field `DR` reader - Data register"]
 pub struct DR_R(crate::FieldReader<u16, u16>);
 impl DR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DR_R(crate::FieldReader::new(bits))
     }

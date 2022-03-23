@@ -37,6 +37,7 @@ impl From<crate::W<IMR_SPEC>> for W {
 #[doc = "Field `RXNEIE` reader - RXNE interrupt enable"]
 pub struct RXNEIE_R(crate::FieldReader<bool, bool>);
 impl RXNEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXNEIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RXNEIE_W<'a> {
 #[doc = "Field `CSRNEIE` reader - Control Buffer Ready Interrupt Enable"]
 pub struct CSRNEIE_R(crate::FieldReader<bool, bool>);
 impl CSRNEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSRNEIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CSRNEIE_W<'a> {
 #[doc = "Field `PERRIE` reader - Parity error interrupt enable"]
 pub struct PERRIE_R(crate::FieldReader<bool, bool>);
 impl PERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PERRIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> PERRIE_W<'a> {
 #[doc = "Field `OVRIE` reader - Overrun error Interrupt Enable"]
 pub struct OVRIE_R(crate::FieldReader<bool, bool>);
 impl OVRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVRIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OVRIE_W<'a> {
 #[doc = "Field `SBLKIE` reader - Synchronization Block Detected Interrupt Enable"]
 pub struct SBLKIE_R(crate::FieldReader<bool, bool>);
 impl SBLKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBLKIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> SBLKIE_W<'a> {
 #[doc = "Field `SYNCDIE` reader - Synchronization Done"]
 pub struct SYNCDIE_R(crate::FieldReader<bool, bool>);
 impl SYNCDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SYNCDIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> SYNCDIE_W<'a> {
 #[doc = "Field `IFEIE` reader - Serial Interface Error Interrupt Enable"]
 pub struct IFEIE_R(crate::FieldReader<bool, bool>);
 impl IFEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFEIE_R(crate::FieldReader::new(bits))
     }

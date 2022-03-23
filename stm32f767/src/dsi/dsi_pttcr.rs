@@ -37,6 +37,7 @@ impl From<crate::W<DSI_PTTCR_SPEC>> for W {
 #[doc = "Field `TX_TRIG` reader - Transmission Trigger"]
 pub struct TX_TRIG_R(crate::FieldReader<u8, u8>);
 impl TX_TRIG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TX_TRIG_R(crate::FieldReader::new(bits))
     }

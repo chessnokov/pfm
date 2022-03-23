@@ -37,6 +37,7 @@ impl From<crate::W<ACR2_SPEC>> for W {
 #[doc = "Field `COMP` reader - Companding mode"]
 pub struct COMP_R(crate::FieldReader<u8, u8>);
 impl COMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         COMP_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> COMP_W<'a> {
 #[doc = "Field `CPL` reader - Complement bit"]
 pub struct CPL_R(crate::FieldReader<bool, bool>);
 impl CPL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPL_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> CPL_W<'a> {
 #[doc = "Field `MUTECN` reader - Mute counter"]
 pub struct MUTECN_R(crate::FieldReader<u8, u8>);
 impl MUTECN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MUTECN_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> MUTECN_W<'a> {
 #[doc = "Field `MUTEVAL` reader - Mute value"]
 pub struct MUTEVAL_R(crate::FieldReader<bool, bool>);
 impl MUTEVAL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MUTEVAL_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> MUTEVAL_W<'a> {
 #[doc = "Field `MUTE` reader - Mute"]
 pub struct MUTE_R(crate::FieldReader<bool, bool>);
 impl MUTE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MUTE_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> MUTE_W<'a> {
 #[doc = "Field `TRIS` reader - Tristate management on data line"]
 pub struct TRIS_R(crate::FieldReader<bool, bool>);
 impl TRIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TRIS_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> TRIS_W<'a> {
 #[doc = "Field `FFLUS` reader - FIFO flush"]
 pub struct FFLUS_R(crate::FieldReader<bool, bool>);
 impl FFLUS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFLUS_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> FFLUS_W<'a> {
 #[doc = "Field `FTH` reader - FIFO threshold"]
 pub struct FTH_R(crate::FieldReader<u8, u8>);
 impl FTH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FTH_R(crate::FieldReader::new(bits))
     }

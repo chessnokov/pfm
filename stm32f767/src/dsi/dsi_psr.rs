@@ -16,6 +16,7 @@ impl From<crate::R<DSI_PSR_SPEC>> for R {
 #[doc = "Field `PD` reader - PHY Direction"]
 pub struct PD_R(crate::FieldReader<bool, bool>);
 impl PD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PD_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for PD_R {
 #[doc = "Field `PSSC` reader - PHY Stop State Clock lane"]
 pub struct PSSC_R(crate::FieldReader<bool, bool>);
 impl PSSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PSSC_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for PSSC_R {
 #[doc = "Field `UANC` reader - ULPS Active Not Clock lane"]
 pub struct UANC_R(crate::FieldReader<bool, bool>);
 impl UANC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UANC_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for UANC_R {
 #[doc = "Field `PSS0` reader - PHY Stop State lane 0"]
 pub struct PSS0_R(crate::FieldReader<bool, bool>);
 impl PSS0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PSS0_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for PSS0_R {
 #[doc = "Field `UAN0` reader - ULPS Active Not lane 1"]
 pub struct UAN0_R(crate::FieldReader<bool, bool>);
 impl UAN0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UAN0_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for UAN0_R {
 #[doc = "Field `RUE0` reader - RX ULPS Escape lane 0"]
 pub struct RUE0_R(crate::FieldReader<bool, bool>);
 impl RUE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RUE0_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for RUE0_R {
 #[doc = "Field `PSS1` reader - PHY Stop State lane 1"]
 pub struct PSS1_R(crate::FieldReader<bool, bool>);
 impl PSS1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PSS1_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for PSS1_R {
 #[doc = "Field `UAN1` reader - ULPS Active Not lane 1"]
 pub struct UAN1_R(crate::FieldReader<bool, bool>);
 impl UAN1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UAN1_R(crate::FieldReader::new(bits))
     }

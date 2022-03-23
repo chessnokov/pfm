@@ -37,6 +37,7 @@ impl From<crate::W<DSI_TCCR3_SPEC>> for W {
 #[doc = "Field `HSWR_TOCNT` reader - High-Speed Write Timeout Counter"]
 pub struct HSWR_TOCNT_R(crate::FieldReader<u16, u16>);
 impl HSWR_TOCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HSWR_TOCNT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> HSWR_TOCNT_W<'a> {
 #[doc = "Field `PM` reader - Presp mode"]
 pub struct PM_R(crate::FieldReader<bool, bool>);
 impl PM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PM_R(crate::FieldReader::new(bits))
     }

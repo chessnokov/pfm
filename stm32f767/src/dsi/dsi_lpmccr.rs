@@ -16,6 +16,7 @@ impl From<crate::R<DSI_LPMCCR_SPEC>> for R {
 #[doc = "Field `VLPSIZE` reader - VACT Largest Packet Size"]
 pub struct VLPSIZE_R(crate::FieldReader<u8, u8>);
 impl VLPSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         VLPSIZE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for VLPSIZE_R {
 #[doc = "Field `LPSIZE` reader - Largest Packet Size"]
 pub struct LPSIZE_R(crate::FieldReader<u8, u8>);
 impl LPSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPSIZE_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<MDIOS_DINR20_SPEC>> for R {
 #[doc = "Field `DIN20` reader - Input data received from MDIO Master during write frames"]
 pub struct DIN20_R(crate::FieldReader<u16, u16>);
 impl DIN20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DIN20_R(crate::FieldReader::new(bits))
     }

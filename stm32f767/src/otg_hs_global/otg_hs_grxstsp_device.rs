@@ -16,6 +16,7 @@ impl From<crate::R<OTG_HS_GRXSTSP_DEVICE_SPEC>> for R {
 #[doc = "Field `EPNUM` reader - Endpoint number"]
 pub struct EPNUM_R(crate::FieldReader<u8, u8>);
 impl EPNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EPNUM_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for EPNUM_R {
 #[doc = "Field `BCNT` reader - Byte count"]
 pub struct BCNT_R(crate::FieldReader<u16, u16>);
 impl BCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         BCNT_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for BCNT_R {
 #[doc = "Field `DPID` reader - Data PID"]
 pub struct DPID_R(crate::FieldReader<u8, u8>);
 impl DPID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DPID_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for DPID_R {
 #[doc = "Field `PKTSTS` reader - Packet status"]
 pub struct PKTSTS_R(crate::FieldReader<u8, u8>);
 impl PKTSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PKTSTS_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for PKTSTS_R {
 #[doc = "Field `FRMNUM` reader - Frame number"]
 pub struct FRMNUM_R(crate::FieldReader<u8, u8>);
 impl FRMNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FRMNUM_R(crate::FieldReader::new(bits))
     }

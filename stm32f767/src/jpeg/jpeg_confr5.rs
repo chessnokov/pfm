@@ -37,6 +37,7 @@ impl From<crate::W<JPEG_CONFR5_SPEC>> for W {
 #[doc = "Field `HD` reader - Huffman DC"]
 pub struct HD_R(crate::FieldReader<bool, bool>);
 impl HD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HD_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> HD_W<'a> {
 #[doc = "Field `HA` reader - Huffman AC"]
 pub struct HA_R(crate::FieldReader<bool, bool>);
 impl HA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HA_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> HA_W<'a> {
 #[doc = "Field `QT` reader - Quantization Table"]
 pub struct QT_R(crate::FieldReader<u8, u8>);
 impl QT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         QT_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> QT_W<'a> {
 #[doc = "Field `NB` reader - Number of Block"]
 pub struct NB_R(crate::FieldReader<u8, u8>);
 impl NB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NB_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> NB_W<'a> {
 #[doc = "Field `VSF` reader - Vertical Sampling Factor"]
 pub struct VSF_R(crate::FieldReader<u8, u8>);
 impl VSF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         VSF_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> VSF_W<'a> {
 #[doc = "Field `HSF` reader - Horizontal Sampling Factor"]
 pub struct HSF_R(crate::FieldReader<u8, u8>);
 impl HSF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HSF_R(crate::FieldReader::new(bits))
     }

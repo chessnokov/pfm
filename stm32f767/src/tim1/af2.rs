@@ -37,6 +37,7 @@ impl From<crate::W<AF2_SPEC>> for W {
 #[doc = "Field `BK2INE` reader - BRK2 BKIN input enable"]
 pub struct BK2INE_R(crate::FieldReader<bool, bool>);
 impl BK2INE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BK2INE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> BK2INE_W<'a> {
 #[doc = "Field `BK2DFBKE` reader - BRK2 DFSDM_BREAK enable"]
 pub struct BK2DFBKE_R(crate::FieldReader<bool, bool>);
 impl BK2DFBKE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BK2DFBKE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> BK2DFBKE_W<'a> {
 #[doc = "Field `BK2INP` reader - BRK2 BKIN2 input polarity"]
 pub struct BK2INP_R(crate::FieldReader<bool, bool>);
 impl BK2INP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BK2INP_R(crate::FieldReader::new(bits))
     }

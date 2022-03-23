@@ -37,6 +37,7 @@ impl From<crate::W<MDIOS_DOUTR14_SPEC>> for W {
 #[doc = "Field `DOUT14` reader - Output data sent to MDIO Master during read frames"]
 pub struct DOUT14_R(crate::FieldReader<u16, u16>);
 impl DOUT14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DOUT14_R(crate::FieldReader::new(bits))
     }

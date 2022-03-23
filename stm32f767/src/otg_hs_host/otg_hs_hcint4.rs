@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HCINT4_SPEC>> for W {
 #[doc = "Field `XFRC` reader - Transfer completed"]
 pub struct XFRC_R(crate::FieldReader<bool, bool>);
 impl XFRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRC_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRC_W<'a> {
 #[doc = "Field `CHH` reader - Channel halted"]
 pub struct CHH_R(crate::FieldReader<bool, bool>);
 impl CHH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHH_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CHH_W<'a> {
 #[doc = "Field `AHBERR` reader - AHB error"]
 pub struct AHBERR_R(crate::FieldReader<bool, bool>);
 impl AHBERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AHBERR_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> AHBERR_W<'a> {
 #[doc = "Field `STALL` reader - STALL response received interrupt"]
 pub struct STALL_R(crate::FieldReader<bool, bool>);
 impl STALL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STALL_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> STALL_W<'a> {
 #[doc = "Field `NAK` reader - NAK response received interrupt"]
 pub struct NAK_R(crate::FieldReader<bool, bool>);
 impl NAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NAK_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> NAK_W<'a> {
 #[doc = "Field `ACK` reader - ACK response received/transmitted interrupt"]
 pub struct ACK_R(crate::FieldReader<bool, bool>);
 impl ACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ACK_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ACK_W<'a> {
 #[doc = "Field `NYET` reader - Response received interrupt"]
 pub struct NYET_R(crate::FieldReader<bool, bool>);
 impl NYET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NYET_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> NYET_W<'a> {
 #[doc = "Field `TXERR` reader - Transaction error"]
 pub struct TXERR_R(crate::FieldReader<bool, bool>);
 impl TXERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXERR_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TXERR_W<'a> {
 #[doc = "Field `BBERR` reader - Babble error"]
 pub struct BBERR_R(crate::FieldReader<bool, bool>);
 impl BBERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BBERR_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> BBERR_W<'a> {
 #[doc = "Field `FRMOR` reader - Frame overrun"]
 pub struct FRMOR_R(crate::FieldReader<bool, bool>);
 impl FRMOR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FRMOR_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FRMOR_W<'a> {
 #[doc = "Field `DTERR` reader - Data toggle error"]
 pub struct DTERR_R(crate::FieldReader<bool, bool>);
 impl DTERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTERR_R(crate::FieldReader::new(bits))
     }

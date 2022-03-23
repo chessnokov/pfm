@@ -37,6 +37,7 @@ impl From<crate::W<JPEG_CONFR1_SPEC>> for W {
 #[doc = "Field `NF` reader - Number of color components"]
 pub struct NF_R(crate::FieldReader<u8, u8>);
 impl NF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NF_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> NF_W<'a> {
 #[doc = "Field `DE` reader - Decoding Enable"]
 pub struct DE_R(crate::FieldReader<bool, bool>);
 impl DE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> DE_W<'a> {
 #[doc = "Field `COLORSPACE` reader - Color Space"]
 pub struct COLORSPACE_R(crate::FieldReader<u8, u8>);
 impl COLORSPACE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         COLORSPACE_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> COLORSPACE_W<'a> {
 #[doc = "Field `NS` reader - Number of components for Scan"]
 pub struct NS_R(crate::FieldReader<u8, u8>);
 impl NS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NS_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> NS_W<'a> {
 #[doc = "Field `HDR` reader - Header Processing"]
 pub struct HDR_R(crate::FieldReader<bool, bool>);
 impl HDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HDR_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> HDR_W<'a> {
 #[doc = "Field `YSIZE` reader - Y Size"]
 pub struct YSIZE_R(crate::FieldReader<u16, u16>);
 impl YSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         YSIZE_R(crate::FieldReader::new(bits))
     }

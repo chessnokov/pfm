@@ -37,6 +37,7 @@ impl From<crate::W<CCMR3_OUTPUT_SPEC>> for W {
 #[doc = "Field `OC5FE` reader - Output compare 5 fast enable"]
 pub struct OC5FE_R(crate::FieldReader<bool, bool>);
 impl OC5FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC5FE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OC5FE_W<'a> {
 #[doc = "Field `OC5PE` reader - Output compare 5 preload enable"]
 pub struct OC5PE_R(crate::FieldReader<bool, bool>);
 impl OC5PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC5PE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OC5PE_W<'a> {
 #[doc = "Field `OC5M` reader - Output compare 5 mode"]
 pub struct OC5M_R(crate::FieldReader<u8, u8>);
 impl OC5M_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OC5M_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> OC5M_W<'a> {
 #[doc = "Field `OC5CE` reader - Output compare 5 clear enable"]
 pub struct OC5CE_R(crate::FieldReader<bool, bool>);
 impl OC5CE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC5CE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> OC5CE_W<'a> {
 #[doc = "Field `OC6FE` reader - Output compare 6 fast enable"]
 pub struct OC6FE_R(crate::FieldReader<bool, bool>);
 impl OC6FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC6FE_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> OC6FE_W<'a> {
 #[doc = "Field `OC6PE` reader - Output compare 6 preload enable"]
 pub struct OC6PE_R(crate::FieldReader<bool, bool>);
 impl OC6PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC6PE_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> OC6PE_W<'a> {
 #[doc = "Field `OC6M` reader - Output compare 6 mode"]
 pub struct OC6M_R(crate::FieldReader<u8, u8>);
 impl OC6M_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OC6M_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> OC6M_W<'a> {
 #[doc = "Field `OC6CE` reader - Output compare 6 clear enable"]
 pub struct OC6CE_R(crate::FieldReader<bool, bool>);
 impl OC6CE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC6CE_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> OC6CE_W<'a> {
 #[doc = "Field `OC5M3` reader - Output Compare 5 mode"]
 pub struct OC5M3_R(crate::FieldReader<bool, bool>);
 impl OC5M3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC5M3_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> OC5M3_W<'a> {
 #[doc = "Field `OC6M3` reader - Output Compare 6 mode"]
 pub struct OC6M3_R(crate::FieldReader<bool, bool>);
 impl OC6M3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC6M3_R(crate::FieldReader::new(bits))
     }

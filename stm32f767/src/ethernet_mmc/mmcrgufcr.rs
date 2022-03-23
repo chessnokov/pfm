@@ -16,6 +16,7 @@ impl From<crate::R<MMCRGUFCR_SPEC>> for R {
 #[doc = "Field `RGUFC` reader - RGUFC"]
 pub struct RGUFC_R(crate::FieldReader<u32, u32>);
 impl RGUFC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         RGUFC_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - RGUFC"]
     #[inline(always)]
     pub fn rgufc(&self) -> RGUFC_R {
-        RGUFC_R::new((self.bits & 0xffff_ffff) as u32)
+        RGUFC_R::new(self.bits)
     }
 }
 #[doc = "MMC received good unicast frames counter register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmcrgufcr](index.html) module"]

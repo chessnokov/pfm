@@ -37,6 +37,7 @@ impl From<crate::W<DSI_IER1_SPEC>> for W {
 #[doc = "Field `TOHSTXIE` reader - Timeout High-Speed Transmission Interrupt Enable"]
 pub struct TOHSTXIE_R(crate::FieldReader<bool, bool>);
 impl TOHSTXIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOHSTXIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TOHSTXIE_W<'a> {
 #[doc = "Field `TOLPRXIE` reader - Timeout Low-Power Reception Interrupt Enable"]
 pub struct TOLPRXIE_R(crate::FieldReader<bool, bool>);
 impl TOLPRXIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOLPRXIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TOLPRXIE_W<'a> {
 #[doc = "Field `ECCSEIE` reader - ECC Single-bit Error Interrupt Enable"]
 pub struct ECCSEIE_R(crate::FieldReader<bool, bool>);
 impl ECCSEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCSEIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> ECCSEIE_W<'a> {
 #[doc = "Field `ECCMEIE` reader - ECC Multi-bit Error Interrupt Enable"]
 pub struct ECCMEIE_R(crate::FieldReader<bool, bool>);
 impl ECCMEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCMEIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ECCMEIE_W<'a> {
 #[doc = "Field `CRCEIE` reader - CRC Error Interrupt Enable"]
 pub struct CRCEIE_R(crate::FieldReader<bool, bool>);
 impl CRCEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCEIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CRCEIE_W<'a> {
 #[doc = "Field `PSEIE` reader - Packet Size Error Interrupt Enable"]
 pub struct PSEIE_R(crate::FieldReader<bool, bool>);
 impl PSEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PSEIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> PSEIE_W<'a> {
 #[doc = "Field `EOTPEIE` reader - EoTp Error Interrupt Enable"]
 pub struct EOTPEIE_R(crate::FieldReader<bool, bool>);
 impl EOTPEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOTPEIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> EOTPEIE_W<'a> {
 #[doc = "Field `LPWREIE` reader - LTDC Payload Write Error Interrupt Enable"]
 pub struct LPWREIE_R(crate::FieldReader<bool, bool>);
 impl LPWREIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPWREIE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> LPWREIE_W<'a> {
 #[doc = "Field `GCWREIE` reader - Generic Command Write Error Interrupt Enable"]
 pub struct GCWREIE_R(crate::FieldReader<bool, bool>);
 impl GCWREIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GCWREIE_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> GCWREIE_W<'a> {
 #[doc = "Field `GPWREIE` reader - Generic Payload Write Error Interrupt Enable"]
 pub struct GPWREIE_R(crate::FieldReader<bool, bool>);
 impl GPWREIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPWREIE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> GPWREIE_W<'a> {
 #[doc = "Field `GPTXEIE` reader - Generic Payload Transmit Error Interrupt Enable"]
 pub struct GPTXEIE_R(crate::FieldReader<bool, bool>);
 impl GPTXEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPTXEIE_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> GPTXEIE_W<'a> {
 #[doc = "Field `GPRDEIE` reader - Generic Payload Read Error Interrupt Enable"]
 pub struct GPRDEIE_R(crate::FieldReader<bool, bool>);
 impl GPRDEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPRDEIE_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> GPRDEIE_W<'a> {
 #[doc = "Field `GPRXEIE` reader - Generic Payload Receive Error Interrupt Enable"]
 pub struct GPRXEIE_R(crate::FieldReader<bool, bool>);
 impl GPRXEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPRXEIE_R(crate::FieldReader::new(bits))
     }

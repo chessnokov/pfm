@@ -37,6 +37,7 @@ impl From<crate::W<CCR3_SPEC>> for W {
 #[doc = "Field `CCR3_H` reader - High Capture/Compare value"]
 pub struct CCR3_H_R(crate::FieldReader<u16, u16>);
 impl CCR3_H_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CCR3_H_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CCR3_H_W<'a> {
 #[doc = "Field `CCR3_L` reader - Low Capture/Compare value"]
 pub struct CCR3_L_R(crate::FieldReader<u16, u16>);
 impl CCR3_L_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CCR3_L_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `EWIF` reader - Early wakeup interrupt flag"]
 pub struct EWIF_R(crate::FieldReader<bool, bool>);
 impl EWIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWIF_R(crate::FieldReader::new(bits))
     }

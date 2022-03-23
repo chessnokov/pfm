@@ -37,6 +37,7 @@ impl From<crate::W<DIER_SPEC>> for W {
 #[doc = "Field `TDE` reader - Trigger DMA request enable"]
 pub struct TDE_R(crate::FieldReader<bool, bool>);
 impl TDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TDE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TDE_W<'a> {
 #[doc = "Field `COMDE` reader - COM DMA request enable"]
 pub struct COMDE_R(crate::FieldReader<bool, bool>);
 impl COMDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COMDE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> COMDE_W<'a> {
 #[doc = "Field `CC4DE` reader - Capture/Compare 4 DMA request enable"]
 pub struct CC4DE_R(crate::FieldReader<bool, bool>);
 impl CC4DE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4DE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CC4DE_W<'a> {
 #[doc = "Field `CC3DE` reader - Capture/Compare 3 DMA request enable"]
 pub struct CC3DE_R(crate::FieldReader<bool, bool>);
 impl CC3DE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3DE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CC3DE_W<'a> {
 #[doc = "Field `CC2DE` reader - Capture/Compare 2 DMA request enable"]
 pub struct CC2DE_R(crate::FieldReader<bool, bool>);
 impl CC2DE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2DE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CC2DE_W<'a> {
 #[doc = "Field `CC1DE` reader - Capture/Compare 1 DMA request enable"]
 pub struct CC1DE_R(crate::FieldReader<bool, bool>);
 impl CC1DE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1DE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> CC1DE_W<'a> {
 #[doc = "Field `UDE` reader - Update DMA request enable"]
 pub struct UDE_R(crate::FieldReader<bool, bool>);
 impl UDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UDE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> UDE_W<'a> {
 #[doc = "Field `TIE` reader - Trigger interrupt enable"]
 pub struct TIE_R(crate::FieldReader<bool, bool>);
 impl TIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TIE_W<'a> {
 #[doc = "Field `CC4IE` reader - Capture/Compare 4 interrupt enable"]
 pub struct CC4IE_R(crate::FieldReader<bool, bool>);
 impl CC4IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4IE_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> CC4IE_W<'a> {
 #[doc = "Field `CC3IE` reader - Capture/Compare 3 interrupt enable"]
 pub struct CC3IE_R(crate::FieldReader<bool, bool>);
 impl CC3IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3IE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> CC3IE_W<'a> {
 #[doc = "Field `CC2IE` reader - Capture/Compare 2 interrupt enable"]
 pub struct CC2IE_R(crate::FieldReader<bool, bool>);
 impl CC2IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2IE_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> CC2IE_W<'a> {
 #[doc = "Field `CC1IE` reader - Capture/Compare 1 interrupt enable"]
 pub struct CC1IE_R(crate::FieldReader<bool, bool>);
 impl CC1IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1IE_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> CC1IE_W<'a> {
 #[doc = "Field `UIE` reader - Update interrupt enable"]
 pub struct UIE_R(crate::FieldReader<bool, bool>);
 impl UIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UIE_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> UIE_W<'a> {
 #[doc = "Field `BIE` reader - Break interrupt enable"]
 pub struct BIE_R(crate::FieldReader<bool, bool>);
 impl BIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BIE_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> BIE_W<'a> {
 #[doc = "Field `COMIE` reader - COM interrupt enable"]
 pub struct COMIE_R(crate::FieldReader<bool, bool>);
 impl COMIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COMIE_R(crate::FieldReader::new(bits))
     }

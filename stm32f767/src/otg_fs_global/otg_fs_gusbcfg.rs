@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GUSBCFG_SPEC>> for W {
 #[doc = "Field `TOCAL` reader - FS timeout calibration"]
 pub struct TOCAL_R(crate::FieldReader<u8, u8>);
 impl TOCAL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TOCAL_R(crate::FieldReader::new(bits))
     }
@@ -85,6 +86,7 @@ impl<'a> PHYSEL_W<'a> {
 #[doc = "Field `SRPCAP` reader - SRP-capable"]
 pub struct SRPCAP_R(crate::FieldReader<bool, bool>);
 impl SRPCAP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRPCAP_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +123,7 @@ impl<'a> SRPCAP_W<'a> {
 #[doc = "Field `HNPCAP` reader - HNP-capable"]
 pub struct HNPCAP_R(crate::FieldReader<bool, bool>);
 impl HNPCAP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HNPCAP_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +160,7 @@ impl<'a> HNPCAP_W<'a> {
 #[doc = "Field `TRDT` reader - USB turnaround time"]
 pub struct TRDT_R(crate::FieldReader<u8, u8>);
 impl TRDT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRDT_R(crate::FieldReader::new(bits))
     }
@@ -183,6 +187,7 @@ impl<'a> TRDT_W<'a> {
 #[doc = "Field `FHMOD` reader - Force host mode"]
 pub struct FHMOD_R(crate::FieldReader<bool, bool>);
 impl FHMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FHMOD_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +224,7 @@ impl<'a> FHMOD_W<'a> {
 #[doc = "Field `FDMOD` reader - Force device mode"]
 pub struct FDMOD_R(crate::FieldReader<bool, bool>);
 impl FDMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FDMOD_R(crate::FieldReader::new(bits))
     }

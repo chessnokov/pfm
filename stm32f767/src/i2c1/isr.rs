@@ -37,6 +37,7 @@ impl From<crate::W<ISR_SPEC>> for W {
 #[doc = "Field `ADDCODE` reader - Address match code (Slave mode)"]
 pub struct ADDCODE_R(crate::FieldReader<u8, u8>);
 impl ADDCODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADDCODE_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for ADDCODE_R {
 #[doc = "Field `DIR` reader - Transfer direction (Slave mode)"]
 pub struct DIR_R(crate::FieldReader<bool, bool>);
 impl DIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DIR_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for DIR_R {
 #[doc = "Field `BUSY` reader - Bus busy"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for BUSY_R {
 #[doc = "Field `ALERT` reader - SMBus alert"]
 pub struct ALERT_R(crate::FieldReader<bool, bool>);
 impl ALERT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALERT_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for ALERT_R {
 #[doc = "Field `TIMEOUT` reader - Timeout or t_low detection flag"]
 pub struct TIMEOUT_R(crate::FieldReader<bool, bool>);
 impl TIMEOUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIMEOUT_R(crate::FieldReader::new(bits))
     }
@@ -107,6 +112,7 @@ impl core::ops::Deref for TIMEOUT_R {
 #[doc = "Field `PECERR` reader - PEC Error in reception"]
 pub struct PECERR_R(crate::FieldReader<bool, bool>);
 impl PECERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PECERR_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +127,7 @@ impl core::ops::Deref for PECERR_R {
 #[doc = "Field `OVR` reader - Overrun/Underrun (slave mode)"]
 pub struct OVR_R(crate::FieldReader<bool, bool>);
 impl OVR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +142,7 @@ impl core::ops::Deref for OVR_R {
 #[doc = "Field `ARLO` reader - Arbitration lost"]
 pub struct ARLO_R(crate::FieldReader<bool, bool>);
 impl ARLO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARLO_R(crate::FieldReader::new(bits))
     }
@@ -149,6 +157,7 @@ impl core::ops::Deref for ARLO_R {
 #[doc = "Field `BERR` reader - Bus error"]
 pub struct BERR_R(crate::FieldReader<bool, bool>);
 impl BERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BERR_R(crate::FieldReader::new(bits))
     }
@@ -163,6 +172,7 @@ impl core::ops::Deref for BERR_R {
 #[doc = "Field `TCR` reader - Transfer Complete Reload"]
 pub struct TCR_R(crate::FieldReader<bool, bool>);
 impl TCR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCR_R(crate::FieldReader::new(bits))
     }
@@ -177,6 +187,7 @@ impl core::ops::Deref for TCR_R {
 #[doc = "Field `TC` reader - Transfer Complete (master mode)"]
 pub struct TC_R(crate::FieldReader<bool, bool>);
 impl TC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TC_R(crate::FieldReader::new(bits))
     }
@@ -191,6 +202,7 @@ impl core::ops::Deref for TC_R {
 #[doc = "Field `STOPF` reader - Stop detection flag"]
 pub struct STOPF_R(crate::FieldReader<bool, bool>);
 impl STOPF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STOPF_R(crate::FieldReader::new(bits))
     }
@@ -205,6 +217,7 @@ impl core::ops::Deref for STOPF_R {
 #[doc = "Field `NACKF` reader - Not acknowledge received flag"]
 pub struct NACKF_R(crate::FieldReader<bool, bool>);
 impl NACKF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NACKF_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +232,7 @@ impl core::ops::Deref for NACKF_R {
 #[doc = "Field `ADDR` reader - Address matched (slave mode)"]
 pub struct ADDR_R(crate::FieldReader<bool, bool>);
 impl ADDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADDR_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +247,7 @@ impl core::ops::Deref for ADDR_R {
 #[doc = "Field `RXNE` reader - Receive data register not empty (receivers)"]
 pub struct RXNE_R(crate::FieldReader<bool, bool>);
 impl RXNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXNE_R(crate::FieldReader::new(bits))
     }
@@ -247,6 +262,7 @@ impl core::ops::Deref for RXNE_R {
 #[doc = "Field `TXIS` reader - Transmit interrupt status (transmitters)"]
 pub struct TXIS_R(crate::FieldReader<bool, bool>);
 impl TXIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXIS_R(crate::FieldReader::new(bits))
     }
@@ -283,6 +299,7 @@ impl<'a> TXIS_W<'a> {
 #[doc = "Field `TXE` reader - Transmit data register empty (transmitters)"]
 pub struct TXE_R(crate::FieldReader<bool, bool>);
 impl TXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXE_R(crate::FieldReader::new(bits))
     }

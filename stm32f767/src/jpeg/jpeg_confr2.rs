@@ -37,6 +37,7 @@ impl From<crate::W<JPEG_CONFR2_SPEC>> for W {
 #[doc = "Field `NMCU` reader - Number of MCU"]
 pub struct NMCU_R(crate::FieldReader<u32, u32>);
 impl NMCU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         NMCU_R(crate::FieldReader::new(bits))
     }

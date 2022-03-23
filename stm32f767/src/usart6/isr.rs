@@ -16,6 +16,7 @@ impl From<crate::R<ISR_SPEC>> for R {
 #[doc = "Field `REACK` reader - REACK"]
 pub struct REACK_R(crate::FieldReader<bool, bool>);
 impl REACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REACK_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for REACK_R {
 #[doc = "Field `TEACK` reader - TEACK"]
 pub struct TEACK_R(crate::FieldReader<bool, bool>);
 impl TEACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEACK_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for TEACK_R {
 #[doc = "Field `WUF` reader - WUF"]
 pub struct WUF_R(crate::FieldReader<bool, bool>);
 impl WUF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for WUF_R {
 #[doc = "Field `RWU` reader - RWU"]
 pub struct RWU_R(crate::FieldReader<bool, bool>);
 impl RWU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RWU_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for RWU_R {
 #[doc = "Field `SBKF` reader - SBKF"]
 pub struct SBKF_R(crate::FieldReader<bool, bool>);
 impl SBKF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBKF_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for SBKF_R {
 #[doc = "Field `CMF` reader - CMF"]
 pub struct CMF_R(crate::FieldReader<bool, bool>);
 impl CMF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMF_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for CMF_R {
 #[doc = "Field `BUSY` reader - BUSY"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for BUSY_R {
 #[doc = "Field `ABRF` reader - ABRF"]
 pub struct ABRF_R(crate::FieldReader<bool, bool>);
 impl ABRF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRF_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for ABRF_R {
 #[doc = "Field `ABRE` reader - ABRE"]
 pub struct ABRE_R(crate::FieldReader<bool, bool>);
 impl ABRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABRE_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for ABRE_R {
 #[doc = "Field `EOBF` reader - EOBF"]
 pub struct EOBF_R(crate::FieldReader<bool, bool>);
 impl EOBF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOBF_R(crate::FieldReader::new(bits))
     }
@@ -156,6 +166,7 @@ impl core::ops::Deref for EOBF_R {
 #[doc = "Field `RTOF` reader - RTOF"]
 pub struct RTOF_R(crate::FieldReader<bool, bool>);
 impl RTOF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTOF_R(crate::FieldReader::new(bits))
     }
@@ -170,6 +181,7 @@ impl core::ops::Deref for RTOF_R {
 #[doc = "Field `CTS` reader - CTS"]
 pub struct CTS_R(crate::FieldReader<bool, bool>);
 impl CTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTS_R(crate::FieldReader::new(bits))
     }
@@ -184,6 +196,7 @@ impl core::ops::Deref for CTS_R {
 #[doc = "Field `CTSIF` reader - CTSIF"]
 pub struct CTSIF_R(crate::FieldReader<bool, bool>);
 impl CTSIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTSIF_R(crate::FieldReader::new(bits))
     }
@@ -198,6 +211,7 @@ impl core::ops::Deref for CTSIF_R {
 #[doc = "Field `LBDF` reader - LBDF"]
 pub struct LBDF_R(crate::FieldReader<bool, bool>);
 impl LBDF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBDF_R(crate::FieldReader::new(bits))
     }
@@ -212,6 +226,7 @@ impl core::ops::Deref for LBDF_R {
 #[doc = "Field `TXE` reader - TXE"]
 pub struct TXE_R(crate::FieldReader<bool, bool>);
 impl TXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXE_R(crate::FieldReader::new(bits))
     }
@@ -226,6 +241,7 @@ impl core::ops::Deref for TXE_R {
 #[doc = "Field `TC` reader - TC"]
 pub struct TC_R(crate::FieldReader<bool, bool>);
 impl TC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TC_R(crate::FieldReader::new(bits))
     }
@@ -240,6 +256,7 @@ impl core::ops::Deref for TC_R {
 #[doc = "Field `RXNE` reader - RXNE"]
 pub struct RXNE_R(crate::FieldReader<bool, bool>);
 impl RXNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXNE_R(crate::FieldReader::new(bits))
     }
@@ -254,6 +271,7 @@ impl core::ops::Deref for RXNE_R {
 #[doc = "Field `IDLE` reader - IDLE"]
 pub struct IDLE_R(crate::FieldReader<bool, bool>);
 impl IDLE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDLE_R(crate::FieldReader::new(bits))
     }
@@ -268,6 +286,7 @@ impl core::ops::Deref for IDLE_R {
 #[doc = "Field `ORE` reader - ORE"]
 pub struct ORE_R(crate::FieldReader<bool, bool>);
 impl ORE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ORE_R(crate::FieldReader::new(bits))
     }
@@ -282,6 +301,7 @@ impl core::ops::Deref for ORE_R {
 #[doc = "Field `NF` reader - NF"]
 pub struct NF_R(crate::FieldReader<bool, bool>);
 impl NF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NF_R(crate::FieldReader::new(bits))
     }
@@ -296,6 +316,7 @@ impl core::ops::Deref for NF_R {
 #[doc = "Field `FE` reader - FE"]
 pub struct FE_R(crate::FieldReader<bool, bool>);
 impl FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FE_R(crate::FieldReader::new(bits))
     }
@@ -310,6 +331,7 @@ impl core::ops::Deref for FE_R {
 #[doc = "Field `PE` reader - PE"]
 pub struct PE_R(crate::FieldReader<bool, bool>);
 impl PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PE_R(crate::FieldReader::new(bits))
     }

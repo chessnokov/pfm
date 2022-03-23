@@ -16,6 +16,7 @@ impl From<crate::R<MMCTGFCR_SPEC>> for R {
 #[doc = "Field `TGFC` reader - HTL"]
 pub struct TGFC_R(crate::FieldReader<u32, u32>);
 impl TGFC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         TGFC_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - HTL"]
     #[inline(always)]
     pub fn tgfc(&self) -> TGFC_R {
-        TGFC_R::new((self.bits & 0xffff_ffff) as u32)
+        TGFC_R::new(self.bits)
     }
 }
 #[doc = "Ethernet MMC transmitted good frames counter register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [mmctgfcr](index.html) module"]

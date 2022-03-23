@@ -16,6 +16,7 @@ impl From<crate::R<ISR_SPEC>> for R {
 #[doc = "Field `CEIF` reader - Configuration error interrupt flag"]
 pub struct CEIF_R(crate::FieldReader<bool, bool>);
 impl CEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEIF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for CEIF_R {
 #[doc = "Field `CTCIF` reader - CLUT transfer complete interrupt flag"]
 pub struct CTCIF_R(crate::FieldReader<bool, bool>);
 impl CTCIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIF_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for CTCIF_R {
 #[doc = "Field `CAEIF` reader - CLUT access error interrupt flag"]
 pub struct CAEIF_R(crate::FieldReader<bool, bool>);
 impl CAEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAEIF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for CAEIF_R {
 #[doc = "Field `TWIF` reader - Transfer watermark interrupt flag"]
 pub struct TWIF_R(crate::FieldReader<bool, bool>);
 impl TWIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TWIF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for TWIF_R {
 #[doc = "Field `TCIF` reader - Transfer complete interrupt flag"]
 pub struct TCIF_R(crate::FieldReader<bool, bool>);
 impl TCIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCIF_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for TCIF_R {
 #[doc = "Field `TEIF` reader - Transfer error interrupt flag"]
 pub struct TEIF_R(crate::FieldReader<bool, bool>);
 impl TEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEIF_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTYPER_SPEC>> for W {
 #[doc = "Field `OT15` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT15_R(crate::FieldReader<bool, bool>);
 impl OT15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT15_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OT15_W<'a> {
 #[doc = "Field `OT14` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT14_R(crate::FieldReader<bool, bool>);
 impl OT14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT14_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OT14_W<'a> {
 #[doc = "Field `OT13` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT13_R(crate::FieldReader<bool, bool>);
 impl OT13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT13_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> OT13_W<'a> {
 #[doc = "Field `OT12` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT12_R(crate::FieldReader<bool, bool>);
 impl OT12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT12_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OT12_W<'a> {
 #[doc = "Field `OT11` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT11_R(crate::FieldReader<bool, bool>);
 impl OT11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT11_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> OT11_W<'a> {
 #[doc = "Field `OT10` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT10_R(crate::FieldReader<bool, bool>);
 impl OT10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT10_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> OT10_W<'a> {
 #[doc = "Field `OT9` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT9_R(crate::FieldReader<bool, bool>);
 impl OT9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT9_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> OT9_W<'a> {
 #[doc = "Field `OT8` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT8_R(crate::FieldReader<bool, bool>);
 impl OT8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT8_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> OT8_W<'a> {
 #[doc = "Field `OT7` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT7_R(crate::FieldReader<bool, bool>);
 impl OT7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT7_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> OT7_W<'a> {
 #[doc = "Field `OT6` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT6_R(crate::FieldReader<bool, bool>);
 impl OT6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT6_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> OT6_W<'a> {
 #[doc = "Field `OT5` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT5_R(crate::FieldReader<bool, bool>);
 impl OT5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT5_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> OT5_W<'a> {
 #[doc = "Field `OT4` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT4_R(crate::FieldReader<bool, bool>);
 impl OT4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT4_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> OT4_W<'a> {
 #[doc = "Field `OT3` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT3_R(crate::FieldReader<bool, bool>);
 impl OT3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT3_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> OT3_W<'a> {
 #[doc = "Field `OT2` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT2_R(crate::FieldReader<bool, bool>);
 impl OT2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT2_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> OT2_W<'a> {
 #[doc = "Field `OT1` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT1_R(crate::FieldReader<bool, bool>);
 impl OT1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT1_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> OT1_W<'a> {
 #[doc = "Field `OT0` reader - Port x configuration bits (y = 0..15)"]
 pub struct OT0_R(crate::FieldReader<bool, bool>);
 impl OT0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OT0_R(crate::FieldReader::new(bits))
     }

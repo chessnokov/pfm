@@ -37,6 +37,7 @@ impl From<crate::W<PLLSAICFGR_SPEC>> for W {
 #[doc = "Field `PLLSAIN` reader - PLLSAI division factor for VCO"]
 pub struct PLLSAIN_R(crate::FieldReader<u16, u16>);
 impl PLLSAIN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PLLSAIN_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PLLSAIN_W<'a> {
 #[doc = "Field `PLLSAIP` reader - PLLSAI division factor for 48MHz clock"]
 pub struct PLLSAIP_R(crate::FieldReader<u8, u8>);
 impl PLLSAIP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLSAIP_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> PLLSAIP_W<'a> {
 #[doc = "Field `PLLSAIQ` reader - PLLSAI division factor for SAI clock"]
 pub struct PLLSAIQ_R(crate::FieldReader<u8, u8>);
 impl PLLSAIQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLSAIQ_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> PLLSAIQ_W<'a> {
 #[doc = "Field `PLLSAIR` reader - PLLSAI division factor for LCD clock"]
 pub struct PLLSAIR_R(crate::FieldReader<u8, u8>);
 impl PLLSAIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLLSAIR_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `PG` reader - Programming"]
 pub struct PG_R(crate::FieldReader<bool, bool>);
 impl PG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PG_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PG_W<'a> {
 #[doc = "Field `SER` reader - Sector Erase"]
 pub struct SER_R(crate::FieldReader<bool, bool>);
 impl SER_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SER_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SER_W<'a> {
 #[doc = "Field `MER` reader - Mass Erase of sectors 0 to 11"]
 pub struct MER_R(crate::FieldReader<bool, bool>);
 impl MER_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MER_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> MER_W<'a> {
 #[doc = "Field `SNB` reader - Sector number"]
 pub struct SNB_R(crate::FieldReader<u8, u8>);
 impl SNB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SNB_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> SNB_W<'a> {
 #[doc = "Field `PSIZE` reader - Program size"]
 pub struct PSIZE_R(crate::FieldReader<u8, u8>);
 impl PSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PSIZE_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> PSIZE_W<'a> {
 #[doc = "Field `MER1` reader - Mass Erase of sectors 12 to 23"]
 pub struct MER1_R(crate::FieldReader<bool, bool>);
 impl MER1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MER1_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> MER1_W<'a> {
 #[doc = "Field `STRT` reader - Start"]
 pub struct STRT_R(crate::FieldReader<bool, bool>);
 impl STRT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STRT_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> STRT_W<'a> {
 #[doc = "Field `EOPIE` reader - End of operation interrupt enable"]
 pub struct EOPIE_R(crate::FieldReader<bool, bool>);
 impl EOPIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOPIE_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> EOPIE_W<'a> {
 #[doc = "Field `ERRIE` reader - Error interrupt enable"]
 pub struct ERRIE_R(crate::FieldReader<bool, bool>);
 impl ERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERRIE_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> ERRIE_W<'a> {
 #[doc = "Field `LOCK` reader - Lock"]
 pub struct LOCK_R(crate::FieldReader<bool, bool>);
 impl LOCK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LOCK_R(crate::FieldReader::new(bits))
     }

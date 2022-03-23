@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `CC4OF` reader - Capture/Compare 4 overcapture flag"]
 pub struct CC4OF_R(crate::FieldReader<bool, bool>);
 impl CC4OF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4OF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CC4OF_W<'a> {
 #[doc = "Field `CC3OF` reader - Capture/Compare 3 overcapture flag"]
 pub struct CC3OF_R(crate::FieldReader<bool, bool>);
 impl CC3OF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3OF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CC3OF_W<'a> {
 #[doc = "Field `CC2OF` reader - Capture/compare 2 overcapture flag"]
 pub struct CC2OF_R(crate::FieldReader<bool, bool>);
 impl CC2OF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2OF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CC2OF_W<'a> {
 #[doc = "Field `CC1OF` reader - Capture/Compare 1 overcapture flag"]
 pub struct CC1OF_R(crate::FieldReader<bool, bool>);
 impl CC1OF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1OF_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CC1OF_W<'a> {
 #[doc = "Field `TIF` reader - Trigger interrupt flag"]
 pub struct TIF_R(crate::FieldReader<bool, bool>);
 impl TIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIF_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TIF_W<'a> {
 #[doc = "Field `CC4IF` reader - Capture/Compare 4 interrupt flag"]
 pub struct CC4IF_R(crate::FieldReader<bool, bool>);
 impl CC4IF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC4IF_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> CC4IF_W<'a> {
 #[doc = "Field `CC3IF` reader - Capture/Compare 3 interrupt flag"]
 pub struct CC3IF_R(crate::FieldReader<bool, bool>);
 impl CC3IF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC3IF_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> CC3IF_W<'a> {
 #[doc = "Field `CC2IF` reader - Capture/Compare 2 interrupt flag"]
 pub struct CC2IF_R(crate::FieldReader<bool, bool>);
 impl CC2IF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC2IF_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> CC2IF_W<'a> {
 #[doc = "Field `CC1IF` reader - Capture/compare 1 interrupt flag"]
 pub struct CC1IF_R(crate::FieldReader<bool, bool>);
 impl CC1IF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1IF_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> CC1IF_W<'a> {
 #[doc = "Field `UIF` reader - Update interrupt flag"]
 pub struct UIF_R(crate::FieldReader<bool, bool>);
 impl UIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UIF_R(crate::FieldReader::new(bits))
     }

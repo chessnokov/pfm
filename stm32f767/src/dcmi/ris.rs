@@ -16,6 +16,7 @@ impl From<crate::R<RIS_SPEC>> for R {
 #[doc = "Field `LINE_RIS` reader - Line raw interrupt status"]
 pub struct LINE_RIS_R(crate::FieldReader<bool, bool>);
 impl LINE_RIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LINE_RIS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for LINE_RIS_R {
 #[doc = "Field `VSYNC_RIS` reader - VSYNC raw interrupt status"]
 pub struct VSYNC_RIS_R(crate::FieldReader<bool, bool>);
 impl VSYNC_RIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSYNC_RIS_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for VSYNC_RIS_R {
 #[doc = "Field `ERR_RIS` reader - Synchronization error raw interrupt status"]
 pub struct ERR_RIS_R(crate::FieldReader<bool, bool>);
 impl ERR_RIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERR_RIS_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for ERR_RIS_R {
 #[doc = "Field `OVR_RIS` reader - Overrun raw interrupt status"]
 pub struct OVR_RIS_R(crate::FieldReader<bool, bool>);
 impl OVR_RIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_RIS_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for OVR_RIS_R {
 #[doc = "Field `FRAME_RIS` reader - Capture complete raw interrupt status"]
 pub struct FRAME_RIS_R(crate::FieldReader<bool, bool>);
 impl FRAME_RIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FRAME_RIS_R(crate::FieldReader::new(bits))
     }

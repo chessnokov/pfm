@@ -37,6 +37,7 @@ impl From<crate::W<PSC_SPEC>> for W {
 #[doc = "Field `PSC` reader - Prescaler value"]
 pub struct PSC_R(crate::FieldReader<u16, u16>);
 impl PSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PSC_R(crate::FieldReader::new(bits))
     }

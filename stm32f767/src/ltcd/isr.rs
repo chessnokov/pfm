@@ -16,6 +16,7 @@ impl From<crate::R<ISR_SPEC>> for R {
 #[doc = "Field `RRIF` reader - Register Reload Interrupt Flag"]
 pub struct RRIF_R(crate::FieldReader<bool, bool>);
 impl RRIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RRIF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for RRIF_R {
 #[doc = "Field `TERRIF` reader - Transfer Error interrupt flag"]
 pub struct TERRIF_R(crate::FieldReader<bool, bool>);
 impl TERRIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERRIF_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for TERRIF_R {
 #[doc = "Field `FUIF` reader - FIFO Underrun Interrupt flag"]
 pub struct FUIF_R(crate::FieldReader<bool, bool>);
 impl FUIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FUIF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for FUIF_R {
 #[doc = "Field `LIF` reader - Line Interrupt flag"]
 pub struct LIF_R(crate::FieldReader<bool, bool>);
 impl LIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LIF_R(crate::FieldReader::new(bits))
     }

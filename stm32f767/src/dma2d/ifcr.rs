@@ -37,6 +37,7 @@ impl From<crate::W<IFCR_SPEC>> for W {
 #[doc = "Field `CCEIF` reader - Clear configuration error interrupt flag"]
 pub struct CCEIF_R(crate::FieldReader<bool, bool>);
 impl CCEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCEIF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CCEIF_W<'a> {
 #[doc = "Field `CCTCIF` reader - Clear CLUT transfer complete interrupt flag"]
 pub struct CCTCIF_R(crate::FieldReader<bool, bool>);
 impl CCTCIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCTCIF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CCTCIF_W<'a> {
 #[doc = "Field `CAECIF` reader - Clear CLUT access error interrupt flag"]
 pub struct CAECIF_R(crate::FieldReader<bool, bool>);
 impl CAECIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAECIF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CAECIF_W<'a> {
 #[doc = "Field `CTWIF` reader - Clear transfer watermark interrupt flag"]
 pub struct CTWIF_R(crate::FieldReader<bool, bool>);
 impl CTWIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTWIF_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CTWIF_W<'a> {
 #[doc = "Field `CTCIF` reader - Clear transfer complete interrupt flag"]
 pub struct CTCIF_R(crate::FieldReader<bool, bool>);
 impl CTCIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIF_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CTCIF_W<'a> {
 #[doc = "Field `CTEIF` reader - Clear Transfer error interrupt flag"]
 pub struct CTEIF_R(crate::FieldReader<bool, bool>);
 impl CTEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEIF_R(crate::FieldReader::new(bits))
     }

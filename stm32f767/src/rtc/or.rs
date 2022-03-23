@@ -37,6 +37,7 @@ impl From<crate::W<OR_SPEC>> for W {
 #[doc = "Field `RTC_ALARM_TYPE` reader - RTC_ALARM on PC13 output type"]
 pub struct RTC_ALARM_TYPE_R(crate::FieldReader<bool, bool>);
 impl RTC_ALARM_TYPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTC_ALARM_TYPE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RTC_ALARM_TYPE_W<'a> {
 #[doc = "Field `RTC_OUT_RMP` reader - RTC_OUT remap"]
 pub struct RTC_OUT_RMP_R(crate::FieldReader<bool, bool>);
 impl RTC_OUT_RMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTC_OUT_RMP_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CVR_SPEC>> for W {
 #[doc = "Field `CURRENT` reader - Current counter value"]
 pub struct CURRENT_R(crate::FieldReader<u32, u32>);
 impl CURRENT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         CURRENT_R(crate::FieldReader::new(bits))
     }

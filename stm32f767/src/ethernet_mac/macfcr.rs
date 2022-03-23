@@ -37,6 +37,7 @@ impl From<crate::W<MACFCR_SPEC>> for W {
 #[doc = "Field `FCB` reader - FCB"]
 pub struct FCB_R(crate::FieldReader<bool, bool>);
 impl FCB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FCB_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FCB_W<'a> {
 #[doc = "Field `TFCE` reader - TFCE"]
 pub struct TFCE_R(crate::FieldReader<bool, bool>);
 impl TFCE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TFCE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TFCE_W<'a> {
 #[doc = "Field `RFCE` reader - RFCE"]
 pub struct RFCE_R(crate::FieldReader<bool, bool>);
 impl RFCE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFCE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RFCE_W<'a> {
 #[doc = "Field `UPFD` reader - UPFD"]
 pub struct UPFD_R(crate::FieldReader<bool, bool>);
 impl UPFD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UPFD_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> UPFD_W<'a> {
 #[doc = "Field `PLT` reader - PLT"]
 pub struct PLT_R(crate::FieldReader<u8, u8>);
 impl PLT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLT_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> PLT_W<'a> {
 #[doc = "Field `ZQPD` reader - ZQPD"]
 pub struct ZQPD_R(crate::FieldReader<bool, bool>);
 impl ZQPD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ZQPD_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> ZQPD_W<'a> {
 #[doc = "Field `PT` reader - PT"]
 pub struct PT_R(crate::FieldReader<u16, u16>);
 impl PT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PT_R(crate::FieldReader::new(bits))
     }

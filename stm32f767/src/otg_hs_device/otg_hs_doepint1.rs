@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DOEPINT1_SPEC>> for W {
 #[doc = "Field `XFRC` reader - Transfer completed interrupt"]
 pub struct XFRC_R(crate::FieldReader<bool, bool>);
 impl XFRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRC_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRC_W<'a> {
 #[doc = "Field `EPDISD` reader - Endpoint disabled interrupt"]
 pub struct EPDISD_R(crate::FieldReader<bool, bool>);
 impl EPDISD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDISD_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> EPDISD_W<'a> {
 #[doc = "Field `STUP` reader - SETUP phase done"]
 pub struct STUP_R(crate::FieldReader<bool, bool>);
 impl STUP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STUP_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> STUP_W<'a> {
 #[doc = "Field `OTEPDIS` reader - OUT token received when endpoint disabled"]
 pub struct OTEPDIS_R(crate::FieldReader<bool, bool>);
 impl OTEPDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTEPDIS_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OTEPDIS_W<'a> {
 #[doc = "Field `B2BSTUP` reader - Back-to-back SETUP packets received"]
 pub struct B2BSTUP_R(crate::FieldReader<bool, bool>);
 impl B2BSTUP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         B2BSTUP_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> B2BSTUP_W<'a> {
 #[doc = "Field `NYET` reader - NYET interrupt"]
 pub struct NYET_R(crate::FieldReader<bool, bool>);
 impl NYET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NYET_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_HCTSIZ11_SPEC>> for W {
 #[doc = "Field `XFRSIZ` reader - Transfer size"]
 pub struct XFRSIZ_R(crate::FieldReader<u32, u32>);
 impl XFRSIZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         XFRSIZ_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> XFRSIZ_W<'a> {
 #[doc = "Field `PKTCNT` reader - Packet count"]
 pub struct PKTCNT_R(crate::FieldReader<u16, u16>);
 impl PKTCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PKTCNT_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> PKTCNT_W<'a> {
 #[doc = "Field `DPID` reader - Data PID"]
 pub struct DPID_R(crate::FieldReader<u8, u8>);
 impl DPID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DPID_R(crate::FieldReader::new(bits))
     }

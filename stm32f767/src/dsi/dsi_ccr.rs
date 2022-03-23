@@ -37,6 +37,7 @@ impl From<crate::W<DSI_CCR_SPEC>> for W {
 #[doc = "Field `TXECKDIV` reader - TX Escape Clock Division"]
 pub struct TXECKDIV_R(crate::FieldReader<u8, u8>);
 impl TXECKDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TXECKDIV_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TXECKDIV_W<'a> {
 #[doc = "Field `TOCKDIV` reader - Timeout Clock Division"]
 pub struct TOCKDIV_R(crate::FieldReader<u8, u8>);
 impl TOCKDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TOCKDIV_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `MMS` reader - Master mode selection"]
 pub struct MMS_R(crate::FieldReader<u8, u8>);
 impl MMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MMS_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<L1WVPCR_SPEC>> for W {
 #[doc = "Field `WVSPPOS` reader - Window Vertical Stop Position"]
 pub struct WVSPPOS_R(crate::FieldReader<u16, u16>);
 impl WVSPPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WVSPPOS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> WVSPPOS_W<'a> {
 #[doc = "Field `WVSTPOS` reader - Window Vertical Start Position"]
 pub struct WVSTPOS_R(crate::FieldReader<u16, u16>);
 impl WVSTPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WVSTPOS_R(crate::FieldReader::new(bits))
     }

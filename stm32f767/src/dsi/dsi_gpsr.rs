@@ -16,6 +16,7 @@ impl From<crate::R<DSI_GPSR_SPEC>> for R {
 #[doc = "Field `CMDFE` reader - Command FIFO Empty"]
 pub struct CMDFE_R(crate::FieldReader<bool, bool>);
 impl CMDFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDFE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for CMDFE_R {
 #[doc = "Field `CMDFF` reader - Command FIFO Full"]
 pub struct CMDFF_R(crate::FieldReader<bool, bool>);
 impl CMDFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDFF_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for CMDFF_R {
 #[doc = "Field `PWRFE` reader - Payload Write FIFO Empty"]
 pub struct PWRFE_R(crate::FieldReader<bool, bool>);
 impl PWRFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PWRFE_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for PWRFE_R {
 #[doc = "Field `PWRFF` reader - Payload Write FIFO Full"]
 pub struct PWRFF_R(crate::FieldReader<bool, bool>);
 impl PWRFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PWRFF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for PWRFF_R {
 #[doc = "Field `PRDFE` reader - Payload Read FIFO Empty"]
 pub struct PRDFE_R(crate::FieldReader<bool, bool>);
 impl PRDFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRDFE_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for PRDFE_R {
 #[doc = "Field `PRDFF` reader - Payload Read FIFO Full"]
 pub struct PRDFF_R(crate::FieldReader<bool, bool>);
 impl PRDFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRDFF_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for PRDFF_R {
 #[doc = "Field `RCB` reader - Read Command Busy"]
 pub struct RCB_R(crate::FieldReader<bool, bool>);
 impl RCB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RCB_R(crate::FieldReader::new(bits))
     }

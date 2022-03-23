@@ -16,6 +16,7 @@ impl From<crate::R<DSI_ISR1_SPEC>> for R {
 #[doc = "Field `TOHSTX` reader - Timeout High-Speed Transmission"]
 pub struct TOHSTX_R(crate::FieldReader<bool, bool>);
 impl TOHSTX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOHSTX_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for TOHSTX_R {
 #[doc = "Field `TOLPRX` reader - Timeout Low-Power Reception"]
 pub struct TOLPRX_R(crate::FieldReader<bool, bool>);
 impl TOLPRX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOLPRX_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for TOLPRX_R {
 #[doc = "Field `ECCSE` reader - ECC Single-bit Error"]
 pub struct ECCSE_R(crate::FieldReader<bool, bool>);
 impl ECCSE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCSE_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for ECCSE_R {
 #[doc = "Field `ECCME` reader - ECC Multi-bit Error"]
 pub struct ECCME_R(crate::FieldReader<bool, bool>);
 impl ECCME_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCME_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for ECCME_R {
 #[doc = "Field `CRCE` reader - CRC Error"]
 pub struct CRCE_R(crate::FieldReader<bool, bool>);
 impl CRCE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCE_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for CRCE_R {
 #[doc = "Field `PSE` reader - Packet Size Error"]
 pub struct PSE_R(crate::FieldReader<bool, bool>);
 impl PSE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PSE_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for PSE_R {
 #[doc = "Field `EOTPE` reader - EoTp Error"]
 pub struct EOTPE_R(crate::FieldReader<bool, bool>);
 impl EOTPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOTPE_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for EOTPE_R {
 #[doc = "Field `LPWRE` reader - LTDC Payload Write Error"]
 pub struct LPWRE_R(crate::FieldReader<bool, bool>);
 impl LPWRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPWRE_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for LPWRE_R {
 #[doc = "Field `GCWRE` reader - Generic Command Write Error"]
 pub struct GCWRE_R(crate::FieldReader<bool, bool>);
 impl GCWRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GCWRE_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for GCWRE_R {
 #[doc = "Field `GPWRE` reader - Generic Payload Write Error"]
 pub struct GPWRE_R(crate::FieldReader<bool, bool>);
 impl GPWRE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPWRE_R(crate::FieldReader::new(bits))
     }
@@ -156,6 +166,7 @@ impl core::ops::Deref for GPWRE_R {
 #[doc = "Field `GPTXE` reader - Generic Payload Transmit Error"]
 pub struct GPTXE_R(crate::FieldReader<bool, bool>);
 impl GPTXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPTXE_R(crate::FieldReader::new(bits))
     }
@@ -170,6 +181,7 @@ impl core::ops::Deref for GPTXE_R {
 #[doc = "Field `GPRDE` reader - Generic Payload Read Error"]
 pub struct GPRDE_R(crate::FieldReader<bool, bool>);
 impl GPRDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPRDE_R(crate::FieldReader::new(bits))
     }
@@ -184,6 +196,7 @@ impl core::ops::Deref for GPRDE_R {
 #[doc = "Field `GPRXE` reader - Generic Payload Receive Error"]
 pub struct GPRXE_R(crate::FieldReader<bool, bool>);
 impl GPRXE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPRXE_R(crate::FieldReader::new(bits))
     }

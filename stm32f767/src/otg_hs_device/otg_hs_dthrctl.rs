@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DTHRCTL_SPEC>> for W {
 #[doc = "Field `NONISOTHREN` reader - Nonisochronous IN endpoints threshold enable"]
 pub struct NONISOTHREN_R(crate::FieldReader<bool, bool>);
 impl NONISOTHREN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NONISOTHREN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> NONISOTHREN_W<'a> {
 #[doc = "Field `ISOTHREN` reader - ISO IN endpoint threshold enable"]
 pub struct ISOTHREN_R(crate::FieldReader<bool, bool>);
 impl ISOTHREN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ISOTHREN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ISOTHREN_W<'a> {
 #[doc = "Field `TXTHRLEN` reader - Transmit threshold length"]
 pub struct TXTHRLEN_R(crate::FieldReader<u16, u16>);
 impl TXTHRLEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TXTHRLEN_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> TXTHRLEN_W<'a> {
 #[doc = "Field `RXTHREN` reader - Receive threshold enable"]
 pub struct RXTHREN_R(crate::FieldReader<bool, bool>);
 impl RXTHREN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXTHREN_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> RXTHREN_W<'a> {
 #[doc = "Field `RXTHRLEN` reader - Receive threshold length"]
 pub struct RXTHRLEN_R(crate::FieldReader<u16, u16>);
 impl RXTHRLEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         RXTHRLEN_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> RXTHRLEN_W<'a> {
 #[doc = "Field `ARPEN` reader - Arbiter parking enable"]
 pub struct ARPEN_R(crate::FieldReader<bool, bool>);
 impl ARPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARPEN_R(crate::FieldReader::new(bits))
     }

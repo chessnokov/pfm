@@ -37,6 +37,7 @@ impl From<crate::W<SMCR_SPEC>> for W {
 #[doc = "Field `ETP` reader - External trigger polarity"]
 pub struct ETP_R(crate::FieldReader<bool, bool>);
 impl ETP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETP_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ETP_W<'a> {
 #[doc = "Field `ECE` reader - External clock enable"]
 pub struct ECE_R(crate::FieldReader<bool, bool>);
 impl ECE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ECE_W<'a> {
 #[doc = "Field `ETPS` reader - External trigger prescaler"]
 pub struct ETPS_R(crate::FieldReader<u8, u8>);
 impl ETPS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ETPS_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> ETPS_W<'a> {
 #[doc = "Field `ETF` reader - External trigger filter"]
 pub struct ETF_R(crate::FieldReader<u8, u8>);
 impl ETF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ETF_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> ETF_W<'a> {
 #[doc = "Field `MSM` reader - Master/Slave mode"]
 pub struct MSM_R(crate::FieldReader<bool, bool>);
 impl MSM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSM_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> MSM_W<'a> {
 #[doc = "Field `TS` reader - Trigger selection"]
 pub struct TS_R(crate::FieldReader<u8, u8>);
 impl TS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TS_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +229,7 @@ impl<'a> TS_W<'a> {
 #[doc = "Field `SMS` reader - Slave mode selection"]
 pub struct SMS_R(crate::FieldReader<u8, u8>);
 impl SMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SMS_R(crate::FieldReader::new(bits))
     }

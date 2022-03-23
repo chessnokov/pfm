@@ -37,6 +37,7 @@ impl From<crate::W<SDCR2_SPEC>> for W {
 #[doc = "Field `NC` reader - Number of column address bits"]
 pub struct NC_R(crate::FieldReader<u8, u8>);
 impl NC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NC_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> NC_W<'a> {
 #[doc = "Field `NR` reader - Number of row address bits"]
 pub struct NR_R(crate::FieldReader<u8, u8>);
 impl NR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NR_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> NR_W<'a> {
 #[doc = "Field `MWID` reader - Memory data bus width"]
 pub struct MWID_R(crate::FieldReader<u8, u8>);
 impl MWID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MWID_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> MWID_W<'a> {
 #[doc = "Field `NB` reader - Number of internal banks"]
 pub struct NB_R(crate::FieldReader<bool, bool>);
 impl NB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NB_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> NB_W<'a> {
 #[doc = "Field `CAS` reader - CAS latency"]
 pub struct CAS_R(crate::FieldReader<u8, u8>);
 impl CAS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CAS_R(crate::FieldReader::new(bits))
     }
@@ -177,6 +182,7 @@ impl<'a> CAS_W<'a> {
 #[doc = "Field `WP` reader - Write protection"]
 pub struct WP_R(crate::FieldReader<bool, bool>);
 impl WP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WP_R(crate::FieldReader::new(bits))
     }
@@ -213,6 +219,7 @@ impl<'a> WP_W<'a> {
 #[doc = "Field `SDCLK` reader - SDRAM clock configuration"]
 pub struct SDCLK_R(crate::FieldReader<u8, u8>);
 impl SDCLK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SDCLK_R(crate::FieldReader::new(bits))
     }
@@ -239,6 +246,7 @@ impl<'a> SDCLK_W<'a> {
 #[doc = "Field `RBURST` reader - Burst read"]
 pub struct RBURST_R(crate::FieldReader<bool, bool>);
 impl RBURST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RBURST_R(crate::FieldReader::new(bits))
     }
@@ -275,6 +283,7 @@ impl<'a> RBURST_W<'a> {
 #[doc = "Field `RPIPE` reader - Read pipe"]
 pub struct RPIPE_R(crate::FieldReader<u8, u8>);
 impl RPIPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RPIPE_R(crate::FieldReader::new(bits))
     }

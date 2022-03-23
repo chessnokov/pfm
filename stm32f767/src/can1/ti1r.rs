@@ -37,6 +37,7 @@ impl From<crate::W<TI1R_SPEC>> for W {
 #[doc = "Field `STID` reader - STID"]
 pub struct STID_R(crate::FieldReader<u16, u16>);
 impl STID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         STID_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> STID_W<'a> {
 #[doc = "Field `EXID` reader - EXID"]
 pub struct EXID_R(crate::FieldReader<u32, u32>);
 impl EXID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         EXID_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> EXID_W<'a> {
 #[doc = "Field `IDE` reader - IDE"]
 pub struct IDE_R(crate::FieldReader<bool, bool>);
 impl IDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IDE_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> IDE_W<'a> {
 #[doc = "Field `RTR` reader - RTR"]
 pub struct RTR_R(crate::FieldReader<bool, bool>);
 impl RTR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RTR_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> RTR_W<'a> {
 #[doc = "Field `TXRQ` reader - TXRQ"]
 pub struct TXRQ_R(crate::FieldReader<bool, bool>);
 impl TXRQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXRQ_R(crate::FieldReader::new(bits))
     }

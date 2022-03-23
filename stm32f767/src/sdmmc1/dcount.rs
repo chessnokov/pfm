@@ -16,6 +16,7 @@ impl From<crate::R<DCOUNT_SPEC>> for R {
 #[doc = "Field `DATACOUNT` reader - Data count value"]
 pub struct DATACOUNT_R(crate::FieldReader<u32, u32>);
 impl DATACOUNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         DATACOUNT_R(crate::FieldReader::new(bits))
     }

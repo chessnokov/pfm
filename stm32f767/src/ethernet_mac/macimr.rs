@@ -37,6 +37,7 @@ impl From<crate::W<MACIMR_SPEC>> for W {
 #[doc = "Field `PMTIM` reader - PMTIM"]
 pub struct PMTIM_R(crate::FieldReader<bool, bool>);
 impl PMTIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PMTIM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PMTIM_W<'a> {
 #[doc = "Field `TSTIM` reader - TSTIM"]
 pub struct TSTIM_R(crate::FieldReader<bool, bool>);
 impl TSTIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSTIM_R(crate::FieldReader::new(bits))
     }

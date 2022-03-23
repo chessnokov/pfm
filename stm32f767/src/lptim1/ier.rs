@@ -37,6 +37,7 @@ impl From<crate::W<IER_SPEC>> for W {
 #[doc = "Field `DOWNIE` reader - Direction change to down Interrupt Enable"]
 pub struct DOWNIE_R(crate::FieldReader<bool, bool>);
 impl DOWNIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DOWNIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DOWNIE_W<'a> {
 #[doc = "Field `UPIE` reader - Direction change to UP Interrupt Enable"]
 pub struct UPIE_R(crate::FieldReader<bool, bool>);
 impl UPIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UPIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> UPIE_W<'a> {
 #[doc = "Field `ARROKIE` reader - Autoreload register update OK Interrupt Enable"]
 pub struct ARROKIE_R(crate::FieldReader<bool, bool>);
 impl ARROKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARROKIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> ARROKIE_W<'a> {
 #[doc = "Field `CMPOKIE` reader - Compare register update OK Interrupt Enable"]
 pub struct CMPOKIE_R(crate::FieldReader<bool, bool>);
 impl CMPOKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMPOKIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CMPOKIE_W<'a> {
 #[doc = "Field `EXTTRIGIE` reader - External trigger valid edge Interrupt Enable"]
 pub struct EXTTRIGIE_R(crate::FieldReader<bool, bool>);
 impl EXTTRIGIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EXTTRIGIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> EXTTRIGIE_W<'a> {
 #[doc = "Field `ARRMIE` reader - Autoreload match Interrupt Enable"]
 pub struct ARRMIE_R(crate::FieldReader<bool, bool>);
 impl ARRMIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARRMIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ARRMIE_W<'a> {
 #[doc = "Field `CMPMIE` reader - Compare match Interrupt Enable"]
 pub struct CMPMIE_R(crate::FieldReader<bool, bool>);
 impl CMPMIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMPMIE_R(crate::FieldReader::new(bits))
     }

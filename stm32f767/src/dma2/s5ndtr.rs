@@ -37,6 +37,7 @@ impl From<crate::W<S5NDTR_SPEC>> for W {
 #[doc = "Field `NDT` reader - Number of data items to transfer"]
 pub struct NDT_R(crate::FieldReader<u16, u16>);
 impl NDT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NDT_R(crate::FieldReader::new(bits))
     }

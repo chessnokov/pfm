@@ -37,6 +37,7 @@ impl From<crate::W<DSI_LPCR_SPEC>> for W {
 #[doc = "Field `DEP` reader - Data Enable Polarity"]
 pub struct DEP_R(crate::FieldReader<bool, bool>);
 impl DEP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DEP_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DEP_W<'a> {
 #[doc = "Field `VSP` reader - VSYNC Polarity"]
 pub struct VSP_R(crate::FieldReader<bool, bool>);
 impl VSP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSP_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> VSP_W<'a> {
 #[doc = "Field `HSP` reader - HSYNC Polarity"]
 pub struct HSP_R(crate::FieldReader<bool, bool>);
 impl HSP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSP_R(crate::FieldReader::new(bits))
     }

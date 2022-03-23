@@ -37,6 +37,7 @@ impl From<crate::W<L1WHPCR_SPEC>> for W {
 #[doc = "Field `WHSPPOS` reader - Window Horizontal Stop Position"]
 pub struct WHSPPOS_R(crate::FieldReader<u16, u16>);
 impl WHSPPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WHSPPOS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> WHSPPOS_W<'a> {
 #[doc = "Field `WHSTPOS` reader - Window Horizontal Start Position"]
 pub struct WHSTPOS_R(crate::FieldReader<u16, u16>);
 impl WHSTPOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WHSTPOS_R(crate::FieldReader::new(bits))
     }

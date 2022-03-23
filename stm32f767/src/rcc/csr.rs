@@ -37,6 +37,7 @@ impl From<crate::W<CSR_SPEC>> for W {
 #[doc = "Field `LPWRRSTF` reader - Low-power reset flag"]
 pub struct LPWRRSTF_R(crate::FieldReader<bool, bool>);
 impl LPWRRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPWRRSTF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LPWRRSTF_W<'a> {
 #[doc = "Field `WWDGRSTF` reader - Window watchdog reset flag"]
 pub struct WWDGRSTF_R(crate::FieldReader<bool, bool>);
 impl WWDGRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WWDGRSTF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> WWDGRSTF_W<'a> {
 #[doc = "Field `WDGRSTF` reader - Independent watchdog reset flag"]
 pub struct WDGRSTF_R(crate::FieldReader<bool, bool>);
 impl WDGRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WDGRSTF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> WDGRSTF_W<'a> {
 #[doc = "Field `SFTRSTF` reader - Software reset flag"]
 pub struct SFTRSTF_R(crate::FieldReader<bool, bool>);
 impl SFTRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SFTRSTF_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> SFTRSTF_W<'a> {
 #[doc = "Field `PORRSTF` reader - POR/PDR reset flag"]
 pub struct PORRSTF_R(crate::FieldReader<bool, bool>);
 impl PORRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PORRSTF_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> PORRSTF_W<'a> {
 #[doc = "Field `PADRSTF` reader - PIN reset flag"]
 pub struct PADRSTF_R(crate::FieldReader<bool, bool>);
 impl PADRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PADRSTF_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> PADRSTF_W<'a> {
 #[doc = "Field `BORRSTF` reader - BOR reset flag"]
 pub struct BORRSTF_R(crate::FieldReader<bool, bool>);
 impl BORRSTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BORRSTF_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> BORRSTF_W<'a> {
 #[doc = "Field `RMVF` reader - Remove reset flag"]
 pub struct RMVF_R(crate::FieldReader<bool, bool>);
 impl RMVF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RMVF_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> RMVF_W<'a> {
 #[doc = "Field `LSIRDY` reader - Internal low-speed oscillator ready"]
 pub struct LSIRDY_R(crate::FieldReader<bool, bool>);
 impl LSIRDY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSIRDY_R(crate::FieldReader::new(bits))
     }
@@ -339,6 +348,7 @@ impl core::ops::Deref for LSIRDY_R {
 #[doc = "Field `LSION` reader - Internal low-speed oscillator enable"]
 pub struct LSION_R(crate::FieldReader<bool, bool>);
 impl LSION_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSION_R(crate::FieldReader::new(bits))
     }

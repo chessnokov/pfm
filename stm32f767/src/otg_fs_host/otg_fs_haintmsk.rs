@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_HAINTMSK_SPEC>> for W {
 #[doc = "Field `HAINTM` reader - Channel interrupt mask"]
 pub struct HAINTM_R(crate::FieldReader<u16, u16>);
 impl HAINTM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HAINTM_R(crate::FieldReader::new(bits))
     }

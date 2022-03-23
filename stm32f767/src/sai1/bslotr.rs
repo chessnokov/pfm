@@ -37,6 +37,7 @@ impl From<crate::W<BSLOTR_SPEC>> for W {
 #[doc = "Field `SLOTEN` reader - Slot enable"]
 pub struct SLOTEN_R(crate::FieldReader<u16, u16>);
 impl SLOTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         SLOTEN_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SLOTEN_W<'a> {
 #[doc = "Field `NBSLOT` reader - Number of slots in an audio frame"]
 pub struct NBSLOT_R(crate::FieldReader<u8, u8>);
 impl NBSLOT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NBSLOT_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> NBSLOT_W<'a> {
 #[doc = "Field `SLOTSZ` reader - Slot size"]
 pub struct SLOTSZ_R(crate::FieldReader<u8, u8>);
 impl SLOTSZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SLOTSZ_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> SLOTSZ_W<'a> {
 #[doc = "Field `FBOFF` reader - First bit offset"]
 pub struct FBOFF_R(crate::FieldReader<u8, u8>);
 impl FBOFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FBOFF_R(crate::FieldReader::new(bits))
     }

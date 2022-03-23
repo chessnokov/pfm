@@ -37,6 +37,7 @@ impl From<crate::W<ICR_SPEC>> for W {
 #[doc = "Field `CEATAENDC` reader - CEATAEND flag clear bit"]
 pub struct CEATAENDC_R(crate::FieldReader<bool, bool>);
 impl CEATAENDC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEATAENDC_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CEATAENDC_W<'a> {
 #[doc = "Field `SDIOITC` reader - SDIOIT flag clear bit"]
 pub struct SDIOITC_R(crate::FieldReader<bool, bool>);
 impl SDIOITC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDIOITC_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SDIOITC_W<'a> {
 #[doc = "Field `DBCKENDC` reader - DBCKEND flag clear bit"]
 pub struct DBCKENDC_R(crate::FieldReader<bool, bool>);
 impl DBCKENDC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBCKENDC_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> DBCKENDC_W<'a> {
 #[doc = "Field `STBITERRC` reader - STBITERR flag clear bit"]
 pub struct STBITERRC_R(crate::FieldReader<bool, bool>);
 impl STBITERRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STBITERRC_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> STBITERRC_W<'a> {
 #[doc = "Field `DATAENDC` reader - DATAEND flag clear bit"]
 pub struct DATAENDC_R(crate::FieldReader<bool, bool>);
 impl DATAENDC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DATAENDC_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> DATAENDC_W<'a> {
 #[doc = "Field `CMDSENTC` reader - CMDSENT flag clear bit"]
 pub struct CMDSENTC_R(crate::FieldReader<bool, bool>);
 impl CMDSENTC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDSENTC_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> CMDSENTC_W<'a> {
 #[doc = "Field `CMDRENDC` reader - CMDREND flag clear bit"]
 pub struct CMDRENDC_R(crate::FieldReader<bool, bool>);
 impl CMDRENDC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDRENDC_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> CMDRENDC_W<'a> {
 #[doc = "Field `RXOVERRC` reader - RXOVERR flag clear bit"]
 pub struct RXOVERRC_R(crate::FieldReader<bool, bool>);
 impl RXOVERRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXOVERRC_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> RXOVERRC_W<'a> {
 #[doc = "Field `TXUNDERRC` reader - TXUNDERR flag clear bit"]
 pub struct TXUNDERRC_R(crate::FieldReader<bool, bool>);
 impl TXUNDERRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXUNDERRC_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> TXUNDERRC_W<'a> {
 #[doc = "Field `DTIMEOUTC` reader - DTIMEOUT flag clear bit"]
 pub struct DTIMEOUTC_R(crate::FieldReader<bool, bool>);
 impl DTIMEOUTC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTIMEOUTC_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> DTIMEOUTC_W<'a> {
 #[doc = "Field `CTIMEOUTC` reader - CTIMEOUT flag clear bit"]
 pub struct CTIMEOUTC_R(crate::FieldReader<bool, bool>);
 impl CTIMEOUTC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTIMEOUTC_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> CTIMEOUTC_W<'a> {
 #[doc = "Field `DCRCFAILC` reader - DCRCFAIL flag clear bit"]
 pub struct DCRCFAILC_R(crate::FieldReader<bool, bool>);
 impl DCRCFAILC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCRCFAILC_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> DCRCFAILC_W<'a> {
 #[doc = "Field `CCRCFAILC` reader - CCRCFAIL flag clear bit"]
 pub struct CCRCFAILC_R(crate::FieldReader<bool, bool>);
 impl CCRCFAILC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCRCFAILC_R(crate::FieldReader::new(bits))
     }

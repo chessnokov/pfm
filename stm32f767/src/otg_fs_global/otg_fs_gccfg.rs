@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GCCFG_SPEC>> for W {
 #[doc = "Field `PWRDWN` reader - Power down"]
 pub struct PWRDWN_R(crate::FieldReader<bool, bool>);
 impl PWRDWN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PWRDWN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PWRDWN_W<'a> {
 #[doc = "Field `BCDEN` reader - Battery charging detector (BCD) enable"]
 pub struct BCDEN_R(crate::FieldReader<bool, bool>);
 impl BCDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BCDEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> BCDEN_W<'a> {
 #[doc = "Field `DCDEN` reader - Data contact detection (DCD) mode enable"]
 pub struct DCDEN_R(crate::FieldReader<bool, bool>);
 impl DCDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCDEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> DCDEN_W<'a> {
 #[doc = "Field `PDEN` reader - Primary detection (PD) mode enable"]
 pub struct PDEN_R(crate::FieldReader<bool, bool>);
 impl PDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PDEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> PDEN_W<'a> {
 #[doc = "Field `SDEN` reader - Secondary detection (SD) mode enable"]
 pub struct SDEN_R(crate::FieldReader<bool, bool>);
 impl SDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> SDEN_W<'a> {
 #[doc = "Field `VBDEN` reader - USB VBUS detection enable"]
 pub struct VBDEN_R(crate::FieldReader<bool, bool>);
 impl VBDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VBDEN_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> VBDEN_W<'a> {
 #[doc = "Field `DCDET` reader - Data contact detection (DCD) status"]
 pub struct DCDET_R(crate::FieldReader<bool, bool>);
 impl DCDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCDET_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> DCDET_W<'a> {
 #[doc = "Field `PDET` reader - Primary detection (PD) status"]
 pub struct PDET_R(crate::FieldReader<bool, bool>);
 impl PDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PDET_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> PDET_W<'a> {
 #[doc = "Field `SDET` reader - Secondary detection (SD) status"]
 pub struct SDET_R(crate::FieldReader<bool, bool>);
 impl SDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDET_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SDET_W<'a> {
 #[doc = "Field `PS2DET` reader - DM pull-up detection status"]
 pub struct PS2DET_R(crate::FieldReader<bool, bool>);
 impl PS2DET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PS2DET_R(crate::FieldReader::new(bits))
     }

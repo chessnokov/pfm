@@ -16,6 +16,7 @@ impl From<crate::R<ISR_SPEC>> for R {
 #[doc = "Field `DOWN` reader - Counter direction change up to down"]
 pub struct DOWN_R(crate::FieldReader<bool, bool>);
 impl DOWN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DOWN_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for DOWN_R {
 #[doc = "Field `UP` reader - Counter direction change down to up"]
 pub struct UP_R(crate::FieldReader<bool, bool>);
 impl UP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UP_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for UP_R {
 #[doc = "Field `ARROK` reader - Autoreload register update OK"]
 pub struct ARROK_R(crate::FieldReader<bool, bool>);
 impl ARROK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARROK_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for ARROK_R {
 #[doc = "Field `CMPOK` reader - Compare register update OK"]
 pub struct CMPOK_R(crate::FieldReader<bool, bool>);
 impl CMPOK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMPOK_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for CMPOK_R {
 #[doc = "Field `EXTTRIG` reader - External trigger edge event"]
 pub struct EXTTRIG_R(crate::FieldReader<bool, bool>);
 impl EXTTRIG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EXTTRIG_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for EXTTRIG_R {
 #[doc = "Field `ARRM` reader - Autoreload match"]
 pub struct ARRM_R(crate::FieldReader<bool, bool>);
 impl ARRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARRM_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for ARRM_R {
 #[doc = "Field `CMPM` reader - Compare match"]
 pub struct CMPM_R(crate::FieldReader<bool, bool>);
 impl CMPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMPM_R(crate::FieldReader::new(bits))
     }

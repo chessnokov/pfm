@@ -37,6 +37,7 @@ impl From<crate::W<DSI_PUCR_SPEC>> for W {
 #[doc = "Field `URCL` reader - ULPS Request on Clock Lane"]
 pub struct URCL_R(crate::FieldReader<bool, bool>);
 impl URCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         URCL_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> URCL_W<'a> {
 #[doc = "Field `UECL` reader - ULPS Exit on Clock Lane"]
 pub struct UECL_R(crate::FieldReader<bool, bool>);
 impl UECL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UECL_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> UECL_W<'a> {
 #[doc = "Field `URDL` reader - ULPS Request on Data Lane"]
 pub struct URDL_R(crate::FieldReader<bool, bool>);
 impl URDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         URDL_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> URDL_W<'a> {
 #[doc = "Field `UEDL` reader - ULPS Exit on Data Lane"]
 pub struct UEDL_R(crate::FieldReader<bool, bool>);
 impl UEDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UEDL_R(crate::FieldReader::new(bits))
     }

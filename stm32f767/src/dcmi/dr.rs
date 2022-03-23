@@ -16,6 +16,7 @@ impl From<crate::R<DR_SPEC>> for R {
 #[doc = "Field `Byte3` reader - Data byte 3"]
 pub struct BYTE3_R(crate::FieldReader<u8, u8>);
 impl BYTE3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BYTE3_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for BYTE3_R {
 #[doc = "Field `Byte2` reader - Data byte 2"]
 pub struct BYTE2_R(crate::FieldReader<u8, u8>);
 impl BYTE2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BYTE2_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for BYTE2_R {
 #[doc = "Field `Byte1` reader - Data byte 1"]
 pub struct BYTE1_R(crate::FieldReader<u8, u8>);
 impl BYTE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BYTE1_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for BYTE1_R {
 #[doc = "Field `Byte0` reader - Data byte 0"]
 pub struct BYTE0_R(crate::FieldReader<u8, u8>);
 impl BYTE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BYTE0_R(crate::FieldReader::new(bits))
     }

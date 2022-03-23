@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `DMAUDRIE2` reader - DAC channel2 DMA underrun interrupt enable"]
 pub struct DMAUDRIE2_R(crate::FieldReader<bool, bool>);
 impl DMAUDRIE2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAUDRIE2_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DMAUDRIE2_W<'a> {
 #[doc = "Field `DMAEN2` reader - DAC channel2 DMA enable"]
 pub struct DMAEN2_R(crate::FieldReader<bool, bool>);
 impl DMAEN2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAEN2_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> DMAEN2_W<'a> {
 #[doc = "Field `MAMP2` reader - DAC channel2 mask/amplitude selector"]
 pub struct MAMP2_R(crate::FieldReader<u8, u8>);
 impl MAMP2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MAMP2_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> MAMP2_W<'a> {
 #[doc = "Field `WAVE2` reader - DAC channel2 noise/triangle wave generation enable"]
 pub struct WAVE2_R(crate::FieldReader<u8, u8>);
 impl WAVE2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WAVE2_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> WAVE2_W<'a> {
 #[doc = "Field `TSEL2` reader - DAC channel2 trigger selection"]
 pub struct TSEL2_R(crate::FieldReader<u8, u8>);
 impl TSEL2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TSEL2_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> TSEL2_W<'a> {
 #[doc = "Field `TEN2` reader - DAC channel2 trigger enable"]
 pub struct TEN2_R(crate::FieldReader<bool, bool>);
 impl TEN2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEN2_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +229,7 @@ impl<'a> TEN2_W<'a> {
 #[doc = "Field `BOFF2` reader - DAC channel2 output buffer disable"]
 pub struct BOFF2_R(crate::FieldReader<bool, bool>);
 impl BOFF2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BOFF2_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> BOFF2_W<'a> {
 #[doc = "Field `EN2` reader - DAC channel2 enable"]
 pub struct EN2_R(crate::FieldReader<bool, bool>);
 impl EN2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN2_R(crate::FieldReader::new(bits))
     }
@@ -295,6 +303,7 @@ impl<'a> EN2_W<'a> {
 #[doc = "Field `DMAUDRIE1` reader - DAC channel1 DMA Underrun Interrupt enable"]
 pub struct DMAUDRIE1_R(crate::FieldReader<bool, bool>);
 impl DMAUDRIE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAUDRIE1_R(crate::FieldReader::new(bits))
     }
@@ -331,6 +340,7 @@ impl<'a> DMAUDRIE1_W<'a> {
 #[doc = "Field `DMAEN1` reader - DAC channel1 DMA enable"]
 pub struct DMAEN1_R(crate::FieldReader<bool, bool>);
 impl DMAEN1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAEN1_R(crate::FieldReader::new(bits))
     }
@@ -367,6 +377,7 @@ impl<'a> DMAEN1_W<'a> {
 #[doc = "Field `MAMP1` reader - DAC channel1 mask/amplitude selector"]
 pub struct MAMP1_R(crate::FieldReader<u8, u8>);
 impl MAMP1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MAMP1_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +404,7 @@ impl<'a> MAMP1_W<'a> {
 #[doc = "Field `WAVE1` reader - DAC channel1 noise/triangle wave generation enable"]
 pub struct WAVE1_R(crate::FieldReader<u8, u8>);
 impl WAVE1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WAVE1_R(crate::FieldReader::new(bits))
     }
@@ -419,6 +431,7 @@ impl<'a> WAVE1_W<'a> {
 #[doc = "Field `TSEL1` reader - DAC channel1 trigger selection"]
 pub struct TSEL1_R(crate::FieldReader<u8, u8>);
 impl TSEL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TSEL1_R(crate::FieldReader::new(bits))
     }
@@ -445,6 +458,7 @@ impl<'a> TSEL1_W<'a> {
 #[doc = "Field `TEN1` reader - DAC channel1 trigger enable"]
 pub struct TEN1_R(crate::FieldReader<bool, bool>);
 impl TEN1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEN1_R(crate::FieldReader::new(bits))
     }
@@ -481,6 +495,7 @@ impl<'a> TEN1_W<'a> {
 #[doc = "Field `BOFF1` reader - DAC channel1 output buffer disable"]
 pub struct BOFF1_R(crate::FieldReader<bool, bool>);
 impl BOFF1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BOFF1_R(crate::FieldReader::new(bits))
     }
@@ -517,6 +532,7 @@ impl<'a> BOFF1_W<'a> {
 #[doc = "Field `EN1` reader - DAC channel1 enable"]
 pub struct EN1_R(crate::FieldReader<bool, bool>);
 impl EN1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN1_R(crate::FieldReader::new(bits))
     }

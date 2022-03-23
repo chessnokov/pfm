@@ -37,6 +37,7 @@ impl From<crate::W<L1CFBLNR_SPEC>> for W {
 #[doc = "Field `CFBLNBR` reader - Frame Buffer Line Number"]
 pub struct CFBLNBR_R(crate::FieldReader<u16, u16>);
 impl CFBLNBR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CFBLNBR_R(crate::FieldReader::new(bits))
     }

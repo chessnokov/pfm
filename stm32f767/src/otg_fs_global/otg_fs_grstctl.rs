@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GRSTCTL_SPEC>> for W {
 #[doc = "Field `CSRST` reader - Core soft reset"]
 pub struct CSRST_R(crate::FieldReader<bool, bool>);
 impl CSRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSRST_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CSRST_W<'a> {
 #[doc = "Field `HSRST` reader - HCLK soft reset"]
 pub struct HSRST_R(crate::FieldReader<bool, bool>);
 impl HSRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSRST_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> HSRST_W<'a> {
 #[doc = "Field `FCRST` reader - Host frame counter reset"]
 pub struct FCRST_R(crate::FieldReader<bool, bool>);
 impl FCRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FCRST_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FCRST_W<'a> {
 #[doc = "Field `RXFFLSH` reader - RxFIFO flush"]
 pub struct RXFFLSH_R(crate::FieldReader<bool, bool>);
 impl RXFFLSH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXFFLSH_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> RXFFLSH_W<'a> {
 #[doc = "Field `TXFFLSH` reader - TxFIFO flush"]
 pub struct TXFFLSH_R(crate::FieldReader<bool, bool>);
 impl TXFFLSH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFFLSH_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TXFFLSH_W<'a> {
 #[doc = "Field `TXFNUM` reader - TxFIFO number"]
 pub struct TXFNUM_R(crate::FieldReader<u8, u8>);
 impl TXFNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TXFNUM_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> TXFNUM_W<'a> {
 #[doc = "Field `AHBIDL` reader - AHB master idle"]
 pub struct AHBIDL_R(crate::FieldReader<bool, bool>);
 impl AHBIDL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AHBIDL_R(crate::FieldReader::new(bits))
     }

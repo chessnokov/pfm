@@ -37,6 +37,7 @@ impl From<crate::W<SWIER_SPEC>> for W {
 #[doc = "Field `SWIER0` reader - Software Interrupt on line 0"]
 pub struct SWIER0_R(crate::FieldReader<bool, bool>);
 impl SWIER0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SWIER0_W<'a> {
 #[doc = "Field `SWIER1` reader - Software Interrupt on line 1"]
 pub struct SWIER1_R(crate::FieldReader<bool, bool>);
 impl SWIER1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SWIER1_W<'a> {
 #[doc = "Field `SWIER2` reader - Software Interrupt on line 2"]
 pub struct SWIER2_R(crate::FieldReader<bool, bool>);
 impl SWIER2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> SWIER2_W<'a> {
 #[doc = "Field `SWIER3` reader - Software Interrupt on line 3"]
 pub struct SWIER3_R(crate::FieldReader<bool, bool>);
 impl SWIER3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> SWIER3_W<'a> {
 #[doc = "Field `SWIER4` reader - Software Interrupt on line 4"]
 pub struct SWIER4_R(crate::FieldReader<bool, bool>);
 impl SWIER4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> SWIER4_W<'a> {
 #[doc = "Field `SWIER5` reader - Software Interrupt on line 5"]
 pub struct SWIER5_R(crate::FieldReader<bool, bool>);
 impl SWIER5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> SWIER5_W<'a> {
 #[doc = "Field `SWIER6` reader - Software Interrupt on line 6"]
 pub struct SWIER6_R(crate::FieldReader<bool, bool>);
 impl SWIER6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> SWIER6_W<'a> {
 #[doc = "Field `SWIER7` reader - Software Interrupt on line 7"]
 pub struct SWIER7_R(crate::FieldReader<bool, bool>);
 impl SWIER7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> SWIER7_W<'a> {
 #[doc = "Field `SWIER8` reader - Software Interrupt on line 8"]
 pub struct SWIER8_R(crate::FieldReader<bool, bool>);
 impl SWIER8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SWIER8_W<'a> {
 #[doc = "Field `SWIER9` reader - Software Interrupt on line 9"]
 pub struct SWIER9_R(crate::FieldReader<bool, bool>);
 impl SWIER9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> SWIER9_W<'a> {
 #[doc = "Field `SWIER10` reader - Software Interrupt on line 10"]
 pub struct SWIER10_R(crate::FieldReader<bool, bool>);
 impl SWIER10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> SWIER10_W<'a> {
 #[doc = "Field `SWIER11` reader - Software Interrupt on line 11"]
 pub struct SWIER11_R(crate::FieldReader<bool, bool>);
 impl SWIER11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> SWIER11_W<'a> {
 #[doc = "Field `SWIER12` reader - Software Interrupt on line 12"]
 pub struct SWIER12_R(crate::FieldReader<bool, bool>);
 impl SWIER12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> SWIER12_W<'a> {
 #[doc = "Field `SWIER13` reader - Software Interrupt on line 13"]
 pub struct SWIER13_R(crate::FieldReader<bool, bool>);
 impl SWIER13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> SWIER13_W<'a> {
 #[doc = "Field `SWIER14` reader - Software Interrupt on line 14"]
 pub struct SWIER14_R(crate::FieldReader<bool, bool>);
 impl SWIER14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> SWIER14_W<'a> {
 #[doc = "Field `SWIER15` reader - Software Interrupt on line 15"]
 pub struct SWIER15_R(crate::FieldReader<bool, bool>);
 impl SWIER15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> SWIER15_W<'a> {
 #[doc = "Field `SWIER16` reader - Software Interrupt on line 16"]
 pub struct SWIER16_R(crate::FieldReader<bool, bool>);
 impl SWIER16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> SWIER16_W<'a> {
 #[doc = "Field `SWIER17` reader - Software Interrupt on line 17"]
 pub struct SWIER17_R(crate::FieldReader<bool, bool>);
 impl SWIER17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> SWIER17_W<'a> {
 #[doc = "Field `SWIER18` reader - Software Interrupt on line 18"]
 pub struct SWIER18_R(crate::FieldReader<bool, bool>);
 impl SWIER18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> SWIER18_W<'a> {
 #[doc = "Field `SWIER19` reader - Software Interrupt on line 19"]
 pub struct SWIER19_R(crate::FieldReader<bool, bool>);
 impl SWIER19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> SWIER19_W<'a> {
 #[doc = "Field `SWIER20` reader - Software Interrupt on line 20"]
 pub struct SWIER20_R(crate::FieldReader<bool, bool>);
 impl SWIER20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> SWIER20_W<'a> {
 #[doc = "Field `SWIER21` reader - Software Interrupt on line 21"]
 pub struct SWIER21_R(crate::FieldReader<bool, bool>);
 impl SWIER21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> SWIER21_W<'a> {
 #[doc = "Field `SWIER22` reader - Software Interrupt on line 22"]
 pub struct SWIER22_R(crate::FieldReader<bool, bool>);
 impl SWIER22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWIER22_R(crate::FieldReader::new(bits))
     }

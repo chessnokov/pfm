@@ -213,6 +213,7 @@ impl<'a> LSIRDYC_W<'a> {
 #[doc = "Field `PLLSAIRDYIE` reader - PLLSAI Ready Interrupt Enable"]
 pub struct PLLSAIRDYIE_R(crate::FieldReader<bool, bool>);
 impl PLLSAIRDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLSAIRDYIE_R(crate::FieldReader::new(bits))
     }
@@ -249,6 +250,7 @@ impl<'a> PLLSAIRDYIE_W<'a> {
 #[doc = "Field `PLLI2SRDYIE` reader - PLLI2S ready interrupt enable"]
 pub struct PLLI2SRDYIE_R(crate::FieldReader<bool, bool>);
 impl PLLI2SRDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLI2SRDYIE_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +287,7 @@ impl<'a> PLLI2SRDYIE_W<'a> {
 #[doc = "Field `PLLRDYIE` reader - Main PLL (PLL) ready interrupt enable"]
 pub struct PLLRDYIE_R(crate::FieldReader<bool, bool>);
 impl PLLRDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLRDYIE_R(crate::FieldReader::new(bits))
     }
@@ -321,6 +324,7 @@ impl<'a> PLLRDYIE_W<'a> {
 #[doc = "Field `HSERDYIE` reader - HSE ready interrupt enable"]
 pub struct HSERDYIE_R(crate::FieldReader<bool, bool>);
 impl HSERDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSERDYIE_R(crate::FieldReader::new(bits))
     }
@@ -357,6 +361,7 @@ impl<'a> HSERDYIE_W<'a> {
 #[doc = "Field `HSIRDYIE` reader - HSI ready interrupt enable"]
 pub struct HSIRDYIE_R(crate::FieldReader<bool, bool>);
 impl HSIRDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSIRDYIE_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +398,7 @@ impl<'a> HSIRDYIE_W<'a> {
 #[doc = "Field `LSERDYIE` reader - LSE ready interrupt enable"]
 pub struct LSERDYIE_R(crate::FieldReader<bool, bool>);
 impl LSERDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSERDYIE_R(crate::FieldReader::new(bits))
     }
@@ -429,6 +435,7 @@ impl<'a> LSERDYIE_W<'a> {
 #[doc = "Field `LSIRDYIE` reader - LSI ready interrupt enable"]
 pub struct LSIRDYIE_R(crate::FieldReader<bool, bool>);
 impl LSIRDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSIRDYIE_R(crate::FieldReader::new(bits))
     }
@@ -465,6 +472,7 @@ impl<'a> LSIRDYIE_W<'a> {
 #[doc = "Field `CSSF` reader - Clock security system interrupt flag"]
 pub struct CSSF_R(crate::FieldReader<bool, bool>);
 impl CSSF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSSF_R(crate::FieldReader::new(bits))
     }
@@ -479,6 +487,7 @@ impl core::ops::Deref for CSSF_R {
 #[doc = "Field `PLLSAIRDYF` reader - PLLSAI ready interrupt flag"]
 pub struct PLLSAIRDYF_R(crate::FieldReader<bool, bool>);
 impl PLLSAIRDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLSAIRDYF_R(crate::FieldReader::new(bits))
     }
@@ -493,6 +502,7 @@ impl core::ops::Deref for PLLSAIRDYF_R {
 #[doc = "Field `PLLI2SRDYF` reader - PLLI2S ready interrupt flag"]
 pub struct PLLI2SRDYF_R(crate::FieldReader<bool, bool>);
 impl PLLI2SRDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLI2SRDYF_R(crate::FieldReader::new(bits))
     }
@@ -507,6 +517,7 @@ impl core::ops::Deref for PLLI2SRDYF_R {
 #[doc = "Field `PLLRDYF` reader - Main PLL (PLL) ready interrupt flag"]
 pub struct PLLRDYF_R(crate::FieldReader<bool, bool>);
 impl PLLRDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLRDYF_R(crate::FieldReader::new(bits))
     }
@@ -521,6 +532,7 @@ impl core::ops::Deref for PLLRDYF_R {
 #[doc = "Field `HSERDYF` reader - HSE ready interrupt flag"]
 pub struct HSERDYF_R(crate::FieldReader<bool, bool>);
 impl HSERDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSERDYF_R(crate::FieldReader::new(bits))
     }
@@ -535,6 +547,7 @@ impl core::ops::Deref for HSERDYF_R {
 #[doc = "Field `HSIRDYF` reader - HSI ready interrupt flag"]
 pub struct HSIRDYF_R(crate::FieldReader<bool, bool>);
 impl HSIRDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSIRDYF_R(crate::FieldReader::new(bits))
     }
@@ -549,6 +562,7 @@ impl core::ops::Deref for HSIRDYF_R {
 #[doc = "Field `LSERDYF` reader - LSE ready interrupt flag"]
 pub struct LSERDYF_R(crate::FieldReader<bool, bool>);
 impl LSERDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSERDYF_R(crate::FieldReader::new(bits))
     }
@@ -563,6 +577,7 @@ impl core::ops::Deref for LSERDYF_R {
 #[doc = "Field `LSIRDYF` reader - LSI ready interrupt flag"]
 pub struct LSIRDYF_R(crate::FieldReader<bool, bool>);
 impl LSIRDYF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSIRDYF_R(crate::FieldReader::new(bits))
     }

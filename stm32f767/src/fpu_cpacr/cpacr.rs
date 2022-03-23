@@ -37,6 +37,7 @@ impl From<crate::W<CPACR_SPEC>> for W {
 #[doc = "Field `CP` reader - CP"]
 pub struct CP_R(crate::FieldReader<u8, u8>);
 impl CP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CP_R(crate::FieldReader::new(bits))
     }

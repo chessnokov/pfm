@@ -37,6 +37,7 @@ impl From<crate::W<RLR_SPEC>> for W {
 #[doc = "Field `RL` reader - Watchdog counter reload value"]
 pub struct RL_R(crate::FieldReader<u16, u16>);
 impl RL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         RL_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_CLTCR_SPEC>> for W {
 #[doc = "Field `LP2HS_TIME` reader - Low-Power to High-Speed Time"]
 pub struct LP2HS_TIME_R(crate::FieldReader<u16, u16>);
 impl LP2HS_TIME_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LP2HS_TIME_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> LP2HS_TIME_W<'a> {
 #[doc = "Field `HS2LP_TIME` reader - High-Speed to Low-Power Time"]
 pub struct HS2LP_TIME_R(crate::FieldReader<u16, u16>);
 impl HS2LP_TIME_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HS2LP_TIME_R(crate::FieldReader::new(bits))
     }

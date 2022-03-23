@@ -37,6 +37,7 @@ impl From<crate::W<MCR_SPEC>> for W {
 #[doc = "Field `DBF` reader - DBF"]
 pub struct DBF_R(crate::FieldReader<bool, bool>);
 impl DBF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DBF_W<'a> {
 #[doc = "Field `RESET` reader - RESET"]
 pub struct RESET_R(crate::FieldReader<bool, bool>);
 impl RESET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RESET_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RESET_W<'a> {
 #[doc = "Field `TTCM` reader - TTCM"]
 pub struct TTCM_R(crate::FieldReader<bool, bool>);
 impl TTCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TTCM_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TTCM_W<'a> {
 #[doc = "Field `ABOM` reader - ABOM"]
 pub struct ABOM_R(crate::FieldReader<bool, bool>);
 impl ABOM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABOM_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ABOM_W<'a> {
 #[doc = "Field `AWUM` reader - AWUM"]
 pub struct AWUM_R(crate::FieldReader<bool, bool>);
 impl AWUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWUM_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> AWUM_W<'a> {
 #[doc = "Field `NART` reader - NART"]
 pub struct NART_R(crate::FieldReader<bool, bool>);
 impl NART_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NART_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> NART_W<'a> {
 #[doc = "Field `RFLM` reader - RFLM"]
 pub struct RFLM_R(crate::FieldReader<bool, bool>);
 impl RFLM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFLM_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> RFLM_W<'a> {
 #[doc = "Field `TXFP` reader - TXFP"]
 pub struct TXFP_R(crate::FieldReader<bool, bool>);
 impl TXFP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFP_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TXFP_W<'a> {
 #[doc = "Field `SLEEP` reader - SLEEP"]
 pub struct SLEEP_R(crate::FieldReader<bool, bool>);
 impl SLEEP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SLEEP_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SLEEP_W<'a> {
 #[doc = "Field `INRQ` reader - INRQ"]
 pub struct INRQ_R(crate::FieldReader<bool, bool>);
 impl INRQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INRQ_R(crate::FieldReader::new(bits))
     }

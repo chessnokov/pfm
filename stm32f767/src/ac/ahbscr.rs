@@ -37,6 +37,7 @@ impl From<crate::W<AHBSCR_SPEC>> for W {
 #[doc = "Field `CTL` reader - CTL"]
 pub struct CTL_R(crate::FieldReader<u8, u8>);
 impl CTL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CTL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CTL_W<'a> {
 #[doc = "Field `TPRI` reader - TPRI"]
 pub struct TPRI_R(crate::FieldReader<u16, u16>);
 impl TPRI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TPRI_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> TPRI_W<'a> {
 #[doc = "Field `INITCOUNT` reader - INITCOUNT"]
 pub struct INITCOUNT_R(crate::FieldReader<u8, u8>);
 impl INITCOUNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         INITCOUNT_R(crate::FieldReader::new(bits))
     }

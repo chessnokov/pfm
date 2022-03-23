@@ -37,6 +37,7 @@ impl From<crate::W<SMCR_SPEC>> for W {
 #[doc = "Field `MSM` reader - Master/Slave mode"]
 pub struct MSM_R(crate::FieldReader<bool, bool>);
 impl MSM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> MSM_W<'a> {
 #[doc = "Field `TS` reader - Trigger selection"]
 pub struct TS_R(crate::FieldReader<u8, u8>);
 impl TS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TS_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> TS_W<'a> {
 #[doc = "Field `SMS` reader - Slave mode selection"]
 pub struct SMS_R(crate::FieldReader<u8, u8>);
 impl SMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SMS_R(crate::FieldReader::new(bits))
     }

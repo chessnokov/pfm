@@ -37,6 +37,7 @@ impl From<crate::W<L2DCCR_SPEC>> for W {
 #[doc = "Field `DCALPHA` reader - Default Color Alpha"]
 pub struct DCALPHA_R(crate::FieldReader<u8, u8>);
 impl DCALPHA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DCALPHA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DCALPHA_W<'a> {
 #[doc = "Field `DCRED` reader - Default Color Red"]
 pub struct DCRED_R(crate::FieldReader<u8, u8>);
 impl DCRED_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DCRED_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> DCRED_W<'a> {
 #[doc = "Field `DCGREEN` reader - Default Color Green"]
 pub struct DCGREEN_R(crate::FieldReader<u8, u8>);
 impl DCGREEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DCGREEN_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> DCGREEN_W<'a> {
 #[doc = "Field `DCBLUE` reader - Default Color Blue"]
 pub struct DCBLUE_R(crate::FieldReader<u8, u8>);
 impl DCBLUE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DCBLUE_R(crate::FieldReader::new(bits))
     }

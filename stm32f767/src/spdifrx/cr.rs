@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `SPDIFEN` reader - Peripheral Block Enable"]
 pub struct SPDIFEN_R(crate::FieldReader<u8, u8>);
 impl SPDIFEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SPDIFEN_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SPDIFEN_W<'a> {
 #[doc = "Field `RXDMAEN` reader - Receiver DMA ENable for data flow"]
 pub struct RXDMAEN_R(crate::FieldReader<bool, bool>);
 impl RXDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> RXDMAEN_W<'a> {
 #[doc = "Field `RXSTEO` reader - STerEO Mode"]
 pub struct RXSTEO_R(crate::FieldReader<bool, bool>);
 impl RXSTEO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXSTEO_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> RXSTEO_W<'a> {
 #[doc = "Field `DRFMT` reader - RX Data format"]
 pub struct DRFMT_R(crate::FieldReader<u8, u8>);
 impl DRFMT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DRFMT_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> DRFMT_W<'a> {
 #[doc = "Field `PMSK` reader - Mask Parity error bit"]
 pub struct PMSK_R(crate::FieldReader<bool, bool>);
 impl PMSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PMSK_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> PMSK_W<'a> {
 #[doc = "Field `VMSK` reader - Mask of Validity bit"]
 pub struct VMSK_R(crate::FieldReader<bool, bool>);
 impl VMSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VMSK_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> VMSK_W<'a> {
 #[doc = "Field `CUMSK` reader - Mask of channel status and user bits"]
 pub struct CUMSK_R(crate::FieldReader<bool, bool>);
 impl CUMSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CUMSK_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> CUMSK_W<'a> {
 #[doc = "Field `PTMSK` reader - Mask of Preamble Type bits"]
 pub struct PTMSK_R(crate::FieldReader<bool, bool>);
 impl PTMSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PTMSK_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> PTMSK_W<'a> {
 #[doc = "Field `CBDMAEN` reader - Control Buffer DMA ENable for control flow"]
 pub struct CBDMAEN_R(crate::FieldReader<bool, bool>);
 impl CBDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CBDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> CBDMAEN_W<'a> {
 #[doc = "Field `CHSEL` reader - Channel Selection"]
 pub struct CHSEL_R(crate::FieldReader<bool, bool>);
 impl CHSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHSEL_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> CHSEL_W<'a> {
 #[doc = "Field `NBTR` reader - Maximum allowed re-tries during synchronization phase"]
 pub struct NBTR_R(crate::FieldReader<u8, u8>);
 impl NBTR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NBTR_R(crate::FieldReader::new(bits))
     }
@@ -403,6 +414,7 @@ impl<'a> NBTR_W<'a> {
 #[doc = "Field `WFA` reader - Wait For Activity"]
 pub struct WFA_R(crate::FieldReader<bool, bool>);
 impl WFA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WFA_R(crate::FieldReader::new(bits))
     }
@@ -439,6 +451,7 @@ impl<'a> WFA_W<'a> {
 #[doc = "Field `INSEL` reader - input selection"]
 pub struct INSEL_R(crate::FieldReader<u8, u8>);
 impl INSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         INSEL_R(crate::FieldReader::new(bits))
     }

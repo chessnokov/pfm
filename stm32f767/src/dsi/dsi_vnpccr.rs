@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VNPCCR_SPEC>> for R {
 #[doc = "Field `NPSIZE` reader - Null Packet Size"]
 pub struct NPSIZE_R(crate::FieldReader<u16, u16>);
 impl NPSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NPSIZE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DVBUSPULSE_SPEC>> for W {
 #[doc = "Field `DVBUSP` reader - Device VBUS pulsing time"]
 pub struct DVBUSP_R(crate::FieldReader<u16, u16>);
 impl DVBUSP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DVBUSP_R(crate::FieldReader::new(bits))
     }

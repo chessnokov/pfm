@@ -37,6 +37,7 @@ impl From<crate::W<MSR_SPEC>> for W {
 #[doc = "Field `RX` reader - RX"]
 pub struct RX_R(crate::FieldReader<bool, bool>);
 impl RX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RX_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for RX_R {
 #[doc = "Field `SAMP` reader - SAMP"]
 pub struct SAMP_R(crate::FieldReader<bool, bool>);
 impl SAMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAMP_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for SAMP_R {
 #[doc = "Field `RXM` reader - RXM"]
 pub struct RXM_R(crate::FieldReader<bool, bool>);
 impl RXM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXM_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for RXM_R {
 #[doc = "Field `TXM` reader - TXM"]
 pub struct TXM_R(crate::FieldReader<bool, bool>);
 impl TXM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXM_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for TXM_R {
 #[doc = "Field `SLAKI` reader - SLAKI"]
 pub struct SLAKI_R(crate::FieldReader<bool, bool>);
 impl SLAKI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SLAKI_R(crate::FieldReader::new(bits))
     }
@@ -129,6 +134,7 @@ impl<'a> SLAKI_W<'a> {
 #[doc = "Field `WKUI` reader - WKUI"]
 pub struct WKUI_R(crate::FieldReader<bool, bool>);
 impl WKUI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WKUI_R(crate::FieldReader::new(bits))
     }
@@ -165,6 +171,7 @@ impl<'a> WKUI_W<'a> {
 #[doc = "Field `ERRI` reader - ERRI"]
 pub struct ERRI_R(crate::FieldReader<bool, bool>);
 impl ERRI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERRI_R(crate::FieldReader::new(bits))
     }
@@ -201,6 +208,7 @@ impl<'a> ERRI_W<'a> {
 #[doc = "Field `SLAK` reader - SLAK"]
 pub struct SLAK_R(crate::FieldReader<bool, bool>);
 impl SLAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SLAK_R(crate::FieldReader::new(bits))
     }
@@ -215,6 +223,7 @@ impl core::ops::Deref for SLAK_R {
 #[doc = "Field `INAK` reader - INAK"]
 pub struct INAK_R(crate::FieldReader<bool, bool>);
 impl INAK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INAK_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CFGR_SPEC>> for W {
 #[doc = "Field `ENC` reader - Encoder mode enable"]
 pub struct ENC_R(crate::FieldReader<bool, bool>);
 impl ENC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENC_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ENC_W<'a> {
 #[doc = "Field `COUNTMODE` reader - counter mode enabled"]
 pub struct COUNTMODE_R(crate::FieldReader<bool, bool>);
 impl COUNTMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COUNTMODE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> COUNTMODE_W<'a> {
 #[doc = "Field `PRELOAD` reader - Registers update mode"]
 pub struct PRELOAD_R(crate::FieldReader<bool, bool>);
 impl PRELOAD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRELOAD_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> PRELOAD_W<'a> {
 #[doc = "Field `WAVPOL` reader - Waveform shape polarity"]
 pub struct WAVPOL_R(crate::FieldReader<bool, bool>);
 impl WAVPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAVPOL_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> WAVPOL_W<'a> {
 #[doc = "Field `WAVE` reader - Waveform shape"]
 pub struct WAVE_R(crate::FieldReader<bool, bool>);
 impl WAVE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WAVE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> WAVE_W<'a> {
 #[doc = "Field `TIMOUT` reader - Timeout enable"]
 pub struct TIMOUT_R(crate::FieldReader<bool, bool>);
 impl TIMOUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIMOUT_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> TIMOUT_W<'a> {
 #[doc = "Field `TRIGEN` reader - Trigger enable and polarity"]
 pub struct TRIGEN_R(crate::FieldReader<u8, u8>);
 impl TRIGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRIGEN_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> TRIGEN_W<'a> {
 #[doc = "Field `TRIGSEL` reader - Trigger selector"]
 pub struct TRIGSEL_R(crate::FieldReader<u8, u8>);
 impl TRIGSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRIGSEL_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> TRIGSEL_W<'a> {
 #[doc = "Field `PRESC` reader - Clock prescaler"]
 pub struct PRESC_R(crate::FieldReader<u8, u8>);
 impl PRESC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRESC_R(crate::FieldReader::new(bits))
     }
@@ -331,6 +340,7 @@ impl<'a> PRESC_W<'a> {
 #[doc = "Field `TRGFLT` reader - Configurable digital filter for trigger"]
 pub struct TRGFLT_R(crate::FieldReader<u8, u8>);
 impl TRGFLT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRGFLT_R(crate::FieldReader::new(bits))
     }
@@ -357,6 +367,7 @@ impl<'a> TRGFLT_W<'a> {
 #[doc = "Field `CKFLT` reader - Configurable digital filter for external clock"]
 pub struct CKFLT_R(crate::FieldReader<u8, u8>);
 impl CKFLT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKFLT_R(crate::FieldReader::new(bits))
     }
@@ -383,6 +394,7 @@ impl<'a> CKFLT_W<'a> {
 #[doc = "Field `CKPOL` reader - Clock Polarity"]
 pub struct CKPOL_R(crate::FieldReader<u8, u8>);
 impl CKPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKPOL_R(crate::FieldReader::new(bits))
     }
@@ -409,6 +421,7 @@ impl<'a> CKPOL_W<'a> {
 #[doc = "Field `CKSEL` reader - Clock selector"]
 pub struct CKSEL_R(crate::FieldReader<bool, bool>);
 impl CKSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKSEL_R(crate::FieldReader::new(bits))
     }

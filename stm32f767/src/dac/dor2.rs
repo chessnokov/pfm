@@ -16,6 +16,7 @@ impl From<crate::R<DOR2_SPEC>> for R {
 #[doc = "Field `DACC2DOR` reader - DAC channel2 data output"]
 pub struct DACC2DOR_R(crate::FieldReader<u16, u16>);
 impl DACC2DOR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DACC2DOR_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<OTG_HS_GNPTXSTS_SPEC>> for R {
 #[doc = "Field `NPTXFSAV` reader - Nonperiodic TxFIFO space available"]
 pub struct NPTXFSAV_R(crate::FieldReader<u16, u16>);
 impl NPTXFSAV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NPTXFSAV_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for NPTXFSAV_R {
 #[doc = "Field `NPTQXSAV` reader - Nonperiodic transmit request queue space available"]
 pub struct NPTQXSAV_R(crate::FieldReader<u8, u8>);
 impl NPTQXSAV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NPTQXSAV_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for NPTQXSAV_R {
 #[doc = "Field `NPTXQTOP` reader - Top of the nonperiodic transmit request queue"]
 pub struct NPTXQTOP_R(crate::FieldReader<u8, u8>);
 impl NPTXQTOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NPTXQTOP_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DOEPCTL0_SPEC>> for W {
 #[doc = "Field `MPSIZ` reader - Maximum packet size"]
 pub struct MPSIZ_R(crate::FieldReader<u8, u8>);
 impl MPSIZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MPSIZ_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for MPSIZ_R {
 #[doc = "Field `USBAEP` reader - USB active endpoint"]
 pub struct USBAEP_R(crate::FieldReader<bool, bool>);
 impl USBAEP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USBAEP_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for USBAEP_R {
 #[doc = "Field `NAKSTS` reader - NAK status"]
 pub struct NAKSTS_R(crate::FieldReader<bool, bool>);
 impl NAKSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NAKSTS_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for NAKSTS_R {
 #[doc = "Field `EPTYP` reader - Endpoint type"]
 pub struct EPTYP_R(crate::FieldReader<u8, u8>);
 impl EPTYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EPTYP_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for EPTYP_R {
 #[doc = "Field `SNPM` reader - Snoop mode"]
 pub struct SNPM_R(crate::FieldReader<bool, bool>);
 impl SNPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SNPM_R(crate::FieldReader::new(bits))
     }
@@ -129,6 +134,7 @@ impl<'a> SNPM_W<'a> {
 #[doc = "Field `Stall` reader - STALL handshake"]
 pub struct STALL_R(crate::FieldReader<bool, bool>);
 impl STALL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STALL_R(crate::FieldReader::new(bits))
     }
@@ -209,6 +215,7 @@ impl<'a> SNAK_W<'a> {
 #[doc = "Field `EPDIS` reader - Endpoint disable"]
 pub struct EPDIS_R(crate::FieldReader<bool, bool>);
 impl EPDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDIS_R(crate::FieldReader::new(bits))
     }

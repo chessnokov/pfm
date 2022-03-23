@@ -37,6 +37,7 @@ impl From<crate::W<HUFFBASE25_SPEC>> for W {
 #[doc = "Field `HuffBase_RAM_0` reader - HuffBase RAM"]
 pub struct HUFFBASE_RAM_0_R(crate::FieldReader<u16, u16>);
 impl HUFFBASE_RAM_0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HUFFBASE_RAM_0_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> HUFFBASE_RAM_0_W<'a> {
 #[doc = "Field `HuffBase_RAM_1` reader - HuffBase RAM"]
 pub struct HUFFBASE_RAM_1_R(crate::FieldReader<u16, u16>);
 impl HUFFBASE_RAM_1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HUFFBASE_RAM_1_R(crate::FieldReader::new(bits))
     }

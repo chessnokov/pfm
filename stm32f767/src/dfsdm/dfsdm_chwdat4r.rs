@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM_CHWDAT4R_SPEC>> for R {
 #[doc = "Field `WDATA` reader - Input channel y watchdog data"]
 pub struct WDATA_R(crate::FieldReader<u16, u16>);
 impl WDATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WDATA_R(crate::FieldReader::new(bits))
     }

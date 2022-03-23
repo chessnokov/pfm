@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WCR_SPEC>> for W {
 #[doc = "Field `DSIEN` reader - DSI Enable"]
 pub struct DSIEN_R(crate::FieldReader<bool, bool>);
 impl DSIEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DSIEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DSIEN_W<'a> {
 #[doc = "Field `LTDCEN` reader - LTDC Enable"]
 pub struct LTDCEN_R(crate::FieldReader<bool, bool>);
 impl LTDCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LTDCEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> LTDCEN_W<'a> {
 #[doc = "Field `SHTDN` reader - Shutdown"]
 pub struct SHTDN_R(crate::FieldReader<bool, bool>);
 impl SHTDN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SHTDN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> SHTDN_W<'a> {
 #[doc = "Field `COLM` reader - Color Mode"]
 pub struct COLM_R(crate::FieldReader<bool, bool>);
 impl COLM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COLM_R(crate::FieldReader::new(bits))
     }

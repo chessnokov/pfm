@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM0_JCHGR_SPEC>> for W {
 #[doc = "Field `JCHG` reader - Injected channel group selection"]
 pub struct JCHG_R(crate::FieldReader<u8, u8>);
 impl JCHG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JCHG_R(crate::FieldReader::new(bits))
     }

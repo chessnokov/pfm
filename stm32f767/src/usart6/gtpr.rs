@@ -37,6 +37,7 @@ impl From<crate::W<GTPR_SPEC>> for W {
 #[doc = "Field `GT` reader - Guard time value"]
 pub struct GT_R(crate::FieldReader<u8, u8>);
 impl GT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         GT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> GT_W<'a> {
 #[doc = "Field `PSC` reader - Prescaler value"]
 pub struct PSC_R(crate::FieldReader<u8, u8>);
 impl PSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PSC_R(crate::FieldReader::new(bits))
     }

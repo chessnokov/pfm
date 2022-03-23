@@ -37,6 +37,7 @@ impl From<crate::W<OPTCR_SPEC>> for W {
 #[doc = "Field `OPTLOCK` reader - Option lock"]
 pub struct OPTLOCK_R(crate::FieldReader<bool, bool>);
 impl OPTLOCK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OPTLOCK_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OPTLOCK_W<'a> {
 #[doc = "Field `OPTSTRT` reader - Option start"]
 pub struct OPTSTRT_R(crate::FieldReader<bool, bool>);
 impl OPTSTRT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OPTSTRT_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OPTSTRT_W<'a> {
 #[doc = "Field `BOR_LEV` reader - BOR reset Level"]
 pub struct BOR_LEV_R(crate::FieldReader<u8, u8>);
 impl BOR_LEV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BOR_LEV_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> BOR_LEV_W<'a> {
 #[doc = "Field `WWDG_SW` reader - User option bytes"]
 pub struct WWDG_SW_R(crate::FieldReader<bool, bool>);
 impl WWDG_SW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WWDG_SW_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> WWDG_SW_W<'a> {
 #[doc = "Field `IWDG_SW` reader - User option bytes"]
 pub struct IWDG_SW_R(crate::FieldReader<bool, bool>);
 impl IWDG_SW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IWDG_SW_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> IWDG_SW_W<'a> {
 #[doc = "Field `nRST_STOP` reader - User option bytes"]
 pub struct NRST_STOP_R(crate::FieldReader<bool, bool>);
 impl NRST_STOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NRST_STOP_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> NRST_STOP_W<'a> {
 #[doc = "Field `nRST_STDBY` reader - User option bytes"]
 pub struct NRST_STDBY_R(crate::FieldReader<bool, bool>);
 impl NRST_STDBY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NRST_STDBY_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> NRST_STDBY_W<'a> {
 #[doc = "Field `RDP` reader - Read protect"]
 pub struct RDP_R(crate::FieldReader<u8, u8>);
 impl RDP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RDP_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> RDP_W<'a> {
 #[doc = "Field `nWRP` reader - Not write protect"]
 pub struct NWRP_R(crate::FieldReader<u16, u16>);
 impl NWRP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NWRP_R(crate::FieldReader::new(bits))
     }
@@ -331,6 +340,7 @@ impl<'a> NWRP_W<'a> {
 #[doc = "Field `nDBOOT` reader - Dual Boot mode (valid only when nDBANK=0)"]
 pub struct NDBOOT_R(crate::FieldReader<bool, bool>);
 impl NDBOOT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NDBOOT_R(crate::FieldReader::new(bits))
     }
@@ -367,6 +377,7 @@ impl<'a> NDBOOT_W<'a> {
 #[doc = "Field `nDBANK` reader - Not dual bank mode"]
 pub struct NDBANK_R(crate::FieldReader<bool, bool>);
 impl NDBANK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NDBANK_R(crate::FieldReader::new(bits))
     }
@@ -403,6 +414,7 @@ impl<'a> NDBANK_W<'a> {
 #[doc = "Field `IWDG_STDBY` reader - Independent watchdog counter freeze in standby mode"]
 pub struct IWDG_STDBY_R(crate::FieldReader<bool, bool>);
 impl IWDG_STDBY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IWDG_STDBY_R(crate::FieldReader::new(bits))
     }
@@ -439,6 +451,7 @@ impl<'a> IWDG_STDBY_W<'a> {
 #[doc = "Field `IWDG_STOP` reader - Independent watchdog counter freeze in Stop mode"]
 pub struct IWDG_STOP_R(crate::FieldReader<bool, bool>);
 impl IWDG_STOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IWDG_STOP_R(crate::FieldReader::new(bits))
     }

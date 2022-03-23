@@ -16,6 +16,7 @@ impl From<crate::R<IDCODE_SPEC>> for R {
 #[doc = "Field `DEV_ID` reader - Device identifier"]
 pub struct DEV_ID_R(crate::FieldReader<u16, u16>);
 impl DEV_ID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DEV_ID_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for DEV_ID_R {
 #[doc = "Field `REV_ID` reader - Revision identifie"]
 pub struct REV_ID_R(crate::FieldReader<u16, u16>);
 impl REV_ID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         REV_ID_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM2_RDATAR_SPEC>> for R {
 #[doc = "Field `RDATACH` reader - Regular channel most recently converted"]
 pub struct RDATACH_R(crate::FieldReader<u8, u8>);
 impl RDATACH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RDATACH_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for RDATACH_R {
 #[doc = "Field `RPEND` reader - Regular channel pending data"]
 pub struct RPEND_R(crate::FieldReader<bool, bool>);
 impl RPEND_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RPEND_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for RPEND_R {
 #[doc = "Field `RDATA` reader - Regular channel conversion data"]
 pub struct RDATA_R(crate::FieldReader<u32, u32>);
 impl RDATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         RDATA_R(crate::FieldReader::new(bits))
     }

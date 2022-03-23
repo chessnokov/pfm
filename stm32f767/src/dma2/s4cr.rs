@@ -37,6 +37,7 @@ impl From<crate::W<S4CR_SPEC>> for W {
 #[doc = "Field `CHSEL` reader - Channel selection"]
 pub struct CHSEL_R(crate::FieldReader<u8, u8>);
 impl CHSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CHSEL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CHSEL_W<'a> {
 #[doc = "Field `MBURST` reader - Memory burst transfer configuration"]
 pub struct MBURST_R(crate::FieldReader<u8, u8>);
 impl MBURST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MBURST_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> MBURST_W<'a> {
 #[doc = "Field `PBURST` reader - Peripheral burst transfer configuration"]
 pub struct PBURST_R(crate::FieldReader<u8, u8>);
 impl PBURST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PBURST_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> PBURST_W<'a> {
 #[doc = "Field `ACK` reader - ACK"]
 pub struct ACK_R(crate::FieldReader<bool, bool>);
 impl ACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ACK_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> ACK_W<'a> {
 #[doc = "Field `CT` reader - Current target (only in double buffer mode)"]
 pub struct CT_R(crate::FieldReader<bool, bool>);
 impl CT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CT_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> CT_W<'a> {
 #[doc = "Field `DBM` reader - Double buffer mode"]
 pub struct DBM_R(crate::FieldReader<bool, bool>);
 impl DBM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBM_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +229,7 @@ impl<'a> DBM_W<'a> {
 #[doc = "Field `PL` reader - Priority level"]
 pub struct PL_R(crate::FieldReader<u8, u8>);
 impl PL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PL_R(crate::FieldReader::new(bits))
     }
@@ -249,6 +256,7 @@ impl<'a> PL_W<'a> {
 #[doc = "Field `PINCOS` reader - Peripheral increment offset size"]
 pub struct PINCOS_R(crate::FieldReader<bool, bool>);
 impl PINCOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PINCOS_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +293,7 @@ impl<'a> PINCOS_W<'a> {
 #[doc = "Field `MSIZE` reader - Memory data size"]
 pub struct MSIZE_R(crate::FieldReader<u8, u8>);
 impl MSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MSIZE_R(crate::FieldReader::new(bits))
     }
@@ -311,6 +320,7 @@ impl<'a> MSIZE_W<'a> {
 #[doc = "Field `PSIZE` reader - Peripheral data size"]
 pub struct PSIZE_R(crate::FieldReader<u8, u8>);
 impl PSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PSIZE_R(crate::FieldReader::new(bits))
     }
@@ -337,6 +347,7 @@ impl<'a> PSIZE_W<'a> {
 #[doc = "Field `MINC` reader - Memory increment mode"]
 pub struct MINC_R(crate::FieldReader<bool, bool>);
 impl MINC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MINC_R(crate::FieldReader::new(bits))
     }
@@ -373,6 +384,7 @@ impl<'a> MINC_W<'a> {
 #[doc = "Field `PINC` reader - Peripheral increment mode"]
 pub struct PINC_R(crate::FieldReader<bool, bool>);
 impl PINC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PINC_R(crate::FieldReader::new(bits))
     }
@@ -409,6 +421,7 @@ impl<'a> PINC_W<'a> {
 #[doc = "Field `CIRC` reader - Circular mode"]
 pub struct CIRC_R(crate::FieldReader<bool, bool>);
 impl CIRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CIRC_R(crate::FieldReader::new(bits))
     }
@@ -445,6 +458,7 @@ impl<'a> CIRC_W<'a> {
 #[doc = "Field `DIR` reader - Data transfer direction"]
 pub struct DIR_R(crate::FieldReader<u8, u8>);
 impl DIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DIR_R(crate::FieldReader::new(bits))
     }
@@ -471,6 +485,7 @@ impl<'a> DIR_W<'a> {
 #[doc = "Field `PFCTRL` reader - Peripheral flow controller"]
 pub struct PFCTRL_R(crate::FieldReader<bool, bool>);
 impl PFCTRL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PFCTRL_R(crate::FieldReader::new(bits))
     }
@@ -507,6 +522,7 @@ impl<'a> PFCTRL_W<'a> {
 #[doc = "Field `TCIE` reader - Transfer complete interrupt enable"]
 pub struct TCIE_R(crate::FieldReader<bool, bool>);
 impl TCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCIE_R(crate::FieldReader::new(bits))
     }
@@ -543,6 +559,7 @@ impl<'a> TCIE_W<'a> {
 #[doc = "Field `HTIE` reader - Half transfer interrupt enable"]
 pub struct HTIE_R(crate::FieldReader<bool, bool>);
 impl HTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HTIE_R(crate::FieldReader::new(bits))
     }
@@ -579,6 +596,7 @@ impl<'a> HTIE_W<'a> {
 #[doc = "Field `TEIE` reader - Transfer error interrupt enable"]
 pub struct TEIE_R(crate::FieldReader<bool, bool>);
 impl TEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEIE_R(crate::FieldReader::new(bits))
     }
@@ -615,6 +633,7 @@ impl<'a> TEIE_W<'a> {
 #[doc = "Field `DMEIE` reader - Direct mode error interrupt enable"]
 pub struct DMEIE_R(crate::FieldReader<bool, bool>);
 impl DMEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMEIE_R(crate::FieldReader::new(bits))
     }
@@ -651,6 +670,7 @@ impl<'a> DMEIE_W<'a> {
 #[doc = "Field `EN` reader - Stream enable / flag stream ready when read low"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }

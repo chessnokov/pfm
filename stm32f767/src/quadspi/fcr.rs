@@ -37,6 +37,7 @@ impl From<crate::W<FCR_SPEC>> for W {
 #[doc = "Field `CTOF` reader - Clear timeout flag"]
 pub struct CTOF_R(crate::FieldReader<bool, bool>);
 impl CTOF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTOF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CTOF_W<'a> {
 #[doc = "Field `CSMF` reader - Clear status match flag"]
 pub struct CSMF_R(crate::FieldReader<bool, bool>);
 impl CSMF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSMF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CSMF_W<'a> {
 #[doc = "Field `CTCF` reader - Clear transfer complete flag"]
 pub struct CTCF_R(crate::FieldReader<bool, bool>);
 impl CTCF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CTCF_W<'a> {
 #[doc = "Field `CTEF` reader - Clear transfer error flag"]
 pub struct CTEF_R(crate::FieldReader<bool, bool>);
 impl CTEF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEF_R(crate::FieldReader::new(bits))
     }

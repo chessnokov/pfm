@@ -37,6 +37,7 @@ impl From<crate::W<MACA2LR_SPEC>> for W {
 #[doc = "Field `MACA2L` reader - MACA2L"]
 pub struct MACA2L_R(crate::FieldReader<u32, u32>);
 impl MACA2L_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         MACA2L_R(crate::FieldReader::new(bits))
     }

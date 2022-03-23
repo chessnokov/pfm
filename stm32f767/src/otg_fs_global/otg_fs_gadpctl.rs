@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GADPCTL_SPEC>> for W {
 #[doc = "Field `PRBDSCHG` reader - Probe discharge"]
 pub struct PRBDSCHG_R(crate::FieldReader<u8, u8>);
 impl PRBDSCHG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRBDSCHG_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PRBDSCHG_W<'a> {
 #[doc = "Field `PRBDELTA` reader - Probe delta"]
 pub struct PRBDELTA_R(crate::FieldReader<u8, u8>);
 impl PRBDELTA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRBDELTA_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> PRBDELTA_W<'a> {
 #[doc = "Field `PRBPER` reader - Probe period"]
 pub struct PRBPER_R(crate::FieldReader<u8, u8>);
 impl PRBPER_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRBPER_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> PRBPER_W<'a> {
 #[doc = "Field `RTIM` reader - Ramp time"]
 pub struct RTIM_R(crate::FieldReader<u16, u16>);
 impl RTIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         RTIM_R(crate::FieldReader::new(bits))
     }
@@ -129,6 +133,7 @@ impl core::ops::Deref for RTIM_R {
 #[doc = "Field `ENAPRB` reader - Enable probe"]
 pub struct ENAPRB_R(crate::FieldReader<bool, bool>);
 impl ENAPRB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENAPRB_R(crate::FieldReader::new(bits))
     }
@@ -165,6 +170,7 @@ impl<'a> ENAPRB_W<'a> {
 #[doc = "Field `ENASNS` reader - Enable sense"]
 pub struct ENASNS_R(crate::FieldReader<bool, bool>);
 impl ENASNS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENASNS_R(crate::FieldReader::new(bits))
     }
@@ -201,6 +207,7 @@ impl<'a> ENASNS_W<'a> {
 #[doc = "Field `ADPRST` reader - ADP reset"]
 pub struct ADPRST_R(crate::FieldReader<bool, bool>);
 impl ADPRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPRST_R(crate::FieldReader::new(bits))
     }
@@ -215,6 +222,7 @@ impl core::ops::Deref for ADPRST_R {
 #[doc = "Field `ADPEN` reader - ADP enable"]
 pub struct ADPEN_R(crate::FieldReader<bool, bool>);
 impl ADPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPEN_R(crate::FieldReader::new(bits))
     }
@@ -251,6 +259,7 @@ impl<'a> ADPEN_W<'a> {
 #[doc = "Field `ADPPRBIF` reader - ADP probe interrupt flag"]
 pub struct ADPPRBIF_R(crate::FieldReader<bool, bool>);
 impl ADPPRBIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPPRBIF_R(crate::FieldReader::new(bits))
     }
@@ -287,6 +296,7 @@ impl<'a> ADPPRBIF_W<'a> {
 #[doc = "Field `ADPSNSIF` reader - ADP sense interrupt flag"]
 pub struct ADPSNSIF_R(crate::FieldReader<bool, bool>);
 impl ADPSNSIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPSNSIF_R(crate::FieldReader::new(bits))
     }
@@ -323,6 +333,7 @@ impl<'a> ADPSNSIF_W<'a> {
 #[doc = "Field `ADPTOIF` reader - ADP timeout interrupt flag"]
 pub struct ADPTOIF_R(crate::FieldReader<bool, bool>);
 impl ADPTOIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPTOIF_R(crate::FieldReader::new(bits))
     }
@@ -359,6 +370,7 @@ impl<'a> ADPTOIF_W<'a> {
 #[doc = "Field `ADPPRBIM` reader - ADP probe interrupt mask"]
 pub struct ADPPRBIM_R(crate::FieldReader<bool, bool>);
 impl ADPPRBIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPPRBIM_R(crate::FieldReader::new(bits))
     }
@@ -395,6 +407,7 @@ impl<'a> ADPPRBIM_W<'a> {
 #[doc = "Field `ADPSNSIM` reader - ADP sense interrupt mask"]
 pub struct ADPSNSIM_R(crate::FieldReader<bool, bool>);
 impl ADPSNSIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPSNSIM_R(crate::FieldReader::new(bits))
     }
@@ -431,6 +444,7 @@ impl<'a> ADPSNSIM_W<'a> {
 #[doc = "Field `ADPTOIM` reader - ADP timeout interrupt mask"]
 pub struct ADPTOIM_R(crate::FieldReader<bool, bool>);
 impl ADPTOIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPTOIM_R(crate::FieldReader::new(bits))
     }
@@ -467,6 +481,7 @@ impl<'a> ADPTOIM_W<'a> {
 #[doc = "Field `AR` reader - Access request"]
 pub struct AR_R(crate::FieldReader<u8, u8>);
 impl AR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AR_R(crate::FieldReader::new(bits))
     }

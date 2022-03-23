@@ -16,6 +16,7 @@ impl From<crate::R<FIFOCNT_SPEC>> for R {
 #[doc = "Field `FIFOCOUNT` reader - Remaining number of words to be written to or read from the FIFO"]
 pub struct FIFOCOUNT_R(crate::FieldReader<u32, u32>);
 impl FIFOCOUNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         FIFOCOUNT_R(crate::FieldReader::new(bits))
     }

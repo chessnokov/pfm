@@ -37,6 +37,7 @@ impl From<crate::W<DSI_GHCR_SPEC>> for W {
 #[doc = "Field `DT` reader - Type"]
 pub struct DT_R(crate::FieldReader<u8, u8>);
 impl DT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DT_W<'a> {
 #[doc = "Field `VCID` reader - Channel"]
 pub struct VCID_R(crate::FieldReader<u8, u8>);
 impl VCID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         VCID_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> VCID_W<'a> {
 #[doc = "Field `WCLSB` reader - WordCount LSB"]
 pub struct WCLSB_R(crate::FieldReader<u8, u8>);
 impl WCLSB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WCLSB_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> WCLSB_W<'a> {
 #[doc = "Field `WCMSB` reader - WordCount MSB"]
 pub struct WCMSB_R(crate::FieldReader<u8, u8>);
 impl WCMSB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WCMSB_R(crate::FieldReader::new(bits))
     }

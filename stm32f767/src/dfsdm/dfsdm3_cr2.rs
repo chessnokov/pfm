@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM3_CR2_SPEC>> for W {
 #[doc = "Field `JEOCIE` reader - Injected end of conversion interrupt enable"]
 pub struct JEOCIE_R(crate::FieldReader<bool, bool>);
 impl JEOCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JEOCIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> JEOCIE_W<'a> {
 #[doc = "Field `REOCIE` reader - Regular end of conversion interrupt enable"]
 pub struct REOCIE_R(crate::FieldReader<bool, bool>);
 impl REOCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REOCIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> REOCIE_W<'a> {
 #[doc = "Field `JOVRIE` reader - Injected data overrun interrupt enable"]
 pub struct JOVRIE_R(crate::FieldReader<bool, bool>);
 impl JOVRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JOVRIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> JOVRIE_W<'a> {
 #[doc = "Field `ROVRIE` reader - Regular data overrun interrupt enable"]
 pub struct ROVRIE_R(crate::FieldReader<bool, bool>);
 impl ROVRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ROVRIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ROVRIE_W<'a> {
 #[doc = "Field `AWDIE` reader - Analog watchdog interrupt enable"]
 pub struct AWDIE_R(crate::FieldReader<bool, bool>);
 impl AWDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWDIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> AWDIE_W<'a> {
 #[doc = "Field `SCDIE` reader - Short-circuit detector interrupt enable"]
 pub struct SCDIE_R(crate::FieldReader<bool, bool>);
 impl SCDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SCDIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> SCDIE_W<'a> {
 #[doc = "Field `CKABIE` reader - Clock absence interrupt enable"]
 pub struct CKABIE_R(crate::FieldReader<bool, bool>);
 impl CKABIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKABIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> CKABIE_W<'a> {
 #[doc = "Field `EXCH` reader - Extremes detector channel selection"]
 pub struct EXCH_R(crate::FieldReader<u8, u8>);
 impl EXCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXCH_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> EXCH_W<'a> {
 #[doc = "Field `AWDCH` reader - Analog watchdog channel selection"]
 pub struct AWDCH_R(crate::FieldReader<u8, u8>);
 impl AWDCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AWDCH_R(crate::FieldReader::new(bits))
     }

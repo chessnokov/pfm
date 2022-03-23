@@ -37,6 +37,7 @@ impl From<crate::W<MMCRIR_SPEC>> for W {
 #[doc = "Field `RFCES` reader - RFCES"]
 pub struct RFCES_R(crate::FieldReader<bool, bool>);
 impl RFCES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFCES_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RFCES_W<'a> {
 #[doc = "Field `RFAES` reader - RFAES"]
 pub struct RFAES_R(crate::FieldReader<bool, bool>);
 impl RFAES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFAES_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RFAES_W<'a> {
 #[doc = "Field `RGUFS` reader - RGUFS"]
 pub struct RGUFS_R(crate::FieldReader<bool, bool>);
 impl RGUFS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RGUFS_R(crate::FieldReader::new(bits))
     }

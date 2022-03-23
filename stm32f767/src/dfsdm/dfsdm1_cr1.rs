@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM1_CR1_SPEC>> for W {
 #[doc = "Field `DFEN` reader - DFSDM enable"]
 pub struct DFEN_R(crate::FieldReader<bool, bool>);
 impl DFEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DFEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DFEN_W<'a> {
 #[doc = "Field `JSWSTART` reader - Start a conversion of the injected group of channels"]
 pub struct JSWSTART_R(crate::FieldReader<bool, bool>);
 impl JSWSTART_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JSWSTART_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> JSWSTART_W<'a> {
 #[doc = "Field `JSYNC` reader - Launch an injected conversion synchronously with the DFSDM0 JSWSTART trigger"]
 pub struct JSYNC_R(crate::FieldReader<bool, bool>);
 impl JSYNC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JSYNC_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> JSYNC_W<'a> {
 #[doc = "Field `JSCAN` reader - Scanning conversion mode for injected conversions"]
 pub struct JSCAN_R(crate::FieldReader<bool, bool>);
 impl JSCAN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JSCAN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> JSCAN_W<'a> {
 #[doc = "Field `JDMAEN` reader - DMA channel enabled to read data for the injected channel group"]
 pub struct JDMAEN_R(crate::FieldReader<bool, bool>);
 impl JDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> JDMAEN_W<'a> {
 #[doc = "Field `JEXTSEL` reader - Trigger signal selection for launching injected conversions"]
 pub struct JEXTSEL_R(crate::FieldReader<u8, u8>);
 impl JEXTSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JEXTSEL_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> JEXTSEL_W<'a> {
 #[doc = "Field `JEXTEN` reader - Trigger enable and trigger edge selection for injected conversions"]
 pub struct JEXTEN_R(crate::FieldReader<u8, u8>);
 impl JEXTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JEXTEN_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> JEXTEN_W<'a> {
 #[doc = "Field `RSWSTART` reader - Software start of a conversion on the regular channel"]
 pub struct RSWSTART_R(crate::FieldReader<bool, bool>);
 impl RSWSTART_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RSWSTART_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> RSWSTART_W<'a> {
 #[doc = "Field `RCONT` reader - Continuous mode selection for regular conversions"]
 pub struct RCONT_R(crate::FieldReader<bool, bool>);
 impl RCONT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RCONT_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> RCONT_W<'a> {
 #[doc = "Field `RSYNC` reader - Launch regular conversion synchronously with DFSDM0"]
 pub struct RSYNC_R(crate::FieldReader<bool, bool>);
 impl RSYNC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RSYNC_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> RSYNC_W<'a> {
 #[doc = "Field `RDMAEN` reader - DMA channel enabled to read data for the regular conversion"]
 pub struct RDMAEN_R(crate::FieldReader<bool, bool>);
 impl RDMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RDMAEN_R(crate::FieldReader::new(bits))
     }
@@ -413,6 +424,7 @@ impl<'a> RDMAEN_W<'a> {
 #[doc = "Field `RCH` reader - Regular channel selection"]
 pub struct RCH_R(crate::FieldReader<u8, u8>);
 impl RCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RCH_R(crate::FieldReader::new(bits))
     }
@@ -439,6 +451,7 @@ impl<'a> RCH_W<'a> {
 #[doc = "Field `FAST` reader - Fast conversion mode selection for regular conversions"]
 pub struct FAST_R(crate::FieldReader<bool, bool>);
 impl FAST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FAST_R(crate::FieldReader::new(bits))
     }
@@ -475,6 +488,7 @@ impl<'a> FAST_W<'a> {
 #[doc = "Field `AWFSEL` reader - Analog watchdog fast mode select"]
 pub struct AWFSEL_R(crate::FieldReader<bool, bool>);
 impl AWFSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWFSEL_R(crate::FieldReader::new(bits))
     }

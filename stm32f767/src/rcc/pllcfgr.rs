@@ -37,6 +37,7 @@ impl From<crate::W<PLLCFGR_SPEC>> for W {
 #[doc = "Field `PLLQ3` reader - Main PLL (PLL) division factor for USB OTG FS, SDIO and random number generator clocks"]
 pub struct PLLQ3_R(crate::FieldReader<bool, bool>);
 impl PLLQ3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLQ3_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PLLQ3_W<'a> {
 #[doc = "Field `PLLQ2` reader - Main PLL (PLL) division factor for USB OTG FS, SDIO and random number generator clocks"]
 pub struct PLLQ2_R(crate::FieldReader<bool, bool>);
 impl PLLQ2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLQ2_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> PLLQ2_W<'a> {
 #[doc = "Field `PLLQ1` reader - Main PLL (PLL) division factor for USB OTG FS, SDIO and random number generator clocks"]
 pub struct PLLQ1_R(crate::FieldReader<bool, bool>);
 impl PLLQ1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLQ1_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> PLLQ1_W<'a> {
 #[doc = "Field `PLLQ0` reader - Main PLL (PLL) division factor for USB OTG FS, SDIO and random number generator clocks"]
 pub struct PLLQ0_R(crate::FieldReader<bool, bool>);
 impl PLLQ0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLQ0_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> PLLQ0_W<'a> {
 #[doc = "Field `PLLSRC` reader - Main PLL(PLL) and audio PLL (PLLI2S) entry clock source"]
 pub struct PLLSRC_R(crate::FieldReader<bool, bool>);
 impl PLLSRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLSRC_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> PLLSRC_W<'a> {
 #[doc = "Field `PLLP1` reader - Main PLL (PLL) division factor for main system clock"]
 pub struct PLLP1_R(crate::FieldReader<bool, bool>);
 impl PLLP1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLP1_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> PLLP1_W<'a> {
 #[doc = "Field `PLLP0` reader - Main PLL (PLL) division factor for main system clock"]
 pub struct PLLP0_R(crate::FieldReader<bool, bool>);
 impl PLLP0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLP0_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> PLLP0_W<'a> {
 #[doc = "Field `PLLN8` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN8_R(crate::FieldReader<bool, bool>);
 impl PLLN8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN8_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> PLLN8_W<'a> {
 #[doc = "Field `PLLN7` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN7_R(crate::FieldReader<bool, bool>);
 impl PLLN7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN7_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> PLLN7_W<'a> {
 #[doc = "Field `PLLN6` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN6_R(crate::FieldReader<bool, bool>);
 impl PLLN6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN6_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> PLLN6_W<'a> {
 #[doc = "Field `PLLN5` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN5_R(crate::FieldReader<bool, bool>);
 impl PLLN5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN5_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> PLLN5_W<'a> {
 #[doc = "Field `PLLN4` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN4_R(crate::FieldReader<bool, bool>);
 impl PLLN4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN4_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> PLLN4_W<'a> {
 #[doc = "Field `PLLN3` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN3_R(crate::FieldReader<bool, bool>);
 impl PLLN3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN3_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> PLLN3_W<'a> {
 #[doc = "Field `PLLN2` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN2_R(crate::FieldReader<bool, bool>);
 impl PLLN2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN2_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> PLLN2_W<'a> {
 #[doc = "Field `PLLN1` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN1_R(crate::FieldReader<bool, bool>);
 impl PLLN1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN1_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> PLLN1_W<'a> {
 #[doc = "Field `PLLN0` reader - Main PLL (PLL) multiplication factor for VCO"]
 pub struct PLLN0_R(crate::FieldReader<bool, bool>);
 impl PLLN0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLN0_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> PLLN0_W<'a> {
 #[doc = "Field `PLLM5` reader - Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"]
 pub struct PLLM5_R(crate::FieldReader<bool, bool>);
 impl PLLM5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLM5_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> PLLM5_W<'a> {
 #[doc = "Field `PLLM4` reader - Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"]
 pub struct PLLM4_R(crate::FieldReader<bool, bool>);
 impl PLLM4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLM4_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> PLLM4_W<'a> {
 #[doc = "Field `PLLM3` reader - Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"]
 pub struct PLLM3_R(crate::FieldReader<bool, bool>);
 impl PLLM3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLM3_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> PLLM3_W<'a> {
 #[doc = "Field `PLLM2` reader - Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"]
 pub struct PLLM2_R(crate::FieldReader<bool, bool>);
 impl PLLM2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLM2_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> PLLM2_W<'a> {
 #[doc = "Field `PLLM1` reader - Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"]
 pub struct PLLM1_R(crate::FieldReader<bool, bool>);
 impl PLLM1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLM1_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> PLLM1_W<'a> {
 #[doc = "Field `PLLM0` reader - Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"]
 pub struct PLLM0_R(crate::FieldReader<bool, bool>);
 impl PLLM0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLM0_R(crate::FieldReader::new(bits))
     }

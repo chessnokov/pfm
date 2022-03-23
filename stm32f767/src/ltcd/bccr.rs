@@ -37,6 +37,7 @@ impl From<crate::W<BCCR_SPEC>> for W {
 #[doc = "Field `BC` reader - Background Color Red value"]
 pub struct BC_R(crate::FieldReader<u32, u32>);
 impl BC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         BC_R(crate::FieldReader::new(bits))
     }

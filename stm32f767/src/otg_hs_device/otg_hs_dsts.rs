@@ -16,6 +16,7 @@ impl From<crate::R<OTG_HS_DSTS_SPEC>> for R {
 #[doc = "Field `SUSPSTS` reader - Suspend status"]
 pub struct SUSPSTS_R(crate::FieldReader<bool, bool>);
 impl SUSPSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SUSPSTS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for SUSPSTS_R {
 #[doc = "Field `ENUMSPD` reader - Enumerated speed"]
 pub struct ENUMSPD_R(crate::FieldReader<u8, u8>);
 impl ENUMSPD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ENUMSPD_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for ENUMSPD_R {
 #[doc = "Field `EERR` reader - Erratic error"]
 pub struct EERR_R(crate::FieldReader<bool, bool>);
 impl EERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EERR_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for EERR_R {
 #[doc = "Field `FNSOF` reader - Frame number of the received SOF"]
 pub struct FNSOF_R(crate::FieldReader<u16, u16>);
 impl FNSOF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         FNSOF_R(crate::FieldReader::new(bits))
     }

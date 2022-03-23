@@ -37,6 +37,7 @@ impl From<crate::W<FIFO_SPEC>> for W {
 #[doc = "Field `FIFOData` reader - Receive and transmit FIFO data"]
 pub struct FIFODATA_R(crate::FieldReader<u32, u32>);
 impl FIFODATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         FIFODATA_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> FIFODATA_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - Receive and transmit FIFO data"]
     #[inline(always)]
     pub fn fifodata(&self) -> FIFODATA_R {
-        FIFODATA_R::new((self.bits & 0xffff_ffff) as u32)
+        FIFODATA_R::new(self.bits)
     }
 }
 impl W {

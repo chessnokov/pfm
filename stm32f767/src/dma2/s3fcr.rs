@@ -37,6 +37,7 @@ impl From<crate::W<S3FCR_SPEC>> for W {
 #[doc = "Field `FEIE` reader - FIFO error interrupt enable"]
 pub struct FEIE_R(crate::FieldReader<bool, bool>);
 impl FEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FEIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FEIE_W<'a> {
 #[doc = "Field `FS` reader - FIFO status"]
 pub struct FS_R(crate::FieldReader<u8, u8>);
 impl FS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FS_R(crate::FieldReader::new(bits))
     }
@@ -87,6 +89,7 @@ impl core::ops::Deref for FS_R {
 #[doc = "Field `DMDIS` reader - Direct mode disable"]
 pub struct DMDIS_R(crate::FieldReader<bool, bool>);
 impl DMDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMDIS_R(crate::FieldReader::new(bits))
     }
@@ -123,6 +126,7 @@ impl<'a> DMDIS_W<'a> {
 #[doc = "Field `FTH` reader - FIFO threshold selection"]
 pub struct FTH_R(crate::FieldReader<u8, u8>);
 impl FTH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FTH_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<AHB3LPENR_SPEC>> for W {
 #[doc = "Field `FMCLPEN` reader - Flexible memory controller module clock enable during Sleep mode"]
 pub struct FMCLPEN_R(crate::FieldReader<bool, bool>);
 impl FMCLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FMCLPEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FMCLPEN_W<'a> {
 #[doc = "Field `QSPILPEN` reader - Quand SPI memory controller clock enable during Sleep mode"]
 pub struct QSPILPEN_R(crate::FieldReader<bool, bool>);
 impl QSPILPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         QSPILPEN_R(crate::FieldReader::new(bits))
     }

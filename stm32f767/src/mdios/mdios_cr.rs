@@ -37,6 +37,7 @@ impl From<crate::W<MDIOS_CR_SPEC>> for W {
 #[doc = "Field `EN` reader - Peripheral enable"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EN_W<'a> {
 #[doc = "Field `WRIE` reader - Register write interrupt enable"]
 pub struct WRIE_R(crate::FieldReader<bool, bool>);
 impl WRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WRIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> WRIE_W<'a> {
 #[doc = "Field `RDIE` reader - Register Read Interrupt Enable"]
 pub struct RDIE_R(crate::FieldReader<bool, bool>);
 impl RDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RDIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RDIE_W<'a> {
 #[doc = "Field `EIE` reader - Error interrupt enable"]
 pub struct EIE_R(crate::FieldReader<bool, bool>);
 impl EIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> EIE_W<'a> {
 #[doc = "Field `DPC` reader - Disable Preamble Check"]
 pub struct DPC_R(crate::FieldReader<bool, bool>);
 impl DPC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DPC_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> DPC_W<'a> {
 #[doc = "Field `PORT_ADDRESS` reader - Slaves's address"]
 pub struct PORT_ADDRESS_R(crate::FieldReader<u8, u8>);
 impl PORT_ADDRESS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PORT_ADDRESS_R(crate::FieldReader::new(bits))
     }

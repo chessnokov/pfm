@@ -37,6 +37,7 @@ impl From<crate::W<CR1_SPEC>> for W {
 #[doc = "Field `LPDS` reader - Low-power deep sleep"]
 pub struct LPDS_R(crate::FieldReader<bool, bool>);
 impl LPDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPDS_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LPDS_W<'a> {
 #[doc = "Field `PDDS` reader - Power down deepsleep"]
 pub struct PDDS_R(crate::FieldReader<bool, bool>);
 impl PDDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PDDS_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> PDDS_W<'a> {
 #[doc = "Field `CSBF` reader - Clear standby flag"]
 pub struct CSBF_R(crate::FieldReader<bool, bool>);
 impl CSBF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSBF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CSBF_W<'a> {
 #[doc = "Field `PVDE` reader - Power voltage detector enable"]
 pub struct PVDE_R(crate::FieldReader<bool, bool>);
 impl PVDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PVDE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> PVDE_W<'a> {
 #[doc = "Field `PLS` reader - PVD level selection"]
 pub struct PLS_R(crate::FieldReader<u8, u8>);
 impl PLS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLS_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> PLS_W<'a> {
 #[doc = "Field `DBP` reader - Disable backup domain write protection"]
 pub struct DBP_R(crate::FieldReader<bool, bool>);
 impl DBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBP_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> DBP_W<'a> {
 #[doc = "Field `FPDS` reader - Flash power down in Stop mode"]
 pub struct FPDS_R(crate::FieldReader<bool, bool>);
 impl FPDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FPDS_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> FPDS_W<'a> {
 #[doc = "Field `LPUDS` reader - Low-power regulator in deepsleep under-drive mode"]
 pub struct LPUDS_R(crate::FieldReader<bool, bool>);
 impl LPUDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPUDS_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> LPUDS_W<'a> {
 #[doc = "Field `MRUDS` reader - Main regulator in deepsleep under-drive mode"]
 pub struct MRUDS_R(crate::FieldReader<bool, bool>);
 impl MRUDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MRUDS_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> MRUDS_W<'a> {
 #[doc = "Field `ADCDC1` reader - ADCDC1"]
 pub struct ADCDC1_R(crate::FieldReader<bool, bool>);
 impl ADCDC1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADCDC1_R(crate::FieldReader::new(bits))
     }
@@ -387,6 +397,7 @@ impl<'a> ADCDC1_W<'a> {
 #[doc = "Field `VOS` reader - Regulator voltage scaling output selection"]
 pub struct VOS_R(crate::FieldReader<u8, u8>);
 impl VOS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         VOS_R(crate::FieldReader::new(bits))
     }
@@ -413,6 +424,7 @@ impl<'a> VOS_W<'a> {
 #[doc = "Field `ODEN` reader - Over-drive enable"]
 pub struct ODEN_R(crate::FieldReader<bool, bool>);
 impl ODEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODEN_R(crate::FieldReader::new(bits))
     }
@@ -449,6 +461,7 @@ impl<'a> ODEN_W<'a> {
 #[doc = "Field `ODSWEN` reader - Over-drive switching enabled"]
 pub struct ODSWEN_R(crate::FieldReader<bool, bool>);
 impl ODSWEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ODSWEN_R(crate::FieldReader::new(bits))
     }
@@ -485,6 +498,7 @@ impl<'a> ODSWEN_W<'a> {
 #[doc = "Field `UDEN` reader - Under-drive enable in stop mode"]
 pub struct UDEN_R(crate::FieldReader<u8, u8>);
 impl UDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UDEN_R(crate::FieldReader::new(bits))
     }

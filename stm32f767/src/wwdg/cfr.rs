@@ -37,6 +37,7 @@ impl From<crate::W<CFR_SPEC>> for W {
 #[doc = "Field `EWI` reader - Early wakeup interrupt"]
 pub struct EWI_R(crate::FieldReader<bool, bool>);
 impl EWI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EWI_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EWI_W<'a> {
 #[doc = "Field `WDGTB1` reader - Timer base"]
 pub struct WDGTB1_R(crate::FieldReader<bool, bool>);
 impl WDGTB1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WDGTB1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> WDGTB1_W<'a> {
 #[doc = "Field `WDGTB0` reader - Timer base"]
 pub struct WDGTB0_R(crate::FieldReader<bool, bool>);
 impl WDGTB0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WDGTB0_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> WDGTB0_W<'a> {
 #[doc = "Field `W` reader - 7-bit window value"]
 pub struct W_R(crate::FieldReader<u8, u8>);
 impl W_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         W_R(crate::FieldReader::new(bits))
     }

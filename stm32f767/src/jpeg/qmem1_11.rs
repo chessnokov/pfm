@@ -37,6 +37,7 @@ impl From<crate::W<QMEM1_11_SPEC>> for W {
 #[doc = "Field `QMem_RAM` reader - QMem RAM"]
 pub struct QMEM_RAM_R(crate::FieldReader<u32, u32>);
 impl QMEM_RAM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         QMEM_RAM_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> QMEM_RAM_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - QMem RAM"]
     #[inline(always)]
     pub fn qmem_ram(&self) -> QMEM_RAM_R {
-        QMEM_RAM_R::new((self.bits & 0xffff_ffff) as u32)
+        QMEM_RAM_R::new(self.bits)
     }
 }
 impl W {

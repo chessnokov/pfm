@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_GUSBCFG_SPEC>> for W {
 #[doc = "Field `TOCAL` reader - FS timeout calibration"]
 pub struct TOCAL_R(crate::FieldReader<u8, u8>);
 impl TOCAL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TOCAL_R(crate::FieldReader::new(bits))
     }
@@ -85,6 +86,7 @@ impl<'a> PHYSEL_W<'a> {
 #[doc = "Field `SRPCAP` reader - SRP-capable"]
 pub struct SRPCAP_R(crate::FieldReader<bool, bool>);
 impl SRPCAP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRPCAP_R(crate::FieldReader::new(bits))
     }
@@ -121,6 +123,7 @@ impl<'a> SRPCAP_W<'a> {
 #[doc = "Field `HNPCAP` reader - HNP-capable"]
 pub struct HNPCAP_R(crate::FieldReader<bool, bool>);
 impl HNPCAP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HNPCAP_R(crate::FieldReader::new(bits))
     }
@@ -157,6 +160,7 @@ impl<'a> HNPCAP_W<'a> {
 #[doc = "Field `TRDT` reader - USB turnaround time"]
 pub struct TRDT_R(crate::FieldReader<u8, u8>);
 impl TRDT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRDT_R(crate::FieldReader::new(bits))
     }
@@ -183,6 +187,7 @@ impl<'a> TRDT_W<'a> {
 #[doc = "Field `PHYLPCS` reader - PHY Low-power clock select"]
 pub struct PHYLPCS_R(crate::FieldReader<bool, bool>);
 impl PHYLPCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PHYLPCS_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +224,7 @@ impl<'a> PHYLPCS_W<'a> {
 #[doc = "Field `ULPIFSLS` reader - ULPI FS/LS select"]
 pub struct ULPIFSLS_R(crate::FieldReader<bool, bool>);
 impl ULPIFSLS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ULPIFSLS_R(crate::FieldReader::new(bits))
     }
@@ -255,6 +261,7 @@ impl<'a> ULPIFSLS_W<'a> {
 #[doc = "Field `ULPIAR` reader - ULPI Auto-resume"]
 pub struct ULPIAR_R(crate::FieldReader<bool, bool>);
 impl ULPIAR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ULPIAR_R(crate::FieldReader::new(bits))
     }
@@ -291,6 +298,7 @@ impl<'a> ULPIAR_W<'a> {
 #[doc = "Field `ULPICSM` reader - ULPI Clock SuspendM"]
 pub struct ULPICSM_R(crate::FieldReader<bool, bool>);
 impl ULPICSM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ULPICSM_R(crate::FieldReader::new(bits))
     }
@@ -327,6 +335,7 @@ impl<'a> ULPICSM_W<'a> {
 #[doc = "Field `ULPIEVBUSD` reader - ULPI External VBUS Drive"]
 pub struct ULPIEVBUSD_R(crate::FieldReader<bool, bool>);
 impl ULPIEVBUSD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ULPIEVBUSD_R(crate::FieldReader::new(bits))
     }
@@ -363,6 +372,7 @@ impl<'a> ULPIEVBUSD_W<'a> {
 #[doc = "Field `ULPIEVBUSI` reader - ULPI external VBUS indicator"]
 pub struct ULPIEVBUSI_R(crate::FieldReader<bool, bool>);
 impl ULPIEVBUSI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ULPIEVBUSI_R(crate::FieldReader::new(bits))
     }
@@ -399,6 +409,7 @@ impl<'a> ULPIEVBUSI_W<'a> {
 #[doc = "Field `TSDPS` reader - TermSel DLine pulsing selection"]
 pub struct TSDPS_R(crate::FieldReader<bool, bool>);
 impl TSDPS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSDPS_R(crate::FieldReader::new(bits))
     }
@@ -435,6 +446,7 @@ impl<'a> TSDPS_W<'a> {
 #[doc = "Field `PCCI` reader - Indicator complement"]
 pub struct PCCI_R(crate::FieldReader<bool, bool>);
 impl PCCI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCCI_R(crate::FieldReader::new(bits))
     }
@@ -471,6 +483,7 @@ impl<'a> PCCI_W<'a> {
 #[doc = "Field `PTCI` reader - Indicator pass through"]
 pub struct PTCI_R(crate::FieldReader<bool, bool>);
 impl PTCI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PTCI_R(crate::FieldReader::new(bits))
     }
@@ -507,6 +520,7 @@ impl<'a> PTCI_W<'a> {
 #[doc = "Field `ULPIIPD` reader - ULPI interface protect disable"]
 pub struct ULPIIPD_R(crate::FieldReader<bool, bool>);
 impl ULPIIPD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ULPIIPD_R(crate::FieldReader::new(bits))
     }
@@ -543,6 +557,7 @@ impl<'a> ULPIIPD_W<'a> {
 #[doc = "Field `FHMOD` reader - Forced host mode"]
 pub struct FHMOD_R(crate::FieldReader<bool, bool>);
 impl FHMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FHMOD_R(crate::FieldReader::new(bits))
     }
@@ -579,6 +594,7 @@ impl<'a> FHMOD_W<'a> {
 #[doc = "Field `FDMOD` reader - Forced peripheral mode"]
 pub struct FDMOD_R(crate::FieldReader<bool, bool>);
 impl FDMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FDMOD_R(crate::FieldReader::new(bits))
     }

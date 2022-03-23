@@ -37,6 +37,7 @@ impl From<crate::W<TAMPCR_SPEC>> for W {
 #[doc = "Field `TAMP1E` reader - Tamper 1 detection enable"]
 pub struct TAMP1E_R(crate::FieldReader<bool, bool>);
 impl TAMP1E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP1E_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TAMP1E_W<'a> {
 #[doc = "Field `TAMP1TRG` reader - Active level for tamper 1"]
 pub struct TAMP1TRG_R(crate::FieldReader<bool, bool>);
 impl TAMP1TRG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP1TRG_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TAMP1TRG_W<'a> {
 #[doc = "Field `TAMPIE` reader - Tamper interrupt enable"]
 pub struct TAMPIE_R(crate::FieldReader<bool, bool>);
 impl TAMPIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMPIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TAMPIE_W<'a> {
 #[doc = "Field `TAMP2E` reader - Tamper 2 detection enable"]
 pub struct TAMP2E_R(crate::FieldReader<bool, bool>);
 impl TAMP2E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP2E_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TAMP2E_W<'a> {
 #[doc = "Field `TAMP2TRG` reader - Active level for tamper 2"]
 pub struct TAMP2TRG_R(crate::FieldReader<bool, bool>);
 impl TAMP2TRG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP2TRG_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TAMP2TRG_W<'a> {
 #[doc = "Field `TAMP3E` reader - Tamper 3 detection enable"]
 pub struct TAMP3E_R(crate::FieldReader<bool, bool>);
 impl TAMP3E_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP3E_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> TAMP3E_W<'a> {
 #[doc = "Field `TAMP3TRG` reader - Active level for tamper 3"]
 pub struct TAMP3TRG_R(crate::FieldReader<bool, bool>);
 impl TAMP3TRG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP3TRG_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> TAMP3TRG_W<'a> {
 #[doc = "Field `TAMPTS` reader - Activate timestamp on tamper detection event"]
 pub struct TAMPTS_R(crate::FieldReader<bool, bool>);
 impl TAMPTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMPTS_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TAMPTS_W<'a> {
 #[doc = "Field `TAMPFREQ` reader - Tamper sampling frequency"]
 pub struct TAMPFREQ_R(crate::FieldReader<u8, u8>);
 impl TAMPFREQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TAMPFREQ_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> TAMPFREQ_W<'a> {
 #[doc = "Field `TAMPFLT` reader - Tamper filter count"]
 pub struct TAMPFLT_R(crate::FieldReader<u8, u8>);
 impl TAMPFLT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TAMPFLT_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> TAMPFLT_W<'a> {
 #[doc = "Field `TAMPPRCH` reader - Tamper precharge duration"]
 pub struct TAMPPRCH_R(crate::FieldReader<u8, u8>);
 impl TAMPPRCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TAMPPRCH_R(crate::FieldReader::new(bits))
     }
@@ -403,6 +414,7 @@ impl<'a> TAMPPRCH_W<'a> {
 #[doc = "Field `TAMPPUDIS` reader - TAMPER pull-up disable"]
 pub struct TAMPPUDIS_R(crate::FieldReader<bool, bool>);
 impl TAMPPUDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMPPUDIS_R(crate::FieldReader::new(bits))
     }
@@ -439,6 +451,7 @@ impl<'a> TAMPPUDIS_W<'a> {
 #[doc = "Field `TAMP1IE` reader - Tamper 1 interrupt enable"]
 pub struct TAMP1IE_R(crate::FieldReader<bool, bool>);
 impl TAMP1IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP1IE_R(crate::FieldReader::new(bits))
     }
@@ -475,6 +488,7 @@ impl<'a> TAMP1IE_W<'a> {
 #[doc = "Field `TAMP1NOERASE` reader - Tamper 1 no erase"]
 pub struct TAMP1NOERASE_R(crate::FieldReader<bool, bool>);
 impl TAMP1NOERASE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP1NOERASE_R(crate::FieldReader::new(bits))
     }
@@ -511,6 +525,7 @@ impl<'a> TAMP1NOERASE_W<'a> {
 #[doc = "Field `TAMP1MF` reader - Tamper 1 mask flag"]
 pub struct TAMP1MF_R(crate::FieldReader<bool, bool>);
 impl TAMP1MF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP1MF_R(crate::FieldReader::new(bits))
     }
@@ -547,6 +562,7 @@ impl<'a> TAMP1MF_W<'a> {
 #[doc = "Field `TAMP2IE` reader - Tamper 2 interrupt enable"]
 pub struct TAMP2IE_R(crate::FieldReader<bool, bool>);
 impl TAMP2IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP2IE_R(crate::FieldReader::new(bits))
     }
@@ -583,6 +599,7 @@ impl<'a> TAMP2IE_W<'a> {
 #[doc = "Field `TAMP2NOERASE` reader - Tamper 2 no erase"]
 pub struct TAMP2NOERASE_R(crate::FieldReader<bool, bool>);
 impl TAMP2NOERASE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP2NOERASE_R(crate::FieldReader::new(bits))
     }
@@ -619,6 +636,7 @@ impl<'a> TAMP2NOERASE_W<'a> {
 #[doc = "Field `TAMP2MF` reader - Tamper 2 mask flag"]
 pub struct TAMP2MF_R(crate::FieldReader<bool, bool>);
 impl TAMP2MF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP2MF_R(crate::FieldReader::new(bits))
     }
@@ -655,6 +673,7 @@ impl<'a> TAMP2MF_W<'a> {
 #[doc = "Field `TAMP3IE` reader - Tamper 3 interrupt enable"]
 pub struct TAMP3IE_R(crate::FieldReader<bool, bool>);
 impl TAMP3IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP3IE_R(crate::FieldReader::new(bits))
     }
@@ -691,6 +710,7 @@ impl<'a> TAMP3IE_W<'a> {
 #[doc = "Field `TAMP3NOERASE` reader - Tamper 3 no erase"]
 pub struct TAMP3NOERASE_R(crate::FieldReader<bool, bool>);
 impl TAMP3NOERASE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP3NOERASE_R(crate::FieldReader::new(bits))
     }
@@ -727,6 +747,7 @@ impl<'a> TAMP3NOERASE_W<'a> {
 #[doc = "Field `TAMP3MF` reader - Tamper 3 mask flag"]
 pub struct TAMP3MF_R(crate::FieldReader<bool, bool>);
 impl TAMP3MF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TAMP3MF_R(crate::FieldReader::new(bits))
     }

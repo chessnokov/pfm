@@ -37,6 +37,7 @@ impl From<crate::W<SSCGR_SPEC>> for W {
 #[doc = "Field `SSCGEN` reader - Spread spectrum modulation enable"]
 pub struct SSCGEN_R(crate::FieldReader<bool, bool>);
 impl SSCGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SSCGEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SSCGEN_W<'a> {
 #[doc = "Field `SPREADSEL` reader - Spread Select"]
 pub struct SPREADSEL_R(crate::FieldReader<bool, bool>);
 impl SPREADSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPREADSEL_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> SPREADSEL_W<'a> {
 #[doc = "Field `INCSTEP` reader - Incrementation step"]
 pub struct INCSTEP_R(crate::FieldReader<u16, u16>);
 impl INCSTEP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INCSTEP_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> INCSTEP_W<'a> {
 #[doc = "Field `MODPER` reader - Modulation period"]
 pub struct MODPER_R(crate::FieldReader<u16, u16>);
 impl MODPER_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MODPER_R(crate::FieldReader::new(bits))
     }

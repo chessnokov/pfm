@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DAINTMSK_SPEC>> for W {
 #[doc = "Field `IEPM` reader - IN EP interrupt mask bits"]
 pub struct IEPM_R(crate::FieldReader<u16, u16>);
 impl IEPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         IEPM_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> IEPM_W<'a> {
 #[doc = "Field `OEPM` reader - OUT EP interrupt mask bits"]
 pub struct OEPM_R(crate::FieldReader<u16, u16>);
 impl OEPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         OEPM_R(crate::FieldReader::new(bits))
     }

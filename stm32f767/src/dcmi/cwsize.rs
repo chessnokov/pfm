@@ -37,6 +37,7 @@ impl From<crate::W<CWSIZE_SPEC>> for W {
 #[doc = "Field `VLINE` reader - Vertical line count"]
 pub struct VLINE_R(crate::FieldReader<u16, u16>);
 impl VLINE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VLINE_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> VLINE_W<'a> {
 #[doc = "Field `CAPCNT` reader - Capture count"]
 pub struct CAPCNT_R(crate::FieldReader<u16, u16>);
 impl CAPCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CAPCNT_R(crate::FieldReader::new(bits))
     }

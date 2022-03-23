@@ -16,6 +16,7 @@ impl From<crate::R<MIS_SPEC>> for R {
 #[doc = "Field `LINE_MIS` reader - Line masked interrupt status"]
 pub struct LINE_MIS_R(crate::FieldReader<bool, bool>);
 impl LINE_MIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LINE_MIS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for LINE_MIS_R {
 #[doc = "Field `VSYNC_MIS` reader - VSYNC masked interrupt status"]
 pub struct VSYNC_MIS_R(crate::FieldReader<bool, bool>);
 impl VSYNC_MIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSYNC_MIS_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for VSYNC_MIS_R {
 #[doc = "Field `ERR_MIS` reader - Synchronization error masked interrupt status"]
 pub struct ERR_MIS_R(crate::FieldReader<bool, bool>);
 impl ERR_MIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERR_MIS_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for ERR_MIS_R {
 #[doc = "Field `OVR_MIS` reader - Overrun masked interrupt status"]
 pub struct OVR_MIS_R(crate::FieldReader<bool, bool>);
 impl OVR_MIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_MIS_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for OVR_MIS_R {
 #[doc = "Field `FRAME_MIS` reader - Capture complete masked interrupt status"]
 pub struct FRAME_MIS_R(crate::FieldReader<bool, bool>);
 impl FRAME_MIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FRAME_MIS_R(crate::FieldReader::new(bits))
     }

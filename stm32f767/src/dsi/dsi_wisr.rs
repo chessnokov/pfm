@@ -16,6 +16,7 @@ impl From<crate::R<DSI_WISR_SPEC>> for R {
 #[doc = "Field `RRIF` reader - Regulator Ready Interrupt Flag"]
 pub struct RRIF_R(crate::FieldReader<bool, bool>);
 impl RRIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RRIF_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for RRIF_R {
 #[doc = "Field `RRS` reader - Regulator Ready Status"]
 pub struct RRS_R(crate::FieldReader<bool, bool>);
 impl RRS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RRS_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for RRS_R {
 #[doc = "Field `PLLUIF` reader - PLL Unlock Interrupt Flag"]
 pub struct PLLUIF_R(crate::FieldReader<bool, bool>);
 impl PLLUIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLUIF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for PLLUIF_R {
 #[doc = "Field `PLLLIF` reader - PLL Lock Interrupt Flag"]
 pub struct PLLLIF_R(crate::FieldReader<bool, bool>);
 impl PLLLIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLLIF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for PLLLIF_R {
 #[doc = "Field `PLLLS` reader - PLL Lock Status"]
 pub struct PLLLS_R(crate::FieldReader<bool, bool>);
 impl PLLLS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLLS_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for PLLLS_R {
 #[doc = "Field `BUSY` reader - Busy Flag"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for BUSY_R {
 #[doc = "Field `ERIF` reader - End of Refresh Interrupt Flag"]
 pub struct ERIF_R(crate::FieldReader<bool, bool>);
 impl ERIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERIF_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for ERIF_R {
 #[doc = "Field `TEIF` reader - Tearing Effect Interrupt Flag"]
 pub struct TEIF_R(crate::FieldReader<bool, bool>);
 impl TEIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEIF_R(crate::FieldReader::new(bits))
     }

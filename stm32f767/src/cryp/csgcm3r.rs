@@ -37,6 +37,7 @@ impl From<crate::W<CSGCM3R_SPEC>> for W {
 #[doc = "Field `CSGCM3R` reader - CSGCM3R"]
 pub struct CSGCM3R_R(crate::FieldReader<u32, u32>);
 impl CSGCM3R_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         CSGCM3R_R(crate::FieldReader::new(bits))
     }
@@ -56,7 +57,7 @@ impl<'a> CSGCM3R_W<'a> {
     #[doc = r"Writes raw bits to the field"]
     #[inline(always)]
     pub unsafe fn bits(self, value: u32) -> &'a mut W {
-        self.w.bits = (self.w.bits & !0xffff_ffff) | (value as u32 & 0xffff_ffff);
+        self.w.bits = value;
         self.w
     }
 }
@@ -64,7 +65,7 @@ impl R {
     #[doc = "Bits 0:31 - CSGCM3R"]
     #[inline(always)]
     pub fn csgcm3r(&self) -> CSGCM3R_R {
-        CSGCM3R_R::new((self.bits & 0xffff_ffff) as u32)
+        CSGCM3R_R::new(self.bits)
     }
 }
 impl W {

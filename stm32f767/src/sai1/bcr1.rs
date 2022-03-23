@@ -37,6 +37,7 @@ impl From<crate::W<BCR1_SPEC>> for W {
 #[doc = "Field `MCKDIV` reader - Master clock divider"]
 pub struct MCKDIV_R(crate::FieldReader<u8, u8>);
 impl MCKDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MCKDIV_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MCKDIV_W<'a> {
 #[doc = "Field `NODIV` reader - No divider"]
 pub struct NODIV_R(crate::FieldReader<bool, bool>);
 impl NODIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NODIV_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> NODIV_W<'a> {
 #[doc = "Field `DMAEN` reader - DMA enable"]
 pub struct DMAEN_R(crate::FieldReader<bool, bool>);
 impl DMAEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAEN_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> DMAEN_W<'a> {
 #[doc = "Field `SAIBEN` reader - Audio block B enable"]
 pub struct SAIBEN_R(crate::FieldReader<bool, bool>);
 impl SAIBEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAIBEN_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> SAIBEN_W<'a> {
 #[doc = "Field `OutDri` reader - Output drive"]
 pub struct OUTDRI_R(crate::FieldReader<bool, bool>);
 impl OUTDRI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OUTDRI_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> OUTDRI_W<'a> {
 #[doc = "Field `MONO` reader - Mono mode"]
 pub struct MONO_R(crate::FieldReader<bool, bool>);
 impl MONO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MONO_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> MONO_W<'a> {
 #[doc = "Field `SYNCEN` reader - Synchronization enable"]
 pub struct SYNCEN_R(crate::FieldReader<u8, u8>);
 impl SYNCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SYNCEN_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> SYNCEN_W<'a> {
 #[doc = "Field `CKSTR` reader - Clock strobing edge"]
 pub struct CKSTR_R(crate::FieldReader<bool, bool>);
 impl CKSTR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKSTR_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> CKSTR_W<'a> {
 #[doc = "Field `LSBFIRST` reader - Least significant bit first"]
 pub struct LSBFIRST_R(crate::FieldReader<bool, bool>);
 impl LSBFIRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSBFIRST_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> LSBFIRST_W<'a> {
 #[doc = "Field `DS` reader - Data size"]
 pub struct DS_R(crate::FieldReader<u8, u8>);
 impl DS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DS_R(crate::FieldReader::new(bits))
     }
@@ -367,6 +377,7 @@ impl<'a> DS_W<'a> {
 #[doc = "Field `PRTCFG` reader - Protocol configuration"]
 pub struct PRTCFG_R(crate::FieldReader<u8, u8>);
 impl PRTCFG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRTCFG_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +404,7 @@ impl<'a> PRTCFG_W<'a> {
 #[doc = "Field `MODE` reader - Audio block mode"]
 pub struct MODE_R(crate::FieldReader<u8, u8>);
 impl MODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODE_R(crate::FieldReader::new(bits))
     }

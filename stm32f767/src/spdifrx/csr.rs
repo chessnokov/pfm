@@ -16,6 +16,7 @@ impl From<crate::R<CSR_SPEC>> for R {
 #[doc = "Field `USR` reader - User data information"]
 pub struct USR_R(crate::FieldReader<u16, u16>);
 impl USR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         USR_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for USR_R {
 #[doc = "Field `CS` reader - Channel A status information"]
 pub struct CS_R(crate::FieldReader<u8, u8>);
 impl CS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CS_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for CS_R {
 #[doc = "Field `SOB` reader - Start Of Block"]
 pub struct SOB_R(crate::FieldReader<bool, bool>);
 impl SOB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SOB_R(crate::FieldReader::new(bits))
     }

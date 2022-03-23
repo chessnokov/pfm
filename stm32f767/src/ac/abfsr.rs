@@ -37,6 +37,7 @@ impl From<crate::W<ABFSR_SPEC>> for W {
 #[doc = "Field `ITCM` reader - ITCM"]
 pub struct ITCM_R(crate::FieldReader<bool, bool>);
 impl ITCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ITCM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ITCM_W<'a> {
 #[doc = "Field `DTCM` reader - DTCM"]
 pub struct DTCM_R(crate::FieldReader<bool, bool>);
 impl DTCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DTCM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> DTCM_W<'a> {
 #[doc = "Field `AHBP` reader - AHBP"]
 pub struct AHBP_R(crate::FieldReader<bool, bool>);
 impl AHBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AHBP_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> AHBP_W<'a> {
 #[doc = "Field `AXIM` reader - AXIM"]
 pub struct AXIM_R(crate::FieldReader<bool, bool>);
 impl AXIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AXIM_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> AXIM_W<'a> {
 #[doc = "Field `EPPB` reader - EPPB"]
 pub struct EPPB_R(crate::FieldReader<bool, bool>);
 impl EPPB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPPB_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> EPPB_W<'a> {
 #[doc = "Field `AXIMTYPE` reader - AXIMTYPE"]
 pub struct AXIMTYPE_R(crate::FieldReader<u8, u8>);
 impl AXIMTYPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AXIMTYPE_R(crate::FieldReader::new(bits))
     }

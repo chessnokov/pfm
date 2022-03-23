@@ -16,6 +16,7 @@ impl From<crate::R<CTR_SPEC>> for R {
 #[doc = "Field `_IminLine` reader - IminLine"]
 pub struct _IMINLINE_R(crate::FieldReader<u8, u8>);
 impl _IMINLINE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         _IMINLINE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for _IMINLINE_R {
 #[doc = "Field `DMinLine` reader - DMinLine"]
 pub struct DMINLINE_R(crate::FieldReader<u8, u8>);
 impl DMINLINE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DMINLINE_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for DMINLINE_R {
 #[doc = "Field `ERG` reader - ERG"]
 pub struct ERG_R(crate::FieldReader<u8, u8>);
 impl ERG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ERG_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for ERG_R {
 #[doc = "Field `CWG` reader - CWG"]
 pub struct CWG_R(crate::FieldReader<u8, u8>);
 impl CWG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CWG_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for CWG_R {
 #[doc = "Field `Format` reader - Format"]
 pub struct FORMAT_R(crate::FieldReader<u8, u8>);
 impl FORMAT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FORMAT_R(crate::FieldReader::new(bits))
     }

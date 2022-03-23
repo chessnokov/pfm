@@ -37,6 +37,7 @@ impl From<crate::W<SSCR_SPEC>> for W {
 #[doc = "Field `HSW` reader - Horizontal Synchronization Width (in units of pixel clock period)"]
 pub struct HSW_R(crate::FieldReader<u16, u16>);
 impl HSW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HSW_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> HSW_W<'a> {
 #[doc = "Field `VSH` reader - Vertical Synchronization Height (in units of horizontal scan line)"]
 pub struct VSH_R(crate::FieldReader<u16, u16>);
 impl VSH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         VSH_R(crate::FieldReader::new(bits))
     }

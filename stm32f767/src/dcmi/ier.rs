@@ -37,6 +37,7 @@ impl From<crate::W<IER_SPEC>> for W {
 #[doc = "Field `LINE_IE` reader - Line interrupt enable"]
 pub struct LINE_IE_R(crate::FieldReader<bool, bool>);
 impl LINE_IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LINE_IE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LINE_IE_W<'a> {
 #[doc = "Field `VSYNC_IE` reader - VSYNC interrupt enable"]
 pub struct VSYNC_IE_R(crate::FieldReader<bool, bool>);
 impl VSYNC_IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSYNC_IE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> VSYNC_IE_W<'a> {
 #[doc = "Field `ERR_IE` reader - Synchronization error interrupt enable"]
 pub struct ERR_IE_R(crate::FieldReader<bool, bool>);
 impl ERR_IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERR_IE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> ERR_IE_W<'a> {
 #[doc = "Field `OVR_IE` reader - Overrun interrupt enable"]
 pub struct OVR_IE_R(crate::FieldReader<bool, bool>);
 impl OVR_IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_IE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> OVR_IE_W<'a> {
 #[doc = "Field `FRAME_IE` reader - Capture complete interrupt enable"]
 pub struct FRAME_IE_R(crate::FieldReader<bool, bool>);
 impl FRAME_IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FRAME_IE_R(crate::FieldReader::new(bits))
     }

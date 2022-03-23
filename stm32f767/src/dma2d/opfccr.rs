@@ -37,6 +37,7 @@ impl From<crate::W<OPFCCR_SPEC>> for W {
 #[doc = "Field `CM` reader - Color mode"]
 pub struct CM_R(crate::FieldReader<u8, u8>);
 impl CM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CM_R(crate::FieldReader::new(bits))
     }

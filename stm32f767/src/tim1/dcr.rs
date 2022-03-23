@@ -37,6 +37,7 @@ impl From<crate::W<DCR_SPEC>> for W {
 #[doc = "Field `DBL` reader - DMA burst length"]
 pub struct DBL_R(crate::FieldReader<u8, u8>);
 impl DBL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DBL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> DBL_W<'a> {
 #[doc = "Field `DBA` reader - DMA base address"]
 pub struct DBA_R(crate::FieldReader<u8, u8>);
 impl DBA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DBA_R(crate::FieldReader::new(bits))
     }

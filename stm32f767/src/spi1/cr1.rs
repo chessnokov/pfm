@@ -37,6 +37,7 @@ impl From<crate::W<CR1_SPEC>> for W {
 #[doc = "Field `BIDIMODE` reader - Bidirectional data mode enable"]
 pub struct BIDIMODE_R(crate::FieldReader<bool, bool>);
 impl BIDIMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BIDIMODE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> BIDIMODE_W<'a> {
 #[doc = "Field `BIDIOE` reader - Output enable in bidirectional mode"]
 pub struct BIDIOE_R(crate::FieldReader<bool, bool>);
 impl BIDIOE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BIDIOE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> BIDIOE_W<'a> {
 #[doc = "Field `CRCEN` reader - Hardware CRC calculation enable"]
 pub struct CRCEN_R(crate::FieldReader<bool, bool>);
 impl CRCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CRCEN_W<'a> {
 #[doc = "Field `CRCNEXT` reader - CRC transfer next"]
 pub struct CRCNEXT_R(crate::FieldReader<bool, bool>);
 impl CRCNEXT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCNEXT_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CRCNEXT_W<'a> {
 #[doc = "Field `CRCL` reader - CRC length"]
 pub struct CRCL_R(crate::FieldReader<bool, bool>);
 impl CRCL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCL_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CRCL_W<'a> {
 #[doc = "Field `RXONLY` reader - Receive only"]
 pub struct RXONLY_R(crate::FieldReader<bool, bool>);
 impl RXONLY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXONLY_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> RXONLY_W<'a> {
 #[doc = "Field `SSM` reader - Software slave management"]
 pub struct SSM_R(crate::FieldReader<bool, bool>);
 impl SSM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SSM_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> SSM_W<'a> {
 #[doc = "Field `SSI` reader - Internal slave select"]
 pub struct SSI_R(crate::FieldReader<bool, bool>);
 impl SSI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SSI_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> SSI_W<'a> {
 #[doc = "Field `LSBFIRST` reader - Frame format"]
 pub struct LSBFIRST_R(crate::FieldReader<bool, bool>);
 impl LSBFIRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSBFIRST_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> LSBFIRST_W<'a> {
 #[doc = "Field `SPE` reader - SPI enable"]
 pub struct SPE_R(crate::FieldReader<bool, bool>);
 impl SPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> SPE_W<'a> {
 #[doc = "Field `BR` reader - Baud rate control"]
 pub struct BR_R(crate::FieldReader<u8, u8>);
 impl BR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BR_R(crate::FieldReader::new(bits))
     }
@@ -423,6 +434,7 @@ impl<'a> BR_W<'a> {
 #[doc = "Field `MSTR` reader - Master selection"]
 pub struct MSTR_R(crate::FieldReader<bool, bool>);
 impl MSTR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSTR_R(crate::FieldReader::new(bits))
     }
@@ -459,6 +471,7 @@ impl<'a> MSTR_W<'a> {
 #[doc = "Field `CPOL` reader - Clock polarity"]
 pub struct CPOL_R(crate::FieldReader<bool, bool>);
 impl CPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPOL_R(crate::FieldReader::new(bits))
     }
@@ -495,6 +508,7 @@ impl<'a> CPOL_W<'a> {
 #[doc = "Field `CPHA` reader - Clock phase"]
 pub struct CPHA_R(crate::FieldReader<bool, bool>);
 impl CPHA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CPHA_R(crate::FieldReader::new(bits))
     }

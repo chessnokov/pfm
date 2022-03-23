@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_HCFG_SPEC>> for W {
 #[doc = "Field `FSLSPCS` reader - FS/LS PHY clock select"]
 pub struct FSLSPCS_R(crate::FieldReader<u8, u8>);
 impl FSLSPCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FSLSPCS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> FSLSPCS_W<'a> {
 #[doc = "Field `FSLSS` reader - FS- and LS-only support"]
 pub struct FSLSS_R(crate::FieldReader<bool, bool>);
 impl FSLSS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSLSS_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<PCR_SPEC>> for W {
 #[doc = "Field `ECCPS` reader - ECCPS"]
 pub struct ECCPS_R(crate::FieldReader<u8, u8>);
 impl ECCPS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ECCPS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> ECCPS_W<'a> {
 #[doc = "Field `TAR` reader - TAR"]
 pub struct TAR_R(crate::FieldReader<u8, u8>);
 impl TAR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TAR_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> TAR_W<'a> {
 #[doc = "Field `TCLR` reader - TCLR"]
 pub struct TCLR_R(crate::FieldReader<u8, u8>);
 impl TCLR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TCLR_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> TCLR_W<'a> {
 #[doc = "Field `ECCEN` reader - ECCEN"]
 pub struct ECCEN_R(crate::FieldReader<bool, bool>);
 impl ECCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ECCEN_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> ECCEN_W<'a> {
 #[doc = "Field `PWID` reader - PWID"]
 pub struct PWID_R(crate::FieldReader<u8, u8>);
 impl PWID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PWID_R(crate::FieldReader::new(bits))
     }
@@ -177,6 +182,7 @@ impl<'a> PWID_W<'a> {
 #[doc = "Field `PTYP` reader - PTYP"]
 pub struct PTYP_R(crate::FieldReader<bool, bool>);
 impl PTYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PTYP_R(crate::FieldReader::new(bits))
     }
@@ -213,6 +219,7 @@ impl<'a> PTYP_W<'a> {
 #[doc = "Field `PBKEN` reader - PBKEN"]
 pub struct PBKEN_R(crate::FieldReader<bool, bool>);
 impl PBKEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PBKEN_R(crate::FieldReader::new(bits))
     }
@@ -249,6 +256,7 @@ impl<'a> PBKEN_W<'a> {
 #[doc = "Field `PWAITEN` reader - PWAITEN"]
 pub struct PWAITEN_R(crate::FieldReader<bool, bool>);
 impl PWAITEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PWAITEN_R(crate::FieldReader::new(bits))
     }

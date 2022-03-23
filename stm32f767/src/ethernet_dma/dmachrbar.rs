@@ -16,6 +16,7 @@ impl From<crate::R<DMACHRBAR_SPEC>> for R {
 #[doc = "Field `HRBAP` reader - HRBAP"]
 pub struct HRBAP_R(crate::FieldReader<u32, u32>);
 impl HRBAP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         HRBAP_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - HRBAP"]
     #[inline(always)]
     pub fn hrbap(&self) -> HRBAP_R {
-        HRBAP_R::new((self.bits & 0xffff_ffff) as u32)
+        HRBAP_R::new(self.bits)
     }
 }
 #[doc = "Ethernet DMA current host receive buffer address register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dmachrbar](index.html) module"]

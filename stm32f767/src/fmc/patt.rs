@@ -37,6 +37,7 @@ impl From<crate::W<PATT_SPEC>> for W {
 #[doc = "Field `ATTHIZx` reader - ATTHIZx"]
 pub struct ATTHIZX_R(crate::FieldReader<u8, u8>);
 impl ATTHIZX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ATTHIZX_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> ATTHIZX_W<'a> {
 #[doc = "Field `ATTHOLDx` reader - ATTHOLDx"]
 pub struct ATTHOLDX_R(crate::FieldReader<u8, u8>);
 impl ATTHOLDX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ATTHOLDX_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> ATTHOLDX_W<'a> {
 #[doc = "Field `ATTWAITx` reader - ATTWAITx"]
 pub struct ATTWAITX_R(crate::FieldReader<u8, u8>);
 impl ATTWAITX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ATTWAITX_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> ATTWAITX_W<'a> {
 #[doc = "Field `ATTSETx` reader - ATTSETx"]
 pub struct ATTSETX_R(crate::FieldReader<u8, u8>);
 impl ATTSETX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ATTSETX_R(crate::FieldReader::new(bits))
     }

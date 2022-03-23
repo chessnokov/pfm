@@ -37,6 +37,7 @@ impl From<crate::W<L1CR_SPEC>> for W {
 #[doc = "Field `CLUTEN` reader - Color Look-Up Table Enable"]
 pub struct CLUTEN_R(crate::FieldReader<bool, bool>);
 impl CLUTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CLUTEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CLUTEN_W<'a> {
 #[doc = "Field `COLKEN` reader - Color Keying Enable"]
 pub struct COLKEN_R(crate::FieldReader<bool, bool>);
 impl COLKEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COLKEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> COLKEN_W<'a> {
 #[doc = "Field `LEN` reader - Layer Enable"]
 pub struct LEN_R(crate::FieldReader<bool, bool>);
 impl LEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LEN_R(crate::FieldReader::new(bits))
     }

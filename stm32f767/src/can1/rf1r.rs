@@ -37,6 +37,7 @@ impl From<crate::W<RF1R_SPEC>> for W {
 #[doc = "Field `RFOM1` reader - RFOM1"]
 pub struct RFOM1_R(crate::FieldReader<bool, bool>);
 impl RFOM1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFOM1_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RFOM1_W<'a> {
 #[doc = "Field `FOVR1` reader - FOVR1"]
 pub struct FOVR1_R(crate::FieldReader<bool, bool>);
 impl FOVR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FOVR1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> FOVR1_W<'a> {
 #[doc = "Field `FULL1` reader - FULL1"]
 pub struct FULL1_R(crate::FieldReader<bool, bool>);
 impl FULL1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FULL1_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FULL1_W<'a> {
 #[doc = "Field `FMP1` reader - FMP1"]
 pub struct FMP1_R(crate::FieldReader<u8, u8>);
 impl FMP1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FMP1_R(crate::FieldReader::new(bits))
     }

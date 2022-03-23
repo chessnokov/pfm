@@ -37,6 +37,7 @@ impl From<crate::W<MODER_SPEC>> for W {
 #[doc = "Field `MODER15` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER15_R(crate::FieldReader<u8, u8>);
 impl MODER15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER15_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MODER15_W<'a> {
 #[doc = "Field `MODER14` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER14_R(crate::FieldReader<u8, u8>);
 impl MODER14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER14_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> MODER14_W<'a> {
 #[doc = "Field `MODER13` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER13_R(crate::FieldReader<u8, u8>);
 impl MODER13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER13_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> MODER13_W<'a> {
 #[doc = "Field `MODER12` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER12_R(crate::FieldReader<u8, u8>);
 impl MODER12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER12_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> MODER12_W<'a> {
 #[doc = "Field `MODER11` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER11_R(crate::FieldReader<u8, u8>);
 impl MODER11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER11_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> MODER11_W<'a> {
 #[doc = "Field `MODER10` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER10_R(crate::FieldReader<u8, u8>);
 impl MODER10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER10_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +199,7 @@ impl<'a> MODER10_W<'a> {
 #[doc = "Field `MODER9` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER9_R(crate::FieldReader<u8, u8>);
 impl MODER9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER9_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +226,7 @@ impl<'a> MODER9_W<'a> {
 #[doc = "Field `MODER8` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER8_R(crate::FieldReader<u8, u8>);
 impl MODER8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER8_R(crate::FieldReader::new(bits))
     }
@@ -245,6 +253,7 @@ impl<'a> MODER8_W<'a> {
 #[doc = "Field `MODER7` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER7_R(crate::FieldReader<u8, u8>);
 impl MODER7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER7_R(crate::FieldReader::new(bits))
     }
@@ -271,6 +280,7 @@ impl<'a> MODER7_W<'a> {
 #[doc = "Field `MODER6` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER6_R(crate::FieldReader<u8, u8>);
 impl MODER6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER6_R(crate::FieldReader::new(bits))
     }
@@ -297,6 +307,7 @@ impl<'a> MODER6_W<'a> {
 #[doc = "Field `MODER5` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER5_R(crate::FieldReader<u8, u8>);
 impl MODER5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER5_R(crate::FieldReader::new(bits))
     }
@@ -323,6 +334,7 @@ impl<'a> MODER5_W<'a> {
 #[doc = "Field `MODER4` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER4_R(crate::FieldReader<u8, u8>);
 impl MODER4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER4_R(crate::FieldReader::new(bits))
     }
@@ -349,6 +361,7 @@ impl<'a> MODER4_W<'a> {
 #[doc = "Field `MODER3` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER3_R(crate::FieldReader<u8, u8>);
 impl MODER3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER3_R(crate::FieldReader::new(bits))
     }
@@ -375,6 +388,7 @@ impl<'a> MODER3_W<'a> {
 #[doc = "Field `MODER2` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER2_R(crate::FieldReader<u8, u8>);
 impl MODER2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER2_R(crate::FieldReader::new(bits))
     }
@@ -401,6 +415,7 @@ impl<'a> MODER2_W<'a> {
 #[doc = "Field `MODER1` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER1_R(crate::FieldReader<u8, u8>);
 impl MODER1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER1_R(crate::FieldReader::new(bits))
     }
@@ -427,6 +442,7 @@ impl<'a> MODER1_W<'a> {
 #[doc = "Field `MODER0` reader - Port x configuration bits (y = 0..15)"]
 pub struct MODER0_R(crate::FieldReader<u8, u8>);
 impl MODER0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODER0_R(crate::FieldReader::new(bits))
     }

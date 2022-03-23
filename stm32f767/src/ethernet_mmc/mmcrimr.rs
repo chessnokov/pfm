@@ -37,6 +37,7 @@ impl From<crate::W<MMCRIMR_SPEC>> for W {
 #[doc = "Field `RFCEM` reader - RFCEM"]
 pub struct RFCEM_R(crate::FieldReader<bool, bool>);
 impl RFCEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFCEM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RFCEM_W<'a> {
 #[doc = "Field `RFAEM` reader - RFAEM"]
 pub struct RFAEM_R(crate::FieldReader<bool, bool>);
 impl RFAEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RFAEM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RFAEM_W<'a> {
 #[doc = "Field `RGUFM` reader - RGUFM"]
 pub struct RGUFM_R(crate::FieldReader<bool, bool>);
 impl RGUFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RGUFM_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<SR_SPEC>> for R {
 #[doc = "Field `BUSY` reader - Busy bit"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for BUSY_R {
 #[doc = "Field `OFFU` reader - Output FIFO full"]
 pub struct OFFU_R(crate::FieldReader<bool, bool>);
 impl OFFU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFFU_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for OFFU_R {
 #[doc = "Field `OFNE` reader - Output FIFO not empty"]
 pub struct OFNE_R(crate::FieldReader<bool, bool>);
 impl OFNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFNE_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for OFNE_R {
 #[doc = "Field `IFNF` reader - Input FIFO not full"]
 pub struct IFNF_R(crate::FieldReader<bool, bool>);
 impl IFNF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFNF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for IFNF_R {
 #[doc = "Field `IFEM` reader - Input FIFO empty"]
 pub struct IFEM_R(crate::FieldReader<bool, bool>);
 impl IFEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IFEM_R(crate::FieldReader::new(bits))
     }

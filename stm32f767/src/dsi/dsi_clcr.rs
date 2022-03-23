@@ -37,6 +37,7 @@ impl From<crate::W<DSI_CLCR_SPEC>> for W {
 #[doc = "Field `DPCC` reader - D-PHY Clock Control"]
 pub struct DPCC_R(crate::FieldReader<bool, bool>);
 impl DPCC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DPCC_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DPCC_W<'a> {
 #[doc = "Field `ACR` reader - Automatic Clock lane Control"]
 pub struct ACR_R(crate::FieldReader<bool, bool>);
 impl ACR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ACR_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DIER_SPEC>> for W {
 #[doc = "Field `UDE` reader - Update DMA request enable"]
 pub struct UDE_R(crate::FieldReader<bool, bool>);
 impl UDE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UDE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> UDE_W<'a> {
 #[doc = "Field `UIE` reader - Update interrupt enable"]
 pub struct UIE_R(crate::FieldReader<bool, bool>);
 impl UIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UIE_R(crate::FieldReader::new(bits))
     }

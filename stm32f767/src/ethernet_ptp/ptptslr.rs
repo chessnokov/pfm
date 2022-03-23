@@ -16,6 +16,7 @@ impl From<crate::R<PTPTSLR_SPEC>> for R {
 #[doc = "Field `STSS` reader - STSS"]
 pub struct STSS_R(crate::FieldReader<u32, u32>);
 impl STSS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         STSS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for STSS_R {
 #[doc = "Field `STPNS` reader - STPNS"]
 pub struct STPNS_R(crate::FieldReader<bool, bool>);
 impl STPNS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STPNS_R(crate::FieldReader::new(bits))
     }

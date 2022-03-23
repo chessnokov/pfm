@@ -37,6 +37,7 @@ impl From<crate::W<MACA3HR_SPEC>> for W {
 #[doc = "Field `MACA3H` reader - MACA3H"]
 pub struct MACA3H_R(crate::FieldReader<u16, u16>);
 impl MACA3H_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MACA3H_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MACA3H_W<'a> {
 #[doc = "Field `MBC` reader - MBC"]
 pub struct MBC_R(crate::FieldReader<u8, u8>);
 impl MBC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MBC_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> MBC_W<'a> {
 #[doc = "Field `SA` reader - SA"]
 pub struct SA_R(crate::FieldReader<bool, bool>);
 impl SA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SA_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> SA_W<'a> {
 #[doc = "Field `AE` reader - AE"]
 pub struct AE_R(crate::FieldReader<bool, bool>);
 impl AE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AE_R(crate::FieldReader::new(bits))
     }

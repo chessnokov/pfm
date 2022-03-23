@@ -37,6 +37,7 @@ impl From<crate::W<DSI_TCCR2_SPEC>> for W {
 #[doc = "Field `LPRD_TOCNT` reader - Low-Power Read Timeout Counter"]
 pub struct LPRD_TOCNT_R(crate::FieldReader<u16, u16>);
 impl LPRD_TOCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LPRD_TOCNT_R(crate::FieldReader::new(bits))
     }

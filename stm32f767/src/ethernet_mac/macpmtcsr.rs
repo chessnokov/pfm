@@ -37,6 +37,7 @@ impl From<crate::W<MACPMTCSR_SPEC>> for W {
 #[doc = "Field `PD` reader - PD"]
 pub struct PD_R(crate::FieldReader<bool, bool>);
 impl PD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PD_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PD_W<'a> {
 #[doc = "Field `MPE` reader - MPE"]
 pub struct MPE_R(crate::FieldReader<bool, bool>);
 impl MPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MPE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> MPE_W<'a> {
 #[doc = "Field `WFE` reader - WFE"]
 pub struct WFE_R(crate::FieldReader<bool, bool>);
 impl WFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WFE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> WFE_W<'a> {
 #[doc = "Field `MPR` reader - MPR"]
 pub struct MPR_R(crate::FieldReader<bool, bool>);
 impl MPR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MPR_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> MPR_W<'a> {
 #[doc = "Field `WFR` reader - WFR"]
 pub struct WFR_R(crate::FieldReader<bool, bool>);
 impl WFR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WFR_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> WFR_W<'a> {
 #[doc = "Field `GU` reader - GU"]
 pub struct GU_R(crate::FieldReader<bool, bool>);
 impl GU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GU_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> GU_W<'a> {
 #[doc = "Field `WFFRPR` reader - WFFRPR"]
 pub struct WFFRPR_R(crate::FieldReader<bool, bool>);
 impl WFFRPR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WFFRPR_R(crate::FieldReader::new(bits))
     }

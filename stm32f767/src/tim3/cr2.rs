@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `TI1S` reader - TI1 selection"]
 pub struct TI1S_R(crate::FieldReader<bool, bool>);
 impl TI1S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TI1S_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TI1S_W<'a> {
 #[doc = "Field `MMS` reader - Master mode selection"]
 pub struct MMS_R(crate::FieldReader<u8, u8>);
 impl MMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MMS_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> MMS_W<'a> {
 #[doc = "Field `CCDS` reader - Capture/compare DMA selection"]
 pub struct CCDS_R(crate::FieldReader<bool, bool>);
 impl CCDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CCDS_R(crate::FieldReader::new(bits))
     }

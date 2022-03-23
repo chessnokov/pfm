@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `BUSY` reader - Busy bit"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for BUSY_R {
 #[doc = "Field `DMAS` reader - DMA Status"]
 pub struct DMAS_R(crate::FieldReader<bool, bool>);
 impl DMAS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMAS_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for DMAS_R {
 #[doc = "Field `DCIS` reader - Digest calculation completion interrupt status"]
 pub struct DCIS_R(crate::FieldReader<bool, bool>);
 impl DCIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCIS_R(crate::FieldReader::new(bits))
     }
@@ -101,6 +104,7 @@ impl<'a> DCIS_W<'a> {
 #[doc = "Field `DINIS` reader - Data input interrupt status"]
 pub struct DINIS_R(crate::FieldReader<bool, bool>);
 impl DINIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DINIS_R(crate::FieldReader::new(bits))
     }

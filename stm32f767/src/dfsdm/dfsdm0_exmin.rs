@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM0_EXMIN_SPEC>> for R {
 #[doc = "Field `EXMINCH` reader - Extremes detector minimum data channel"]
 pub struct EXMINCH_R(crate::FieldReader<u8, u8>);
 impl EXMINCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXMINCH_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for EXMINCH_R {
 #[doc = "Field `EXMIN` reader - Extremes detector minimum value"]
 pub struct EXMIN_R(crate::FieldReader<u32, u32>);
 impl EXMIN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         EXMIN_R(crate::FieldReader::new(bits))
     }

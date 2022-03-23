@@ -37,6 +37,7 @@ impl From<crate::W<MACMIIDR_SPEC>> for W {
 #[doc = "Field `TD` reader - TD"]
 pub struct TD_R(crate::FieldReader<u16, u16>);
 impl TD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TD_R(crate::FieldReader::new(bits))
     }

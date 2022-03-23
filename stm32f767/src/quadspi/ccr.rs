@@ -37,6 +37,7 @@ impl From<crate::W<CCR_SPEC>> for W {
 #[doc = "Field `DDRM` reader - Double data rate mode"]
 pub struct DDRM_R(crate::FieldReader<bool, bool>);
 impl DDRM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DDRM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DDRM_W<'a> {
 #[doc = "Field `DHHC` reader - DDR hold half cycle"]
 pub struct DHHC_R(crate::FieldReader<bool, bool>);
 impl DHHC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DHHC_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> DHHC_W<'a> {
 #[doc = "Field `SIOO` reader - Send instruction only once mode"]
 pub struct SIOO_R(crate::FieldReader<bool, bool>);
 impl SIOO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SIOO_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> SIOO_W<'a> {
 #[doc = "Field `FMODE` reader - Functional mode"]
 pub struct FMODE_R(crate::FieldReader<u8, u8>);
 impl FMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FMODE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> FMODE_W<'a> {
 #[doc = "Field `DMODE` reader - Data mode"]
 pub struct DMODE_R(crate::FieldReader<u8, u8>);
 impl DMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DMODE_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> DMODE_W<'a> {
 #[doc = "Field `DCYC` reader - Number of dummy cycles"]
 pub struct DCYC_R(crate::FieldReader<u8, u8>);
 impl DCYC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DCYC_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +229,7 @@ impl<'a> DCYC_W<'a> {
 #[doc = "Field `ABSIZE` reader - Alternate bytes size"]
 pub struct ABSIZE_R(crate::FieldReader<u8, u8>);
 impl ABSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ABSIZE_R(crate::FieldReader::new(bits))
     }
@@ -249,6 +256,7 @@ impl<'a> ABSIZE_W<'a> {
 #[doc = "Field `ABMODE` reader - Alternate bytes mode"]
 pub struct ABMODE_R(crate::FieldReader<u8, u8>);
 impl ABMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ABMODE_R(crate::FieldReader::new(bits))
     }
@@ -275,6 +283,7 @@ impl<'a> ABMODE_W<'a> {
 #[doc = "Field `ADSIZE` reader - Address size"]
 pub struct ADSIZE_R(crate::FieldReader<u8, u8>);
 impl ADSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADSIZE_R(crate::FieldReader::new(bits))
     }
@@ -301,6 +310,7 @@ impl<'a> ADSIZE_W<'a> {
 #[doc = "Field `ADMODE` reader - Address mode"]
 pub struct ADMODE_R(crate::FieldReader<u8, u8>);
 impl ADMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADMODE_R(crate::FieldReader::new(bits))
     }
@@ -327,6 +337,7 @@ impl<'a> ADMODE_W<'a> {
 #[doc = "Field `IMODE` reader - Instruction mode"]
 pub struct IMODE_R(crate::FieldReader<u8, u8>);
 impl IMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IMODE_R(crate::FieldReader::new(bits))
     }
@@ -353,6 +364,7 @@ impl<'a> IMODE_W<'a> {
 #[doc = "Field `INSTRUCTION` reader - Instruction"]
 pub struct INSTRUCTION_R(crate::FieldReader<u8, u8>);
 impl INSTRUCTION_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         INSTRUCTION_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_LCCR_SPEC>> for W {
 #[doc = "Field `CMDSIZE` reader - Command Size"]
 pub struct CMDSIZE_R(crate::FieldReader<u16, u16>);
 impl CMDSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CMDSIZE_R(crate::FieldReader::new(bits))
     }

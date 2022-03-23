@@ -37,6 +37,7 @@ impl From<crate::W<CCMR2_INPUT_SPEC>> for W {
 #[doc = "Field `IC4F` reader - Input capture 4 filter"]
 pub struct IC4F_R(crate::FieldReader<u8, u8>);
 impl IC4F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IC4F_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> IC4F_W<'a> {
 #[doc = "Field `IC4PSC` reader - Input capture 4 prescaler"]
 pub struct IC4PSC_R(crate::FieldReader<u8, u8>);
 impl IC4PSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IC4PSC_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> IC4PSC_W<'a> {
 #[doc = "Field `CC4S` reader - Capture/Compare 4 selection"]
 pub struct CC4S_R(crate::FieldReader<u8, u8>);
 impl CC4S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC4S_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> CC4S_W<'a> {
 #[doc = "Field `IC3F` reader - Input capture 3 filter"]
 pub struct IC3F_R(crate::FieldReader<u8, u8>);
 impl IC3F_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IC3F_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> IC3F_W<'a> {
 #[doc = "Field `IC3PSC` reader - Input capture 3 prescaler"]
 pub struct IC3PSC_R(crate::FieldReader<u8, u8>);
 impl IC3PSC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         IC3PSC_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> IC3PSC_W<'a> {
 #[doc = "Field `CC3S` reader - Capture/compare 3 selection"]
 pub struct CC3S_R(crate::FieldReader<u8, u8>);
 impl CC3S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC3S_R(crate::FieldReader::new(bits))
     }

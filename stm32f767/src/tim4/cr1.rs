@@ -37,6 +37,7 @@ impl From<crate::W<CR1_SPEC>> for W {
 #[doc = "Field `CKD` reader - Clock division"]
 pub struct CKD_R(crate::FieldReader<u8, u8>);
 impl CKD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKD_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> CKD_W<'a> {
 #[doc = "Field `ARPE` reader - Auto-reload preload enable"]
 pub struct ARPE_R(crate::FieldReader<bool, bool>);
 impl ARPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARPE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> ARPE_W<'a> {
 #[doc = "Field `CMS` reader - Center-aligned mode selection"]
 pub struct CMS_R(crate::FieldReader<u8, u8>);
 impl CMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CMS_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> CMS_W<'a> {
 #[doc = "Field `DIR` reader - Direction"]
 pub struct DIR_R(crate::FieldReader<bool, bool>);
 impl DIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DIR_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> DIR_W<'a> {
 #[doc = "Field `OPM` reader - One-pulse mode"]
 pub struct OPM_R(crate::FieldReader<bool, bool>);
 impl OPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OPM_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> OPM_W<'a> {
 #[doc = "Field `URS` reader - Update request source"]
 pub struct URS_R(crate::FieldReader<bool, bool>);
 impl URS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         URS_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> URS_W<'a> {
 #[doc = "Field `UDIS` reader - Update disable"]
 pub struct UDIS_R(crate::FieldReader<bool, bool>);
 impl UDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UDIS_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> UDIS_W<'a> {
 #[doc = "Field `CEN` reader - Counter enable"]
 pub struct CEN_R(crate::FieldReader<bool, bool>);
 impl CEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEN_R(crate::FieldReader::new(bits))
     }

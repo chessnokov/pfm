@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `CC1OF` reader - Capture/Compare 1 overcapture flag"]
 pub struct CC1OF_R(crate::FieldReader<bool, bool>);
 impl CC1OF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1OF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CC1OF_W<'a> {
 #[doc = "Field `CC1IF` reader - Capture/compare 1 interrupt flag"]
 pub struct CC1IF_R(crate::FieldReader<bool, bool>);
 impl CC1IF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CC1IF_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CC1IF_W<'a> {
 #[doc = "Field `UIF` reader - Update interrupt flag"]
 pub struct UIF_R(crate::FieldReader<bool, bool>);
 impl UIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UIF_R(crate::FieldReader::new(bits))
     }

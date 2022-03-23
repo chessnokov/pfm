@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `WCKSEL` reader - Wakeup clock selection"]
 pub struct WCKSEL_R(crate::FieldReader<u8, u8>);
 impl WCKSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         WCKSEL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> WCKSEL_W<'a> {
 #[doc = "Field `TSEDGE` reader - Time-stamp event active edge"]
 pub struct TSEDGE_R(crate::FieldReader<bool, bool>);
 impl TSEDGE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSEDGE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> TSEDGE_W<'a> {
 #[doc = "Field `REFCKON` reader - Reference clock detection enable (50 or 60 Hz)"]
 pub struct REFCKON_R(crate::FieldReader<bool, bool>);
 impl REFCKON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REFCKON_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> REFCKON_W<'a> {
 #[doc = "Field `BYPSHAD` reader - Bypass the shadow registers"]
 pub struct BYPSHAD_R(crate::FieldReader<bool, bool>);
 impl BYPSHAD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BYPSHAD_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> BYPSHAD_W<'a> {
 #[doc = "Field `FMT` reader - Hour format"]
 pub struct FMT_R(crate::FieldReader<bool, bool>);
 impl FMT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FMT_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> FMT_W<'a> {
 #[doc = "Field `ALRAE` reader - Alarm A enable"]
 pub struct ALRAE_R(crate::FieldReader<bool, bool>);
 impl ALRAE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRAE_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> ALRAE_W<'a> {
 #[doc = "Field `ALRBE` reader - Alarm B enable"]
 pub struct ALRBE_R(crate::FieldReader<bool, bool>);
 impl ALRBE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRBE_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> ALRBE_W<'a> {
 #[doc = "Field `WUTE` reader - Wakeup timer enable"]
 pub struct WUTE_R(crate::FieldReader<bool, bool>);
 impl WUTE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUTE_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> WUTE_W<'a> {
 #[doc = "Field `TSE` reader - Time stamp enable"]
 pub struct TSE_R(crate::FieldReader<bool, bool>);
 impl TSE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSE_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> TSE_W<'a> {
 #[doc = "Field `ALRAIE` reader - Alarm A interrupt enable"]
 pub struct ALRAIE_R(crate::FieldReader<bool, bool>);
 impl ALRAIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRAIE_R(crate::FieldReader::new(bits))
     }
@@ -387,6 +397,7 @@ impl<'a> ALRAIE_W<'a> {
 #[doc = "Field `ALRBIE` reader - Alarm B interrupt enable"]
 pub struct ALRBIE_R(crate::FieldReader<bool, bool>);
 impl ALRBIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALRBIE_R(crate::FieldReader::new(bits))
     }
@@ -423,6 +434,7 @@ impl<'a> ALRBIE_W<'a> {
 #[doc = "Field `WUTIE` reader - Wakeup timer interrupt enable"]
 pub struct WUTIE_R(crate::FieldReader<bool, bool>);
 impl WUTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WUTIE_R(crate::FieldReader::new(bits))
     }
@@ -459,6 +471,7 @@ impl<'a> WUTIE_W<'a> {
 #[doc = "Field `TSIE` reader - Time-stamp interrupt enable"]
 pub struct TSIE_R(crate::FieldReader<bool, bool>);
 impl TSIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSIE_R(crate::FieldReader::new(bits))
     }
@@ -495,6 +508,7 @@ impl<'a> TSIE_W<'a> {
 #[doc = "Field `ADD1H` reader - Add 1 hour (summer time change)"]
 pub struct ADD1H_R(crate::FieldReader<bool, bool>);
 impl ADD1H_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADD1H_R(crate::FieldReader::new(bits))
     }
@@ -531,6 +545,7 @@ impl<'a> ADD1H_W<'a> {
 #[doc = "Field `SUB1H` reader - Subtract 1 hour (winter time change)"]
 pub struct SUB1H_R(crate::FieldReader<bool, bool>);
 impl SUB1H_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SUB1H_R(crate::FieldReader::new(bits))
     }
@@ -567,6 +582,7 @@ impl<'a> SUB1H_W<'a> {
 #[doc = "Field `BKP` reader - Backup"]
 pub struct BKP_R(crate::FieldReader<bool, bool>);
 impl BKP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BKP_R(crate::FieldReader::new(bits))
     }
@@ -603,6 +619,7 @@ impl<'a> BKP_W<'a> {
 #[doc = "Field `COSEL` reader - Calibration output selection"]
 pub struct COSEL_R(crate::FieldReader<bool, bool>);
 impl COSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COSEL_R(crate::FieldReader::new(bits))
     }
@@ -639,6 +656,7 @@ impl<'a> COSEL_W<'a> {
 #[doc = "Field `POL` reader - Output polarity"]
 pub struct POL_R(crate::FieldReader<bool, bool>);
 impl POL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         POL_R(crate::FieldReader::new(bits))
     }
@@ -675,6 +693,7 @@ impl<'a> POL_W<'a> {
 #[doc = "Field `OSEL` reader - Output selection"]
 pub struct OSEL_R(crate::FieldReader<u8, u8>);
 impl OSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSEL_R(crate::FieldReader::new(bits))
     }
@@ -701,6 +720,7 @@ impl<'a> OSEL_W<'a> {
 #[doc = "Field `COE` reader - Calibration output enable"]
 pub struct COE_R(crate::FieldReader<bool, bool>);
 impl COE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         COE_R(crate::FieldReader::new(bits))
     }
@@ -737,6 +757,7 @@ impl<'a> COE_W<'a> {
 #[doc = "Field `ITSE` reader - timestamp on internal event enable"]
 pub struct ITSE_R(crate::FieldReader<bool, bool>);
 impl ITSE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ITSE_R(crate::FieldReader::new(bits))
     }

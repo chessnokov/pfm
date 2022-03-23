@@ -37,6 +37,7 @@ impl From<crate::W<HIFCR_SPEC>> for W {
 #[doc = "Field `CTCIF7` reader - Stream x clear transfer complete interrupt flag (x = 7..4)"]
 pub struct CTCIF7_R(crate::FieldReader<bool, bool>);
 impl CTCIF7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIF7_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CTCIF7_W<'a> {
 #[doc = "Field `CHTIF7` reader - Stream x clear half transfer interrupt flag (x = 7..4)"]
 pub struct CHTIF7_R(crate::FieldReader<bool, bool>);
 impl CHTIF7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHTIF7_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CHTIF7_W<'a> {
 #[doc = "Field `CTEIF7` reader - Stream x clear transfer error interrupt flag (x = 7..4)"]
 pub struct CTEIF7_R(crate::FieldReader<bool, bool>);
 impl CTEIF7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEIF7_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CTEIF7_W<'a> {
 #[doc = "Field `CDMEIF7` reader - Stream x clear direct mode error interrupt flag (x = 7..4)"]
 pub struct CDMEIF7_R(crate::FieldReader<bool, bool>);
 impl CDMEIF7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CDMEIF7_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CDMEIF7_W<'a> {
 #[doc = "Field `CFEIF7` reader - Stream x clear FIFO error interrupt flag (x = 7..4)"]
 pub struct CFEIF7_R(crate::FieldReader<bool, bool>);
 impl CFEIF7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CFEIF7_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> CFEIF7_W<'a> {
 #[doc = "Field `CTCIF6` reader - Stream x clear transfer complete interrupt flag (x = 7..4)"]
 pub struct CTCIF6_R(crate::FieldReader<bool, bool>);
 impl CTCIF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIF6_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> CTCIF6_W<'a> {
 #[doc = "Field `CHTIF6` reader - Stream x clear half transfer interrupt flag (x = 7..4)"]
 pub struct CHTIF6_R(crate::FieldReader<bool, bool>);
 impl CHTIF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHTIF6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> CHTIF6_W<'a> {
 #[doc = "Field `CTEIF6` reader - Stream x clear transfer error interrupt flag (x = 7..4)"]
 pub struct CTEIF6_R(crate::FieldReader<bool, bool>);
 impl CTEIF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEIF6_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> CTEIF6_W<'a> {
 #[doc = "Field `CDMEIF6` reader - Stream x clear direct mode error interrupt flag (x = 7..4)"]
 pub struct CDMEIF6_R(crate::FieldReader<bool, bool>);
 impl CDMEIF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CDMEIF6_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> CDMEIF6_W<'a> {
 #[doc = "Field `CFEIF6` reader - Stream x clear FIFO error interrupt flag (x = 7..4)"]
 pub struct CFEIF6_R(crate::FieldReader<bool, bool>);
 impl CFEIF6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CFEIF6_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> CFEIF6_W<'a> {
 #[doc = "Field `CTCIF5` reader - Stream x clear transfer complete interrupt flag (x = 7..4)"]
 pub struct CTCIF5_R(crate::FieldReader<bool, bool>);
 impl CTCIF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIF5_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> CTCIF5_W<'a> {
 #[doc = "Field `CHTIF5` reader - Stream x clear half transfer interrupt flag (x = 7..4)"]
 pub struct CHTIF5_R(crate::FieldReader<bool, bool>);
 impl CHTIF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHTIF5_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> CHTIF5_W<'a> {
 #[doc = "Field `CTEIF5` reader - Stream x clear transfer error interrupt flag (x = 7..4)"]
 pub struct CTEIF5_R(crate::FieldReader<bool, bool>);
 impl CTEIF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEIF5_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> CTEIF5_W<'a> {
 #[doc = "Field `CDMEIF5` reader - Stream x clear direct mode error interrupt flag (x = 7..4)"]
 pub struct CDMEIF5_R(crate::FieldReader<bool, bool>);
 impl CDMEIF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CDMEIF5_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> CDMEIF5_W<'a> {
 #[doc = "Field `CFEIF5` reader - Stream x clear FIFO error interrupt flag (x = 7..4)"]
 pub struct CFEIF5_R(crate::FieldReader<bool, bool>);
 impl CFEIF5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CFEIF5_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> CFEIF5_W<'a> {
 #[doc = "Field `CTCIF4` reader - Stream x clear transfer complete interrupt flag (x = 7..4)"]
 pub struct CTCIF4_R(crate::FieldReader<bool, bool>);
 impl CTCIF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIF4_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> CTCIF4_W<'a> {
 #[doc = "Field `CHTIF4` reader - Stream x clear half transfer interrupt flag (x = 7..4)"]
 pub struct CHTIF4_R(crate::FieldReader<bool, bool>);
 impl CHTIF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHTIF4_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> CHTIF4_W<'a> {
 #[doc = "Field `CTEIF4` reader - Stream x clear transfer error interrupt flag (x = 7..4)"]
 pub struct CTEIF4_R(crate::FieldReader<bool, bool>);
 impl CTEIF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTEIF4_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> CTEIF4_W<'a> {
 #[doc = "Field `CDMEIF4` reader - Stream x clear direct mode error interrupt flag (x = 7..4)"]
 pub struct CDMEIF4_R(crate::FieldReader<bool, bool>);
 impl CDMEIF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CDMEIF4_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> CDMEIF4_W<'a> {
 #[doc = "Field `CFEIF4` reader - Stream x clear FIFO error interrupt flag (x = 7..4)"]
 pub struct CFEIF4_R(crate::FieldReader<bool, bool>);
 impl CFEIF4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CFEIF4_R(crate::FieldReader::new(bits))
     }

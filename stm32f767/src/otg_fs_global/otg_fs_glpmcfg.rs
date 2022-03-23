@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GLPMCFG_SPEC>> for W {
 #[doc = "Field `LPMEN` reader - LPM support enable"]
 pub struct LPMEN_R(crate::FieldReader<bool, bool>);
 impl LPMEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPMEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LPMEN_W<'a> {
 #[doc = "Field `LPMACK` reader - LPM token acknowledge enable"]
 pub struct LPMACK_R(crate::FieldReader<bool, bool>);
 impl LPMACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPMACK_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> LPMACK_W<'a> {
 #[doc = "Field `BESL` reader - Best effort service latency"]
 pub struct BESL_R(crate::FieldReader<u8, u8>);
 impl BESL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BESL_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> BESL_W<'a> {
 #[doc = "Field `REMWAKE` reader - bRemoteWake value"]
 pub struct REMWAKE_R(crate::FieldReader<bool, bool>);
 impl REMWAKE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REMWAKE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> REMWAKE_W<'a> {
 #[doc = "Field `L1SSEN` reader - L1 Shallow Sleep enable"]
 pub struct L1SSEN_R(crate::FieldReader<bool, bool>);
 impl L1SSEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         L1SSEN_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> L1SSEN_W<'a> {
 #[doc = "Field `BESLTHRS` reader - BESL threshold"]
 pub struct BESLTHRS_R(crate::FieldReader<u8, u8>);
 impl BESLTHRS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BESLTHRS_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> BESLTHRS_W<'a> {
 #[doc = "Field `L1DSEN` reader - L1 deep sleep enable"]
 pub struct L1DSEN_R(crate::FieldReader<bool, bool>);
 impl L1DSEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         L1DSEN_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> L1DSEN_W<'a> {
 #[doc = "Field `LPMRST` reader - LPM response"]
 pub struct LPMRST_R(crate::FieldReader<u8, u8>);
 impl LPMRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPMRST_R(crate::FieldReader::new(bits))
     }
@@ -283,6 +291,7 @@ impl core::ops::Deref for LPMRST_R {
 #[doc = "Field `SLPSTS` reader - Port sleep status"]
 pub struct SLPSTS_R(crate::FieldReader<bool, bool>);
 impl SLPSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SLPSTS_R(crate::FieldReader::new(bits))
     }
@@ -297,6 +306,7 @@ impl core::ops::Deref for SLPSTS_R {
 #[doc = "Field `L1RSMOK` reader - Sleep State Resume OK"]
 pub struct L1RSMOK_R(crate::FieldReader<bool, bool>);
 impl L1RSMOK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         L1RSMOK_R(crate::FieldReader::new(bits))
     }
@@ -311,6 +321,7 @@ impl core::ops::Deref for L1RSMOK_R {
 #[doc = "Field `LPMCHIDX` reader - LPM Channel Index"]
 pub struct LPMCHIDX_R(crate::FieldReader<u8, u8>);
 impl LPMCHIDX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPMCHIDX_R(crate::FieldReader::new(bits))
     }
@@ -337,6 +348,7 @@ impl<'a> LPMCHIDX_W<'a> {
 #[doc = "Field `LPMRCNT` reader - LPM retry count"]
 pub struct LPMRCNT_R(crate::FieldReader<u8, u8>);
 impl LPMRCNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPMRCNT_R(crate::FieldReader::new(bits))
     }
@@ -363,6 +375,7 @@ impl<'a> LPMRCNT_W<'a> {
 #[doc = "Field `SNDLPM` reader - Send LPM transaction"]
 pub struct SNDLPM_R(crate::FieldReader<bool, bool>);
 impl SNDLPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SNDLPM_R(crate::FieldReader::new(bits))
     }
@@ -399,6 +412,7 @@ impl<'a> SNDLPM_W<'a> {
 #[doc = "Field `LPMRCNTSTS` reader - LPM retry count status"]
 pub struct LPMRCNTSTS_R(crate::FieldReader<u8, u8>);
 impl LPMRCNTSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPMRCNTSTS_R(crate::FieldReader::new(bits))
     }
@@ -413,6 +427,7 @@ impl core::ops::Deref for LPMRCNTSTS_R {
 #[doc = "Field `ENBESL` reader - Enable best effort service latency"]
 pub struct ENBESL_R(crate::FieldReader<bool, bool>);
 impl ENBESL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ENBESL_R(crate::FieldReader::new(bits))
     }

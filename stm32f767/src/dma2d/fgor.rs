@@ -37,6 +37,7 @@ impl From<crate::W<FGOR_SPEC>> for W {
 #[doc = "Field `LO` reader - Line offset"]
 pub struct LO_R(crate::FieldReader<u16, u16>);
 impl LO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LO_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<AWCR_SPEC>> for W {
 #[doc = "Field `AAV` reader - AAV"]
 pub struct AAV_R(crate::FieldReader<u16, u16>);
 impl AAV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         AAV_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> AAV_W<'a> {
 #[doc = "Field `AAH` reader - Accumulated Active Height (in units of horizontal scan line)"]
 pub struct AAH_R(crate::FieldReader<u16, u16>);
 impl AAH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         AAH_R(crate::FieldReader::new(bits))
     }

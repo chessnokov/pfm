@@ -37,6 +37,7 @@ impl From<crate::W<DSI_CMCR_SPEC>> for W {
 #[doc = "Field `TEARE` reader - Tearing Effect Acknowledge Request Enable"]
 pub struct TEARE_R(crate::FieldReader<bool, bool>);
 impl TEARE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEARE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TEARE_W<'a> {
 #[doc = "Field `ARE` reader - Acknowledge Request Enable"]
 pub struct ARE_R(crate::FieldReader<bool, bool>);
 impl ARE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ARE_W<'a> {
 #[doc = "Field `GSW0TX` reader - Generic Short Write Zero parameters Transmission"]
 pub struct GSW0TX_R(crate::FieldReader<bool, bool>);
 impl GSW0TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GSW0TX_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> GSW0TX_W<'a> {
 #[doc = "Field `GSW1TX` reader - Generic Short Write One parameters Transmission"]
 pub struct GSW1TX_R(crate::FieldReader<bool, bool>);
 impl GSW1TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GSW1TX_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> GSW1TX_W<'a> {
 #[doc = "Field `GSW2TX` reader - Generic Short Write Two parameters Transmission"]
 pub struct GSW2TX_R(crate::FieldReader<bool, bool>);
 impl GSW2TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GSW2TX_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> GSW2TX_W<'a> {
 #[doc = "Field `GSR0TX` reader - Generic Short Read Zero parameters Transmission"]
 pub struct GSR0TX_R(crate::FieldReader<bool, bool>);
 impl GSR0TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GSR0TX_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> GSR0TX_W<'a> {
 #[doc = "Field `GSR1TX` reader - Generic Short Read One parameters Transmission"]
 pub struct GSR1TX_R(crate::FieldReader<bool, bool>);
 impl GSR1TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GSR1TX_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> GSR1TX_W<'a> {
 #[doc = "Field `GSR2TX` reader - Generic Short Read Two parameters Transmission"]
 pub struct GSR2TX_R(crate::FieldReader<bool, bool>);
 impl GSR2TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GSR2TX_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> GSR2TX_W<'a> {
 #[doc = "Field `GLWTX` reader - Generic Long Write Transmission"]
 pub struct GLWTX_R(crate::FieldReader<bool, bool>);
 impl GLWTX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GLWTX_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> GLWTX_W<'a> {
 #[doc = "Field `DSW0TX` reader - DCS Short Write Zero parameter Transmission"]
 pub struct DSW0TX_R(crate::FieldReader<bool, bool>);
 impl DSW0TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DSW0TX_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> DSW0TX_W<'a> {
 #[doc = "Field `DSW1TX` reader - DCS Short Read One parameter Transmission"]
 pub struct DSW1TX_R(crate::FieldReader<bool, bool>);
 impl DSW1TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DSW1TX_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> DSW1TX_W<'a> {
 #[doc = "Field `DSR0TX` reader - DCS Short Read Zero parameter Transmission"]
 pub struct DSR0TX_R(crate::FieldReader<bool, bool>);
 impl DSR0TX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DSR0TX_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> DSR0TX_W<'a> {
 #[doc = "Field `DLWTX` reader - DCS Long Write Transmission"]
 pub struct DLWTX_R(crate::FieldReader<bool, bool>);
 impl DLWTX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DLWTX_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> DLWTX_W<'a> {
 #[doc = "Field `MRDPS` reader - Maximum Read Packet Size"]
 pub struct MRDPS_R(crate::FieldReader<bool, bool>);
 impl MRDPS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MRDPS_R(crate::FieldReader::new(bits))
     }

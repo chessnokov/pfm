@@ -37,6 +37,7 @@ impl From<crate::W<BPCR_SPEC>> for W {
 #[doc = "Field `AHBP` reader - Accumulated Horizontal back porch (in units of pixel clock period)"]
 pub struct AHBP_R(crate::FieldReader<u16, u16>);
 impl AHBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         AHBP_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> AHBP_W<'a> {
 #[doc = "Field `AVBP` reader - Accumulated Vertical back porch (in units of horizontal scan line)"]
 pub struct AVBP_R(crate::FieldReader<u16, u16>);
 impl AVBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         AVBP_R(crate::FieldReader::new(bits))
     }

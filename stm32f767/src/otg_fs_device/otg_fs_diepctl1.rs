@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_DIEPCTL1_SPEC>> for W {
 #[doc = "Field `EPENA` reader - EPENA"]
 pub struct EPENA_R(crate::FieldReader<bool, bool>);
 impl EPENA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPENA_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EPENA_W<'a> {
 #[doc = "Field `EPDIS` reader - EPDIS"]
 pub struct EPDIS_R(crate::FieldReader<bool, bool>);
 impl EPDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDIS_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +199,7 @@ impl<'a> CNAK_W<'a> {
 #[doc = "Field `TXFNUM` reader - TXFNUM"]
 pub struct TXFNUM_R(crate::FieldReader<u8, u8>);
 impl TXFNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TXFNUM_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +226,7 @@ impl<'a> TXFNUM_W<'a> {
 #[doc = "Field `Stall` reader - Stall"]
 pub struct STALL_R(crate::FieldReader<bool, bool>);
 impl STALL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STALL_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +263,7 @@ impl<'a> STALL_W<'a> {
 #[doc = "Field `EPTYP` reader - EPTYP"]
 pub struct EPTYP_R(crate::FieldReader<u8, u8>);
 impl EPTYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EPTYP_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +290,7 @@ impl<'a> EPTYP_W<'a> {
 #[doc = "Field `NAKSTS` reader - NAKSTS"]
 pub struct NAKSTS_R(crate::FieldReader<bool, bool>);
 impl NAKSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NAKSTS_R(crate::FieldReader::new(bits))
     }
@@ -299,6 +305,7 @@ impl core::ops::Deref for NAKSTS_R {
 #[doc = "Field `EONUM_DPID` reader - EONUM/DPID"]
 pub struct EONUM_DPID_R(crate::FieldReader<bool, bool>);
 impl EONUM_DPID_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EONUM_DPID_R(crate::FieldReader::new(bits))
     }
@@ -313,6 +320,7 @@ impl core::ops::Deref for EONUM_DPID_R {
 #[doc = "Field `USBAEP` reader - USBAEP"]
 pub struct USBAEP_R(crate::FieldReader<bool, bool>);
 impl USBAEP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USBAEP_R(crate::FieldReader::new(bits))
     }
@@ -349,6 +357,7 @@ impl<'a> USBAEP_W<'a> {
 #[doc = "Field `MPSIZ` reader - MPSIZ"]
 pub struct MPSIZ_R(crate::FieldReader<u16, u16>);
 impl MPSIZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MPSIZ_R(crate::FieldReader::new(bits))
     }

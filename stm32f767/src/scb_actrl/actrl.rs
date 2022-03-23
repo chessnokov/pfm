@@ -37,6 +37,7 @@ impl From<crate::W<ACTRL_SPEC>> for W {
 #[doc = "Field `DISFOLD` reader - DISFOLD"]
 pub struct DISFOLD_R(crate::FieldReader<bool, bool>);
 impl DISFOLD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DISFOLD_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DISFOLD_W<'a> {
 #[doc = "Field `FPEXCODIS` reader - FPEXCODIS"]
 pub struct FPEXCODIS_R(crate::FieldReader<bool, bool>);
 impl FPEXCODIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FPEXCODIS_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> FPEXCODIS_W<'a> {
 #[doc = "Field `DISRAMODE` reader - DISRAMODE"]
 pub struct DISRAMODE_R(crate::FieldReader<bool, bool>);
 impl DISRAMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DISRAMODE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> DISRAMODE_W<'a> {
 #[doc = "Field `DISITMATBFLUSH` reader - DISITMATBFLUSH"]
 pub struct DISITMATBFLUSH_R(crate::FieldReader<bool, bool>);
 impl DISITMATBFLUSH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DISITMATBFLUSH_R(crate::FieldReader::new(bits))
     }

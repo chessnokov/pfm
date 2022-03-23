@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM_AWSCD4R_SPEC>> for W {
 #[doc = "Field `SCDT` reader - short-circuit detector threshold for channel 4"]
 pub struct SCDT_R(crate::FieldReader<u8, u8>);
 impl SCDT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SCDT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SCDT_W<'a> {
 #[doc = "Field `BKSCD` reader - Break signal assignment for short-circuit detector on channel 4"]
 pub struct BKSCD_R(crate::FieldReader<u8, u8>);
 impl BKSCD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BKSCD_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> BKSCD_W<'a> {
 #[doc = "Field `AWFOSR` reader - Analog watchdog filter oversampling ratio (decimation rate) on channel 4"]
 pub struct AWFOSR_R(crate::FieldReader<u8, u8>);
 impl AWFOSR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AWFOSR_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> AWFOSR_W<'a> {
 #[doc = "Field `AWFORD` reader - Analog watchdog Sinc filter order on channel 4"]
 pub struct AWFORD_R(crate::FieldReader<u8, u8>);
 impl AWFORD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AWFORD_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DKCFGR2_SPEC>> for W {
 #[doc = "Field `USART1SEL` reader - USART 1 clock source selection"]
 pub struct USART1SEL_R(crate::FieldReader<u8, u8>);
 impl USART1SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         USART1SEL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> USART1SEL_W<'a> {
 #[doc = "Field `USART2SEL` reader - USART 2 clock source selection"]
 pub struct USART2SEL_R(crate::FieldReader<u8, u8>);
 impl USART2SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         USART2SEL_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> USART2SEL_W<'a> {
 #[doc = "Field `USART3SEL` reader - USART 3 clock source selection"]
 pub struct USART3SEL_R(crate::FieldReader<u8, u8>);
 impl USART3SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         USART3SEL_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> USART3SEL_W<'a> {
 #[doc = "Field `UART4SEL` reader - UART 4 clock source selection"]
 pub struct UART4SEL_R(crate::FieldReader<u8, u8>);
 impl UART4SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UART4SEL_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> UART4SEL_W<'a> {
 #[doc = "Field `UART5SEL` reader - UART 5 clock source selection"]
 pub struct UART5SEL_R(crate::FieldReader<u8, u8>);
 impl UART5SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UART5SEL_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> UART5SEL_W<'a> {
 #[doc = "Field `USART6SEL` reader - USART 6 clock source selection"]
 pub struct USART6SEL_R(crate::FieldReader<u8, u8>);
 impl USART6SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         USART6SEL_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +199,7 @@ impl<'a> USART6SEL_W<'a> {
 #[doc = "Field `UART7SEL` reader - UART 7 clock source selection"]
 pub struct UART7SEL_R(crate::FieldReader<u8, u8>);
 impl UART7SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UART7SEL_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +226,7 @@ impl<'a> UART7SEL_W<'a> {
 #[doc = "Field `UART8SEL` reader - UART 8 clock source selection"]
 pub struct UART8SEL_R(crate::FieldReader<u8, u8>);
 impl UART8SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         UART8SEL_R(crate::FieldReader::new(bits))
     }
@@ -245,6 +253,7 @@ impl<'a> UART8SEL_W<'a> {
 #[doc = "Field `I2C1SEL` reader - I2C1 clock source selection"]
 pub struct I2C1SEL_R(crate::FieldReader<u8, u8>);
 impl I2C1SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2C1SEL_R(crate::FieldReader::new(bits))
     }
@@ -271,6 +280,7 @@ impl<'a> I2C1SEL_W<'a> {
 #[doc = "Field `I2C2SEL` reader - I2C2 clock source selection"]
 pub struct I2C2SEL_R(crate::FieldReader<u8, u8>);
 impl I2C2SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2C2SEL_R(crate::FieldReader::new(bits))
     }
@@ -297,6 +307,7 @@ impl<'a> I2C2SEL_W<'a> {
 #[doc = "Field `I2C3SEL` reader - I2C3 clock source selection"]
 pub struct I2C3SEL_R(crate::FieldReader<u8, u8>);
 impl I2C3SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2C3SEL_R(crate::FieldReader::new(bits))
     }
@@ -323,6 +334,7 @@ impl<'a> I2C3SEL_W<'a> {
 #[doc = "Field `I2C4SEL` reader - I2C4 clock source selection"]
 pub struct I2C4SEL_R(crate::FieldReader<u8, u8>);
 impl I2C4SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2C4SEL_R(crate::FieldReader::new(bits))
     }
@@ -349,6 +361,7 @@ impl<'a> I2C4SEL_W<'a> {
 #[doc = "Field `LPTIM1SEL` reader - Low power timer 1 clock source selection"]
 pub struct LPTIM1SEL_R(crate::FieldReader<u8, u8>);
 impl LPTIM1SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LPTIM1SEL_R(crate::FieldReader::new(bits))
     }
@@ -375,6 +388,7 @@ impl<'a> LPTIM1SEL_W<'a> {
 #[doc = "Field `CECSEL` reader - HDMI-CEC clock source selection"]
 pub struct CECSEL_R(crate::FieldReader<bool, bool>);
 impl CECSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CECSEL_R(crate::FieldReader::new(bits))
     }
@@ -411,6 +425,7 @@ impl<'a> CECSEL_W<'a> {
 #[doc = "Field `CK48MSEL` reader - 48MHz clock source selection"]
 pub struct CK48MSEL_R(crate::FieldReader<bool, bool>);
 impl CK48MSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CK48MSEL_R(crate::FieldReader::new(bits))
     }
@@ -447,6 +462,7 @@ impl<'a> CK48MSEL_W<'a> {
 #[doc = "Field `SDMMCSEL` reader - SDMMC clock source selection"]
 pub struct SDMMCSEL_R(crate::FieldReader<bool, bool>);
 impl SDMMCSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDMMCSEL_R(crate::FieldReader::new(bits))
     }
@@ -483,6 +499,7 @@ impl<'a> SDMMCSEL_W<'a> {
 #[doc = "Field `SDMMC2SEL` reader - SDMMC2 clock source selection"]
 pub struct SDMMC2SEL_R(crate::FieldReader<bool, bool>);
 impl SDMMC2SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDMMC2SEL_R(crate::FieldReader::new(bits))
     }
@@ -519,6 +536,7 @@ impl<'a> SDMMC2SEL_W<'a> {
 #[doc = "Field `DSISEL` reader - DSI clock source selection"]
 pub struct DSISEL_R(crate::FieldReader<bool, bool>);
 impl DSISEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DSISEL_R(crate::FieldReader::new(bits))
     }

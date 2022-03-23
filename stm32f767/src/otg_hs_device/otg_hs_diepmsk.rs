@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DIEPMSK_SPEC>> for W {
 #[doc = "Field `XFRCM` reader - Transfer completed interrupt mask"]
 pub struct XFRCM_R(crate::FieldReader<bool, bool>);
 impl XFRCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRCM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> XFRCM_W<'a> {
 #[doc = "Field `EPDM` reader - Endpoint disabled interrupt mask"]
 pub struct EPDM_R(crate::FieldReader<bool, bool>);
 impl EPDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> EPDM_W<'a> {
 #[doc = "Field `TOM` reader - Timeout condition mask (nonisochronous endpoints)"]
 pub struct TOM_R(crate::FieldReader<bool, bool>);
 impl TOM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOM_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TOM_W<'a> {
 #[doc = "Field `ITTXFEMSK` reader - IN token received when TxFIFO empty mask"]
 pub struct ITTXFEMSK_R(crate::FieldReader<bool, bool>);
 impl ITTXFEMSK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ITTXFEMSK_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ITTXFEMSK_W<'a> {
 #[doc = "Field `INEPNMM` reader - IN token received with EP mismatch mask"]
 pub struct INEPNMM_R(crate::FieldReader<bool, bool>);
 impl INEPNMM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INEPNMM_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> INEPNMM_W<'a> {
 #[doc = "Field `INEPNEM` reader - IN endpoint NAK effective mask"]
 pub struct INEPNEM_R(crate::FieldReader<bool, bool>);
 impl INEPNEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INEPNEM_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> INEPNEM_W<'a> {
 #[doc = "Field `TXFURM` reader - FIFO underrun mask"]
 pub struct TXFURM_R(crate::FieldReader<bool, bool>);
 impl TXFURM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFURM_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> TXFURM_W<'a> {
 #[doc = "Field `BIM` reader - BNA interrupt mask"]
 pub struct BIM_R(crate::FieldReader<bool, bool>);
 impl BIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BIM_R(crate::FieldReader::new(bits))
     }

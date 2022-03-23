@@ -37,6 +37,7 @@ impl From<crate::W<CNT_SPEC>> for W {
 #[doc = "Field `CNT` reader - Low counter value"]
 pub struct CNT_R(crate::FieldReader<u16, u16>);
 impl CNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CNT_R(crate::FieldReader::new(bits))
     }

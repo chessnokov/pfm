@@ -37,6 +37,7 @@ impl From<crate::W<ESUR_SPEC>> for W {
 #[doc = "Field `FEU` reader - Frame end delimiter unmask"]
 pub struct FEU_R(crate::FieldReader<u8, u8>);
 impl FEU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FEU_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> FEU_W<'a> {
 #[doc = "Field `LEU` reader - Line end delimiter unmask"]
 pub struct LEU_R(crate::FieldReader<u8, u8>);
 impl LEU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LEU_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> LEU_W<'a> {
 #[doc = "Field `LSU` reader - Line start delimiter unmask"]
 pub struct LSU_R(crate::FieldReader<u8, u8>);
 impl LSU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LSU_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> LSU_W<'a> {
 #[doc = "Field `FSU` reader - Frame start delimiter unmask"]
 pub struct FSU_R(crate::FieldReader<u8, u8>);
 impl FSU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FSU_R(crate::FieldReader::new(bits))
     }

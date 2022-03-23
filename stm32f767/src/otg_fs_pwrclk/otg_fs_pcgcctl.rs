@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_PCGCCTL_SPEC>> for W {
 #[doc = "Field `STPPCLK` reader - Stop PHY clock"]
 pub struct STPPCLK_R(crate::FieldReader<bool, bool>);
 impl STPPCLK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STPPCLK_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> STPPCLK_W<'a> {
 #[doc = "Field `GATEHCLK` reader - Gate HCLK"]
 pub struct GATEHCLK_R(crate::FieldReader<bool, bool>);
 impl GATEHCLK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GATEHCLK_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> GATEHCLK_W<'a> {
 #[doc = "Field `PHYSUSP` reader - PHY Suspended"]
 pub struct PHYSUSP_R(crate::FieldReader<bool, bool>);
 impl PHYSUSP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PHYSUSP_R(crate::FieldReader::new(bits))
     }

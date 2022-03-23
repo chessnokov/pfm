@@ -37,6 +37,7 @@ impl From<crate::W<IMR_SPEC>> for W {
 #[doc = "Field `DCIE` reader - Digest calculation completion interrupt enable"]
 pub struct DCIE_R(crate::FieldReader<bool, bool>);
 impl DCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DCIE_W<'a> {
 #[doc = "Field `DINIE` reader - Data input interrupt enable"]
 pub struct DINIE_R(crate::FieldReader<bool, bool>);
 impl DINIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DINIE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_DIEPINT4_SPEC>> for W {
 #[doc = "Field `TXFE` reader - TXFE"]
 pub struct TXFE_R(crate::FieldReader<bool, bool>);
 impl TXFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFE_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for TXFE_R {
 #[doc = "Field `INEPNE` reader - INEPNE"]
 pub struct INEPNE_R(crate::FieldReader<bool, bool>);
 impl INEPNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         INEPNE_R(crate::FieldReader::new(bits))
     }
@@ -87,6 +89,7 @@ impl<'a> INEPNE_W<'a> {
 #[doc = "Field `ITTXFE` reader - ITTXFE"]
 pub struct ITTXFE_R(crate::FieldReader<bool, bool>);
 impl ITTXFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ITTXFE_R(crate::FieldReader::new(bits))
     }
@@ -123,6 +126,7 @@ impl<'a> ITTXFE_W<'a> {
 #[doc = "Field `TOC` reader - TOC"]
 pub struct TOC_R(crate::FieldReader<bool, bool>);
 impl TOC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOC_R(crate::FieldReader::new(bits))
     }
@@ -159,6 +163,7 @@ impl<'a> TOC_W<'a> {
 #[doc = "Field `EPDISD` reader - EPDISD"]
 pub struct EPDISD_R(crate::FieldReader<bool, bool>);
 impl EPDISD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDISD_R(crate::FieldReader::new(bits))
     }
@@ -195,6 +200,7 @@ impl<'a> EPDISD_W<'a> {
 #[doc = "Field `XFRC` reader - XFRC"]
 pub struct XFRC_R(crate::FieldReader<bool, bool>);
 impl XFRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         XFRC_R(crate::FieldReader::new(bits))
     }

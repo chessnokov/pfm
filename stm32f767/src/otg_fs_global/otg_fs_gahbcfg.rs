@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GAHBCFG_SPEC>> for W {
 #[doc = "Field `GINT` reader - Global interrupt mask"]
 pub struct GINT_R(crate::FieldReader<bool, bool>);
 impl GINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GINT_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> GINT_W<'a> {
 #[doc = "Field `TXFELVL` reader - TxFIFO empty level"]
 pub struct TXFELVL_R(crate::FieldReader<bool, bool>);
 impl TXFELVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXFELVL_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TXFELVL_W<'a> {
 #[doc = "Field `PTXFELVL` reader - Periodic TxFIFO empty level"]
 pub struct PTXFELVL_R(crate::FieldReader<bool, bool>);
 impl PTXFELVL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PTXFELVL_R(crate::FieldReader::new(bits))
     }

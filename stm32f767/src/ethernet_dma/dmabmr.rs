@@ -37,6 +37,7 @@ impl From<crate::W<DMABMR_SPEC>> for W {
 #[doc = "Field `SR` reader - SR"]
 pub struct SR_R(crate::FieldReader<bool, bool>);
 impl SR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SR_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SR_W<'a> {
 #[doc = "Field `DA` reader - DA"]
 pub struct DA_R(crate::FieldReader<bool, bool>);
 impl DA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DA_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> DA_W<'a> {
 #[doc = "Field `DSL` reader - DSL"]
 pub struct DSL_R(crate::FieldReader<u8, u8>);
 impl DSL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DSL_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> DSL_W<'a> {
 #[doc = "Field `EDFE` reader - EDFE"]
 pub struct EDFE_R(crate::FieldReader<bool, bool>);
 impl EDFE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EDFE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> EDFE_W<'a> {
 #[doc = "Field `PBL` reader - PBL"]
 pub struct PBL_R(crate::FieldReader<u8, u8>);
 impl PBL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PBL_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> PBL_W<'a> {
 #[doc = "Field `RTPR` reader - RTPR"]
 pub struct RTPR_R(crate::FieldReader<u8, u8>);
 impl RTPR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RTPR_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +229,7 @@ impl<'a> RTPR_W<'a> {
 #[doc = "Field `FB` reader - FB"]
 pub struct FB_R(crate::FieldReader<bool, bool>);
 impl FB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FB_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> FB_W<'a> {
 #[doc = "Field `RDP` reader - RDP"]
 pub struct RDP_R(crate::FieldReader<u8, u8>);
 impl RDP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RDP_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +293,7 @@ impl<'a> RDP_W<'a> {
 #[doc = "Field `USP` reader - USP"]
 pub struct USP_R(crate::FieldReader<bool, bool>);
 impl USP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USP_R(crate::FieldReader::new(bits))
     }
@@ -321,6 +330,7 @@ impl<'a> USP_W<'a> {
 #[doc = "Field `FPM` reader - FPM"]
 pub struct FPM_R(crate::FieldReader<bool, bool>);
 impl FPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FPM_R(crate::FieldReader::new(bits))
     }
@@ -357,6 +367,7 @@ impl<'a> FPM_W<'a> {
 #[doc = "Field `AAB` reader - AAB"]
 pub struct AAB_R(crate::FieldReader<bool, bool>);
 impl AAB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AAB_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +404,7 @@ impl<'a> AAB_W<'a> {
 #[doc = "Field `MB` reader - MB"]
 pub struct MB_R(crate::FieldReader<bool, bool>);
 impl MB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MB_R(crate::FieldReader::new(bits))
     }

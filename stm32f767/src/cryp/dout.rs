@@ -16,6 +16,7 @@ impl From<crate::R<DOUT_SPEC>> for R {
 #[doc = "Field `DATAOUT` reader - Data output"]
 pub struct DATAOUT_R(crate::FieldReader<u32, u32>);
 impl DATAOUT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         DATAOUT_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - Data output"]
     #[inline(always)]
     pub fn dataout(&self) -> DATAOUT_R {
-        DATAOUT_R::new((self.bits & 0xffff_ffff) as u32)
+        DATAOUT_R::new(self.bits)
     }
 }
 #[doc = "data output register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dout](index.html) module"]

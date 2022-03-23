@@ -16,6 +16,7 @@ impl From<crate::R<SDSR_SPEC>> for R {
 #[doc = "Field `RE` reader - Refresh error flag"]
 pub struct RE_R(crate::FieldReader<bool, bool>);
 impl RE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for RE_R {
 #[doc = "Field `MODES1` reader - Status Mode for Bank 1"]
 pub struct MODES1_R(crate::FieldReader<u8, u8>);
 impl MODES1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODES1_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for MODES1_R {
 #[doc = "Field `MODES2` reader - Status Mode for Bank 2"]
 pub struct MODES2_R(crate::FieldReader<u8, u8>);
 impl MODES2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODES2_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for MODES2_R {
 #[doc = "Field `BUSY` reader - Busy status"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }

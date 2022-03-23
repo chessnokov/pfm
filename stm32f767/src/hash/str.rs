@@ -59,6 +59,7 @@ impl<'a> DCAL_W<'a> {
 #[doc = "Field `NBLW` reader - Number of valid bits in the last word of the message"]
 pub struct NBLW_R(crate::FieldReader<u8, u8>);
 impl NBLW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         NBLW_R(crate::FieldReader::new(bits))
     }

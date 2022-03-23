@@ -16,6 +16,7 @@ impl From<crate::R<MMCTIR_SPEC>> for R {
 #[doc = "Field `TGFSCS` reader - TGFSCS"]
 pub struct TGFSCS_R(crate::FieldReader<bool, bool>);
 impl TGFSCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGFSCS_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for TGFSCS_R {
 #[doc = "Field `TGFMSCS` reader - TGFMSCS"]
 pub struct TGFMSCS_R(crate::FieldReader<bool, bool>);
 impl TGFMSCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGFMSCS_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for TGFMSCS_R {
 #[doc = "Field `TGFS` reader - TGFS"]
 pub struct TGFS_R(crate::FieldReader<bool, bool>);
 impl TGFS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGFS_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<SR_SPEC>> for R {
 #[doc = "Field `FLEVEL` reader - FIFO level"]
 pub struct FLEVEL_R(crate::FieldReader<u8, u8>);
 impl FLEVEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FLEVEL_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for FLEVEL_R {
 #[doc = "Field `BUSY` reader - Busy"]
 pub struct BUSY_R(crate::FieldReader<bool, bool>);
 impl BUSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BUSY_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for BUSY_R {
 #[doc = "Field `TOF` reader - Timeout flag"]
 pub struct TOF_R(crate::FieldReader<bool, bool>);
 impl TOF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TOF_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for TOF_R {
 #[doc = "Field `SMF` reader - Status match flag"]
 pub struct SMF_R(crate::FieldReader<bool, bool>);
 impl SMF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SMF_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for SMF_R {
 #[doc = "Field `FTF` reader - FIFO threshold flag"]
 pub struct FTF_R(crate::FieldReader<bool, bool>);
 impl FTF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FTF_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for FTF_R {
 #[doc = "Field `TCF` reader - Transfer complete flag"]
 pub struct TCF_R(crate::FieldReader<bool, bool>);
 impl TCF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCF_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for TCF_R {
 #[doc = "Field `TEF` reader - Transfer error flag"]
 pub struct TEF_R(crate::FieldReader<bool, bool>);
 impl TEF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEF_R(crate::FieldReader::new(bits))
     }

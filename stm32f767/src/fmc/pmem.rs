@@ -37,6 +37,7 @@ impl From<crate::W<PMEM_SPEC>> for W {
 #[doc = "Field `MEMHIZx` reader - MEMHIZx"]
 pub struct MEMHIZX_R(crate::FieldReader<u8, u8>);
 impl MEMHIZX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MEMHIZX_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MEMHIZX_W<'a> {
 #[doc = "Field `MEMHOLDx` reader - MEMHOLDx"]
 pub struct MEMHOLDX_R(crate::FieldReader<u8, u8>);
 impl MEMHOLDX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MEMHOLDX_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> MEMHOLDX_W<'a> {
 #[doc = "Field `MEMWAITx` reader - MEMWAITx"]
 pub struct MEMWAITX_R(crate::FieldReader<u8, u8>);
 impl MEMWAITX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MEMWAITX_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> MEMWAITX_W<'a> {
 #[doc = "Field `MEMSETx` reader - MEMSETx"]
 pub struct MEMSETX_R(crate::FieldReader<u8, u8>);
 impl MEMSETX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MEMSETX_R(crate::FieldReader::new(bits))
     }

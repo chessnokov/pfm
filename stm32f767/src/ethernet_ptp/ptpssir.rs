@@ -37,6 +37,7 @@ impl From<crate::W<PTPSSIR_SPEC>> for W {
 #[doc = "Field `STSSI` reader - STSSI"]
 pub struct STSSI_R(crate::FieldReader<u8, u8>);
 impl STSSI_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         STSSI_R(crate::FieldReader::new(bits))
     }

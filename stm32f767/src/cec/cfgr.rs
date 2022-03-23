@@ -37,6 +37,7 @@ impl From<crate::W<CFGR_SPEC>> for W {
 #[doc = "Field `SFT` reader - Signal Free Time"]
 pub struct SFT_R(crate::FieldReader<u8, u8>);
 impl SFT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SFT_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SFT_W<'a> {
 #[doc = "Field `RXTOL` reader - Rx-Tolerance"]
 pub struct RXTOL_R(crate::FieldReader<bool, bool>);
 impl RXTOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXTOL_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> RXTOL_W<'a> {
 #[doc = "Field `BRESTP` reader - Rx-stop on bit rising error"]
 pub struct BRESTP_R(crate::FieldReader<bool, bool>);
 impl BRESTP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BRESTP_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> BRESTP_W<'a> {
 #[doc = "Field `BREGEN` reader - Generate error-bit on bit rising error"]
 pub struct BREGEN_R(crate::FieldReader<bool, bool>);
 impl BREGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BREGEN_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> BREGEN_W<'a> {
 #[doc = "Field `LBPEGEN` reader - Generate Error-Bit on Long Bit Period Error"]
 pub struct LBPEGEN_R(crate::FieldReader<bool, bool>);
 impl LBPEGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBPEGEN_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> LBPEGEN_W<'a> {
 #[doc = "Field `BRDNOGEN` reader - Avoid Error-Bit Generation in Broadcast"]
 pub struct BRDNOGEN_R(crate::FieldReader<bool, bool>);
 impl BRDNOGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BRDNOGEN_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> BRDNOGEN_W<'a> {
 #[doc = "Field `SFTOP` reader - SFT Option Bit"]
 pub struct SFTOP_R(crate::FieldReader<bool, bool>);
 impl SFTOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SFTOP_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> SFTOP_W<'a> {
 #[doc = "Field `OAR` reader - Own addresses configuration"]
 pub struct OAR_R(crate::FieldReader<u16, u16>);
 impl OAR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         OAR_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> OAR_W<'a> {
 #[doc = "Field `LSTN` reader - Listen mode"]
 pub struct LSTN_R(crate::FieldReader<bool, bool>);
 impl LSTN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LSTN_R(crate::FieldReader::new(bits))
     }

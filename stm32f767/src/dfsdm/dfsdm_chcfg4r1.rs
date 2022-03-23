@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM_CHCFG4R1_SPEC>> for W {
 #[doc = "Field `SITP` reader - Serial interface type for channel 4"]
 pub struct SITP_R(crate::FieldReader<u8, u8>);
 impl SITP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SITP_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SITP_W<'a> {
 #[doc = "Field `SPICKSEL` reader - SPI clock select for channel 4"]
 pub struct SPICKSEL_R(crate::FieldReader<u8, u8>);
 impl SPICKSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SPICKSEL_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> SPICKSEL_W<'a> {
 #[doc = "Field `SCDEN` reader - Short-circuit detector enable on channel 4"]
 pub struct SCDEN_R(crate::FieldReader<bool, bool>);
 impl SCDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SCDEN_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> SCDEN_W<'a> {
 #[doc = "Field `CKABEN` reader - Clock absence detector enable on channel 4"]
 pub struct CKABEN_R(crate::FieldReader<bool, bool>);
 impl CKABEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKABEN_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> CKABEN_W<'a> {
 #[doc = "Field `CHEN` reader - Channel 4 enable"]
 pub struct CHEN_R(crate::FieldReader<bool, bool>);
 impl CHEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHEN_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> CHEN_W<'a> {
 #[doc = "Field `CHINSEL` reader - Channel inputs selection"]
 pub struct CHINSEL_R(crate::FieldReader<bool, bool>);
 impl CHINSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CHINSEL_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> CHINSEL_W<'a> {
 #[doc = "Field `DATMPX` reader - Input data multiplexer for channel 4"]
 pub struct DATMPX_R(crate::FieldReader<u8, u8>);
 impl DATMPX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATMPX_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> DATMPX_W<'a> {
 #[doc = "Field `DATPACK` reader - Data packing mode in DFSDM_CHDATINyR register"]
 pub struct DATPACK_R(crate::FieldReader<u8, u8>);
 impl DATPACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATPACK_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +293,7 @@ impl<'a> DATPACK_W<'a> {
 #[doc = "Field `CKOUTDIV` reader - Output serial clock divider"]
 pub struct CKOUTDIV_R(crate::FieldReader<u8, u8>);
 impl CKOUTDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CKOUTDIV_R(crate::FieldReader::new(bits))
     }
@@ -311,6 +320,7 @@ impl<'a> CKOUTDIV_W<'a> {
 #[doc = "Field `CKOUTSRC` reader - Output serial clock source selection"]
 pub struct CKOUTSRC_R(crate::FieldReader<bool, bool>);
 impl CKOUTSRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKOUTSRC_R(crate::FieldReader::new(bits))
     }
@@ -347,6 +357,7 @@ impl<'a> CKOUTSRC_W<'a> {
 #[doc = "Field `DFSDMEN` reader - Global enable for DFSDM interface"]
 pub struct DFSDMEN_R(crate::FieldReader<bool, bool>);
 impl DFSDMEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DFSDMEN_R(crate::FieldReader::new(bits))
     }

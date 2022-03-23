@@ -37,6 +37,7 @@ impl From<crate::W<AHB3ENR_SPEC>> for W {
 #[doc = "Field `FMCEN` reader - Flexible memory controller module clock enable"]
 pub struct FMCEN_R(crate::FieldReader<bool, bool>);
 impl FMCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FMCEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FMCEN_W<'a> {
 #[doc = "Field `QSPIEN` reader - Quad SPI memory controller clock enable"]
 pub struct QSPIEN_R(crate::FieldReader<bool, bool>);
 impl QSPIEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         QSPIEN_R(crate::FieldReader::new(bits))
     }

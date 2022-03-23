@@ -37,6 +37,7 @@ impl From<crate::W<BIM_SPEC>> for W {
 #[doc = "Field `LFSDETIE` reader - Late frame synchronization detection interrupt enable"]
 pub struct LFSDETIE_R(crate::FieldReader<bool, bool>);
 impl LFSDETIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LFSDETIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LFSDETIE_W<'a> {
 #[doc = "Field `AFSDETIE` reader - Anticipated frame synchronization detection interrupt enable"]
 pub struct AFSDETIE_R(crate::FieldReader<bool, bool>);
 impl AFSDETIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AFSDETIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> AFSDETIE_W<'a> {
 #[doc = "Field `CNRDYIE` reader - Codec not ready interrupt enable"]
 pub struct CNRDYIE_R(crate::FieldReader<bool, bool>);
 impl CNRDYIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CNRDYIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CNRDYIE_W<'a> {
 #[doc = "Field `FREQIE` reader - FIFO request interrupt enable"]
 pub struct FREQIE_R(crate::FieldReader<bool, bool>);
 impl FREQIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FREQIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> FREQIE_W<'a> {
 #[doc = "Field `WCKCFG` reader - Wrong clock configuration interrupt enable"]
 pub struct WCKCFG_R(crate::FieldReader<bool, bool>);
 impl WCKCFG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WCKCFG_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> WCKCFG_W<'a> {
 #[doc = "Field `MUTEDET` reader - Mute detection interrupt enable"]
 pub struct MUTEDET_R(crate::FieldReader<bool, bool>);
 impl MUTEDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MUTEDET_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> MUTEDET_W<'a> {
 #[doc = "Field `OVRUDRIE` reader - Overrun/underrun interrupt enable"]
 pub struct OVRUDRIE_R(crate::FieldReader<bool, bool>);
 impl OVRUDRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVRUDRIE_R(crate::FieldReader::new(bits))
     }

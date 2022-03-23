@@ -37,6 +37,7 @@ impl From<crate::W<PRER_SPEC>> for W {
 #[doc = "Field `PREDIV_A` reader - Asynchronous prescaler factor"]
 pub struct PREDIV_A_R(crate::FieldReader<u8, u8>);
 impl PREDIV_A_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PREDIV_A_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> PREDIV_A_W<'a> {
 #[doc = "Field `PREDIV_S` reader - Synchronous prescaler factor"]
 pub struct PREDIV_S_R(crate::FieldReader<u16, u16>);
 impl PREDIV_S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         PREDIV_S_R(crate::FieldReader::new(bits))
     }

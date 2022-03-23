@@ -37,6 +37,7 @@ impl From<crate::W<IV0RR_SPEC>> for W {
 #[doc = "Field `IV63` reader - IV63"]
 pub struct IV63_R(crate::FieldReader<bool, bool>);
 impl IV63_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV63_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> IV63_W<'a> {
 #[doc = "Field `IV62` reader - IV62"]
 pub struct IV62_R(crate::FieldReader<bool, bool>);
 impl IV62_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV62_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> IV62_W<'a> {
 #[doc = "Field `IV61` reader - IV61"]
 pub struct IV61_R(crate::FieldReader<bool, bool>);
 impl IV61_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV61_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> IV61_W<'a> {
 #[doc = "Field `IV60` reader - IV60"]
 pub struct IV60_R(crate::FieldReader<bool, bool>);
 impl IV60_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV60_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> IV60_W<'a> {
 #[doc = "Field `IV59` reader - IV59"]
 pub struct IV59_R(crate::FieldReader<bool, bool>);
 impl IV59_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV59_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> IV59_W<'a> {
 #[doc = "Field `IV58` reader - IV58"]
 pub struct IV58_R(crate::FieldReader<bool, bool>);
 impl IV58_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV58_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> IV58_W<'a> {
 #[doc = "Field `IV57` reader - IV57"]
 pub struct IV57_R(crate::FieldReader<bool, bool>);
 impl IV57_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV57_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> IV57_W<'a> {
 #[doc = "Field `IV56` reader - IV56"]
 pub struct IV56_R(crate::FieldReader<bool, bool>);
 impl IV56_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV56_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> IV56_W<'a> {
 #[doc = "Field `IV55` reader - IV55"]
 pub struct IV55_R(crate::FieldReader<bool, bool>);
 impl IV55_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV55_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> IV55_W<'a> {
 #[doc = "Field `IV54` reader - IV54"]
 pub struct IV54_R(crate::FieldReader<bool, bool>);
 impl IV54_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV54_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> IV54_W<'a> {
 #[doc = "Field `IV53` reader - IV53"]
 pub struct IV53_R(crate::FieldReader<bool, bool>);
 impl IV53_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV53_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> IV53_W<'a> {
 #[doc = "Field `IV52` reader - IV52"]
 pub struct IV52_R(crate::FieldReader<bool, bool>);
 impl IV52_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV52_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> IV52_W<'a> {
 #[doc = "Field `IV51` reader - IV51"]
 pub struct IV51_R(crate::FieldReader<bool, bool>);
 impl IV51_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV51_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> IV51_W<'a> {
 #[doc = "Field `IV50` reader - IV50"]
 pub struct IV50_R(crate::FieldReader<bool, bool>);
 impl IV50_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV50_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> IV50_W<'a> {
 #[doc = "Field `IV49` reader - IV49"]
 pub struct IV49_R(crate::FieldReader<bool, bool>);
 impl IV49_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV49_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> IV49_W<'a> {
 #[doc = "Field `IV48` reader - IV48"]
 pub struct IV48_R(crate::FieldReader<bool, bool>);
 impl IV48_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV48_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> IV48_W<'a> {
 #[doc = "Field `IV47` reader - IV47"]
 pub struct IV47_R(crate::FieldReader<bool, bool>);
 impl IV47_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV47_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> IV47_W<'a> {
 #[doc = "Field `IV46` reader - IV46"]
 pub struct IV46_R(crate::FieldReader<bool, bool>);
 impl IV46_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV46_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> IV46_W<'a> {
 #[doc = "Field `IV45` reader - IV45"]
 pub struct IV45_R(crate::FieldReader<bool, bool>);
 impl IV45_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV45_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> IV45_W<'a> {
 #[doc = "Field `IV44` reader - IV44"]
 pub struct IV44_R(crate::FieldReader<bool, bool>);
 impl IV44_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV44_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> IV44_W<'a> {
 #[doc = "Field `IV43` reader - IV43"]
 pub struct IV43_R(crate::FieldReader<bool, bool>);
 impl IV43_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV43_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> IV43_W<'a> {
 #[doc = "Field `IV42` reader - IV42"]
 pub struct IV42_R(crate::FieldReader<bool, bool>);
 impl IV42_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV42_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> IV42_W<'a> {
 #[doc = "Field `IV41` reader - IV41"]
 pub struct IV41_R(crate::FieldReader<bool, bool>);
 impl IV41_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV41_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> IV41_W<'a> {
 #[doc = "Field `IV40` reader - IV40"]
 pub struct IV40_R(crate::FieldReader<bool, bool>);
 impl IV40_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV40_R(crate::FieldReader::new(bits))
     }
@@ -901,6 +925,7 @@ impl<'a> IV40_W<'a> {
 #[doc = "Field `IV39` reader - IV39"]
 pub struct IV39_R(crate::FieldReader<bool, bool>);
 impl IV39_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV39_R(crate::FieldReader::new(bits))
     }
@@ -937,6 +962,7 @@ impl<'a> IV39_W<'a> {
 #[doc = "Field `IV38` reader - IV38"]
 pub struct IV38_R(crate::FieldReader<bool, bool>);
 impl IV38_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV38_R(crate::FieldReader::new(bits))
     }
@@ -973,6 +999,7 @@ impl<'a> IV38_W<'a> {
 #[doc = "Field `IV37` reader - IV37"]
 pub struct IV37_R(crate::FieldReader<bool, bool>);
 impl IV37_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV37_R(crate::FieldReader::new(bits))
     }
@@ -1009,6 +1036,7 @@ impl<'a> IV37_W<'a> {
 #[doc = "Field `IV36` reader - IV36"]
 pub struct IV36_R(crate::FieldReader<bool, bool>);
 impl IV36_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV36_R(crate::FieldReader::new(bits))
     }
@@ -1045,6 +1073,7 @@ impl<'a> IV36_W<'a> {
 #[doc = "Field `IV35` reader - IV35"]
 pub struct IV35_R(crate::FieldReader<bool, bool>);
 impl IV35_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV35_R(crate::FieldReader::new(bits))
     }
@@ -1081,6 +1110,7 @@ impl<'a> IV35_W<'a> {
 #[doc = "Field `IV34` reader - IV34"]
 pub struct IV34_R(crate::FieldReader<bool, bool>);
 impl IV34_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV34_R(crate::FieldReader::new(bits))
     }
@@ -1117,6 +1147,7 @@ impl<'a> IV34_W<'a> {
 #[doc = "Field `IV33` reader - IV33"]
 pub struct IV33_R(crate::FieldReader<bool, bool>);
 impl IV33_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV33_R(crate::FieldReader::new(bits))
     }
@@ -1153,6 +1184,7 @@ impl<'a> IV33_W<'a> {
 #[doc = "Field `IV32` reader - IV32"]
 pub struct IV32_R(crate::FieldReader<bool, bool>);
 impl IV32_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IV32_R(crate::FieldReader::new(bits))
     }

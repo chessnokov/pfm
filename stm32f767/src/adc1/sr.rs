@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `OVR` reader - Overrun"]
 pub struct OVR_R(crate::FieldReader<bool, bool>);
 impl OVR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OVR_W<'a> {
 #[doc = "Field `STRT` reader - Regular channel start flag"]
 pub struct STRT_R(crate::FieldReader<bool, bool>);
 impl STRT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STRT_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> STRT_W<'a> {
 #[doc = "Field `JSTRT` reader - Injected channel start flag"]
 pub struct JSTRT_R(crate::FieldReader<bool, bool>);
 impl JSTRT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JSTRT_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> JSTRT_W<'a> {
 #[doc = "Field `JEOC` reader - Injected channel end of conversion"]
 pub struct JEOC_R(crate::FieldReader<bool, bool>);
 impl JEOC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JEOC_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> JEOC_W<'a> {
 #[doc = "Field `EOC` reader - Regular channel end of conversion"]
 pub struct EOC_R(crate::FieldReader<bool, bool>);
 impl EOC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOC_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> EOC_W<'a> {
 #[doc = "Field `AWD` reader - Analog watchdog flag"]
 pub struct AWD_R(crate::FieldReader<bool, bool>);
 impl AWD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWD_R(crate::FieldReader::new(bits))
     }

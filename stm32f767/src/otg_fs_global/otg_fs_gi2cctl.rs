@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GI2CCTL_SPEC>> for W {
 #[doc = "Field `RWDATA` reader - I2C Read/Write Data"]
 pub struct RWDATA_R(crate::FieldReader<u8, u8>);
 impl RWDATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RWDATA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> RWDATA_W<'a> {
 #[doc = "Field `REGADDR` reader - I2C Register Address"]
 pub struct REGADDR_R(crate::FieldReader<u8, u8>);
 impl REGADDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         REGADDR_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> REGADDR_W<'a> {
 #[doc = "Field `ADDR` reader - I2C Address"]
 pub struct ADDR_R(crate::FieldReader<u8, u8>);
 impl ADDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADDR_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> ADDR_W<'a> {
 #[doc = "Field `I2CEN` reader - I2C Enable"]
 pub struct I2CEN_R(crate::FieldReader<bool, bool>);
 impl I2CEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2CEN_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> I2CEN_W<'a> {
 #[doc = "Field `ACK` reader - I2C ACK"]
 pub struct ACK_R(crate::FieldReader<bool, bool>);
 impl ACK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ACK_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> ACK_W<'a> {
 #[doc = "Field `I2CDEVADR` reader - I2C Device Address"]
 pub struct I2CDEVADR_R(crate::FieldReader<u8, u8>);
 impl I2CDEVADR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         I2CDEVADR_R(crate::FieldReader::new(bits))
     }
@@ -213,6 +219,7 @@ impl<'a> I2CDEVADR_W<'a> {
 #[doc = "Field `I2CDATSE0` reader - I2C DatSe0 USB mode"]
 pub struct I2CDATSE0_R(crate::FieldReader<bool, bool>);
 impl I2CDATSE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2CDATSE0_R(crate::FieldReader::new(bits))
     }
@@ -249,6 +256,7 @@ impl<'a> I2CDATSE0_W<'a> {
 #[doc = "Field `RW` reader - Read/Write Indicator"]
 pub struct RW_R(crate::FieldReader<bool, bool>);
 impl RW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RW_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +293,7 @@ impl<'a> RW_W<'a> {
 #[doc = "Field `BSYDNE` reader - I2C Busy/Done"]
 pub struct BSYDNE_R(crate::FieldReader<bool, bool>);
 impl BSYDNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BSYDNE_R(crate::FieldReader::new(bits))
     }

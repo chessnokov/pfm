@@ -37,6 +37,7 @@ impl From<crate::W<MACFFR_SPEC>> for W {
 #[doc = "Field `PM` reader - PM"]
 pub struct PM_R(crate::FieldReader<bool, bool>);
 impl PM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PM_W<'a> {
 #[doc = "Field `HU` reader - HU"]
 pub struct HU_R(crate::FieldReader<bool, bool>);
 impl HU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HU_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> HU_W<'a> {
 #[doc = "Field `HM` reader - HM"]
 pub struct HM_R(crate::FieldReader<bool, bool>);
 impl HM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HM_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> HM_W<'a> {
 #[doc = "Field `DAIF` reader - DAIF"]
 pub struct DAIF_R(crate::FieldReader<bool, bool>);
 impl DAIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DAIF_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> DAIF_W<'a> {
 #[doc = "Field `RAM` reader - RAM"]
 pub struct RAM_R(crate::FieldReader<bool, bool>);
 impl RAM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RAM_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> RAM_W<'a> {
 #[doc = "Field `BFD` reader - BFD"]
 pub struct BFD_R(crate::FieldReader<bool, bool>);
 impl BFD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BFD_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> BFD_W<'a> {
 #[doc = "Field `PCF` reader - PCF"]
 pub struct PCF_R(crate::FieldReader<bool, bool>);
 impl PCF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCF_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> PCF_W<'a> {
 #[doc = "Field `SAIF` reader - SAIF"]
 pub struct SAIF_R(crate::FieldReader<bool, bool>);
 impl SAIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAIF_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> SAIF_W<'a> {
 #[doc = "Field `SAF` reader - SAF"]
 pub struct SAF_R(crate::FieldReader<bool, bool>);
 impl SAF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAF_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SAF_W<'a> {
 #[doc = "Field `HPF` reader - HPF"]
 pub struct HPF_R(crate::FieldReader<bool, bool>);
 impl HPF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HPF_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> HPF_W<'a> {
 #[doc = "Field `RA` reader - RA"]
 pub struct RA_R(crate::FieldReader<bool, bool>);
 impl RA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RA_R(crate::FieldReader::new(bits))
     }

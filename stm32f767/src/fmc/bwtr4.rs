@@ -37,6 +37,7 @@ impl From<crate::W<BWTR4_SPEC>> for W {
 #[doc = "Field `ACCMOD` reader - ACCMOD"]
 pub struct ACCMOD_R(crate::FieldReader<u8, u8>);
 impl ACCMOD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ACCMOD_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> ACCMOD_W<'a> {
 #[doc = "Field `DATLAT` reader - DATLAT"]
 pub struct DATLAT_R(crate::FieldReader<u8, u8>);
 impl DATLAT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATLAT_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> DATLAT_W<'a> {
 #[doc = "Field `CLKDIV` reader - CLKDIV"]
 pub struct CLKDIV_R(crate::FieldReader<u8, u8>);
 impl CLKDIV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CLKDIV_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> CLKDIV_W<'a> {
 #[doc = "Field `DATAST` reader - DATAST"]
 pub struct DATAST_R(crate::FieldReader<u8, u8>);
 impl DATAST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATAST_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> DATAST_W<'a> {
 #[doc = "Field `ADDHLD` reader - ADDHLD"]
 pub struct ADDHLD_R(crate::FieldReader<u8, u8>);
 impl ADDHLD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADDHLD_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> ADDHLD_W<'a> {
 #[doc = "Field `ADDSET` reader - ADDSET"]
 pub struct ADDSET_R(crate::FieldReader<u8, u8>);
 impl ADDSET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ADDSET_R(crate::FieldReader::new(bits))
     }

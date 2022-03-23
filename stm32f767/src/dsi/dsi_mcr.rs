@@ -37,6 +37,7 @@ impl From<crate::W<DSI_MCR_SPEC>> for W {
 #[doc = "Field `CMDM` reader - Command mode"]
 pub struct CMDM_R(crate::FieldReader<bool, bool>);
 impl CMDM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMDM_R(crate::FieldReader::new(bits))
     }

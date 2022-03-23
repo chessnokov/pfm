@@ -37,6 +37,7 @@ impl From<crate::W<DCR_SPEC>> for W {
 #[doc = "Field `FSIZE` reader - FLASH memory size"]
 pub struct FSIZE_R(crate::FieldReader<u8, u8>);
 impl FSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FSIZE_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> FSIZE_W<'a> {
 #[doc = "Field `CSHT` reader - Chip select high time"]
 pub struct CSHT_R(crate::FieldReader<u8, u8>);
 impl CSHT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CSHT_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> CSHT_W<'a> {
 #[doc = "Field `CKMODE` reader - Mode 0 / mode 3"]
 pub struct CKMODE_R(crate::FieldReader<bool, bool>);
 impl CKMODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CKMODE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DFSDM0_AWLTR_SPEC>> for W {
 #[doc = "Field `BKAWL` reader - Break signal assignment to analog watchdog low threshold event"]
 pub struct BKAWL_R(crate::FieldReader<u8, u8>);
 impl BKAWL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BKAWL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> BKAWL_W<'a> {
 #[doc = "Field `AWLT` reader - Analog watchdog low threshold"]
 pub struct AWLT_R(crate::FieldReader<u32, u32>);
 impl AWLT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         AWLT_R(crate::FieldReader::new(bits))
     }

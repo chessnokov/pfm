@@ -37,6 +37,7 @@ impl From<crate::W<MACSR_SPEC>> for W {
 #[doc = "Field `PMTS` reader - PMTS"]
 pub struct PMTS_R(crate::FieldReader<bool, bool>);
 impl PMTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PMTS_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for PMTS_R {
 #[doc = "Field `MMCS` reader - MMCS"]
 pub struct MMCS_R(crate::FieldReader<bool, bool>);
 impl MMCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MMCS_R(crate::FieldReader::new(bits))
     }
@@ -65,6 +67,7 @@ impl core::ops::Deref for MMCS_R {
 #[doc = "Field `MMCRS` reader - MMCRS"]
 pub struct MMCRS_R(crate::FieldReader<bool, bool>);
 impl MMCRS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MMCRS_R(crate::FieldReader::new(bits))
     }
@@ -79,6 +82,7 @@ impl core::ops::Deref for MMCRS_R {
 #[doc = "Field `MMCTS` reader - MMCTS"]
 pub struct MMCTS_R(crate::FieldReader<bool, bool>);
 impl MMCTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MMCTS_R(crate::FieldReader::new(bits))
     }
@@ -93,6 +97,7 @@ impl core::ops::Deref for MMCTS_R {
 #[doc = "Field `TSTS` reader - TSTS"]
 pub struct TSTS_R(crate::FieldReader<bool, bool>);
 impl TSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TSTS_R(crate::FieldReader::new(bits))
     }

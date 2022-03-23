@@ -16,6 +16,7 @@ impl From<crate::R<DR_SPEC>> for R {
 #[doc = "Field `RNDATA` reader - Random data"]
 pub struct RNDATA_R(crate::FieldReader<u32, u32>);
 impl RNDATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         RNDATA_R(crate::FieldReader::new(bits))
     }
@@ -31,7 +32,7 @@ impl R {
     #[doc = "Bits 0:31 - Random data"]
     #[inline(always)]
     pub fn rndata(&self) -> RNDATA_R {
-        RNDATA_R::new((self.bits & 0xffff_ffff) as u32)
+        RNDATA_R::new(self.bits)
     }
 }
 #[doc = "data register\n\nThis register you can [`read`](crate::generic::Reg::read). See [API](https://docs.rs/svd2rust/#read--modify--write-api).\n\nFor information about available fields see [dr](index.html) module"]

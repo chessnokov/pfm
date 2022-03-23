@@ -37,6 +37,7 @@ impl From<crate::W<AHB1LPENR_SPEC>> for W {
 #[doc = "Field `GPIOALPEN` reader - IO port A clock enable during sleep mode"]
 pub struct GPIOALPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOALPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOALPEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> GPIOALPEN_W<'a> {
 #[doc = "Field `GPIOBLPEN` reader - IO port B clock enable during Sleep mode"]
 pub struct GPIOBLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOBLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOBLPEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> GPIOBLPEN_W<'a> {
 #[doc = "Field `GPIOCLPEN` reader - IO port C clock enable during Sleep mode"]
 pub struct GPIOCLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOCLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOCLPEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> GPIOCLPEN_W<'a> {
 #[doc = "Field `GPIODLPEN` reader - IO port D clock enable during Sleep mode"]
 pub struct GPIODLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIODLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIODLPEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> GPIODLPEN_W<'a> {
 #[doc = "Field `GPIOELPEN` reader - IO port E clock enable during Sleep mode"]
 pub struct GPIOELPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOELPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOELPEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> GPIOELPEN_W<'a> {
 #[doc = "Field `GPIOFLPEN` reader - IO port F clock enable during Sleep mode"]
 pub struct GPIOFLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOFLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOFLPEN_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> GPIOFLPEN_W<'a> {
 #[doc = "Field `GPIOGLPEN` reader - IO port G clock enable during Sleep mode"]
 pub struct GPIOGLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOGLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOGLPEN_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> GPIOGLPEN_W<'a> {
 #[doc = "Field `GPIOHLPEN` reader - IO port H clock enable during Sleep mode"]
 pub struct GPIOHLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOHLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOHLPEN_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> GPIOHLPEN_W<'a> {
 #[doc = "Field `GPIOILPEN` reader - IO port I clock enable during Sleep mode"]
 pub struct GPIOILPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOILPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOILPEN_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> GPIOILPEN_W<'a> {
 #[doc = "Field `GPIOJLPEN` reader - IO port J clock enable during Sleep mode"]
 pub struct GPIOJLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOJLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOJLPEN_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> GPIOJLPEN_W<'a> {
 #[doc = "Field `GPIOKLPEN` reader - IO port K clock enable during Sleep mode"]
 pub struct GPIOKLPEN_R(crate::FieldReader<bool, bool>);
 impl GPIOKLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOKLPEN_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> GPIOKLPEN_W<'a> {
 #[doc = "Field `CRCLPEN` reader - CRC clock enable during Sleep mode"]
 pub struct CRCLPEN_R(crate::FieldReader<bool, bool>);
 impl CRCLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCLPEN_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> CRCLPEN_W<'a> {
 #[doc = "Field `FLITFLPEN` reader - Flash interface clock enable during Sleep mode"]
 pub struct FLITFLPEN_R(crate::FieldReader<bool, bool>);
 impl FLITFLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FLITFLPEN_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> FLITFLPEN_W<'a> {
 #[doc = "Field `SRAM1LPEN` reader - SRAM 1interface clock enable during Sleep mode"]
 pub struct SRAM1LPEN_R(crate::FieldReader<bool, bool>);
 impl SRAM1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRAM1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> SRAM1LPEN_W<'a> {
 #[doc = "Field `SRAM2LPEN` reader - SRAM 2 interface clock enable during Sleep mode"]
 pub struct SRAM2LPEN_R(crate::FieldReader<bool, bool>);
 impl SRAM2LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRAM2LPEN_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> SRAM2LPEN_W<'a> {
 #[doc = "Field `BKPSRAMLPEN` reader - Backup SRAM interface clock enable during Sleep mode"]
 pub struct BKPSRAMLPEN_R(crate::FieldReader<bool, bool>);
 impl BKPSRAMLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BKPSRAMLPEN_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> BKPSRAMLPEN_W<'a> {
 #[doc = "Field `SRAM3LPEN` reader - SRAM 3 interface clock enable during Sleep mode"]
 pub struct SRAM3LPEN_R(crate::FieldReader<bool, bool>);
 impl SRAM3LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRAM3LPEN_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> SRAM3LPEN_W<'a> {
 #[doc = "Field `DMA1LPEN` reader - DMA1 clock enable during Sleep mode"]
 pub struct DMA1LPEN_R(crate::FieldReader<bool, bool>);
 impl DMA1LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA1LPEN_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> DMA1LPEN_W<'a> {
 #[doc = "Field `DMA2LPEN` reader - DMA2 clock enable during Sleep mode"]
 pub struct DMA2LPEN_R(crate::FieldReader<bool, bool>);
 impl DMA2LPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA2LPEN_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> DMA2LPEN_W<'a> {
 #[doc = "Field `DMA2DLPEN` reader - DMA2D clock enable during Sleep mode"]
 pub struct DMA2DLPEN_R(crate::FieldReader<bool, bool>);
 impl DMA2DLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA2DLPEN_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> DMA2DLPEN_W<'a> {
 #[doc = "Field `ETHMACLPEN` reader - Ethernet MAC clock enable during Sleep mode"]
 pub struct ETHMACLPEN_R(crate::FieldReader<bool, bool>);
 impl ETHMACLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETHMACLPEN_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> ETHMACLPEN_W<'a> {
 #[doc = "Field `ETHMACTXLPEN` reader - Ethernet transmission clock enable during Sleep mode"]
 pub struct ETHMACTXLPEN_R(crate::FieldReader<bool, bool>);
 impl ETHMACTXLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETHMACTXLPEN_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> ETHMACTXLPEN_W<'a> {
 #[doc = "Field `ETHMACRXLPEN` reader - Ethernet reception clock enable during Sleep mode"]
 pub struct ETHMACRXLPEN_R(crate::FieldReader<bool, bool>);
 impl ETHMACRXLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETHMACRXLPEN_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> ETHMACRXLPEN_W<'a> {
 #[doc = "Field `ETHMACPTPLPEN` reader - Ethernet PTP clock enable during Sleep mode"]
 pub struct ETHMACPTPLPEN_R(crate::FieldReader<bool, bool>);
 impl ETHMACPTPLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETHMACPTPLPEN_R(crate::FieldReader::new(bits))
     }
@@ -901,6 +925,7 @@ impl<'a> ETHMACPTPLPEN_W<'a> {
 #[doc = "Field `OTGHSLPEN` reader - USB OTG HS clock enable during Sleep mode"]
 pub struct OTGHSLPEN_R(crate::FieldReader<bool, bool>);
 impl OTGHSLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGHSLPEN_R(crate::FieldReader::new(bits))
     }
@@ -937,6 +962,7 @@ impl<'a> OTGHSLPEN_W<'a> {
 #[doc = "Field `OTGHSULPILPEN` reader - USB OTG HS ULPI clock enable during Sleep mode"]
 pub struct OTGHSULPILPEN_R(crate::FieldReader<bool, bool>);
 impl OTGHSULPILPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGHSULPILPEN_R(crate::FieldReader::new(bits))
     }

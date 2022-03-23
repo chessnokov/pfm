@@ -37,6 +37,7 @@ impl From<crate::W<APB1RSTR_SPEC>> for W {
 #[doc = "Field `TIM2RST` reader - TIM2 reset"]
 pub struct TIM2RST_R(crate::FieldReader<bool, bool>);
 impl TIM2RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM2RST_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TIM2RST_W<'a> {
 #[doc = "Field `TIM3RST` reader - TIM3 reset"]
 pub struct TIM3RST_R(crate::FieldReader<bool, bool>);
 impl TIM3RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM3RST_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TIM3RST_W<'a> {
 #[doc = "Field `TIM4RST` reader - TIM4 reset"]
 pub struct TIM4RST_R(crate::FieldReader<bool, bool>);
 impl TIM4RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM4RST_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TIM4RST_W<'a> {
 #[doc = "Field `TIM5RST` reader - TIM5 reset"]
 pub struct TIM5RST_R(crate::FieldReader<bool, bool>);
 impl TIM5RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM5RST_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TIM5RST_W<'a> {
 #[doc = "Field `TIM6RST` reader - TIM6 reset"]
 pub struct TIM6RST_R(crate::FieldReader<bool, bool>);
 impl TIM6RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM6RST_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TIM6RST_W<'a> {
 #[doc = "Field `TIM7RST` reader - TIM7 reset"]
 pub struct TIM7RST_R(crate::FieldReader<bool, bool>);
 impl TIM7RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM7RST_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> TIM7RST_W<'a> {
 #[doc = "Field `TIM12RST` reader - TIM12 reset"]
 pub struct TIM12RST_R(crate::FieldReader<bool, bool>);
 impl TIM12RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM12RST_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> TIM12RST_W<'a> {
 #[doc = "Field `TIM13RST` reader - TIM13 reset"]
 pub struct TIM13RST_R(crate::FieldReader<bool, bool>);
 impl TIM13RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM13RST_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> TIM13RST_W<'a> {
 #[doc = "Field `TIM14RST` reader - TIM14 reset"]
 pub struct TIM14RST_R(crate::FieldReader<bool, bool>);
 impl TIM14RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM14RST_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> TIM14RST_W<'a> {
 #[doc = "Field `WWDGRST` reader - Window watchdog reset"]
 pub struct WWDGRST_R(crate::FieldReader<bool, bool>);
 impl WWDGRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WWDGRST_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> WWDGRST_W<'a> {
 #[doc = "Field `SPI2RST` reader - SPI 2 reset"]
 pub struct SPI2RST_R(crate::FieldReader<bool, bool>);
 impl SPI2RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI2RST_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> SPI2RST_W<'a> {
 #[doc = "Field `SPI3RST` reader - SPI 3 reset"]
 pub struct SPI3RST_R(crate::FieldReader<bool, bool>);
 impl SPI3RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI3RST_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> SPI3RST_W<'a> {
 #[doc = "Field `UART2RST` reader - USART 2 reset"]
 pub struct UART2RST_R(crate::FieldReader<bool, bool>);
 impl UART2RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UART2RST_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> UART2RST_W<'a> {
 #[doc = "Field `UART3RST` reader - USART 3 reset"]
 pub struct UART3RST_R(crate::FieldReader<bool, bool>);
 impl UART3RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UART3RST_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> UART3RST_W<'a> {
 #[doc = "Field `UART4RST` reader - USART 4 reset"]
 pub struct UART4RST_R(crate::FieldReader<bool, bool>);
 impl UART4RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UART4RST_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> UART4RST_W<'a> {
 #[doc = "Field `UART5RST` reader - USART 5 reset"]
 pub struct UART5RST_R(crate::FieldReader<bool, bool>);
 impl UART5RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UART5RST_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> UART5RST_W<'a> {
 #[doc = "Field `I2C1RST` reader - I2C 1 reset"]
 pub struct I2C1RST_R(crate::FieldReader<bool, bool>);
 impl I2C1RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2C1RST_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> I2C1RST_W<'a> {
 #[doc = "Field `I2C2RST` reader - I2C 2 reset"]
 pub struct I2C2RST_R(crate::FieldReader<bool, bool>);
 impl I2C2RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2C2RST_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> I2C2RST_W<'a> {
 #[doc = "Field `I2C3RST` reader - I2C3 reset"]
 pub struct I2C3RST_R(crate::FieldReader<bool, bool>);
 impl I2C3RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2C3RST_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> I2C3RST_W<'a> {
 #[doc = "Field `CAN1RST` reader - CAN1 reset"]
 pub struct CAN1RST_R(crate::FieldReader<bool, bool>);
 impl CAN1RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAN1RST_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> CAN1RST_W<'a> {
 #[doc = "Field `CAN2RST` reader - CAN2 reset"]
 pub struct CAN2RST_R(crate::FieldReader<bool, bool>);
 impl CAN2RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAN2RST_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> CAN2RST_W<'a> {
 #[doc = "Field `PWRRST` reader - Power interface reset"]
 pub struct PWRRST_R(crate::FieldReader<bool, bool>);
 impl PWRRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PWRRST_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> PWRRST_W<'a> {
 #[doc = "Field `DACRST` reader - DAC reset"]
 pub struct DACRST_R(crate::FieldReader<bool, bool>);
 impl DACRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DACRST_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> DACRST_W<'a> {
 #[doc = "Field `UART7RST` reader - UART7 reset"]
 pub struct UART7RST_R(crate::FieldReader<bool, bool>);
 impl UART7RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UART7RST_R(crate::FieldReader::new(bits))
     }
@@ -901,6 +925,7 @@ impl<'a> UART7RST_W<'a> {
 #[doc = "Field `UART8RST` reader - UART8 reset"]
 pub struct UART8RST_R(crate::FieldReader<bool, bool>);
 impl UART8RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         UART8RST_R(crate::FieldReader::new(bits))
     }
@@ -937,6 +962,7 @@ impl<'a> UART8RST_W<'a> {
 #[doc = "Field `SPDIFRXRST` reader - SPDIF-RX reset"]
 pub struct SPDIFRXRST_R(crate::FieldReader<bool, bool>);
 impl SPDIFRXRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPDIFRXRST_R(crate::FieldReader::new(bits))
     }
@@ -973,6 +999,7 @@ impl<'a> SPDIFRXRST_W<'a> {
 #[doc = "Field `CECRST` reader - HDMI-CEC reset"]
 pub struct CECRST_R(crate::FieldReader<bool, bool>);
 impl CECRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CECRST_R(crate::FieldReader::new(bits))
     }
@@ -1009,6 +1036,7 @@ impl<'a> CECRST_W<'a> {
 #[doc = "Field `LPTIM1RST` reader - Low power timer 1 reset"]
 pub struct LPTIM1RST_R(crate::FieldReader<bool, bool>);
 impl LPTIM1RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPTIM1RST_R(crate::FieldReader::new(bits))
     }
@@ -1045,6 +1073,7 @@ impl<'a> LPTIM1RST_W<'a> {
 #[doc = "Field `I2C4RST` reader - I2C 4 reset"]
 pub struct I2C4RST_R(crate::FieldReader<bool, bool>);
 impl I2C4RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         I2C4RST_R(crate::FieldReader::new(bits))
     }

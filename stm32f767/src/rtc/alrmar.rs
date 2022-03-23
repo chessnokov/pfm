@@ -37,6 +37,7 @@ impl From<crate::W<ALRMAR_SPEC>> for W {
 #[doc = "Field `MSK4` reader - Alarm A date mask"]
 pub struct MSK4_R(crate::FieldReader<bool, bool>);
 impl MSK4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSK4_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> MSK4_W<'a> {
 #[doc = "Field `WDSEL` reader - Week day selection"]
 pub struct WDSEL_R(crate::FieldReader<bool, bool>);
 impl WDSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WDSEL_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> WDSEL_W<'a> {
 #[doc = "Field `DT` reader - Date tens in BCD format"]
 pub struct DT_R(crate::FieldReader<u8, u8>);
 impl DT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DT_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> DT_W<'a> {
 #[doc = "Field `DU` reader - Date units or day in BCD format"]
 pub struct DU_R(crate::FieldReader<u8, u8>);
 impl DU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DU_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> DU_W<'a> {
 #[doc = "Field `MSK3` reader - Alarm A hours mask"]
 pub struct MSK3_R(crate::FieldReader<bool, bool>);
 impl MSK3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSK3_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> MSK3_W<'a> {
 #[doc = "Field `PM` reader - AM/PM notation"]
 pub struct PM_R(crate::FieldReader<bool, bool>);
 impl PM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PM_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> PM_W<'a> {
 #[doc = "Field `HT` reader - Hour tens in BCD format"]
 pub struct HT_R(crate::FieldReader<u8, u8>);
 impl HT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HT_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> HT_W<'a> {
 #[doc = "Field `HU` reader - Hour units in BCD format"]
 pub struct HU_R(crate::FieldReader<u8, u8>);
 impl HU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HU_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +293,7 @@ impl<'a> HU_W<'a> {
 #[doc = "Field `MSK2` reader - Alarm A minutes mask"]
 pub struct MSK2_R(crate::FieldReader<bool, bool>);
 impl MSK2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSK2_R(crate::FieldReader::new(bits))
     }
@@ -321,6 +330,7 @@ impl<'a> MSK2_W<'a> {
 #[doc = "Field `MNT` reader - Minute tens in BCD format"]
 pub struct MNT_R(crate::FieldReader<u8, u8>);
 impl MNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MNT_R(crate::FieldReader::new(bits))
     }
@@ -347,6 +357,7 @@ impl<'a> MNT_W<'a> {
 #[doc = "Field `MNU` reader - Minute units in BCD format"]
 pub struct MNU_R(crate::FieldReader<u8, u8>);
 impl MNU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MNU_R(crate::FieldReader::new(bits))
     }
@@ -373,6 +384,7 @@ impl<'a> MNU_W<'a> {
 #[doc = "Field `MSK1` reader - Alarm A seconds mask"]
 pub struct MSK1_R(crate::FieldReader<bool, bool>);
 impl MSK1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MSK1_R(crate::FieldReader::new(bits))
     }
@@ -409,6 +421,7 @@ impl<'a> MSK1_W<'a> {
 #[doc = "Field `ST` reader - Second tens in BCD format"]
 pub struct ST_R(crate::FieldReader<u8, u8>);
 impl ST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ST_R(crate::FieldReader::new(bits))
     }
@@ -435,6 +448,7 @@ impl<'a> ST_W<'a> {
 #[doc = "Field `SU` reader - Second units in BCD format"]
 pub struct SU_R(crate::FieldReader<u8, u8>);
 impl SU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SU_R(crate::FieldReader::new(bits))
     }

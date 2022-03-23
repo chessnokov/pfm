@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `MODE` reader - DMA2D mode"]
 pub struct MODE_R(crate::FieldReader<u8, u8>);
 impl MODE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MODE_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MODE_W<'a> {
 #[doc = "Field `CEIE` reader - Configuration Error Interrupt Enable"]
 pub struct CEIE_R(crate::FieldReader<bool, bool>);
 impl CEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CEIE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> CEIE_W<'a> {
 #[doc = "Field `CTCIE` reader - CLUT transfer complete interrupt enable"]
 pub struct CTCIE_R(crate::FieldReader<bool, bool>);
 impl CTCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CTCIE_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> CTCIE_W<'a> {
 #[doc = "Field `CAEIE` reader - CLUT access error interrupt enable"]
 pub struct CAEIE_R(crate::FieldReader<bool, bool>);
 impl CAEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CAEIE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> CAEIE_W<'a> {
 #[doc = "Field `TWIE` reader - Transfer watermark interrupt enable"]
 pub struct TWIE_R(crate::FieldReader<bool, bool>);
 impl TWIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TWIE_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> TWIE_W<'a> {
 #[doc = "Field `TCIE` reader - Transfer complete interrupt enable"]
 pub struct TCIE_R(crate::FieldReader<bool, bool>);
 impl TCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TCIE_R(crate::FieldReader::new(bits))
     }
@@ -243,6 +249,7 @@ impl<'a> TCIE_W<'a> {
 #[doc = "Field `TEIE` reader - Transfer error interrupt enable"]
 pub struct TEIE_R(crate::FieldReader<bool, bool>);
 impl TEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEIE_R(crate::FieldReader::new(bits))
     }
@@ -279,6 +286,7 @@ impl<'a> TEIE_W<'a> {
 #[doc = "Field `ABORT` reader - Abort"]
 pub struct ABORT_R(crate::FieldReader<bool, bool>);
 impl ABORT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ABORT_R(crate::FieldReader::new(bits))
     }
@@ -315,6 +323,7 @@ impl<'a> ABORT_W<'a> {
 #[doc = "Field `SUSP` reader - Suspend"]
 pub struct SUSP_R(crate::FieldReader<bool, bool>);
 impl SUSP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SUSP_R(crate::FieldReader::new(bits))
     }
@@ -351,6 +360,7 @@ impl<'a> SUSP_W<'a> {
 #[doc = "Field `START` reader - Start"]
 pub struct START_R(crate::FieldReader<bool, bool>);
 impl START_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         START_R(crate::FieldReader::new(bits))
     }

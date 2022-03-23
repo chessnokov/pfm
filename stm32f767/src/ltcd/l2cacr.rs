@@ -37,6 +37,7 @@ impl From<crate::W<L2CACR_SPEC>> for W {
 #[doc = "Field `CONSTA` reader - Constant Alpha"]
 pub struct CONSTA_R(crate::FieldReader<u8, u8>);
 impl CONSTA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CONSTA_R(crate::FieldReader::new(bits))
     }

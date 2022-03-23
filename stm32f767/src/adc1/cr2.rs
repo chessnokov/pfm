@@ -37,6 +37,7 @@ impl From<crate::W<CR2_SPEC>> for W {
 #[doc = "Field `SWSTART` reader - Start conversion of regular channels"]
 pub struct SWSTART_R(crate::FieldReader<bool, bool>);
 impl SWSTART_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SWSTART_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> SWSTART_W<'a> {
 #[doc = "Field `EXTEN` reader - External trigger enable for regular channels"]
 pub struct EXTEN_R(crate::FieldReader<u8, u8>);
 impl EXTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXTEN_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> EXTEN_W<'a> {
 #[doc = "Field `EXTSEL` reader - External event select for regular group"]
 pub struct EXTSEL_R(crate::FieldReader<u8, u8>);
 impl EXTSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EXTSEL_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> EXTSEL_W<'a> {
 #[doc = "Field `JSWSTART` reader - Start conversion of injected channels"]
 pub struct JSWSTART_R(crate::FieldReader<bool, bool>);
 impl JSWSTART_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JSWSTART_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> JSWSTART_W<'a> {
 #[doc = "Field `JEXTEN` reader - External trigger enable for injected channels"]
 pub struct JEXTEN_R(crate::FieldReader<u8, u8>);
 impl JEXTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JEXTEN_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> JEXTEN_W<'a> {
 #[doc = "Field `JEXTSEL` reader - External event select for injected group"]
 pub struct JEXTSEL_R(crate::FieldReader<u8, u8>);
 impl JEXTSEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JEXTSEL_R(crate::FieldReader::new(bits))
     }
@@ -213,6 +219,7 @@ impl<'a> JEXTSEL_W<'a> {
 #[doc = "Field `ALIGN` reader - Data alignment"]
 pub struct ALIGN_R(crate::FieldReader<bool, bool>);
 impl ALIGN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALIGN_R(crate::FieldReader::new(bits))
     }
@@ -249,6 +256,7 @@ impl<'a> ALIGN_W<'a> {
 #[doc = "Field `EOCS` reader - End of conversion selection"]
 pub struct EOCS_R(crate::FieldReader<bool, bool>);
 impl EOCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOCS_R(crate::FieldReader::new(bits))
     }
@@ -285,6 +293,7 @@ impl<'a> EOCS_W<'a> {
 #[doc = "Field `DDS` reader - DMA disable selection (for single ADC mode)"]
 pub struct DDS_R(crate::FieldReader<bool, bool>);
 impl DDS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DDS_R(crate::FieldReader::new(bits))
     }
@@ -321,6 +330,7 @@ impl<'a> DDS_W<'a> {
 #[doc = "Field `DMA` reader - Direct memory access mode (for single ADC mode)"]
 pub struct DMA_R(crate::FieldReader<bool, bool>);
 impl DMA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA_R(crate::FieldReader::new(bits))
     }
@@ -357,6 +367,7 @@ impl<'a> DMA_W<'a> {
 #[doc = "Field `CONT` reader - Continuous conversion"]
 pub struct CONT_R(crate::FieldReader<bool, bool>);
 impl CONT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CONT_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +404,7 @@ impl<'a> CONT_W<'a> {
 #[doc = "Field `ADON` reader - A/D Converter ON / OFF"]
 pub struct ADON_R(crate::FieldReader<bool, bool>);
 impl ADON_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADON_R(crate::FieldReader::new(bits))
     }

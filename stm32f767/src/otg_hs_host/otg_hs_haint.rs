@@ -16,6 +16,7 @@ impl From<crate::R<OTG_HS_HAINT_SPEC>> for R {
 #[doc = "Field `HAINT` reader - Channel interrupts"]
 pub struct HAINT_R(crate::FieldReader<u16, u16>);
 impl HAINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HAINT_R(crate::FieldReader::new(bits))
     }

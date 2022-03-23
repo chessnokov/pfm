@@ -37,6 +37,7 @@ impl From<crate::W<DMAMFBOCR_SPEC>> for W {
 #[doc = "Field `MFC` reader - MFC"]
 pub struct MFC_R(crate::FieldReader<u16, u16>);
 impl MFC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MFC_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> MFC_W<'a> {
 #[doc = "Field `OMFC` reader - OMFC"]
 pub struct OMFC_R(crate::FieldReader<bool, bool>);
 impl OMFC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OMFC_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> OMFC_W<'a> {
 #[doc = "Field `MFA` reader - MFA"]
 pub struct MFA_R(crate::FieldReader<u16, u16>);
 impl MFA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         MFA_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> MFA_W<'a> {
 #[doc = "Field `OFOC` reader - OFOC"]
 pub struct OFOC_R(crate::FieldReader<bool, bool>);
 impl OFOC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OFOC_R(crate::FieldReader::new(bits))
     }

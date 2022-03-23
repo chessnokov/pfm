@@ -37,6 +37,7 @@ impl From<crate::W<OR1_SPEC>> for W {
 #[doc = "Field `TI4_RMP` reader - Input Capture 4 remap"]
 pub struct TI4_RMP_R(crate::FieldReader<u8, u8>);
 impl TI4_RMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TI4_RMP_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TI4_RMP_W<'a> {
 #[doc = "Field `ETR1_RMP` reader - External trigger remap"]
 pub struct ETR1_RMP_R(crate::FieldReader<bool, bool>);
 impl ETR1_RMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETR1_RMP_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> ETR1_RMP_W<'a> {
 #[doc = "Field `ITR1_RMP` reader - Internal trigger 1 remap"]
 pub struct ITR1_RMP_R(crate::FieldReader<bool, bool>);
 impl ITR1_RMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ITR1_RMP_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CALR_SPEC>> for W {
 #[doc = "Field `CALP` reader - Increase frequency of RTC by 488.5 ppm"]
 pub struct CALP_R(crate::FieldReader<bool, bool>);
 impl CALP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CALP_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> CALP_W<'a> {
 #[doc = "Field `CALW8` reader - Use an 8-second calibration cycle period"]
 pub struct CALW8_R(crate::FieldReader<bool, bool>);
 impl CALW8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CALW8_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> CALW8_W<'a> {
 #[doc = "Field `CALW16` reader - Use a 16-second calibration cycle period"]
 pub struct CALW16_R(crate::FieldReader<bool, bool>);
 impl CALW16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CALW16_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> CALW16_W<'a> {
 #[doc = "Field `CALM` reader - Calibration minus"]
 pub struct CALM_R(crate::FieldReader<u16, u16>);
 impl CALM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CALM_R(crate::FieldReader::new(bits))
     }

@@ -16,6 +16,7 @@ impl From<crate::R<DSI_LCCCR_SPEC>> for R {
 #[doc = "Field `COLC` reader - Color Coding"]
 pub struct COLC_R(crate::FieldReader<u8, u8>);
 impl COLC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         COLC_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for COLC_R {
 #[doc = "Field `LPE` reader - Loosely Packed Enable"]
 pub struct LPE_R(crate::FieldReader<bool, bool>);
 impl LPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LPE_R(crate::FieldReader::new(bits))
     }

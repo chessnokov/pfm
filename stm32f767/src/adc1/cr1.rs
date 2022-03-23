@@ -37,6 +37,7 @@ impl From<crate::W<CR1_SPEC>> for W {
 #[doc = "Field `OVRIE` reader - Overrun interrupt enable"]
 pub struct OVRIE_R(crate::FieldReader<bool, bool>);
 impl OVRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVRIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OVRIE_W<'a> {
 #[doc = "Field `RES` reader - Resolution"]
 pub struct RES_R(crate::FieldReader<u8, u8>);
 impl RES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RES_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> RES_W<'a> {
 #[doc = "Field `AWDEN` reader - Analog watchdog enable on regular channels"]
 pub struct AWDEN_R(crate::FieldReader<bool, bool>);
 impl AWDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWDEN_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> AWDEN_W<'a> {
 #[doc = "Field `JAWDEN` reader - Analog watchdog enable on injected channels"]
 pub struct JAWDEN_R(crate::FieldReader<bool, bool>);
 impl JAWDEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JAWDEN_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> JAWDEN_W<'a> {
 #[doc = "Field `DISCNUM` reader - Discontinuous mode channel count"]
 pub struct DISCNUM_R(crate::FieldReader<u8, u8>);
 impl DISCNUM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DISCNUM_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> DISCNUM_W<'a> {
 #[doc = "Field `JDISCEN` reader - Discontinuous mode on injected channels"]
 pub struct JDISCEN_R(crate::FieldReader<bool, bool>);
 impl JDISCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JDISCEN_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> JDISCEN_W<'a> {
 #[doc = "Field `DISCEN` reader - Discontinuous mode on regular channels"]
 pub struct DISCEN_R(crate::FieldReader<bool, bool>);
 impl DISCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DISCEN_R(crate::FieldReader::new(bits))
     }
@@ -269,6 +276,7 @@ impl<'a> DISCEN_W<'a> {
 #[doc = "Field `JAUTO` reader - Automatic injected group conversion"]
 pub struct JAUTO_R(crate::FieldReader<bool, bool>);
 impl JAUTO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JAUTO_R(crate::FieldReader::new(bits))
     }
@@ -305,6 +313,7 @@ impl<'a> JAUTO_W<'a> {
 #[doc = "Field `AWDSGL` reader - Enable the watchdog on a single channel in scan mode"]
 pub struct AWDSGL_R(crate::FieldReader<bool, bool>);
 impl AWDSGL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWDSGL_R(crate::FieldReader::new(bits))
     }
@@ -341,6 +350,7 @@ impl<'a> AWDSGL_W<'a> {
 #[doc = "Field `SCAN` reader - Scan mode"]
 pub struct SCAN_R(crate::FieldReader<bool, bool>);
 impl SCAN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SCAN_R(crate::FieldReader::new(bits))
     }
@@ -377,6 +387,7 @@ impl<'a> SCAN_W<'a> {
 #[doc = "Field `JEOCIE` reader - Interrupt enable for injected channels"]
 pub struct JEOCIE_R(crate::FieldReader<bool, bool>);
 impl JEOCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         JEOCIE_R(crate::FieldReader::new(bits))
     }
@@ -413,6 +424,7 @@ impl<'a> JEOCIE_W<'a> {
 #[doc = "Field `AWDIE` reader - Analog watchdog interrupt enable"]
 pub struct AWDIE_R(crate::FieldReader<bool, bool>);
 impl AWDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AWDIE_R(crate::FieldReader::new(bits))
     }
@@ -449,6 +461,7 @@ impl<'a> AWDIE_W<'a> {
 #[doc = "Field `EOCIE` reader - Interrupt enable for EOC"]
 pub struct EOCIE_R(crate::FieldReader<bool, bool>);
 impl EOCIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOCIE_R(crate::FieldReader::new(bits))
     }
@@ -485,6 +498,7 @@ impl<'a> EOCIE_W<'a> {
 #[doc = "Field `AWDCH` reader - Analog watchdog channel select bits"]
 pub struct AWDCH_R(crate::FieldReader<u8, u8>);
 impl AWDCH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         AWDCH_R(crate::FieldReader::new(bits))
     }

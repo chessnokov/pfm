@@ -16,6 +16,7 @@ impl From<crate::R<DR_SPEC>> for R {
 #[doc = "Field `DATA` reader - Regular data"]
 pub struct DATA_R(crate::FieldReader<u16, u16>);
 impl DATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         DATA_R(crate::FieldReader::new(bits))
     }

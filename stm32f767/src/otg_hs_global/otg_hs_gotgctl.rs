@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_GOTGCTL_SPEC>> for W {
 #[doc = "Field `SRQSCS` reader - Session request success"]
 pub struct SRQSCS_R(crate::FieldReader<bool, bool>);
 impl SRQSCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRQSCS_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for SRQSCS_R {
 #[doc = "Field `SRQ` reader - Session request"]
 pub struct SRQ_R(crate::FieldReader<bool, bool>);
 impl SRQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SRQ_R(crate::FieldReader::new(bits))
     }
@@ -87,6 +89,7 @@ impl<'a> SRQ_W<'a> {
 #[doc = "Field `HNGSCS` reader - Host negotiation success"]
 pub struct HNGSCS_R(crate::FieldReader<bool, bool>);
 impl HNGSCS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HNGSCS_R(crate::FieldReader::new(bits))
     }
@@ -101,6 +104,7 @@ impl core::ops::Deref for HNGSCS_R {
 #[doc = "Field `HNPRQ` reader - HNP request"]
 pub struct HNPRQ_R(crate::FieldReader<bool, bool>);
 impl HNPRQ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HNPRQ_R(crate::FieldReader::new(bits))
     }
@@ -137,6 +141,7 @@ impl<'a> HNPRQ_W<'a> {
 #[doc = "Field `HSHNPEN` reader - Host set HNP enable"]
 pub struct HSHNPEN_R(crate::FieldReader<bool, bool>);
 impl HSHNPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSHNPEN_R(crate::FieldReader::new(bits))
     }
@@ -173,6 +178,7 @@ impl<'a> HSHNPEN_W<'a> {
 #[doc = "Field `DHNPEN` reader - Device HNP enabled"]
 pub struct DHNPEN_R(crate::FieldReader<bool, bool>);
 impl DHNPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DHNPEN_R(crate::FieldReader::new(bits))
     }
@@ -209,6 +215,7 @@ impl<'a> DHNPEN_W<'a> {
 #[doc = "Field `CIDSTS` reader - Connector ID status"]
 pub struct CIDSTS_R(crate::FieldReader<bool, bool>);
 impl CIDSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CIDSTS_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +230,7 @@ impl core::ops::Deref for CIDSTS_R {
 #[doc = "Field `DBCT` reader - Long/short debounce time"]
 pub struct DBCT_R(crate::FieldReader<bool, bool>);
 impl DBCT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DBCT_R(crate::FieldReader::new(bits))
     }
@@ -237,6 +245,7 @@ impl core::ops::Deref for DBCT_R {
 #[doc = "Field `ASVLD` reader - A-session valid"]
 pub struct ASVLD_R(crate::FieldReader<bool, bool>);
 impl ASVLD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ASVLD_R(crate::FieldReader::new(bits))
     }
@@ -251,6 +260,7 @@ impl core::ops::Deref for ASVLD_R {
 #[doc = "Field `BSVLD` reader - B-session valid"]
 pub struct BSVLD_R(crate::FieldReader<bool, bool>);
 impl BSVLD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BSVLD_R(crate::FieldReader::new(bits))
     }
@@ -265,6 +275,7 @@ impl core::ops::Deref for BSVLD_R {
 #[doc = "Field `EHEN` reader - Embedded host enable"]
 pub struct EHEN_R(crate::FieldReader<bool, bool>);
 impl EHEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EHEN_R(crate::FieldReader::new(bits))
     }

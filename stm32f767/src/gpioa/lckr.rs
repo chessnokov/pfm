@@ -37,6 +37,7 @@ impl From<crate::W<LCKR_SPEC>> for W {
 #[doc = "Field `LCKK` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCKK_R(crate::FieldReader<bool, bool>);
 impl LCKK_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCKK_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> LCKK_W<'a> {
 #[doc = "Field `LCK15` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK15_R(crate::FieldReader<bool, bool>);
 impl LCK15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK15_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> LCK15_W<'a> {
 #[doc = "Field `LCK14` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK14_R(crate::FieldReader<bool, bool>);
 impl LCK14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK14_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> LCK14_W<'a> {
 #[doc = "Field `LCK13` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK13_R(crate::FieldReader<bool, bool>);
 impl LCK13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK13_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> LCK13_W<'a> {
 #[doc = "Field `LCK12` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK12_R(crate::FieldReader<bool, bool>);
 impl LCK12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK12_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> LCK12_W<'a> {
 #[doc = "Field `LCK11` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK11_R(crate::FieldReader<bool, bool>);
 impl LCK11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK11_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> LCK11_W<'a> {
 #[doc = "Field `LCK10` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK10_R(crate::FieldReader<bool, bool>);
 impl LCK10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK10_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> LCK10_W<'a> {
 #[doc = "Field `LCK9` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK9_R(crate::FieldReader<bool, bool>);
 impl LCK9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK9_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> LCK9_W<'a> {
 #[doc = "Field `LCK8` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK8_R(crate::FieldReader<bool, bool>);
 impl LCK8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> LCK8_W<'a> {
 #[doc = "Field `LCK7` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK7_R(crate::FieldReader<bool, bool>);
 impl LCK7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK7_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> LCK7_W<'a> {
 #[doc = "Field `LCK6` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK6_R(crate::FieldReader<bool, bool>);
 impl LCK6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK6_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> LCK6_W<'a> {
 #[doc = "Field `LCK5` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK5_R(crate::FieldReader<bool, bool>);
 impl LCK5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK5_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> LCK5_W<'a> {
 #[doc = "Field `LCK4` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK4_R(crate::FieldReader<bool, bool>);
 impl LCK4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK4_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> LCK4_W<'a> {
 #[doc = "Field `LCK3` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK3_R(crate::FieldReader<bool, bool>);
 impl LCK3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK3_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> LCK3_W<'a> {
 #[doc = "Field `LCK2` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK2_R(crate::FieldReader<bool, bool>);
 impl LCK2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK2_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> LCK2_W<'a> {
 #[doc = "Field `LCK1` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK1_R(crate::FieldReader<bool, bool>);
 impl LCK1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK1_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> LCK1_W<'a> {
 #[doc = "Field `LCK0` reader - Port x lock bit y (y= 0..15)"]
 pub struct LCK0_R(crate::FieldReader<bool, bool>);
 impl LCK0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LCK0_R(crate::FieldReader::new(bits))
     }

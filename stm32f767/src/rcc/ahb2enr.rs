@@ -37,6 +37,7 @@ impl From<crate::W<AHB2ENR_SPEC>> for W {
 #[doc = "Field `OTGFSEN` reader - USB OTG FS clock enable"]
 pub struct OTGFSEN_R(crate::FieldReader<bool, bool>);
 impl OTGFSEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGFSEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OTGFSEN_W<'a> {
 #[doc = "Field `RNGEN` reader - Random number generator clock enable"]
 pub struct RNGEN_R(crate::FieldReader<bool, bool>);
 impl RNGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RNGEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RNGEN_W<'a> {
 #[doc = "Field `HASHEN` reader - Hash modules clock enable"]
 pub struct HASHEN_R(crate::FieldReader<bool, bool>);
 impl HASHEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HASHEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> HASHEN_W<'a> {
 #[doc = "Field `CRYPEN` reader - Cryptographic modules clock enable"]
 pub struct CRYPEN_R(crate::FieldReader<bool, bool>);
 impl CRYPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRYPEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CRYPEN_W<'a> {
 #[doc = "Field `DCMIEN` reader - Camera interface enable"]
 pub struct DCMIEN_R(crate::FieldReader<bool, bool>);
 impl DCMIEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCMIEN_R(crate::FieldReader::new(bits))
     }

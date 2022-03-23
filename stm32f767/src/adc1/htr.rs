@@ -37,6 +37,7 @@ impl From<crate::W<HTR_SPEC>> for W {
 #[doc = "Field `HT` reader - Analog watchdog higher threshold"]
 pub struct HT_R(crate::FieldReader<u16, u16>);
 impl HT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HT_R(crate::FieldReader::new(bits))
     }

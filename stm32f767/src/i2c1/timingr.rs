@@ -37,6 +37,7 @@ impl From<crate::W<TIMINGR_SPEC>> for W {
 #[doc = "Field `SCLL` reader - SCL low period (master mode)"]
 pub struct SCLL_R(crate::FieldReader<u8, u8>);
 impl SCLL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SCLL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> SCLL_W<'a> {
 #[doc = "Field `SCLH` reader - SCL high period (master mode)"]
 pub struct SCLH_R(crate::FieldReader<u8, u8>);
 impl SCLH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SCLH_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> SCLH_W<'a> {
 #[doc = "Field `SDADEL` reader - Data hold time"]
 pub struct SDADEL_R(crate::FieldReader<u8, u8>);
 impl SDADEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SDADEL_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> SDADEL_W<'a> {
 #[doc = "Field `SCLDEL` reader - Data setup time"]
 pub struct SCLDEL_R(crate::FieldReader<u8, u8>);
 impl SCLDEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SCLDEL_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> SCLDEL_W<'a> {
 #[doc = "Field `PRESC` reader - Timing prescaler"]
 pub struct PRESC_R(crate::FieldReader<u8, u8>);
 impl PRESC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PRESC_R(crate::FieldReader::new(bits))
     }

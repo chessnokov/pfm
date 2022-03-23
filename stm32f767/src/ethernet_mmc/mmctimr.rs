@@ -37,6 +37,7 @@ impl From<crate::W<MMCTIMR_SPEC>> for W {
 #[doc = "Field `TGFSCM` reader - TGFSCM"]
 pub struct TGFSCM_R(crate::FieldReader<bool, bool>);
 impl TGFSCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGFSCM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TGFSCM_W<'a> {
 #[doc = "Field `TGFMSCM` reader - TGFMSCM"]
 pub struct TGFMSCM_R(crate::FieldReader<bool, bool>);
 impl TGFMSCM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGFMSCM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TGFMSCM_W<'a> {
 #[doc = "Field `TGFM` reader - TGFM"]
 pub struct TGFM_R(crate::FieldReader<bool, bool>);
 impl TGFM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TGFM_R(crate::FieldReader::new(bits))
     }

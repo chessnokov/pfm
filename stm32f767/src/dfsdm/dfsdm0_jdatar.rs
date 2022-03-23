@@ -16,6 +16,7 @@ impl From<crate::R<DFSDM0_JDATAR_SPEC>> for R {
 #[doc = "Field `JDATACH` reader - Injected channel most recently converted"]
 pub struct JDATACH_R(crate::FieldReader<u8, u8>);
 impl JDATACH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         JDATACH_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for JDATACH_R {
 #[doc = "Field `JDATA` reader - Injected group conversion data"]
 pub struct JDATA_R(crate::FieldReader<u32, u32>);
 impl JDATA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         JDATA_R(crate::FieldReader::new(bits))
     }

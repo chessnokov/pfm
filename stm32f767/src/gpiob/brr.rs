@@ -37,6 +37,7 @@ impl From<crate::W<BRR_SPEC>> for W {
 #[doc = "Field `BR0` reader - Port B Reset bit 0"]
 pub struct BR0_R(crate::FieldReader<bool, bool>);
 impl BR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> BR0_W<'a> {
 #[doc = "Field `BR1` reader - Port B Reset bit 1"]
 pub struct BR1_R(crate::FieldReader<bool, bool>);
 impl BR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> BR1_W<'a> {
 #[doc = "Field `BR2` reader - Port B Reset bit 2"]
 pub struct BR2_R(crate::FieldReader<bool, bool>);
 impl BR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> BR2_W<'a> {
 #[doc = "Field `BR3` reader - Port B Reset bit 3"]
 pub struct BR3_R(crate::FieldReader<bool, bool>);
 impl BR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> BR3_W<'a> {
 #[doc = "Field `BR4` reader - Port B Reset bit 4"]
 pub struct BR4_R(crate::FieldReader<bool, bool>);
 impl BR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> BR4_W<'a> {
 #[doc = "Field `BR5` reader - Port B Reset bit 5"]
 pub struct BR5_R(crate::FieldReader<bool, bool>);
 impl BR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> BR5_W<'a> {
 #[doc = "Field `BR6` reader - Port B Reset bit 6"]
 pub struct BR6_R(crate::FieldReader<bool, bool>);
 impl BR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> BR6_W<'a> {
 #[doc = "Field `BR7` reader - Port B Reset bit 7"]
 pub struct BR7_R(crate::FieldReader<bool, bool>);
 impl BR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> BR7_W<'a> {
 #[doc = "Field `BR8` reader - Port B Reset bit 8"]
 pub struct BR8_R(crate::FieldReader<bool, bool>);
 impl BR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> BR8_W<'a> {
 #[doc = "Field `BR9` reader - Port B Reset bit 9"]
 pub struct BR9_R(crate::FieldReader<bool, bool>);
 impl BR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> BR9_W<'a> {
 #[doc = "Field `BR10` reader - Port B Reset bit 10"]
 pub struct BR10_R(crate::FieldReader<bool, bool>);
 impl BR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> BR10_W<'a> {
 #[doc = "Field `BR11` reader - Port B Reset bit 11"]
 pub struct BR11_R(crate::FieldReader<bool, bool>);
 impl BR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> BR11_W<'a> {
 #[doc = "Field `BR12` reader - Port B Reset bit 12"]
 pub struct BR12_R(crate::FieldReader<bool, bool>);
 impl BR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> BR12_W<'a> {
 #[doc = "Field `BR13` reader - Port B Reset bit 13"]
 pub struct BR13_R(crate::FieldReader<bool, bool>);
 impl BR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> BR13_W<'a> {
 #[doc = "Field `BR14` reader - Port B Reset bit 14"]
 pub struct BR14_R(crate::FieldReader<bool, bool>);
 impl BR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> BR14_W<'a> {
 #[doc = "Field `BR15` reader - Port B Reset bit 15"]
 pub struct BR15_R(crate::FieldReader<bool, bool>);
 impl BR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BR15_R(crate::FieldReader::new(bits))
     }

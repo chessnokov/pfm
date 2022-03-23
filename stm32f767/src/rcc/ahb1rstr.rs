@@ -37,6 +37,7 @@ impl From<crate::W<AHB1RSTR_SPEC>> for W {
 #[doc = "Field `OTGHSRST` reader - USB OTG HS module reset"]
 pub struct OTGHSRST_R(crate::FieldReader<bool, bool>);
 impl OTGHSRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGHSRST_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OTGHSRST_W<'a> {
 #[doc = "Field `ETHMACRST` reader - Ethernet MAC reset"]
 pub struct ETHMACRST_R(crate::FieldReader<bool, bool>);
 impl ETHMACRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ETHMACRST_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ETHMACRST_W<'a> {
 #[doc = "Field `DMA2DRST` reader - DMA2D reset"]
 pub struct DMA2DRST_R(crate::FieldReader<bool, bool>);
 impl DMA2DRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA2DRST_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> DMA2DRST_W<'a> {
 #[doc = "Field `DMA2RST` reader - DMA2 reset"]
 pub struct DMA2RST_R(crate::FieldReader<bool, bool>);
 impl DMA2RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA2RST_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> DMA2RST_W<'a> {
 #[doc = "Field `DMA1RST` reader - DMA2 reset"]
 pub struct DMA1RST_R(crate::FieldReader<bool, bool>);
 impl DMA1RST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DMA1RST_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> DMA1RST_W<'a> {
 #[doc = "Field `CRCRST` reader - CRC reset"]
 pub struct CRCRST_R(crate::FieldReader<bool, bool>);
 impl CRCRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRCRST_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> CRCRST_W<'a> {
 #[doc = "Field `GPIOKRST` reader - IO port K reset"]
 pub struct GPIOKRST_R(crate::FieldReader<bool, bool>);
 impl GPIOKRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOKRST_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> GPIOKRST_W<'a> {
 #[doc = "Field `GPIOJRST` reader - IO port J reset"]
 pub struct GPIOJRST_R(crate::FieldReader<bool, bool>);
 impl GPIOJRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOJRST_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> GPIOJRST_W<'a> {
 #[doc = "Field `GPIOIRST` reader - IO port I reset"]
 pub struct GPIOIRST_R(crate::FieldReader<bool, bool>);
 impl GPIOIRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOIRST_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> GPIOIRST_W<'a> {
 #[doc = "Field `GPIOHRST` reader - IO port H reset"]
 pub struct GPIOHRST_R(crate::FieldReader<bool, bool>);
 impl GPIOHRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOHRST_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> GPIOHRST_W<'a> {
 #[doc = "Field `GPIOGRST` reader - IO port G reset"]
 pub struct GPIOGRST_R(crate::FieldReader<bool, bool>);
 impl GPIOGRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOGRST_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> GPIOGRST_W<'a> {
 #[doc = "Field `GPIOFRST` reader - IO port F reset"]
 pub struct GPIOFRST_R(crate::FieldReader<bool, bool>);
 impl GPIOFRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOFRST_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> GPIOFRST_W<'a> {
 #[doc = "Field `GPIOERST` reader - IO port E reset"]
 pub struct GPIOERST_R(crate::FieldReader<bool, bool>);
 impl GPIOERST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOERST_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> GPIOERST_W<'a> {
 #[doc = "Field `GPIODRST` reader - IO port D reset"]
 pub struct GPIODRST_R(crate::FieldReader<bool, bool>);
 impl GPIODRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIODRST_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> GPIODRST_W<'a> {
 #[doc = "Field `GPIOCRST` reader - IO port C reset"]
 pub struct GPIOCRST_R(crate::FieldReader<bool, bool>);
 impl GPIOCRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOCRST_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> GPIOCRST_W<'a> {
 #[doc = "Field `GPIOBRST` reader - IO port B reset"]
 pub struct GPIOBRST_R(crate::FieldReader<bool, bool>);
 impl GPIOBRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOBRST_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> GPIOBRST_W<'a> {
 #[doc = "Field `GPIOARST` reader - IO port A reset"]
 pub struct GPIOARST_R(crate::FieldReader<bool, bool>);
 impl GPIOARST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         GPIOARST_R(crate::FieldReader::new(bits))
     }

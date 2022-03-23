@@ -16,6 +16,7 @@ impl From<crate::R<RESPCMD_SPEC>> for R {
 #[doc = "Field `RESPCMD` reader - Response command index"]
 pub struct RESPCMD_R(crate::FieldReader<u8, u8>);
 impl RESPCMD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         RESPCMD_R(crate::FieldReader::new(bits))
     }

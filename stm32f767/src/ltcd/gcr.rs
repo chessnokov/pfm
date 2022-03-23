@@ -37,6 +37,7 @@ impl From<crate::W<GCR_SPEC>> for W {
 #[doc = "Field `HSPOL` reader - Horizontal Synchronization Polarity"]
 pub struct HSPOL_R(crate::FieldReader<bool, bool>);
 impl HSPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HSPOL_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> HSPOL_W<'a> {
 #[doc = "Field `VSPOL` reader - Vertical Synchronization Polarity"]
 pub struct VSPOL_R(crate::FieldReader<bool, bool>);
 impl VSPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSPOL_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> VSPOL_W<'a> {
 #[doc = "Field `DEPOL` reader - Data Enable Polarity"]
 pub struct DEPOL_R(crate::FieldReader<bool, bool>);
 impl DEPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DEPOL_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> DEPOL_W<'a> {
 #[doc = "Field `PCPOL` reader - Pixel Clock Polarity"]
 pub struct PCPOL_R(crate::FieldReader<bool, bool>);
 impl PCPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCPOL_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> PCPOL_W<'a> {
 #[doc = "Field `DEN` reader - Dither Enable"]
 pub struct DEN_R(crate::FieldReader<bool, bool>);
 impl DEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DEN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> DEN_W<'a> {
 #[doc = "Field `DRW` reader - Dither Red Width"]
 pub struct DRW_R(crate::FieldReader<u8, u8>);
 impl DRW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DRW_R(crate::FieldReader::new(bits))
     }
@@ -231,6 +237,7 @@ impl core::ops::Deref for DRW_R {
 #[doc = "Field `DGW` reader - Dither Green Width"]
 pub struct DGW_R(crate::FieldReader<u8, u8>);
 impl DGW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DGW_R(crate::FieldReader::new(bits))
     }
@@ -245,6 +252,7 @@ impl core::ops::Deref for DGW_R {
 #[doc = "Field `DBW` reader - Dither Blue Width"]
 pub struct DBW_R(crate::FieldReader<u8, u8>);
 impl DBW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DBW_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +267,7 @@ impl core::ops::Deref for DBW_R {
 #[doc = "Field `LTDCEN` reader - LCD-TFT controller enable bit"]
 pub struct LTDCEN_R(crate::FieldReader<bool, bool>);
 impl LTDCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LTDCEN_R(crate::FieldReader::new(bits))
     }

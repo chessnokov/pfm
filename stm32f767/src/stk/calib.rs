@@ -37,6 +37,7 @@ impl From<crate::W<CALIB_SPEC>> for W {
 #[doc = "Field `TENMS` reader - Calibration value"]
 pub struct TENMS_R(crate::FieldReader<u32, u32>);
 impl TENMS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         TENMS_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TENMS_W<'a> {
 #[doc = "Field `SKEW` reader - SKEW flag: Indicates whether the TENMS value is exact"]
 pub struct SKEW_R(crate::FieldReader<bool, bool>);
 impl SKEW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SKEW_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> SKEW_W<'a> {
 #[doc = "Field `NOREF` reader - NOREF flag. Reads as zero"]
 pub struct NOREF_R(crate::FieldReader<bool, bool>);
 impl NOREF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NOREF_R(crate::FieldReader::new(bits))
     }

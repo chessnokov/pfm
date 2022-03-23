@@ -37,6 +37,7 @@ impl From<crate::W<CCMR2_OUTPUT_SPEC>> for W {
 #[doc = "Field `OC4CE` reader - Output compare 4 clear enable"]
 pub struct OC4CE_R(crate::FieldReader<bool, bool>);
 impl OC4CE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC4CE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OC4CE_W<'a> {
 #[doc = "Field `OC4M` reader - Output compare 4 mode"]
 pub struct OC4M_R(crate::FieldReader<u8, u8>);
 impl OC4M_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OC4M_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> OC4M_W<'a> {
 #[doc = "Field `OC4PE` reader - Output compare 4 preload enable"]
 pub struct OC4PE_R(crate::FieldReader<bool, bool>);
 impl OC4PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC4PE_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> OC4PE_W<'a> {
 #[doc = "Field `OC4FE` reader - Output compare 4 fast enable"]
 pub struct OC4FE_R(crate::FieldReader<bool, bool>);
 impl OC4FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC4FE_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> OC4FE_W<'a> {
 #[doc = "Field `CC4S` reader - Capture/Compare 4 selection"]
 pub struct CC4S_R(crate::FieldReader<u8, u8>);
 impl CC4S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC4S_R(crate::FieldReader::new(bits))
     }
@@ -197,6 +202,7 @@ impl<'a> CC4S_W<'a> {
 #[doc = "Field `OC3CE` reader - Output compare 3 clear enable"]
 pub struct OC3CE_R(crate::FieldReader<bool, bool>);
 impl OC3CE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC3CE_R(crate::FieldReader::new(bits))
     }
@@ -233,6 +239,7 @@ impl<'a> OC3CE_W<'a> {
 #[doc = "Field `OC3M` reader - Output compare 3 mode"]
 pub struct OC3M_R(crate::FieldReader<u8, u8>);
 impl OC3M_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OC3M_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> OC3M_W<'a> {
 #[doc = "Field `OC3PE` reader - Output compare 3 preload enable"]
 pub struct OC3PE_R(crate::FieldReader<bool, bool>);
 impl OC3PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC3PE_R(crate::FieldReader::new(bits))
     }
@@ -295,6 +303,7 @@ impl<'a> OC3PE_W<'a> {
 #[doc = "Field `OC3FE` reader - Output compare 3 fast enable"]
 pub struct OC3FE_R(crate::FieldReader<bool, bool>);
 impl OC3FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC3FE_R(crate::FieldReader::new(bits))
     }
@@ -331,6 +340,7 @@ impl<'a> OC3FE_W<'a> {
 #[doc = "Field `CC3S` reader - Capture/Compare 3 selection"]
 pub struct CC3S_R(crate::FieldReader<u8, u8>);
 impl CC3S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC3S_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DIEPTXF4_SPEC>> for W {
 #[doc = "Field `INEPTXSA` reader - IN endpoint FIFOx transmit RAM start address"]
 pub struct INEPTXSA_R(crate::FieldReader<u16, u16>);
 impl INEPTXSA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INEPTXSA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> INEPTXSA_W<'a> {
 #[doc = "Field `INEPTXFD` reader - IN endpoint TxFIFO depth"]
 pub struct INEPTXFD_R(crate::FieldReader<u16, u16>);
 impl INEPTXFD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INEPTXFD_R(crate::FieldReader::new(bits))
     }

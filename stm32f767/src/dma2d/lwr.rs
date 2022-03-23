@@ -37,6 +37,7 @@ impl From<crate::W<LWR_SPEC>> for W {
 #[doc = "Field `LW` reader - Line watermark"]
 pub struct LW_R(crate::FieldReader<u16, u16>);
 impl LW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         LW_R(crate::FieldReader::new(bits))
     }

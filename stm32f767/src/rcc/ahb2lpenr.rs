@@ -37,6 +37,7 @@ impl From<crate::W<AHB2LPENR_SPEC>> for W {
 #[doc = "Field `OTGFSLPEN` reader - USB OTG FS clock enable during Sleep mode"]
 pub struct OTGFSLPEN_R(crate::FieldReader<bool, bool>);
 impl OTGFSLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OTGFSLPEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> OTGFSLPEN_W<'a> {
 #[doc = "Field `RNGLPEN` reader - Random number generator clock enable during Sleep mode"]
 pub struct RNGLPEN_R(crate::FieldReader<bool, bool>);
 impl RNGLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RNGLPEN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RNGLPEN_W<'a> {
 #[doc = "Field `HASHLPEN` reader - Hash modules clock enable during Sleep mode"]
 pub struct HASHLPEN_R(crate::FieldReader<bool, bool>);
 impl HASHLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         HASHLPEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> HASHLPEN_W<'a> {
 #[doc = "Field `CRYPLPEN` reader - Cryptography modules clock enable during Sleep mode"]
 pub struct CRYPLPEN_R(crate::FieldReader<bool, bool>);
 impl CRYPLPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRYPLPEN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> CRYPLPEN_W<'a> {
 #[doc = "Field `DCMILPEN` reader - Camera interface enable during Sleep mode"]
 pub struct DCMILPEN_R(crate::FieldReader<bool, bool>);
 impl DCMILPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DCMILPEN_R(crate::FieldReader::new(bits))
     }

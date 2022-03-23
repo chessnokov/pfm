@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `TXEOM` reader - Tx End Of Message"]
 pub struct TXEOM_R(crate::FieldReader<bool, bool>);
 impl TXEOM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXEOM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TXEOM_W<'a> {
 #[doc = "Field `TXSOM` reader - Tx start of message"]
 pub struct TXSOM_R(crate::FieldReader<bool, bool>);
 impl TXSOM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXSOM_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TXSOM_W<'a> {
 #[doc = "Field `CECEN` reader - CEC Enable"]
 pub struct CECEN_R(crate::FieldReader<bool, bool>);
 impl CECEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CECEN_R(crate::FieldReader::new(bits))
     }

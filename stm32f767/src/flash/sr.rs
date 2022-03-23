@@ -37,6 +37,7 @@ impl From<crate::W<SR_SPEC>> for W {
 #[doc = "Field `EOP` reader - End of operation"]
 pub struct EOP_R(crate::FieldReader<bool, bool>);
 impl EOP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EOP_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EOP_W<'a> {
 #[doc = "Field `OPERR` reader - Operation error"]
 pub struct OPERR_R(crate::FieldReader<bool, bool>);
 impl OPERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OPERR_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> OPERR_W<'a> {
 #[doc = "Field `WRPERR` reader - Write protection error"]
 pub struct WRPERR_R(crate::FieldReader<bool, bool>);
 impl WRPERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WRPERR_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> WRPERR_W<'a> {
 #[doc = "Field `PGAERR` reader - Programming alignment error"]
 pub struct PGAERR_R(crate::FieldReader<bool, bool>);
 impl PGAERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PGAERR_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> PGAERR_W<'a> {
 #[doc = "Field `PGPERR` reader - Programming parallelism error"]
 pub struct PGPERR_R(crate::FieldReader<bool, bool>);
 impl PGPERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PGPERR_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> PGPERR_W<'a> {
 #[doc = "Field `PGSERR` reader - Programming sequence error"]
 pub struct PGSERR_R(crate::FieldReader<bool, bool>);
 impl PGSERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PGSERR_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> PGSERR_W<'a> {
 #[doc = "Field `BSY` reader - Busy"]
 pub struct BSY_R(crate::FieldReader<bool, bool>);
 impl BSY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BSY_R(crate::FieldReader::new(bits))
     }

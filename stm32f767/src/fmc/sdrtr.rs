@@ -59,6 +59,7 @@ impl<'a> CRE_W<'a> {
 #[doc = "Field `COUNT` reader - Refresh Timer Count"]
 pub struct COUNT_R(crate::FieldReader<u16, u16>);
 impl COUNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         COUNT_R(crate::FieldReader::new(bits))
     }
@@ -85,6 +86,7 @@ impl<'a> COUNT_W<'a> {
 #[doc = "Field `REIE` reader - RES Interrupt Enable"]
 pub struct REIE_R(crate::FieldReader<bool, bool>);
 impl REIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         REIE_R(crate::FieldReader::new(bits))
     }

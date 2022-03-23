@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WIER_SPEC>> for W {
 #[doc = "Field `RRIE` reader - Regulator Ready Interrupt Enable"]
 pub struct RRIE_R(crate::FieldReader<bool, bool>);
 impl RRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RRIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RRIE_W<'a> {
 #[doc = "Field `PLLUIE` reader - PLL Unlock Interrupt Enable"]
 pub struct PLLUIE_R(crate::FieldReader<bool, bool>);
 impl PLLUIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLUIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> PLLUIE_W<'a> {
 #[doc = "Field `PLLLIE` reader - PLL Lock Interrupt Enable"]
 pub struct PLLLIE_R(crate::FieldReader<bool, bool>);
 impl PLLLIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PLLLIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> PLLLIE_W<'a> {
 #[doc = "Field `ERIE` reader - End of Refresh Interrupt Enable"]
 pub struct ERIE_R(crate::FieldReader<bool, bool>);
 impl ERIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ERIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> ERIE_W<'a> {
 #[doc = "Field `TEIE` reader - Tearing Effect Interrupt Enable"]
 pub struct TEIE_R(crate::FieldReader<bool, bool>);
 impl TEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEIE_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WPCR3_SPEC>> for W {
 #[doc = "Field `THSTRAIL` reader - tHSTRAIL"]
 pub struct THSTRAIL_R(crate::FieldReader<u8, u8>);
 impl THSTRAIL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         THSTRAIL_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> THSTRAIL_W<'a> {
 #[doc = "Field `THSPREP` reader - tHS-PREPARE"]
 pub struct THSPREP_R(crate::FieldReader<u8, u8>);
 impl THSPREP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         THSPREP_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> THSPREP_W<'a> {
 #[doc = "Field `TCLKZEO` reader - tCLK-ZERO"]
 pub struct TCLKZEO_R(crate::FieldReader<u8, u8>);
 impl TCLKZEO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TCLKZEO_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> TCLKZEO_W<'a> {
 #[doc = "Field `TCLKPREP` reader - tCLK-PREPARE"]
 pub struct TCLKPREP_R(crate::FieldReader<u8, u8>);
 impl TCLKPREP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TCLKPREP_R(crate::FieldReader::new(bits))
     }

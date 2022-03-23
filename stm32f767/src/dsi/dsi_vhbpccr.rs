@@ -16,6 +16,7 @@ impl From<crate::R<DSI_VHBPCCR_SPEC>> for R {
 #[doc = "Field `HBP` reader - Horizontal Back-Porch duration"]
 pub struct HBP_R(crate::FieldReader<u16, u16>);
 impl HBP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         HBP_R(crate::FieldReader::new(bits))
     }

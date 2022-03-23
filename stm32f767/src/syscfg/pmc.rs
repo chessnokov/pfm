@@ -37,6 +37,7 @@ impl From<crate::W<PMC_SPEC>> for W {
 #[doc = "Field `MII_RMII_SEL` reader - Ethernet PHY interface selection"]
 pub struct MII_RMII_SEL_R(crate::FieldReader<bool, bool>);
 impl MII_RMII_SEL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         MII_RMII_SEL_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> MII_RMII_SEL_W<'a> {
 #[doc = "Field `ADC1DC2` reader - ADC1DC2"]
 pub struct ADC1DC2_R(crate::FieldReader<bool, bool>);
 impl ADC1DC2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC1DC2_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> ADC1DC2_W<'a> {
 #[doc = "Field `ADC2DC2` reader - ADC2DC2"]
 pub struct ADC2DC2_R(crate::FieldReader<bool, bool>);
 impl ADC2DC2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC2DC2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> ADC2DC2_W<'a> {
 #[doc = "Field `ADC3DC2` reader - ADC3DC2"]
 pub struct ADC3DC2_R(crate::FieldReader<bool, bool>);
 impl ADC3DC2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC3DC2_R(crate::FieldReader::new(bits))
     }

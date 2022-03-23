@@ -37,6 +37,7 @@ impl From<crate::W<SDTR1_SPEC>> for W {
 #[doc = "Field `TMRD` reader - Load Mode Register to Active"]
 pub struct TMRD_R(crate::FieldReader<u8, u8>);
 impl TMRD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TMRD_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TMRD_W<'a> {
 #[doc = "Field `TXSR` reader - Exit self-refresh delay"]
 pub struct TXSR_R(crate::FieldReader<u8, u8>);
 impl TXSR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TXSR_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> TXSR_W<'a> {
 #[doc = "Field `TRAS` reader - Self refresh time"]
 pub struct TRAS_R(crate::FieldReader<u8, u8>);
 impl TRAS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRAS_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> TRAS_W<'a> {
 #[doc = "Field `TRC` reader - Row cycle delay"]
 pub struct TRC_R(crate::FieldReader<u8, u8>);
 impl TRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRC_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> TRC_W<'a> {
 #[doc = "Field `TWR` reader - Recovery delay"]
 pub struct TWR_R(crate::FieldReader<u8, u8>);
 impl TWR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TWR_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> TWR_W<'a> {
 #[doc = "Field `TRP` reader - Row precharge delay"]
 pub struct TRP_R(crate::FieldReader<u8, u8>);
 impl TRP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRP_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +199,7 @@ impl<'a> TRP_W<'a> {
 #[doc = "Field `TRCD` reader - Row to column delay"]
 pub struct TRCD_R(crate::FieldReader<u8, u8>);
 impl TRCD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         TRCD_R(crate::FieldReader::new(bits))
     }

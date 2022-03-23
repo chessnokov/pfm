@@ -37,6 +37,7 @@ impl From<crate::W<IER_SPEC>> for W {
 #[doc = "Field `RRIE` reader - Register Reload interrupt enable"]
 pub struct RRIE_R(crate::FieldReader<bool, bool>);
 impl RRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RRIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> RRIE_W<'a> {
 #[doc = "Field `TERRIE` reader - Transfer Error Interrupt Enable"]
 pub struct TERRIE_R(crate::FieldReader<bool, bool>);
 impl TERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERRIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TERRIE_W<'a> {
 #[doc = "Field `FUIE` reader - FIFO Underrun Interrupt Enable"]
 pub struct FUIE_R(crate::FieldReader<bool, bool>);
 impl FUIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FUIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FUIE_W<'a> {
 #[doc = "Field `LIE` reader - Line Interrupt Enable"]
 pub struct LIE_R(crate::FieldReader<bool, bool>);
 impl LIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LIE_R(crate::FieldReader::new(bits))
     }

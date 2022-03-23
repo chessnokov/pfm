@@ -37,6 +37,7 @@ impl From<crate::W<TR_SPEC>> for W {
 #[doc = "Field `PM` reader - AM/PM notation"]
 pub struct PM_R(crate::FieldReader<bool, bool>);
 impl PM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PM_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> PM_W<'a> {
 #[doc = "Field `HT` reader - Hour tens in BCD format"]
 pub struct HT_R(crate::FieldReader<u8, u8>);
 impl HT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HT_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> HT_W<'a> {
 #[doc = "Field `HU` reader - Hour units in BCD format"]
 pub struct HU_R(crate::FieldReader<u8, u8>);
 impl HU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         HU_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> HU_W<'a> {
 #[doc = "Field `MNT` reader - Minute tens in BCD format"]
 pub struct MNT_R(crate::FieldReader<u8, u8>);
 impl MNT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MNT_R(crate::FieldReader::new(bits))
     }
@@ -151,6 +155,7 @@ impl<'a> MNT_W<'a> {
 #[doc = "Field `MNU` reader - Minute units in BCD format"]
 pub struct MNU_R(crate::FieldReader<u8, u8>);
 impl MNU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MNU_R(crate::FieldReader::new(bits))
     }
@@ -177,6 +182,7 @@ impl<'a> MNU_W<'a> {
 #[doc = "Field `ST` reader - Second tens in BCD format"]
 pub struct ST_R(crate::FieldReader<u8, u8>);
 impl ST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ST_R(crate::FieldReader::new(bits))
     }
@@ -203,6 +209,7 @@ impl<'a> ST_W<'a> {
 #[doc = "Field `SU` reader - Second units in BCD format"]
 pub struct SU_R(crate::FieldReader<u8, u8>);
 impl SU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SU_R(crate::FieldReader::new(bits))
     }

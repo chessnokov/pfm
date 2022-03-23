@@ -37,6 +37,7 @@ impl From<crate::W<RCR_SPEC>> for W {
 #[doc = "Field `REP` reader - Repetition counter value"]
 pub struct REP_R(crate::FieldReader<u8, u8>);
 impl REP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         REP_R(crate::FieldReader::new(bits))
     }

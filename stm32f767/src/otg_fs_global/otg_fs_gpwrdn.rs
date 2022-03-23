@@ -37,6 +37,7 @@ impl From<crate::W<OTG_FS_GPWRDN_SPEC>> for W {
 #[doc = "Field `ADPMEN` reader - ADP module enable"]
 pub struct ADPMEN_R(crate::FieldReader<bool, bool>);
 impl ADPMEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPMEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ADPMEN_W<'a> {
 #[doc = "Field `ADPIF` reader - ADP interrupt flag"]
 pub struct ADPIF_R(crate::FieldReader<bool, bool>);
 impl ADPIF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADPIF_R(crate::FieldReader::new(bits))
     }

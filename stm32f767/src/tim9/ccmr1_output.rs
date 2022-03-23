@@ -37,6 +37,7 @@ impl From<crate::W<CCMR1_OUTPUT_SPEC>> for W {
 #[doc = "Field `OC2M` reader - Output Compare 2 mode"]
 pub struct OC2M_R(crate::FieldReader<u8, u8>);
 impl OC2M_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OC2M_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> OC2M_W<'a> {
 #[doc = "Field `OC2PE` reader - Output Compare 2 preload enable"]
 pub struct OC2PE_R(crate::FieldReader<bool, bool>);
 impl OC2PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC2PE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> OC2PE_W<'a> {
 #[doc = "Field `OC2FE` reader - Output Compare 2 fast enable"]
 pub struct OC2FE_R(crate::FieldReader<bool, bool>);
 impl OC2FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC2FE_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> OC2FE_W<'a> {
 #[doc = "Field `CC2S` reader - Capture/Compare 2 selection"]
 pub struct CC2S_R(crate::FieldReader<u8, u8>);
 impl CC2S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC2S_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> CC2S_W<'a> {
 #[doc = "Field `OC1M` reader - Output Compare 1 mode"]
 pub struct OC1M_R(crate::FieldReader<u8, u8>);
 impl OC1M_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OC1M_R(crate::FieldReader::new(bits))
     }
@@ -187,6 +192,7 @@ impl<'a> OC1M_W<'a> {
 #[doc = "Field `OC1PE` reader - Output Compare 1 preload enable"]
 pub struct OC1PE_R(crate::FieldReader<bool, bool>);
 impl OC1PE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC1PE_R(crate::FieldReader::new(bits))
     }
@@ -223,6 +229,7 @@ impl<'a> OC1PE_W<'a> {
 #[doc = "Field `OC1FE` reader - Output Compare 1 fast enable"]
 pub struct OC1FE_R(crate::FieldReader<bool, bool>);
 impl OC1FE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OC1FE_R(crate::FieldReader::new(bits))
     }
@@ -259,6 +266,7 @@ impl<'a> OC1FE_W<'a> {
 #[doc = "Field `CC1S` reader - Capture/Compare 1 selection"]
 pub struct CC1S_R(crate::FieldReader<u8, u8>);
 impl CC1S_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         CC1S_R(crate::FieldReader::new(bits))
     }

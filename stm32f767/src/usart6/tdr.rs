@@ -37,6 +37,7 @@ impl From<crate::W<TDR_SPEC>> for W {
 #[doc = "Field `TDR` reader - Transmit data value"]
 pub struct TDR_R(crate::FieldReader<u16, u16>);
 impl TDR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TDR_R(crate::FieldReader::new(bits))
     }

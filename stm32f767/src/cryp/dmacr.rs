@@ -37,6 +37,7 @@ impl From<crate::W<DMACR_SPEC>> for W {
 #[doc = "Field `DOEN` reader - DMA output enable"]
 pub struct DOEN_R(crate::FieldReader<bool, bool>);
 impl DOEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DOEN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> DOEN_W<'a> {
 #[doc = "Field `DIEN` reader - DMA input enable"]
 pub struct DIEN_R(crate::FieldReader<bool, bool>);
 impl DIEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DIEN_R(crate::FieldReader::new(bits))
     }

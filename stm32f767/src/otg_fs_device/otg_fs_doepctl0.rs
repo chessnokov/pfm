@@ -59,6 +59,7 @@ impl<'a> EPENA_W<'a> {
 #[doc = "Field `EPDIS` reader - EPDIS"]
 pub struct EPDIS_R(crate::FieldReader<bool, bool>);
 impl EPDIS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EPDIS_R(crate::FieldReader::new(bits))
     }
@@ -117,6 +118,7 @@ impl<'a> CNAK_W<'a> {
 #[doc = "Field `Stall` reader - Stall"]
 pub struct STALL_R(crate::FieldReader<bool, bool>);
 impl STALL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         STALL_R(crate::FieldReader::new(bits))
     }
@@ -153,6 +155,7 @@ impl<'a> STALL_W<'a> {
 #[doc = "Field `SNPM` reader - SNPM"]
 pub struct SNPM_R(crate::FieldReader<bool, bool>);
 impl SNPM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SNPM_R(crate::FieldReader::new(bits))
     }
@@ -189,6 +192,7 @@ impl<'a> SNPM_W<'a> {
 #[doc = "Field `EPTYP` reader - EPTYP"]
 pub struct EPTYP_R(crate::FieldReader<u8, u8>);
 impl EPTYP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         EPTYP_R(crate::FieldReader::new(bits))
     }
@@ -203,6 +207,7 @@ impl core::ops::Deref for EPTYP_R {
 #[doc = "Field `NAKSTS` reader - NAKSTS"]
 pub struct NAKSTS_R(crate::FieldReader<bool, bool>);
 impl NAKSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         NAKSTS_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl core::ops::Deref for NAKSTS_R {
 #[doc = "Field `USBAEP` reader - USBAEP"]
 pub struct USBAEP_R(crate::FieldReader<bool, bool>);
 impl USBAEP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USBAEP_R(crate::FieldReader::new(bits))
     }
@@ -231,6 +237,7 @@ impl core::ops::Deref for USBAEP_R {
 #[doc = "Field `MPSIZ` reader - MPSIZ"]
 pub struct MPSIZ_R(crate::FieldReader<u8, u8>);
 impl MPSIZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         MPSIZ_R(crate::FieldReader::new(bits))
     }

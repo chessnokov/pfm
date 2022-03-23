@@ -16,6 +16,7 @@ impl From<crate::R<SR_SPEC>> for R {
 #[doc = "Field `RVU` reader - Watchdog counter reload value update"]
 pub struct RVU_R(crate::FieldReader<bool, bool>);
 impl RVU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RVU_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for RVU_R {
 #[doc = "Field `PVU` reader - Watchdog prescaler value update"]
 pub struct PVU_R(crate::FieldReader<bool, bool>);
 impl PVU_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PVU_R(crate::FieldReader::new(bits))
     }

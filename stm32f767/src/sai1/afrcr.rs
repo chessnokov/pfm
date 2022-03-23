@@ -37,6 +37,7 @@ impl From<crate::W<AFRCR_SPEC>> for W {
 #[doc = "Field `FSOFF` reader - Frame synchronization offset"]
 pub struct FSOFF_R(crate::FieldReader<bool, bool>);
 impl FSOFF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSOFF_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FSOFF_W<'a> {
 #[doc = "Field `FSPOL` reader - Frame synchronization polarity"]
 pub struct FSPOL_R(crate::FieldReader<bool, bool>);
 impl FSPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSPOL_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> FSPOL_W<'a> {
 #[doc = "Field `FSDEF` reader - Frame synchronization definition"]
 pub struct FSDEF_R(crate::FieldReader<bool, bool>);
 impl FSDEF_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FSDEF_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FSDEF_W<'a> {
 #[doc = "Field `FSALL` reader - Frame synchronization active level length"]
 pub struct FSALL_R(crate::FieldReader<u8, u8>);
 impl FSALL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FSALL_R(crate::FieldReader::new(bits))
     }
@@ -171,6 +175,7 @@ impl<'a> FSALL_W<'a> {
 #[doc = "Field `FRL` reader - Frame length"]
 pub struct FRL_R(crate::FieldReader<u8, u8>);
 impl FRL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         FRL_R(crate::FieldReader::new(bits))
     }

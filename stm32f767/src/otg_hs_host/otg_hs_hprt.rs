@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_HPRT_SPEC>> for W {
 #[doc = "Field `PCSTS` reader - Port connect status"]
 pub struct PCSTS_R(crate::FieldReader<bool, bool>);
 impl PCSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCSTS_R(crate::FieldReader::new(bits))
     }
@@ -51,6 +52,7 @@ impl core::ops::Deref for PCSTS_R {
 #[doc = "Field `PCDET` reader - Port connect detected"]
 pub struct PCDET_R(crate::FieldReader<bool, bool>);
 impl PCDET_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PCDET_R(crate::FieldReader::new(bits))
     }
@@ -87,6 +89,7 @@ impl<'a> PCDET_W<'a> {
 #[doc = "Field `PENA` reader - Port enable"]
 pub struct PENA_R(crate::FieldReader<bool, bool>);
 impl PENA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PENA_R(crate::FieldReader::new(bits))
     }
@@ -123,6 +126,7 @@ impl<'a> PENA_W<'a> {
 #[doc = "Field `PENCHNG` reader - Port enable/disable change"]
 pub struct PENCHNG_R(crate::FieldReader<bool, bool>);
 impl PENCHNG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PENCHNG_R(crate::FieldReader::new(bits))
     }
@@ -159,6 +163,7 @@ impl<'a> PENCHNG_W<'a> {
 #[doc = "Field `POCA` reader - Port overcurrent active"]
 pub struct POCA_R(crate::FieldReader<bool, bool>);
 impl POCA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         POCA_R(crate::FieldReader::new(bits))
     }
@@ -173,6 +178,7 @@ impl core::ops::Deref for POCA_R {
 #[doc = "Field `POCCHNG` reader - Port overcurrent change"]
 pub struct POCCHNG_R(crate::FieldReader<bool, bool>);
 impl POCCHNG_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         POCCHNG_R(crate::FieldReader::new(bits))
     }
@@ -209,6 +215,7 @@ impl<'a> POCCHNG_W<'a> {
 #[doc = "Field `PRES` reader - Port resume"]
 pub struct PRES_R(crate::FieldReader<bool, bool>);
 impl PRES_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRES_R(crate::FieldReader::new(bits))
     }
@@ -245,6 +252,7 @@ impl<'a> PRES_W<'a> {
 #[doc = "Field `PSUSP` reader - Port suspend"]
 pub struct PSUSP_R(crate::FieldReader<bool, bool>);
 impl PSUSP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PSUSP_R(crate::FieldReader::new(bits))
     }
@@ -281,6 +289,7 @@ impl<'a> PSUSP_W<'a> {
 #[doc = "Field `PRST` reader - Port reset"]
 pub struct PRST_R(crate::FieldReader<bool, bool>);
 impl PRST_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PRST_R(crate::FieldReader::new(bits))
     }
@@ -317,6 +326,7 @@ impl<'a> PRST_W<'a> {
 #[doc = "Field `PLSTS` reader - Port line status"]
 pub struct PLSTS_R(crate::FieldReader<u8, u8>);
 impl PLSTS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PLSTS_R(crate::FieldReader::new(bits))
     }
@@ -331,6 +341,7 @@ impl core::ops::Deref for PLSTS_R {
 #[doc = "Field `PPWR` reader - Port power"]
 pub struct PPWR_R(crate::FieldReader<bool, bool>);
 impl PPWR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PPWR_R(crate::FieldReader::new(bits))
     }
@@ -367,6 +378,7 @@ impl<'a> PPWR_W<'a> {
 #[doc = "Field `PTCTL` reader - Port test control"]
 pub struct PTCTL_R(crate::FieldReader<u8, u8>);
 impl PTCTL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PTCTL_R(crate::FieldReader::new(bits))
     }
@@ -393,6 +405,7 @@ impl<'a> PTCTL_W<'a> {
 #[doc = "Field `PSPD` reader - Port speed"]
 pub struct PSPD_R(crate::FieldReader<u8, u8>);
 impl PSPD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         PSPD_R(crate::FieldReader::new(bits))
     }

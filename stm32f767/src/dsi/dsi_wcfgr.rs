@@ -37,6 +37,7 @@ impl From<crate::W<DSI_WCFGR_SPEC>> for W {
 #[doc = "Field `VSPOL` reader - VSync Polarity"]
 pub struct VSPOL_R(crate::FieldReader<bool, bool>);
 impl VSPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         VSPOL_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> VSPOL_W<'a> {
 #[doc = "Field `AR` reader - Automatic Refresh"]
 pub struct AR_R(crate::FieldReader<bool, bool>);
 impl AR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         AR_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> AR_W<'a> {
 #[doc = "Field `TEPOL` reader - TE Polarity"]
 pub struct TEPOL_R(crate::FieldReader<bool, bool>);
 impl TEPOL_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEPOL_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TEPOL_W<'a> {
 #[doc = "Field `TESRC` reader - TE Source"]
 pub struct TESRC_R(crate::FieldReader<bool, bool>);
 impl TESRC_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TESRC_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TESRC_W<'a> {
 #[doc = "Field `COLMUX` reader - Color Multiplexing"]
 pub struct COLMUX_R(crate::FieldReader<u8, u8>);
 impl COLMUX_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         COLMUX_R(crate::FieldReader::new(bits))
     }
@@ -207,6 +212,7 @@ impl<'a> COLMUX_W<'a> {
 #[doc = "Field `DSIM` reader - DSI Mode"]
 pub struct DSIM_R(crate::FieldReader<bool, bool>);
 impl DSIM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         DSIM_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `ALGODIR` reader - Algorithm direction"]
 pub struct ALGODIR_R(crate::FieldReader<bool, bool>);
 impl ALGODIR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALGODIR_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> ALGODIR_W<'a> {
 #[doc = "Field `ALGOMODE0` reader - Algorithm mode"]
 pub struct ALGOMODE0_R(crate::FieldReader<u8, u8>);
 impl ALGOMODE0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         ALGOMODE0_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> ALGOMODE0_W<'a> {
 #[doc = "Field `DATATYPE` reader - Data type selection"]
 pub struct DATATYPE_R(crate::FieldReader<u8, u8>);
 impl DATATYPE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         DATATYPE_R(crate::FieldReader::new(bits))
     }
@@ -125,6 +128,7 @@ impl<'a> DATATYPE_W<'a> {
 #[doc = "Field `KEYSIZE` reader - Key size selection (AES mode only)"]
 pub struct KEYSIZE_R(crate::FieldReader<u8, u8>);
 impl KEYSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         KEYSIZE_R(crate::FieldReader::new(bits))
     }
@@ -173,6 +177,7 @@ impl<'a> FFLUSH_W<'a> {
 #[doc = "Field `CRYPEN` reader - Cryptographic processor enable"]
 pub struct CRYPEN_R(crate::FieldReader<bool, bool>);
 impl CRYPEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CRYPEN_R(crate::FieldReader::new(bits))
     }
@@ -209,6 +214,7 @@ impl<'a> CRYPEN_W<'a> {
 #[doc = "Field `GCM_CCMPH` reader - GCM_CCMPH"]
 pub struct GCM_CCMPH_R(crate::FieldReader<u8, u8>);
 impl GCM_CCMPH_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         GCM_CCMPH_R(crate::FieldReader::new(bits))
     }
@@ -235,6 +241,7 @@ impl<'a> GCM_CCMPH_W<'a> {
 #[doc = "Field `ALGOMODE3` reader - ALGOMODE"]
 pub struct ALGOMODE3_R(crate::FieldReader<bool, bool>);
 impl ALGOMODE3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ALGOMODE3_R(crate::FieldReader::new(bits))
     }

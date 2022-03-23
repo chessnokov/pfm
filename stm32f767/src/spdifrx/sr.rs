@@ -16,6 +16,7 @@ impl From<crate::R<SR_SPEC>> for R {
 #[doc = "Field `RXNE` reader - Read data register not empty"]
 pub struct RXNE_R(crate::FieldReader<bool, bool>);
 impl RXNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXNE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for RXNE_R {
 #[doc = "Field `CSRNE` reader - Control Buffer register is not empty"]
 pub struct CSRNE_R(crate::FieldReader<bool, bool>);
 impl CSRNE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CSRNE_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for CSRNE_R {
 #[doc = "Field `PERR` reader - Parity error"]
 pub struct PERR_R(crate::FieldReader<bool, bool>);
 impl PERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         PERR_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for PERR_R {
 #[doc = "Field `OVR` reader - Overrun error"]
 pub struct OVR_R(crate::FieldReader<bool, bool>);
 impl OVR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         OVR_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for OVR_R {
 #[doc = "Field `SBD` reader - Synchronization Block Detected"]
 pub struct SBD_R(crate::FieldReader<bool, bool>);
 impl SBD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBD_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for SBD_R {
 #[doc = "Field `SYNCD` reader - Synchronization Done"]
 pub struct SYNCD_R(crate::FieldReader<bool, bool>);
 impl SYNCD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SYNCD_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for SYNCD_R {
 #[doc = "Field `FERR` reader - Framing error"]
 pub struct FERR_R(crate::FieldReader<bool, bool>);
 impl FERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FERR_R(crate::FieldReader::new(bits))
     }
@@ -114,6 +121,7 @@ impl core::ops::Deref for FERR_R {
 #[doc = "Field `SERR` reader - Synchronization error"]
 pub struct SERR_R(crate::FieldReader<bool, bool>);
 impl SERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SERR_R(crate::FieldReader::new(bits))
     }
@@ -128,6 +136,7 @@ impl core::ops::Deref for SERR_R {
 #[doc = "Field `TERR` reader - Time-out error"]
 pub struct TERR_R(crate::FieldReader<bool, bool>);
 impl TERR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TERR_R(crate::FieldReader::new(bits))
     }
@@ -142,6 +151,7 @@ impl core::ops::Deref for TERR_R {
 #[doc = "Field `WIDTH5` reader - Duration of 5 symbols counted with SPDIF_CLK"]
 pub struct WIDTH5_R(crate::FieldReader<u16, u16>);
 impl WIDTH5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         WIDTH5_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<TIMEOUTR_SPEC>> for W {
 #[doc = "Field `TIMEOUTA` reader - Bus timeout A"]
 pub struct TIMEOUTA_R(crate::FieldReader<u16, u16>);
 impl TIMEOUTA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TIMEOUTA_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> TIMEOUTA_W<'a> {
 #[doc = "Field `TIDLE` reader - Idle clock timeout detection"]
 pub struct TIDLE_R(crate::FieldReader<bool, bool>);
 impl TIDLE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIDLE_R(crate::FieldReader::new(bits))
     }
@@ -99,6 +101,7 @@ impl<'a> TIDLE_W<'a> {
 #[doc = "Field `TIMOUTEN` reader - Clock timeout enable"]
 pub struct TIMOUTEN_R(crate::FieldReader<bool, bool>);
 impl TIMOUTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIMOUTEN_R(crate::FieldReader::new(bits))
     }
@@ -135,6 +138,7 @@ impl<'a> TIMOUTEN_W<'a> {
 #[doc = "Field `TIMEOUTB` reader - Bus timeout B"]
 pub struct TIMEOUTB_R(crate::FieldReader<u16, u16>);
 impl TIMEOUTB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         TIMEOUTB_R(crate::FieldReader::new(bits))
     }
@@ -161,6 +165,7 @@ impl<'a> TIMEOUTB_W<'a> {
 #[doc = "Field `TEXTEN` reader - Extended clock timeout enable"]
 pub struct TEXTEN_R(crate::FieldReader<bool, bool>);
 impl TEXTEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TEXTEN_R(crate::FieldReader::new(bits))
     }

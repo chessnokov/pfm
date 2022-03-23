@@ -37,6 +37,7 @@ impl From<crate::W<IER_SPEC>> for W {
 #[doc = "Field `TXACKIE` reader - Tx-Missing Acknowledge Error Interrupt Enable"]
 pub struct TXACKIE_R(crate::FieldReader<bool, bool>);
 impl TXACKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXACKIE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TXACKIE_W<'a> {
 #[doc = "Field `TXERRIE` reader - Tx-Error Interrupt Enable"]
 pub struct TXERRIE_R(crate::FieldReader<bool, bool>);
 impl TXERRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXERRIE_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TXERRIE_W<'a> {
 #[doc = "Field `TXUDRIE` reader - Tx-Underrun interrupt enable"]
 pub struct TXUDRIE_R(crate::FieldReader<bool, bool>);
 impl TXUDRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXUDRIE_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> TXUDRIE_W<'a> {
 #[doc = "Field `TXENDIE` reader - Tx-End of message interrupt enable"]
 pub struct TXENDIE_R(crate::FieldReader<bool, bool>);
 impl TXENDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXENDIE_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> TXENDIE_W<'a> {
 #[doc = "Field `TXBRIE` reader - Tx-Byte Request Interrupt Enable"]
 pub struct TXBRIE_R(crate::FieldReader<bool, bool>);
 impl TXBRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TXBRIE_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> TXBRIE_W<'a> {
 #[doc = "Field `ARBLSTIE` reader - Arbitration Lost Interrupt Enable"]
 pub struct ARBLSTIE_R(crate::FieldReader<bool, bool>);
 impl ARBLSTIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ARBLSTIE_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ARBLSTIE_W<'a> {
 #[doc = "Field `RXACKIE` reader - Rx-Missing Acknowledge Error Interrupt Enable"]
 pub struct RXACKIE_R(crate::FieldReader<bool, bool>);
 impl RXACKIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXACKIE_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> RXACKIE_W<'a> {
 #[doc = "Field `LBPEIE` reader - Long Bit Period Error Interrupt Enable"]
 pub struct LBPEIE_R(crate::FieldReader<bool, bool>);
 impl LBPEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LBPEIE_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> LBPEIE_W<'a> {
 #[doc = "Field `SBPEIE` reader - Short Bit Period Error Interrupt Enable"]
 pub struct SBPEIE_R(crate::FieldReader<bool, bool>);
 impl SBPEIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SBPEIE_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SBPEIE_W<'a> {
 #[doc = "Field `BREIE` reader - Bit Rising Error Interrupt Enable"]
 pub struct BREIE_R(crate::FieldReader<bool, bool>);
 impl BREIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         BREIE_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> BREIE_W<'a> {
 #[doc = "Field `RXOVRIE` reader - Rx-Buffer Overrun Interrupt Enable"]
 pub struct RXOVRIE_R(crate::FieldReader<bool, bool>);
 impl RXOVRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXOVRIE_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> RXOVRIE_W<'a> {
 #[doc = "Field `RXENDIE` reader - End Of Reception Interrupt Enable"]
 pub struct RXENDIE_R(crate::FieldReader<bool, bool>);
 impl RXENDIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXENDIE_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> RXENDIE_W<'a> {
 #[doc = "Field `RXBRIE` reader - Rx-Byte Received Interrupt Enable"]
 pub struct RXBRIE_R(crate::FieldReader<bool, bool>);
 impl RXBRIE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RXBRIE_R(crate::FieldReader::new(bits))
     }

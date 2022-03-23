@@ -37,6 +37,7 @@ impl From<crate::W<FFA1R_SPEC>> for W {
 #[doc = "Field `FFA0` reader - Filter FIFO assignment for filter 0"]
 pub struct FFA0_R(crate::FieldReader<bool, bool>);
 impl FFA0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA0_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> FFA0_W<'a> {
 #[doc = "Field `FFA1` reader - Filter FIFO assignment for filter 1"]
 pub struct FFA1_R(crate::FieldReader<bool, bool>);
 impl FFA1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA1_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> FFA1_W<'a> {
 #[doc = "Field `FFA2` reader - Filter FIFO assignment for filter 2"]
 pub struct FFA2_R(crate::FieldReader<bool, bool>);
 impl FFA2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA2_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> FFA2_W<'a> {
 #[doc = "Field `FFA3` reader - Filter FIFO assignment for filter 3"]
 pub struct FFA3_R(crate::FieldReader<bool, bool>);
 impl FFA3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA3_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> FFA3_W<'a> {
 #[doc = "Field `FFA4` reader - Filter FIFO assignment for filter 4"]
 pub struct FFA4_R(crate::FieldReader<bool, bool>);
 impl FFA4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA4_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> FFA4_W<'a> {
 #[doc = "Field `FFA5` reader - Filter FIFO assignment for filter 5"]
 pub struct FFA5_R(crate::FieldReader<bool, bool>);
 impl FFA5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA5_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> FFA5_W<'a> {
 #[doc = "Field `FFA6` reader - Filter FIFO assignment for filter 6"]
 pub struct FFA6_R(crate::FieldReader<bool, bool>);
 impl FFA6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA6_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> FFA6_W<'a> {
 #[doc = "Field `FFA7` reader - Filter FIFO assignment for filter 7"]
 pub struct FFA7_R(crate::FieldReader<bool, bool>);
 impl FFA7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA7_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> FFA7_W<'a> {
 #[doc = "Field `FFA8` reader - Filter FIFO assignment for filter 8"]
 pub struct FFA8_R(crate::FieldReader<bool, bool>);
 impl FFA8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA8_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> FFA8_W<'a> {
 #[doc = "Field `FFA9` reader - Filter FIFO assignment for filter 9"]
 pub struct FFA9_R(crate::FieldReader<bool, bool>);
 impl FFA9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA9_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> FFA9_W<'a> {
 #[doc = "Field `FFA10` reader - Filter FIFO assignment for filter 10"]
 pub struct FFA10_R(crate::FieldReader<bool, bool>);
 impl FFA10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA10_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> FFA10_W<'a> {
 #[doc = "Field `FFA11` reader - Filter FIFO assignment for filter 11"]
 pub struct FFA11_R(crate::FieldReader<bool, bool>);
 impl FFA11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA11_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> FFA11_W<'a> {
 #[doc = "Field `FFA12` reader - Filter FIFO assignment for filter 12"]
 pub struct FFA12_R(crate::FieldReader<bool, bool>);
 impl FFA12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA12_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> FFA12_W<'a> {
 #[doc = "Field `FFA13` reader - Filter FIFO assignment for filter 13"]
 pub struct FFA13_R(crate::FieldReader<bool, bool>);
 impl FFA13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA13_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> FFA13_W<'a> {
 #[doc = "Field `FFA14` reader - Filter FIFO assignment for filter 14"]
 pub struct FFA14_R(crate::FieldReader<bool, bool>);
 impl FFA14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA14_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> FFA14_W<'a> {
 #[doc = "Field `FFA15` reader - Filter FIFO assignment for filter 15"]
 pub struct FFA15_R(crate::FieldReader<bool, bool>);
 impl FFA15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA15_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> FFA15_W<'a> {
 #[doc = "Field `FFA16` reader - Filter FIFO assignment for filter 16"]
 pub struct FFA16_R(crate::FieldReader<bool, bool>);
 impl FFA16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA16_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> FFA16_W<'a> {
 #[doc = "Field `FFA17` reader - Filter FIFO assignment for filter 17"]
 pub struct FFA17_R(crate::FieldReader<bool, bool>);
 impl FFA17_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA17_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> FFA17_W<'a> {
 #[doc = "Field `FFA18` reader - Filter FIFO assignment for filter 18"]
 pub struct FFA18_R(crate::FieldReader<bool, bool>);
 impl FFA18_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA18_R(crate::FieldReader::new(bits))
     }
@@ -721,6 +740,7 @@ impl<'a> FFA18_W<'a> {
 #[doc = "Field `FFA19` reader - Filter FIFO assignment for filter 19"]
 pub struct FFA19_R(crate::FieldReader<bool, bool>);
 impl FFA19_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA19_R(crate::FieldReader::new(bits))
     }
@@ -757,6 +777,7 @@ impl<'a> FFA19_W<'a> {
 #[doc = "Field `FFA20` reader - Filter FIFO assignment for filter 20"]
 pub struct FFA20_R(crate::FieldReader<bool, bool>);
 impl FFA20_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA20_R(crate::FieldReader::new(bits))
     }
@@ -793,6 +814,7 @@ impl<'a> FFA20_W<'a> {
 #[doc = "Field `FFA21` reader - Filter FIFO assignment for filter 21"]
 pub struct FFA21_R(crate::FieldReader<bool, bool>);
 impl FFA21_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA21_R(crate::FieldReader::new(bits))
     }
@@ -829,6 +851,7 @@ impl<'a> FFA21_W<'a> {
 #[doc = "Field `FFA22` reader - Filter FIFO assignment for filter 22"]
 pub struct FFA22_R(crate::FieldReader<bool, bool>);
 impl FFA22_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA22_R(crate::FieldReader::new(bits))
     }
@@ -865,6 +888,7 @@ impl<'a> FFA22_W<'a> {
 #[doc = "Field `FFA23` reader - Filter FIFO assignment for filter 23"]
 pub struct FFA23_R(crate::FieldReader<bool, bool>);
 impl FFA23_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA23_R(crate::FieldReader::new(bits))
     }
@@ -901,6 +925,7 @@ impl<'a> FFA23_W<'a> {
 #[doc = "Field `FFA24` reader - Filter FIFO assignment for filter 24"]
 pub struct FFA24_R(crate::FieldReader<bool, bool>);
 impl FFA24_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA24_R(crate::FieldReader::new(bits))
     }
@@ -937,6 +962,7 @@ impl<'a> FFA24_W<'a> {
 #[doc = "Field `FFA25` reader - Filter FIFO assignment for filter 25"]
 pub struct FFA25_R(crate::FieldReader<bool, bool>);
 impl FFA25_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA25_R(crate::FieldReader::new(bits))
     }
@@ -973,6 +999,7 @@ impl<'a> FFA25_W<'a> {
 #[doc = "Field `FFA26` reader - Filter FIFO assignment for filter 26"]
 pub struct FFA26_R(crate::FieldReader<bool, bool>);
 impl FFA26_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA26_R(crate::FieldReader::new(bits))
     }
@@ -1009,6 +1036,7 @@ impl<'a> FFA26_W<'a> {
 #[doc = "Field `FFA27` reader - Filter FIFO assignment for filter 27"]
 pub struct FFA27_R(crate::FieldReader<bool, bool>);
 impl FFA27_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         FFA27_R(crate::FieldReader::new(bits))
     }

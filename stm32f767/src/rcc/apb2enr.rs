@@ -37,6 +37,7 @@ impl From<crate::W<APB2ENR_SPEC>> for W {
 #[doc = "Field `TIM1EN` reader - TIM1 clock enable"]
 pub struct TIM1EN_R(crate::FieldReader<bool, bool>);
 impl TIM1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM1EN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> TIM1EN_W<'a> {
 #[doc = "Field `TIM8EN` reader - TIM8 clock enable"]
 pub struct TIM8EN_R(crate::FieldReader<bool, bool>);
 impl TIM8EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM8EN_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> TIM8EN_W<'a> {
 #[doc = "Field `USART1EN` reader - USART1 clock enable"]
 pub struct USART1EN_R(crate::FieldReader<bool, bool>);
 impl USART1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USART1EN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> USART1EN_W<'a> {
 #[doc = "Field `USART6EN` reader - USART6 clock enable"]
 pub struct USART6EN_R(crate::FieldReader<bool, bool>);
 impl USART6EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         USART6EN_R(crate::FieldReader::new(bits))
     }
@@ -181,6 +185,7 @@ impl<'a> USART6EN_W<'a> {
 #[doc = "Field `ADC1EN` reader - ADC1 clock enable"]
 pub struct ADC1EN_R(crate::FieldReader<bool, bool>);
 impl ADC1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC1EN_R(crate::FieldReader::new(bits))
     }
@@ -217,6 +222,7 @@ impl<'a> ADC1EN_W<'a> {
 #[doc = "Field `ADC2EN` reader - ADC2 clock enable"]
 pub struct ADC2EN_R(crate::FieldReader<bool, bool>);
 impl ADC2EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC2EN_R(crate::FieldReader::new(bits))
     }
@@ -253,6 +259,7 @@ impl<'a> ADC2EN_W<'a> {
 #[doc = "Field `ADC3EN` reader - ADC3 clock enable"]
 pub struct ADC3EN_R(crate::FieldReader<bool, bool>);
 impl ADC3EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         ADC3EN_R(crate::FieldReader::new(bits))
     }
@@ -289,6 +296,7 @@ impl<'a> ADC3EN_W<'a> {
 #[doc = "Field `SPI1EN` reader - SPI1 clock enable"]
 pub struct SPI1EN_R(crate::FieldReader<bool, bool>);
 impl SPI1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI1EN_R(crate::FieldReader::new(bits))
     }
@@ -325,6 +333,7 @@ impl<'a> SPI1EN_W<'a> {
 #[doc = "Field `SPI4ENR` reader - SPI4 clock enable"]
 pub struct SPI4ENR_R(crate::FieldReader<bool, bool>);
 impl SPI4ENR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI4ENR_R(crate::FieldReader::new(bits))
     }
@@ -361,6 +370,7 @@ impl<'a> SPI4ENR_W<'a> {
 #[doc = "Field `SYSCFGEN` reader - System configuration controller clock enable"]
 pub struct SYSCFGEN_R(crate::FieldReader<bool, bool>);
 impl SYSCFGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SYSCFGEN_R(crate::FieldReader::new(bits))
     }
@@ -397,6 +407,7 @@ impl<'a> SYSCFGEN_W<'a> {
 #[doc = "Field `TIM9EN` reader - TIM9 clock enable"]
 pub struct TIM9EN_R(crate::FieldReader<bool, bool>);
 impl TIM9EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM9EN_R(crate::FieldReader::new(bits))
     }
@@ -433,6 +444,7 @@ impl<'a> TIM9EN_W<'a> {
 #[doc = "Field `TIM10EN` reader - TIM10 clock enable"]
 pub struct TIM10EN_R(crate::FieldReader<bool, bool>);
 impl TIM10EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM10EN_R(crate::FieldReader::new(bits))
     }
@@ -469,6 +481,7 @@ impl<'a> TIM10EN_W<'a> {
 #[doc = "Field `TIM11EN` reader - TIM11 clock enable"]
 pub struct TIM11EN_R(crate::FieldReader<bool, bool>);
 impl TIM11EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         TIM11EN_R(crate::FieldReader::new(bits))
     }
@@ -505,6 +518,7 @@ impl<'a> TIM11EN_W<'a> {
 #[doc = "Field `SPI5ENR` reader - SPI5 clock enable"]
 pub struct SPI5ENR_R(crate::FieldReader<bool, bool>);
 impl SPI5ENR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI5ENR_R(crate::FieldReader::new(bits))
     }
@@ -541,6 +555,7 @@ impl<'a> SPI5ENR_W<'a> {
 #[doc = "Field `SPI6ENR` reader - SPI6 clock enable"]
 pub struct SPI6ENR_R(crate::FieldReader<bool, bool>);
 impl SPI6ENR_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SPI6ENR_R(crate::FieldReader::new(bits))
     }
@@ -577,6 +592,7 @@ impl<'a> SPI6ENR_W<'a> {
 #[doc = "Field `SAI1EN` reader - SAI1 clock enable"]
 pub struct SAI1EN_R(crate::FieldReader<bool, bool>);
 impl SAI1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAI1EN_R(crate::FieldReader::new(bits))
     }
@@ -613,6 +629,7 @@ impl<'a> SAI1EN_W<'a> {
 #[doc = "Field `LTDCEN` reader - LTDC clock enable"]
 pub struct LTDCEN_R(crate::FieldReader<bool, bool>);
 impl LTDCEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         LTDCEN_R(crate::FieldReader::new(bits))
     }
@@ -649,6 +666,7 @@ impl<'a> LTDCEN_W<'a> {
 #[doc = "Field `SAI2EN` reader - SAI2 clock enable"]
 pub struct SAI2EN_R(crate::FieldReader<bool, bool>);
 impl SAI2EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SAI2EN_R(crate::FieldReader::new(bits))
     }
@@ -685,6 +703,7 @@ impl<'a> SAI2EN_W<'a> {
 #[doc = "Field `SDMMC1EN` reader - SDMMC1 clock enable"]
 pub struct SDMMC1EN_R(crate::FieldReader<bool, bool>);
 impl SDMMC1EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         SDMMC1EN_R(crate::FieldReader::new(bits))
     }

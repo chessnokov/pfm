@@ -16,6 +16,7 @@ impl From<crate::R<CMPCR_SPEC>> for R {
 #[doc = "Field `READY` reader - READY"]
 pub struct READY_R(crate::FieldReader<bool, bool>);
 impl READY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         READY_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for READY_R {
 #[doc = "Field `CMP_PD` reader - Compensation cell power-down"]
 pub struct CMP_PD_R(crate::FieldReader<bool, bool>);
 impl CMP_PD_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         CMP_PD_R(crate::FieldReader::new(bits))
     }

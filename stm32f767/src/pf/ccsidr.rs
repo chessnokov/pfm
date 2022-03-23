@@ -16,6 +16,7 @@ impl From<crate::R<CCSIDR_SPEC>> for R {
 #[doc = "Field `LineSize` reader - LineSize"]
 pub struct LINESIZE_R(crate::FieldReader<u8, u8>);
 impl LINESIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         LINESIZE_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for LINESIZE_R {
 #[doc = "Field `Associativity` reader - Associativity"]
 pub struct ASSOCIATIVITY_R(crate::FieldReader<u16, u16>);
 impl ASSOCIATIVITY_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         ASSOCIATIVITY_R(crate::FieldReader::new(bits))
     }
@@ -44,6 +46,7 @@ impl core::ops::Deref for ASSOCIATIVITY_R {
 #[doc = "Field `NumSets` reader - NumSets"]
 pub struct NUMSETS_R(crate::FieldReader<u16, u16>);
 impl NUMSETS_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         NUMSETS_R(crate::FieldReader::new(bits))
     }
@@ -58,6 +61,7 @@ impl core::ops::Deref for NUMSETS_R {
 #[doc = "Field `WA` reader - WA"]
 pub struct WA_R(crate::FieldReader<bool, bool>);
 impl WA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WA_R(crate::FieldReader::new(bits))
     }
@@ -72,6 +76,7 @@ impl core::ops::Deref for WA_R {
 #[doc = "Field `RA` reader - RA"]
 pub struct RA_R(crate::FieldReader<bool, bool>);
 impl RA_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RA_R(crate::FieldReader::new(bits))
     }
@@ -86,6 +91,7 @@ impl core::ops::Deref for RA_R {
 #[doc = "Field `WB` reader - WB"]
 pub struct WB_R(crate::FieldReader<bool, bool>);
 impl WB_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WB_R(crate::FieldReader::new(bits))
     }
@@ -100,6 +106,7 @@ impl core::ops::Deref for WB_R {
 #[doc = "Field `WT` reader - WT"]
 pub struct WT_R(crate::FieldReader<bool, bool>);
 impl WT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         WT_R(crate::FieldReader::new(bits))
     }

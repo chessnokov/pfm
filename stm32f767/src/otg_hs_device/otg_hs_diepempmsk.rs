@@ -37,6 +37,7 @@ impl From<crate::W<OTG_HS_DIEPEMPMSK_SPEC>> for W {
 #[doc = "Field `INEPTXFEM` reader - IN EP Tx FIFO empty interrupt mask bits"]
 pub struct INEPTXFEM_R(crate::FieldReader<u16, u16>);
 impl INEPTXFEM_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INEPTXFEM_R(crate::FieldReader::new(bits))
     }

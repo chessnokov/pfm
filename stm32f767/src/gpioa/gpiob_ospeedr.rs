@@ -37,6 +37,7 @@ impl From<crate::W<GPIOB_OSPEEDR_SPEC>> for W {
 #[doc = "Field `OSPEEDR15` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR15_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR15_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> OSPEEDR15_W<'a> {
 #[doc = "Field `OSPEEDR14` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR14_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR14_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> OSPEEDR14_W<'a> {
 #[doc = "Field `OSPEEDR13` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR13_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR13_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> OSPEEDR13_W<'a> {
 #[doc = "Field `OSPEEDR12` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR12_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR12_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR12_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> OSPEEDR12_W<'a> {
 #[doc = "Field `OSPEEDR11` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR11_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR11_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR11_R(crate::FieldReader::new(bits))
     }
@@ -167,6 +172,7 @@ impl<'a> OSPEEDR11_W<'a> {
 #[doc = "Field `OSPEEDR10` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR10_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR10_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR10_R(crate::FieldReader::new(bits))
     }
@@ -193,6 +199,7 @@ impl<'a> OSPEEDR10_W<'a> {
 #[doc = "Field `OSPEEDR9` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR9_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR9_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR9_R(crate::FieldReader::new(bits))
     }
@@ -219,6 +226,7 @@ impl<'a> OSPEEDR9_W<'a> {
 #[doc = "Field `OSPEEDR8` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR8_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR8_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR8_R(crate::FieldReader::new(bits))
     }
@@ -245,6 +253,7 @@ impl<'a> OSPEEDR8_W<'a> {
 #[doc = "Field `OSPEEDR7` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR7_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR7_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR7_R(crate::FieldReader::new(bits))
     }
@@ -271,6 +280,7 @@ impl<'a> OSPEEDR7_W<'a> {
 #[doc = "Field `OSPEEDR6` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR6_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR6_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR6_R(crate::FieldReader::new(bits))
     }
@@ -297,6 +307,7 @@ impl<'a> OSPEEDR6_W<'a> {
 #[doc = "Field `OSPEEDR5` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR5_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR5_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR5_R(crate::FieldReader::new(bits))
     }
@@ -323,6 +334,7 @@ impl<'a> OSPEEDR5_W<'a> {
 #[doc = "Field `OSPEEDR4` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR4_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR4_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR4_R(crate::FieldReader::new(bits))
     }
@@ -349,6 +361,7 @@ impl<'a> OSPEEDR4_W<'a> {
 #[doc = "Field `OSPEEDR3` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR3_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR3_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR3_R(crate::FieldReader::new(bits))
     }
@@ -375,6 +388,7 @@ impl<'a> OSPEEDR3_W<'a> {
 #[doc = "Field `OSPEEDR2` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR2_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR2_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR2_R(crate::FieldReader::new(bits))
     }
@@ -401,6 +415,7 @@ impl<'a> OSPEEDR2_W<'a> {
 #[doc = "Field `OSPEEDR1` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR1_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR1_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR1_R(crate::FieldReader::new(bits))
     }
@@ -427,6 +442,7 @@ impl<'a> OSPEEDR1_W<'a> {
 #[doc = "Field `OSPEEDR0` reader - Port x configuration bits (y = 0..15)"]
 pub struct OSPEEDR0_R(crate::FieldReader<u8, u8>);
 impl OSPEEDR0_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         OSPEEDR0_R(crate::FieldReader::new(bits))
     }

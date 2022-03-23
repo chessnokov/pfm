@@ -16,6 +16,7 @@ impl From<crate::R<OTG_HS_DAINT_SPEC>> for R {
 #[doc = "Field `IEPINT` reader - IN endpoint interrupt bits"]
 pub struct IEPINT_R(crate::FieldReader<u16, u16>);
 impl IEPINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         IEPINT_R(crate::FieldReader::new(bits))
     }
@@ -30,6 +31,7 @@ impl core::ops::Deref for IEPINT_R {
 #[doc = "Field `OEPINT` reader - OUT endpoint interrupt bits"]
 pub struct OEPINT_R(crate::FieldReader<u16, u16>);
 impl OEPINT_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         OEPINT_R(crate::FieldReader::new(bits))
     }

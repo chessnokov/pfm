@@ -37,6 +37,7 @@ impl From<crate::W<CMP_SPEC>> for W {
 #[doc = "Field `CMP` reader - Compare value"]
 pub struct CMP_R(crate::FieldReader<u16, u16>);
 impl CMP_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         CMP_R(crate::FieldReader::new(bits))
     }

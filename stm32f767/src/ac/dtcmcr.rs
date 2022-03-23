@@ -37,6 +37,7 @@ impl From<crate::W<DTCMCR_SPEC>> for W {
 #[doc = "Field `EN` reader - EN"]
 pub struct EN_R(crate::FieldReader<bool, bool>);
 impl EN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         EN_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> EN_W<'a> {
 #[doc = "Field `RMW` reader - RMW"]
 pub struct RMW_R(crate::FieldReader<bool, bool>);
 impl RMW_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RMW_R(crate::FieldReader::new(bits))
     }
@@ -109,6 +111,7 @@ impl<'a> RMW_W<'a> {
 #[doc = "Field `RETEN` reader - RETEN"]
 pub struct RETEN_R(crate::FieldReader<bool, bool>);
 impl RETEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RETEN_R(crate::FieldReader::new(bits))
     }
@@ -145,6 +148,7 @@ impl<'a> RETEN_W<'a> {
 #[doc = "Field `SZ` reader - SZ"]
 pub struct SZ_R(crate::FieldReader<u8, u8>);
 impl SZ_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SZ_R(crate::FieldReader::new(bits))
     }

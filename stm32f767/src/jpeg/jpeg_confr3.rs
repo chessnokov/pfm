@@ -37,6 +37,7 @@ impl From<crate::W<JPEG_CONFR3_SPEC>> for W {
 #[doc = "Field `XSIZE` reader - X size"]
 pub struct XSIZE_R(crate::FieldReader<u16, u16>);
 impl XSIZE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         XSIZE_R(crate::FieldReader::new(bits))
     }

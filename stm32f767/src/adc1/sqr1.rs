@@ -37,6 +37,7 @@ impl From<crate::W<SQR1_SPEC>> for W {
 #[doc = "Field `L` reader - Regular channel sequence length"]
 pub struct L_R(crate::FieldReader<u8, u8>);
 impl L_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         L_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> L_W<'a> {
 #[doc = "Field `SQ16` reader - 16th conversion in regular sequence"]
 pub struct SQ16_R(crate::FieldReader<u8, u8>);
 impl SQ16_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ16_R(crate::FieldReader::new(bits))
     }
@@ -89,6 +91,7 @@ impl<'a> SQ16_W<'a> {
 #[doc = "Field `SQ15` reader - 15th conversion in regular sequence"]
 pub struct SQ15_R(crate::FieldReader<u8, u8>);
 impl SQ15_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ15_R(crate::FieldReader::new(bits))
     }
@@ -115,6 +118,7 @@ impl<'a> SQ15_W<'a> {
 #[doc = "Field `SQ14` reader - 14th conversion in regular sequence"]
 pub struct SQ14_R(crate::FieldReader<u8, u8>);
 impl SQ14_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ14_R(crate::FieldReader::new(bits))
     }
@@ -141,6 +145,7 @@ impl<'a> SQ14_W<'a> {
 #[doc = "Field `SQ13` reader - 13th conversion in regular sequence"]
 pub struct SQ13_R(crate::FieldReader<u8, u8>);
 impl SQ13_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         SQ13_R(crate::FieldReader::new(bits))
     }

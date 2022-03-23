@@ -16,6 +16,7 @@ impl From<crate::R<OTG_FS_DTXFSTS0_SPEC>> for R {
 #[doc = "Field `INEPTFSAV` reader - IN endpoint TxFIFO space available"]
 pub struct INEPTFSAV_R(crate::FieldReader<u16, u16>);
 impl INEPTFSAV_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u16) -> Self {
         INEPTFSAV_R(crate::FieldReader::new(bits))
     }

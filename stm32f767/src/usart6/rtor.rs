@@ -37,6 +37,7 @@ impl From<crate::W<RTOR_SPEC>> for W {
 #[doc = "Field `BLEN` reader - Block Length"]
 pub struct BLEN_R(crate::FieldReader<u8, u8>);
 impl BLEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u8) -> Self {
         BLEN_R(crate::FieldReader::new(bits))
     }
@@ -63,6 +64,7 @@ impl<'a> BLEN_W<'a> {
 #[doc = "Field `RTO` reader - Receiver timeout value"]
 pub struct RTO_R(crate::FieldReader<u32, u32>);
 impl RTO_R {
+    #[inline(always)]
     pub(crate) fn new(bits: u32) -> Self {
         RTO_R(crate::FieldReader::new(bits))
     }

@@ -37,6 +37,7 @@ impl From<crate::W<CR_SPEC>> for W {
 #[doc = "Field `IE` reader - Interrupt enable"]
 pub struct IE_R(crate::FieldReader<bool, bool>);
 impl IE_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         IE_R(crate::FieldReader::new(bits))
     }
@@ -73,6 +74,7 @@ impl<'a> IE_W<'a> {
 #[doc = "Field `RNGEN` reader - Random number generator enable"]
 pub struct RNGEN_R(crate::FieldReader<bool, bool>);
 impl RNGEN_R {
+    #[inline(always)]
     pub(crate) fn new(bits: bool) -> Self {
         RNGEN_R(crate::FieldReader::new(bits))
     }
