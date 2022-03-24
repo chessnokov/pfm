@@ -10,8 +10,8 @@ use panic_halt as _; // you can put a breakpoint on `rust_begin_unwind` to catch
 use cortex_m_rt::entry;
 use pfm as _;
 
-// LD2
-const LED: u32 = 7;
+// LD3
+const LED: u32 = 14;
 
 #[entry]
 fn main() -> ! {
@@ -34,6 +34,7 @@ fn main() -> ! {
     pins.otyper
         .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_one_bit | (0b1 << LED)) });
 
+    // Set push-pull output
     pins.pupdr
         .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit) });
 
