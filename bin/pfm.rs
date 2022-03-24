@@ -10,6 +10,8 @@ use panic_halt as _; // you can put a breakpoint on `rust_begin_unwind` to catch
 use cortex_m_rt::entry;
 use pfm as _;
 
+const LED: u32 = 7;
+
 #[entry]
 fn main() -> ! {
     let cp = cortex_m::Peripherals::take().unwrap();
@@ -20,27 +22,26 @@ fn main() -> ! {
     // TODO: workaround about timer for led blink
     let pins = p.GPIOB;
 
-    let clear_mask_one_bit: u32 = 0xffffffff ^ (0b1 << 7);
+    let clear_mask_one_bit: u32 = 0xffffffff ^ (0b1 << LED);
     let clear_mask_two_bit: u32 = 0xffffffff ^ (0b11 << 14);
 
-    // Set MODE to b01 for PB7(LD2)
-    pins.moder
-        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit | (0b01 << 14)) });
+    // Set OSPEEDR to low speed for PB7(LD2)
+    pins.ospeedr
+        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit) });
 
     // Set OTYPER to b0 for PB7(LD2)
     pins.otyper
         .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_one_bit | (0b1 << 7)) });
 
-    // Set OSPEEDR to high speed for PB7(LD2)
-    pins.ospeedr
-        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit | (0b11 << 14)) });
-
     pins.pupdr
         .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit) });
 
+    // Set MODE to b01 for PB7(LD2)
+    pins.moder
+        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit | (0b01 << 14)) });
+
     hprintln!("Hello, world!").unwrap();
 
-    #[allow(clippy::empty_loop)]
     loop {
         pins.odr
             .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_one_bit) });
