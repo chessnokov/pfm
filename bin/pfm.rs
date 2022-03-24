@@ -7,16 +7,51 @@ use panic_halt as _; // you can put a breakpoint on `rust_begin_unwind` to catch
                      // use panic_abort as _; // requires nightly
                      // use panic_itm as _; // logs messages over ITM; requires ITM support
                      // use panic_semihosting as _; // logs messages to the host stderr; requires a debugger
-use cortex_m::asm;
 use cortex_m_rt::entry;
 use pfm as _;
-use stm32f7 as _;
 
 #[entry]
 fn main() -> ! {
-    asm::nop(); // To not have main optimize to abort in release mode, remove when you add code
+    let cp = cortex_m::Peripherals::take().unwrap();
+    let p = stm32f7::stm32f7x7::Peripherals::take().unwrap();
+
+    let mut delay = cortex_m::delay::Delay::new(cp.SYST, 8_000_000);
+
+    // TODO: workaround about timer for led blink
+    let pins = p.GPIOB;
+
+    let clear_mask_one_bit: u32 = 0xffffffff ^ (0b1 << 7);
+    let clear_mask_two_bit: u32 = 0xffffffff ^ (0b11 << 14);
+
+    // Set MODE to b01 for PB7(LD2)
+    pins.moder
+        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit | (0b01 << 14)) });
+
+    // Set OTYPER to b0 for PB7(LD2)
+    pins.otyper
+        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_one_bit | (0b1 << 7)) });
+
+    // Set OSPEEDR to high speed for PB7(LD2)
+    pins.ospeedr
+        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit | (0b11 << 14)) });
+
+    pins.pupdr
+        .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_two_bit) });
+
     hprintln!("Hello, world!").unwrap();
+
+    #[allow(clippy::empty_loop)]
     loop {
-        // your code goes here
+        pins.odr
+            .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_one_bit) });
+        pins.bsrr.write(|w| unsafe { w.bits(1 << 7) });
+        hprintln!("-").unwrap();
+
+        delay.delay_ms(1000);
+
+        pins.odr
+            .modify(|r, w| unsafe { w.bits(r.bits() | (1 << 7)) });
+        pins.bsrr.write(|w| unsafe { w.bits(1 << 7) });
+        hprintln!("+").unwrap();
     }
 }
