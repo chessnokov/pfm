@@ -47,12 +47,12 @@ fn main() -> ! {
             .modify(|r, w| unsafe { w.bits(r.bits() & clear_mask_one_bit) });
         pins.bsrr.write(|w| unsafe { w.bits(1 << 7) });
         hprintln!("-").unwrap();
-
         delay.delay_ms(1000);
 
         pins.odr
             .modify(|r, w| unsafe { w.bits(r.bits() | (1 << 7)) });
         pins.bsrr.write(|w| unsafe { w.bits(1 << 7) });
         hprintln!("+").unwrap();
+        delay.delay_ms(1000);
     }
 }
