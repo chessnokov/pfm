@@ -1,6 +1,6 @@
 # [Choice] Alpine version: 3.16, 3.15, 3.14, 3.13
 ARG VARIANT=3.16
-FROM alpine:${VARIANT}
+FROM docker.io/library/alpine:${VARIANT}
 
 # [Option] Install zsh
 ARG INSTALL_ZSH="true"
@@ -17,4 +17,7 @@ RUN apk update && ash /tmp/library-scripts/common-alpine.sh "${INSTALL_ZSH}" "${
 RUN apk update \
     && apk add --no-cache openocd gcc-arm-none-eabi gdb-multiarch
 
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable --profile default -c rust-src -c clippy -c rustfmt -t armv7r-none-eabihf 
+ENV RUSTUP_HOME=/usr/local/rustup \
+    PATH=/usr/local/cargo/bin:$PATH
+ARG RUST_VERSION=1.65.0
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | CARGO_HOME=/usr/local/cargo sh -s -- -y --default-toolchain ${RUST_VERSION} --profile default -c rust-src -c clippy -c rustfmt -t armv7r-none-eabihf
