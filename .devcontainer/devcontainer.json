@@ -26,13 +26,21 @@
 				"files.watcherExclude": {
 					"**/target/**": true
 				},
-				"rust-analyzer.checkOnSave.command": "clippy"
+				"rust-analyzer.checkOnSave.command": "clippy",
+				"rust.all_targets": false,
+				"rust.target": "thumbv7em-none-eabihf",
+				"rust.all_features": false,
+				"rust-analyzer.checkOnSave.allTargets": false,
+				"rust-analyzer.checkOnSave.extraArgs": [
+					"--target",
+					"thumbv7em-none-eabihf"
+				]
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"rust-lang.rust-analyzer",
 				"tamasfe.even-better-toml",
-				// "marus25.cortex-debug",
+				"marus25.cortex-debug",
 				"gruntfuggly.todo-tree",
 				"streetsidesoftware.code-spell-checker-russian"
 			]

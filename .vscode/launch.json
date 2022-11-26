@@ -13,7 +13,7 @@
             "servertype": "qemu",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Cargo Build (debug)",
-            "runToMain": true,
+            "runToEntryPoint": "main",
             "executable": "./target/thumbv7m-none-eabi/debug/pfm",
             /* Run `cargo build --example hello` and uncomment this line to run semi-hosting example */
             //"executable": "./target/thumbv7m-none-eabi/debug/examples/hello",
@@ -28,7 +28,7 @@
             "servertype": "openocd",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Cargo Build (debug)",
-            "runToMain": true,
+            "runToEntryPoint": "main",
             "executable": "./target/thumbv7em-none-eabihf/debug/pfm",
             /* Run `cargo build --example itm` and uncomment this line to run itm example */
             // "executable": "./target/thumbv7em-none-eabihf/debug/examples/itm",
@@ -37,7 +37,7 @@
                 "interface/stlink.cfg",
                 "target/stm32f7x.cfg"
             ],
-            "gdbPath": "gdb",
+            "gdbPath": "gdb-multiarch",
             // "svdFile": "${workspaceRoot}/stm32f767/STM32F767.svd",
             "swoConfig": {
                 "enabled": true,
