@@ -1,6 +1,6 @@
 [package]
-authors = ["chessnokov"]
-edition = "2018"
+authors = ["Andrey Chesnokov <chessnokov@gmail.com>"]
+edition = "2021"
 readme = "README.md"
 name = "pfm"
 version = "0.1.0"
