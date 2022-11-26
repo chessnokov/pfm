@@ -73,5 +73,35 @@
             "problemMatcher": [],
             "group": "build"
         },
+        {
+            "label": "Flash (release)",
+            "type": "process",
+            "command": "openocd",
+            "args": [
+                "-f",
+                "openocd.cfg",
+                "-c",
+                "program ./target/thumbv7em-none-eabihf/release/pfm verify reset exit"
+            ],
+            "group": "test",
+            "dependsOn": [
+                "Cargo Build (release)"
+            ],
+        },
+        {
+            "label": "Flash (debug)",
+            "type": "process",
+            "command": "openocd",
+            "args": [
+                "-f",
+                "openocd.cfg",
+                "-c",
+                "program ./target/thumbv7em-none-eabihf/debug/pfm verify reset exit"
+            ],
+            "group": "test",
+            "dependsOn": [
+                "Cargo Build (debug)"
+            ],
+        }
     ]
 }
