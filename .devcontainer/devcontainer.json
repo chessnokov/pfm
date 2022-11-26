@@ -32,7 +32,7 @@
 			"extensions": [
 				"rust-lang.rust-analyzer",
 				"tamasfe.even-better-toml",
-				// "marus25.cortex-debug",
+				"marus25.cortex-debug",
 				"gruntfuggly.todo-tree",
 				"streetsidesoftware.code-spell-checker-russian"
 			]
