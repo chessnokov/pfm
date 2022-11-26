@@ -15,9 +15,9 @@ RUN apk update && ash /tmp/library-scripts/common-alpine.sh "${INSTALL_ZSH}" "${
 
 # ** [Optional] Uncomment this section to install additional packages. **
 RUN apk update \
-    && apk add --no-cache openocd gcc-arm-none-eabi gdb-multiarch
+    && apk add --no-cache openocd gcc-arm-none-eabi gdb-multiarch musl-dev
 
 ENV RUSTUP_HOME=/usr/local/rustup \
     PATH=/usr/local/cargo/bin:$PATH
 ARG RUST_VERSION=1.65.0
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | CARGO_HOME=/usr/local/cargo sh -s -- -y --default-toolchain ${RUST_VERSION} --profile default -c rust-src -c clippy -c rustfmt -t armv7r-none-eabihf
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | CARGO_HOME=/usr/local/cargo sh -s -- -y --default-toolchain ${RUST_VERSION} --profile default -c rust-src -c clippy -c rustfmt -t thumbv7em-none-eabihf
